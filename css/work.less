@@ -1,0 +1,130 @@
+@import "main.less";
+
+//all hedline 2 styling on the work page
+.work-h2 {
+  font-weight: 300;
+  font-size: 1.5em;
+  left: 0;
+  margin-left: 0.5vw;
+  color: @white;
+}
+
+//all paragrahs on the work page styling
+.work-p {
+  font-weight: 300;
+  font-size: 0.9em;
+  left: 0;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  color: @white;
+}
+
+//style for the work page
+.work {
+  height: @100h;
+  z-index: 10;
+  .nopm;
+}
+
+//left container styling
+.work-left-container {
+  background: @white;
+  height: @100h;
+
+  .work-left-backround {
+    .nopm;
+    height: 100vh;
+    width: 100vw;
+    left: @no;
+    top: @no;
+  }
+}
+
+//container that contains the left work side
+.work-right-container {
+  background: @grey * 1.6;
+  height: @100h;
+  color: @white;
+  //nav styling
+  .work-nav {
+    height: 10vh;
+    padding: @no;
+    margin-top: 8vh;
+
+    //prodjekt name styling
+    h1 {
+      font-size: 2em;
+      font-weight: 500;
+      text-align: center;
+      top: 30%;
+    }
+    //left arrow styling
+    .work-arrow-left {
+      background: @orange;
+      z-index: 21;
+      height: 8vh;
+
+      img {
+        .center_css;
+        height: 5vh;
+        width: auto;
+      }
+    }
+    //right arrow use left arrow styling
+    .work-arrow-right {
+      .work-arrow-left;
+    }
+  }
+  //styling aboute section
+  .work-about {
+    .nopm;
+    left: 0.5vh;
+  }
+  //styling the prodjket date tab
+  .work-date {
+    .nopm;
+    left: 0.5vh;
+
+  }
+  //coffe section styling
+  .work-coffee {
+    .nopm;
+    left: 0.5vh;
+
+    img {
+      top: 0;
+      width: 1.4vw;
+      height: auto;
+      left: 0.5vw;
+      position: relative;
+    }
+  }
+  //styling the tags
+  .work-tag {
+    .nopm;
+    left: 0.5vh;
+
+  }
+  .work-tag ul {
+    left: 0.5vw;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px;
+  }
+
+  .work-tag-li {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid @orange;
+    padding: 2pt 3pt;
+    margin: 0 4pt 3pt 0;
+    border-radius: 3pt;
+    background: rgba(254, 126, 23, .298039);
+    font-size: 10pt;
+  }
+}
+

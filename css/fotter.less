@@ -1,0 +1,100 @@
+/***************************** Footer *********************************/
+@import "main.less";
+
+//div sailing
+footer {
+  .nopm;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+
+//Mobil styling
+
+//divider
+footer hr {
+  display: block;
+  border: 1px inset;
+  color: @black;
+  margin-top: 3vh;
+}
+
+footer img {
+  margin-top: 2vh;
+}
+
+//top text
+.footer-top-text p {
+  color: @grey * 1.9;
+  font-size: 1.9em;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 2%;
+}
+
+//mid text
+.footer-mid-text {
+  a:link, visited {
+    font-size: 2em;
+    text-decoration: none;
+    color: @black;
+    text-align: center;
+    margin-left: 5%;
+  }
+  a:hover {
+    color: @orange;
+    .transition(all, 0.3s, ease-in);
+  }
+
+}
+
+//bot text
+.footer-bot-text {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 4vh;
+  color: @grey;
+}
+
+//social media icons
+.footer-social img {
+  height: 5vh;
+  width: auto;
+  .nopm;
+  position: relative;
+}
+
+//bot links
+.footer-bot-text {
+  a:link, visited {
+    color: @black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: @orange;
+    .transition(all, 0.3s, ease-in);
+  }
+}
+
+//computer scree 992px and up
+@media (min-width: 992px) {
+  //Logo
+  footer img {
+    margin-top: 8vh;
+  }
+
+  //top text
+  .footer-top-text p {
+    font-size: 2em;
+  }
+
+  //bot text
+  .footer-bot-text {
+    margin-top: 3vh;
+  }
+
+}
