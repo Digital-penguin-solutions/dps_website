@@ -52,7 +52,7 @@ include "work.php";
 // About
 include "about.php";
 
-// including the seperat fotter to the page
+// including the separate footer to the page
 include "include_pages/footer.php";
 ?>
 </body>
