@@ -2,20 +2,19 @@
 //import all other css documents
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css";
+
 @import "nav.less";
 @import "fotter.less";
 @import "skroll.less";
-@import "tablet.less";
-@import "md-lg.less";
 @import "terms-and-concessions.less";
 @import "about.less";
 @import "work.less";
 @import "loading.less";
 
-@black: #0000000;
-@white: #ffffff;
-@grey: #333333;
-@orange: #fe7e17;
+@color1: #fe7e17;
+@color2: #333333;
+@color3: #ffffff;
+@color4: #000000;
 
 @no: 0 !important;
 @100h: 100vh;
@@ -80,26 +79,24 @@ section {
   width: 100% !important;
 }
 
-/* Center vertically */
+//Center vertically
 .center_vertically_css {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* Center horizonatally */
-.center_css {
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/** Center horizonatally */
+//Center horizonatally
 .center_horizontally_css {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+
+//center vertical and horizontal css
+.center_css {
+  .center_horizontally_css;
+  .center_vertically_css;
 }
 
 .nopm {
@@ -140,7 +137,7 @@ section {
   height: 100%;
   padding: 100px 0;
   text-align: center;
-  color: @white;
+  color: @color3;
   background: transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
