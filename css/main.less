@@ -61,6 +61,13 @@
   background-size: @size;
 }
 
+//a shadow for the top of a section
+.top_box_shadow(@hori : -1px, @vert :0px, @Blur: 10px, @Spread: 0px, @color: rgba(0,0,0,0.75)){
+  -webkit-box-shadow: @hori @vert @Blur @Spread @color;
+  -moz-box-shadow: @hori @vert @Blur @Spread @color;
+  box-shadow: @hori @vert @Blur @Spread @color;
+}
+
 //Set a font for all text
 * {
   font-family: 'Lato', sans-serif !important;

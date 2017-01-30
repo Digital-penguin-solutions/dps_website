@@ -3,12 +3,14 @@
 
 //div sailing
 footer {
+  .top_box_shadow;
   .nopm;
   .tole;
   z-index: 2;
   height: 80vh;
   position: relative;
   overflow: hidden;
+  background: @color3;
 
   //divider
   hr {
@@ -36,7 +38,7 @@ footer {
 
 //mid text
 .footer-mid-text {
-  a:link, visited {
+  a:link {
     font-size: 2em;
     text-decoration: none;
     color: @color4;
@@ -46,6 +48,9 @@ footer {
   a:hover {
     color: @color1;
     .transition(all, 0.3s, ease-in);
+  }
+  a:visited{
+    a:link;
   }
 
 }
@@ -68,13 +73,16 @@ footer {
 
 //bot links
 .footer-bot-text {
-  a:link, visited {
+  a:link {
     color: @color4;
     text-decoration: none;
   }
   a:hover {
     color: @color1;
     .transition(all, 0.3s, ease-in);
+  }
+  a:visited{
+    a:link;
   }
 }
 
