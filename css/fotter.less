@@ -4,26 +4,24 @@
 //div sailing
 footer {
   .nopm;
-  top: 0;
-  left: 0;
+  .tole;
   z-index: 2;
   height: 80vh;
   position: relative;
   overflow: hidden;
-}
 
-//Mobil styling
+  //divider
+  hr {
+    display: block;
+    border: 1px inset;
+    color: @color4;
+    margin-top: 3vh;
+  }
 
-//divider
-footer hr {
-  display: block;
-  border: 1px inset;
-  color: @color4;
-  margin-top: 3vh;
-}
-
-footer img {
-  margin-top: 2vh;
+  //logo
+  img {
+    margin-top: 2vh;
+  }
 }
 
 //top text
@@ -62,9 +60,9 @@ footer img {
 
 //social media icons
 .footer-social img {
+  .nopm;
   height: 5vh;
   width: auto;
-  .nopm;
   position: relative;
 }
 
@@ -81,7 +79,7 @@ footer img {
 }
 
 //computer scree 992px and up
-@media (min-width: 992px) {
+@media (min-width: @screen-md-min) {
   //Logo
   footer img {
     margin-top: 8vh;
