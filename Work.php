@@ -1,4 +1,5 @@
 <?php
+
 //all variables for the wok page
 
 include "functions/functions.php";
@@ -26,9 +27,10 @@ $work_coffee = $work['coffee'];
 $work_bg = $work['bg'];
 $work_main_img = $work['main_image'];
 
-
+/*
 $work_tag = get_work_tag_by_id($con, $work_id);
 $work_coffee = get_work_coffee_by_id($con, $work_id);
+*/
 ?>
 <section class="container-fluid work item" id="indexp3">
     <div class="row-fluid">
@@ -62,7 +64,8 @@ $work_coffee = get_work_coffee_by_id($con, $work_id);
                     <hr>
                     <p class="work-p"><?php echo $work_description ?></p>
 
-                    <p class="work-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus quis mi nec imperdiet.
+                    <p class="work-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus quis
+                        mi nec imperdiet.
                         Quisque ut metus vitae neque imperdiet aliquam. Duis odio urna, ullamcorper sed leo eu,
                         porttitor vulputate turpis. </p>
                 </div>
@@ -72,7 +75,7 @@ $work_coffee = get_work_coffee_by_id($con, $work_id);
                     <h2 class="work-h2">Project Date</h2>
                     <hr>
                     <p class="work-p"><?php echo $work_date?></p>
-                    <p class="work-p">December 2016 - january 2017</p>
+                    <!--<p class="work-p">December 2016 - january 2017</p>-->
                 </div>
 
                 <!--amount of coffee consumed during work of the projects-->
@@ -86,10 +89,10 @@ $work_coffee = get_work_coffee_by_id($con, $work_id);
                         <img src="data:image/jpeg;base64,<?php echo base64_encode( $image); ?>" />
                         <?php
                     }
-                    ?>
+                    ?><!--
 
                     <img src="img/icon/coffee.svg" alt=" coffe cup">
-
+-->
                     <p class="work-p"></p>
                 </div>
 
@@ -98,11 +101,11 @@ $work_coffee = get_work_coffee_by_id($con, $work_id);
                     <h2 class="work-h2">Tags</h2>
                     <hr>
                     <ul>
-                        <?php
+                        <?php/*
                         foreach ($work_tag as $tag) {
                             echo "<li class='work-tag-li'>". $tag."</li>";
                         }
-                        ?>
+                        */?>
                         <li class="work-tag-li">php</li>
                         <li class="work-tag-li">Html</li>
                         <li class="work-tag-li">css</li>
