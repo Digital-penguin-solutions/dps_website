@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Klimator">
 <?php
-include "Sideelem/head.php";
+include "include_pages/head.php";
 ?>
 
 </head>
@@ -20,7 +20,7 @@ $con = connect();
 
 <body id="wrapper" class="col-xs-12">
 <?php
-include "Sideelem/nav.php";
+include "include_pages/nav.php";
 ?>
 
 <section class = "admin_page">
@@ -34,7 +34,7 @@ include "Sideelem/nav.php";
 </section>
 
 <?php
-include "Sideelem/fotter.php";
+include "include_pages/fotter.php";
 ?>
 </body>
 </html>

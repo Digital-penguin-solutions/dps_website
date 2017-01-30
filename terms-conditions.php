@@ -65,7 +65,7 @@ include "functions/functions.php";
 <body class="wrapper col-xs-12">
 <?php
 /* including the separate nav file */
-include "Sideelem/nav.php";
+include "include_pages/nav.php";
 ?>
 <section class="container-fluid terms-and-concessions">
     <div class="row-fluid">
@@ -150,7 +150,7 @@ include "Sideelem/nav.php";
 
 <?php
 /* including the seperat fotter to the page */
-include "Sideelem/fotter.php";
+include "include_pages/fotter.php";
 ?>
 </body>
 </html>

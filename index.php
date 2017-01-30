@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Digital Internet Solutions">
     <?php
-    include "Sideelem/head.php";
+    include "include_pages/head.php";
     ?>
 </head>
 <?php
@@ -45,7 +45,7 @@ $con = connect();
 
 <?php
 // Nav
-include "Sideelem/nav.php";
+include "include_pages/nav.php";
 
 // Work page
 include "work.php";
@@ -54,7 +54,7 @@ include "work.php";
 include "about.php";
 
 // including the seperat fotter to the page
-include "Sideelem/fotter.php";
+include "include_pages/footer.php";
 ?>
 </body>
 </html>
