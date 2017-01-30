@@ -61,10 +61,11 @@
             integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
             crossorigin="anonymous"></script>
 </head>
-
 <?php
 /* including the separate function file */
 include "functions/functions.php";
+
+$con = connect();
 ?>
 
 <body class="wrapper col-xs-12">
