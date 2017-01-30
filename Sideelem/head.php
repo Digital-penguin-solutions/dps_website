@@ -1,4 +1,4 @@
-<link href="css/style.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i" rel="stylesheet">
 
@@ -16,7 +16,7 @@
 </script>
 <script src="../js/jquery.stellar.js"></script>
 <script>
-    $(document).ready(function(e) {
+    $(document).ready(function () {
         $(window).stellar();
     });
 </script>
@@ -29,11 +29,15 @@
 
 
 <!-- Latest compiled and minified JavaScript for bootstrap-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
 
 <!--======================================= /* JAVA SCRIPT ========================-->
 <!--icon-->
 <link rel="shortcut icon" href="/img/logo/icontop.png" type="image/x-icon" />
 
 <!-- Latest compiled and minified JavaScript for bootstrap -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity=		"sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
