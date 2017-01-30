@@ -42,7 +42,6 @@ $con = connect();
     </div>
 </section>
 
-
 <?php
 // Nav
 include "include_pages/nav.php";

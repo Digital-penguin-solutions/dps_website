@@ -24,7 +24,6 @@ $slider_images = get_product_images_by_id($con, $product_id);
 $key_features = get_key_features_by_id($con, $product_id);
 $tech_table_array = get_tech_table_by_id($con, $product_id);
 */
-
 ?>
 <section class="container-fluid work item" id="indexp3">
     <div class="row-fluid">
