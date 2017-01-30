@@ -1,0 +1,50 @@
+@import "main";
+
+// background slider
+.background-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  z-index: 9;
+}
+
+.background-slider-image {
+  min-width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+/**  bakround slider end **/
+
+.intro {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: @color3;
+  background: transparent;
+  .backround;
+}
+
+.intro-text {
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+
+  h1 {
+    font-weight: 800;
+    font-size: 6em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 2.5em;
+  }
+}

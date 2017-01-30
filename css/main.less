@@ -3,30 +3,62 @@
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css";
 
-@import "nav.less";
-@import "fotter.less";
-@import "skroll.less";
-@import "terms-and-concessions.less";
-@import "about.less";
-@import "work.less";
-@import "loading.less";
+//side element
+@import "nav";
+@import "fotter";
+@import "skroll";
+@import "loading";
 
+//index styling
+@import "index_intro";
+@import "index_about";
+@import "index_work";
+
+//terms and condison and pricacy polecy syiling
+@import "terms-and-concessions";
+
+//Default colors
 @color1: #fe7e17;
 @color2: #333333;
 @color3: #ffffff;
 @color4: #000000;
 
+//standard variables
 @no: 0 !important;
+
+//size variables
 @100h: 100vh;
 @100w: 100vw;
+@75h: 75vh;
+@75w: 75vw;
 @50h: 50vh;
 @50w: 50vw;
+@25h: 25vh;
+@25w: 25vw;
 
+@100p: 100%;
+@75p: 75%;
+@50p: 50%;
+@25p: 25%;
+
+//computer scree sises and up
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1200px;
+
+//a transition class
 .transition (@prop: all, @time: 2s, @ease: linear) {
   -webkit-transition: @prop @time @ease;
   -moz-transition: @prop @time @ease;
   -o-transition: @prop @time @ease;
   transition: @prop @time @ease;
+}
+
+.backround(@size: cover){
+  -webkit-background-size: @size;
+  -moz-background-size: @size;
+  -o-background-size: @size;
+  background-size: @size;
 }
 
 //Set a font for all text
@@ -37,12 +69,10 @@
 /*wrapper styling*/
 .wrapper {
   .nopm;
-  height: 100%;
-  width: 100%;
-  background: @white;
+  .tole;
+  .full_size;
+  background: @color3;
   z-index: 1;
-  top: @no;
-  left: @no;
   position: relative;
 }
 
@@ -59,105 +89,73 @@ body {
 /*section style*/
 section {
   .nopm;
-  top: 0;
-  left: 0;
+  .tole;
   z-index: 2;
   height: 100%;
   position: relative;
   overflow: hidden;
 }
 
-/*Set an objekt top 100% height*/
-.full_height {
-  display: block;
-  height: 100% !important;
-}
+/*
+#background_fixed {
+   position: fixed;
+   background: url("../img/bg.jpg") no-repeat fixed;
+   .backround;
+ }
+*/
 
-/*Set a objekt to 100% height and 100% with*/
-.full_size {
-  .full_height;
-  width: 100% !important;
-}
-
-//Center vertically
+// Center vertically
 .center_vertically_css {
   position: relative;
-  top: 50%;
+  top: @50p;
   transform: translateY(-50%);
 }
 
-//Center horizonatally
+// Center horizonatally
 .center_horizontally_css {
   position: relative;
-  left: 50%;
+  left: @50p;
   transform: translateX(-50%);
 }
 
-//center vertical and horizontal css
+// Center css
 .center_css {
   .center_horizontally_css;
   .center_vertically_css;
 }
 
-.nopm {
-  padding: @no;
+//no margin
+.nom{
   margin: @no;
 }
+//no padding
+.nop{
+  padding: @no;
+}
 
+//no padding no margin
+.nopm {
+  .nop;
+  .nom;
+}
+
+//top left
 .tole {
   top: @no;
   left: @no;
 }
 
-/**  background slider **/
-.background-slider {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  overflow-x: hidden;
-  z-index: 9;
+//full with
+.fullw{
+  width: @100p !important;
 }
 
-.background-slider-image {
-  min-width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+//full height
+.fullh{
+  height: @100p !important;
 }
 
-/**  bakround slider end **/
-
-.intro {
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 100px 0;
-  text-align: center;
-  color: @color3;
-  background: transparent;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.intro-text {
-  text-align: center;
-  z-index: 10;
-  position: absolute;
-}
-
-.intro-text h1 {
-  font-weight: 800;
-  font-size: 6em;
-  text-transform: uppercase;
-}
-
-.intro-text h2 {
-  font-weight: 600;
-  font-size: 2.5em;
+.full_size{
+  .fullh;
+  .fullw;
 }
