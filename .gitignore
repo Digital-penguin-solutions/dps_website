@@ -2,13 +2,4 @@
 .DS_Store
 .idea/
 *.db
-
-*.xml
-
-.idea/workspace.xml
-
-.idea/workspace.xml
-
-.idea/watcherTasks.xml
-
 *.xml

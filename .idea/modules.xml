@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Digitalis.iml" filepath="$PROJECT_DIR$/.idea/Digitalis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Digitalis.iml" filepath="$PROJECT_DIR$/Digitalis.iml" />
     </modules>
   </component>
 </project>
