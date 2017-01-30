@@ -4,7 +4,7 @@ if(!isset($functions_included)){
     $functions_included = true;
 
     //include
-    include "../db_connect.php";
+    include "db_connect.php";
 
     // secures a string, protects against SQL injections and other attacks
     function secure_str($data){

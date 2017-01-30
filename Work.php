@@ -1,3 +1,31 @@
+<?php
+/*
+//all variables for the wok page
+
+include "functions/functions.php";
+
+$con = connect();
+
+// text
+$work_name = $work['name'];
+$work_description = $work['description'];
+$work_date = $work['date'];
+
+//icon
+$work_coffee = $work['coffee'];
+$work_tag = $work['tag'];
+
+//image
+$work_bg = $work['bg'];
+$work_main_img = $work['main_image'];
+
+/*
+$slider_images = get_product_images_by_id($con, $product_id);
+$key_features = get_key_features_by_id($con, $product_id);
+$tech_table_array = get_tech_table_by_id($con, $product_id);
+*/
+
+?>
 <section class="container-fluid work item" id="indexp3">
     <div class="row-fluid">
         <div class="col-xs-12 nopm">
@@ -9,9 +37,11 @@
                     </a>
                 </div>
             </div>
+
             <!--right side information about the project-->
             <div class="col-xs-3 work-right-container nopm">
-                <!--navigation for prodjekts-->
+
+                <!--navigation for projects-->
                 <div class="work-nav col-xs-12 ">
                     <div class="work-arrow-left col-xs-2 nopm">
                         <img src="img/icon/left.svg" alt="left arow">
@@ -21,7 +51,8 @@
                         <img src="img/icon/right.svg" alt="right arow">
                     </div>
                 </div>
-                <!-- abute the prodjekt -->
+
+                <!-- about the projects -->
                 <div class="work-about col-xs-12 nomp">
                     <h2 class="work-h2">About</h2>
                     <hr>
@@ -29,13 +60,15 @@
                         Quisque ut metus vitae neque imperdiet aliquam. Duis odio urna, ullamcorper sed leo eu,
                         porttitor vulputate turpis. </p>
                 </div>
-                <!--Date the prodjekt started and ende-->
+
+                <!--Date the projects started and end-->
                 <div class="work-date col-xs-12 nomp">
                     <h2 class="work-h2">Project Date</h2>
                     <hr>
-                    <p class="work-p">Descember 2016 - january 2017</p>
+                    <p class="work-p">December 2016 - january 2017</p>
                 </div>
-                <!--amount of cooffe consumed during work of the prodjekt-->
+
+                <!--amount of coffee consumed during work of the projects-->
                 <div class="work-coffee col-xs-12 nopm">
                     <h2 class="work-h2">Coffee Consumed</h2>
                     <hr>
@@ -43,7 +76,8 @@
 
                     <p class="work-p"></p>
                 </div>
-                <!--What tags where used in the prdjkets like php angular and so on-->
+
+                <!--What tags where used in the projects like php angular and so on-->
                 <div class="work-tag col-xs-12 nopm">
                     <h2 class="work-h2">Tags</h2>
                     <hr>
