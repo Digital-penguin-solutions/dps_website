@@ -1,11 +1,11 @@
-<!-- Abote -->
+<!-- About -->
 
 <section class="container-fluid about item" id="indexp4">
     <div class="about-devider"></div>
     <div class="row-fluid">
         <div class="col-lg-10 col-lg-offset-1 col-xs-12">
             <div class="about-container">
-                <h1 class="about-h1">Aboute us</h1>
+                <h1 class="about-h1">About us</h1>
                 <!--Left side-->
                 <div class="col-xs-6 about-left-container nopm">
                     <!--what we hate-->
@@ -15,9 +15,9 @@
                             <h3>What we Hate</h3>
                         </div>
                         <div class="about-left-text-top col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/aboute/Hate.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/Hate.svg" alt="icon">
                         </div>
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container-top">
 
                         </div>
@@ -30,7 +30,7 @@
                             <p>Nothing can get you down like slow wep experience.</p>
                         </div>
                         <div class="about-left-text col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/aboute/slow.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/slow.svg" alt="icon">
                         </div>
                         <!--bar conatiner-->
                         <div class="col-xs-6 about-left-bar-container ">
@@ -45,7 +45,7 @@
                             <p>Who loves to do others' work anyway?</p>
                         </div>
                         <div class="about-left-text col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/aboute/work.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/work.svg" alt="icon">
                         </div>
                         <!--bar conatiner-->
                         <div class="col-xs-6 about-left-bar-container ">
@@ -59,7 +59,7 @@
                             <p>Never offer us wordpress etc job!</p>
                         </div>
                         <div class="about-left-text col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/aboute/wordpress.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/wordpress.svg" alt="icon">
                         </div>
                         <!--bar conatiner-->
                         <div class="col-xs-6 about-left-bar-container ">
@@ -73,7 +73,7 @@
                             <p>Rush kills creativity. Slow down.</p>
                         </div>
                         <div class="about-left-text col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/aboute/rush.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/rush.svg" alt="icon">
                         </div>
                         <!--bar conatiner-->
                         <div class="col-xs-6 about-left-bar-container ">
@@ -87,7 +87,7 @@
                             <p>Uncertainty slows down a project.</p>
                         </div>
                         <div class="about-left-text col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/aboute/Uncertainty.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/Uncertainty.svg" alt="icon">
                         </div>
                         <!--bar conatiner-->
                         <div class="col-xs-6 about-left-bar-container ">
@@ -101,7 +101,7 @@
                             <p>A bad font can ruin a nice designe.</p>
                         </div>
                         <div class="about-left-text col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/aboute/Font.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/Font.svg" alt="icon">
                         </div>
                         <!--bar conatiner-->
                         <div class="col-xs-6 about-left-bar-container ">
@@ -117,7 +117,7 @@
                         <div class="col-xs-6 about-right-bar-container-top"></div>
                         <!--what we love icon-->
                         <div class="about-right-text-top col-xs-2 ">
-                            <img class="about-right-text-img" src="img/icon/aboute/love.svg" alt="icon">
+                            <img class="about-right-text-img" src="img/icon/about/love.svg" alt="icon">
                         </div>
                         <!--what we love-->
                         <div class="about-right-text-top col-xs-4 nopm">
@@ -131,7 +131,7 @@
                             <div class="about-Friends"></div>
                         </div>
                         <div class="about-right-text col-xs-2 ">
-                            <img class="about-right-text-img" src="img/icon/aboute/Friends.svg" alt="icon">
+                            <img class="about-right-text-img" src="img/icon/about/Friends.svg" alt="icon">
                         </div>
                         <div class="about-right-text col-xs-4 nopm">
                             <h3>Family & Friends</h3>
@@ -144,7 +144,7 @@
                             <div class="about-Data"></div>
                         </div>
                         <div class="about-right-text col-xs-2 ">
-                            <img class="about-right-text-img" src="img/icon/aboute/Data.svg" alt="icon">
+                            <img class="about-right-text-img" src="img/icon/about/Data.svg" alt="icon">
                         </div>
                         <div class="about-right-text col-xs-4 nopm">
                             <h3>Data Visulization</h3>
@@ -157,7 +157,7 @@
                             <div class="about-code"></div>
                         </div>
                         <div class="about-right-text col-xs-2 ">
-                            <img class="about-right-text-img" src="img/icon/aboute/code.svg" alt="icon">
+                            <img class="about-right-text-img" src="img/icon/about/code.svg" alt="icon">
                         </div>
                         <div class="about-right-text col-xs-4 nopm">
                             <h3>Clean code</h3>
@@ -170,7 +170,7 @@
                             <div class="about-Mathe"></div>
                         </div>
                         <div class="about-right-text col-xs-2 ">
-                            <img class="about-right-text-img" src="img/icon/aboute/mathe.svg" alt="icon">
+                            <img class="about-right-text-img" src="img/icon/about/mathe.svg" alt="icon">
                         </div>
                         <div class="about-right-text col-xs-4 nopm">
                             <h3>Mathe</h3>
@@ -183,7 +183,7 @@
                             <div class="about-Functionality"></div>
                         </div>
                         <div class="about-right-text col-xs-2 ">
-                            <img class="about-right-text-img" src="img/icon/aboute/functionality.svg" alt="icon">
+                            <img class="about-right-text-img" src="img/icon/about/functionality.svg" alt="icon">
                         </div>
                         <div class="about-right-text col-xs-4 nopm">
                             <h3>Functionality</h3>
@@ -196,7 +196,7 @@
                             <div class="about-Graceful"></div>
                         </div>
                         <div class="about-right-text col-xs-2 ">
-                            <img class="about-right-text-img" src="img/icon/aboute/graceful.svg" alt="icon">
+                            <img class="about-right-text-img" src="img/icon/about/graceful.svg" alt="icon">
                         </div>
                         <div class="about-right-text col-xs-4 nopm">
                             <h3>Graceful</h3>

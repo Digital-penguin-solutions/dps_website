@@ -51,7 +51,7 @@ include "Sideelem/nav.php";
 include "work.php";
 
 // About
-include "aboute.php";
+include "about.php";
 
 // including the seperat fotter to the page
 include "Sideelem/fotter.php";
