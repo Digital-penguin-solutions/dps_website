@@ -1,5 +1,4 @@
 <!-- About -->
-
 <section class="container-fluid about item" id="indexp4">
     <div class="about-devider"></div>
     <div class="row-fluid">
@@ -32,7 +31,7 @@
                         <div class="about-left-text col-xs-2 ">
                             <img class="about-left-text-img" src="img/icon/about/slow.svg" alt="icon">
                         </div>
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
                             <div class="about-speed"></div>
 
@@ -47,7 +46,7 @@
                         <div class="about-left-text col-xs-2 ">
                             <img class="about-left-text-img" src="img/icon/about/work.svg" alt="icon">
                         </div>
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
                             <div class="about-work"></div>
                         </div>
@@ -61,7 +60,7 @@
                         <div class="about-left-text col-xs-2 ">
                             <img class="about-left-text-img" src="img/icon/about/wordpress.svg" alt="icon">
                         </div>
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
                             <div class="about-wordpress"></div>
                         </div>
@@ -75,7 +74,7 @@
                         <div class="about-left-text col-xs-2 ">
                             <img class="about-left-text-img" src="img/icon/about/rush.svg" alt="icon">
                         </div>
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
                             <div class="about-rush"></div>
                         </div>
@@ -89,7 +88,7 @@
                         <div class="about-left-text col-xs-2 ">
                             <img class="about-left-text-img" src="img/icon/about/Uncertainty.svg" alt="icon">
                         </div>
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
                             <div class="about-Uncertainty"></div>
                         </div>
@@ -103,7 +102,7 @@
                         <div class="about-left-text col-xs-2 ">
                             <img class="about-left-text-img" src="img/icon/about/Font.svg" alt="icon">
                         </div>
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
                             <div class="about-Font"></div>
                         </div>
@@ -113,7 +112,7 @@
                 <div class="col-xs-6 about-right-container nopm">
                     <!--what we love-->
                     <div class="col-xs-12 about-right-text-container nopm">
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-right-bar-container-top"></div>
                         <!--what we love icon-->
                         <div class="about-right-text-top col-xs-2 ">
@@ -126,7 +125,7 @@
                     </div>
                     <!--Text container rigt side-->
                     <div class="col-xs-12 about-right-text-container ">
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-right-bar-container ">
                             <div class="about-Friends"></div>
                         </div>
@@ -139,7 +138,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 about-right-text-container ">
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-right-bar-container ">
                             <div class="about-Data"></div>
                         </div>
@@ -152,7 +151,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 about-right-text-container ">
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-right-bar-container ">
                             <div class="about-code"></div>
                         </div>
@@ -165,7 +164,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 about-right-text-container ">
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-right-bar-container ">
                             <div class="about-Mathe"></div>
                         </div>
@@ -178,7 +177,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 about-right-text-container ">
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-right-bar-container ">
                             <div class="about-Functionality"></div>
                         </div>
@@ -191,7 +190,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 about-right-text-container ">
-                        <!--bar conatiner-->
+                        <!--bar container-->
                         <div class="col-xs-6 about-right-bar-container ">
                             <div class="about-Graceful"></div>
                         </div>
