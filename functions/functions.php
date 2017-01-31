@@ -18,6 +18,85 @@ if(!isset($functions_included)){
         return $data;
     }
 
+    //get all works from database
+    function get_all_work($con) {
+
+        $query = "SELECT * FROM work";
+        $select = mysqli_query($con, $query) or die (mysqli_error($con));
+
+        $array = array();
+
+        while($data = mysqli_fetch_array($select)){
+
+            $array[] = $data;
+        }
+
+        return $array;
+    }
+
+    //get work by id from database
+    function get_work_by_id($con, $id){
+
+        $id = secure_str($id);
+        $query = "SELECT * FROM work WHERE work_id = '$id'";
+        $select = mysqli_query($con, $query) or die (mysqli_error($con));
+        $data = mysqli_fetch_array($select);
+
+        return $data;
+    }
+
+    //get the description from the database
+    function get_work_description_by_id($con, $id){
+
+        $id = secure_str($id);
+        $query = "SELECT description FROM work WHERE work_id = '$id'";
+        $select = mysqli_query($con, $query) or die (mysqli_error($con));
+        $data = mysqli_fetch_array($select);
+
+        $long = $data['description'];
+
+        return $long;
+    }
+
+    //get the name from database
+    function get_work_name_by_id($con, $id){
+        $id = secure_str($id);
+        $query = "SELECT name FROM work WHERE work_id = '$id'";
+        $select = mysqli_query($con, $query) or die (mysqli_error($con));
+        $data = mysqli_fetch_array($select);
+
+        $name = $data['name'];
+        return $name;
+    }
+
+    // gets all background images
+    function get_product_images_by_id($con, $id){
+
+        $id = secure_str($id);
+        $query = "SELECT * FROM bg WHERE work_id = '$id'";
+        $select = mysqli_query($con, $query) or die (mysqli_error($con));
+
+        $array = array();
+
+        while ($data = mysqli_fetch_array($select)) {
+            $array[] = $data;
+        }
+
+        return $array;
+
+    }
+
+    //get the date from database
+    function get_date_by_id($con, $id){
+        $id = secure_str($id);
+        $query = "SELECT date FROM work WHERE work_id = '$id'";
+        $select = mysqli_query($con, $query) or die (mysqli_error($con));
+        $data = mysqli_fetch_array($select);
+
+        $date = $data['date'];
+        return $date;
+    }
+
     //read in images for images sliders
     function read_slider_images($con, $index){
 
