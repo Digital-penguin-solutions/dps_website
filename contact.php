@@ -52,6 +52,8 @@
 include "include_pages/nav.php";
 ?>
 
+<div id="wall_1" class="image" data-stellar-background-ratio= "0.1"></div>
+<!-- top
 <section class="container-fluid contact_intro">
     <div class="row-fluid">
         <div class="col-xs-12 nopm">
@@ -62,34 +64,50 @@ include "include_pages/nav.php";
     </div>
 </section>
 
+<!---->
 <section class="container-fluid contact_cont">
-    <div class="row-fluid">
-        <div class="col-xs-12">
+    <div class="row-fluid contact_cont">
+        <div class="col-xs-12 contact_cont">
             <div class="contact_cont_container">
+
                 <div class="contact_cont_text_top col-xs-2 col-xs-offset-2">
                     <h1>Contacts</h1>
                     <p>+46 7221 594949</p>
                     <p>info@digitalis.se</p>
                 </div>
+
                 <div class="contact_cont_fom">
                     <form class="col-xs-6" action="include_pages/contact_form.php" method="post">
-                        <span title="Your Name"></span>
-                        <input id="name" type="text" name="name" title="name">
-                        <span title="Your Email"></span>
-                        <input id="email" type="text" name="email" title="email">
-                        <span title="Subject"></span>
-                        <input id="subject" type="text" name="subject" title="subject">
-                        <span title="Your Message"></span>
-                        <input id="message" type="text" name="message" title="message">
+
+                        <div class="col-xs-12">
+                            <p>Your Name</p>
+                            <input id="name" type="text" name="name" title="name">
+                        </div>
+
+                        <div class="col-xs-12">
+                            <p>Your E-mail</p>
+                            <input id="email" type="text" name="email" title="email">
+                        </div>
+
+                        <div class="col-xs-12">
+                            <p>Subject</p>
+                            <input id="subject" type="text" name="subject" title="subject">
+                        </div>
+
+                        <div class="col-xs-12">
+                            <p>Your Message</p>
+                            <input id="message" type="text" name="message" title="message">
+                        </div>
+                        <div class="col-xs-12">
                         <input class="submitbtn" type="submit" value="Send">
+                        </div>
                     </form>
                 </div>
+
             </div>
         </div>
     </div>
 </section>
-
-
 
 <?php
 include "include_pages/footer.php";
