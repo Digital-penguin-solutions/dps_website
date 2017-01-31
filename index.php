@@ -95,7 +95,7 @@ include "include_pages/nav.php";
 
 <?php
 // Work page temporary
-include "work.php";
+//include "work.php";
 
 //loop out works in a slider fation
 /*

@@ -71,17 +71,19 @@ include "include_pages/nav.php";
                     <p>+46 7221 594949</p>
                     <p>info@digitalis.se</p>
                 </div>
-                <form class="col-xs-6" action="include_pages/contact_form.php" method="post">
-                    <span title="Your Name"></span>
-                    <input id="name" type="text" name="name" title="name">
-                    <span title="Your Email"></span>
-                    <input id="email" type="text" name="email" title="email">
-                    <span title="Subject"></span>
-                    <input id="subject" type="text" name="subject" title="subject">
-                    <span title="Your Message"></span>
-                    <input id="message" type="text" name="message" title="message">
-                    <input class="submitbtn" type="submit" value="Send">
-                </form>
+                <div class="contact_cont_fom">
+                    <form class="col-xs-6" action="include_pages/contact_form.php" method="post">
+                        <span title="Your Name"></span>
+                        <input id="name" type="text" name="name" title="name">
+                        <span title="Your Email"></span>
+                        <input id="email" type="text" name="email" title="email">
+                        <span title="Subject"></span>
+                        <input id="subject" type="text" name="subject" title="subject">
+                        <span title="Your Message"></span>
+                        <input id="message" type="text" name="message" title="message">
+                        <input class="submitbtn" type="submit" value="Send">
+                    </form>
+                </div>
             </div>
         </div>
     </div>
