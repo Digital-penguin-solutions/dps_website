@@ -1,14 +1,6 @@
-<?php
-/**
- * Home page
- *
- * The main home page for our own website
- *
- * author Digitalis
- */
-?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta name="description" content="Digitalis">
     <title>Digitalis Home</title>
@@ -55,62 +47,49 @@
     <link rel="shortcut icon" href="/img/logo/icontop.png" type="image/x-icon" />
 
 </head>
+<body>
 <?php
-/* including the separate function file */
-include "functions/functions.php";
-
-$con = connect();
-
-/*
-if (isset($_GET['work_id'])) {
-    $work_id = $_GET['work_id'];
-}
-else {
-    header("Location: index.php");
-}
-
-$work = get_work_by_id($con, $work_id);
-*/
-?>
-
-<body class="wrapper col-xs-12">
-
-<?php
-// include nav
 include "include_pages/nav.php";
 ?>
 
-<!-- Page 1 top of page -->
-<section class="intro container-fluid item" id="indexp1">
+<section class="container-fluid contact_intro">
     <div class="row-fluid">
-        <!--background slider -->
-        <div class="background-slider col-xs-12 no_padding no_margin"></div>
-        <!-- The text on the frontage -->
-        <div class="intro-text white center_css">
-            <h1>Creative design</h1>
-            <h2>The web design you deserve</h2>
+        <div class="col-xs-12 nopm">
+            <div class="contact_intro_container">
+                <img src="img/contact/contact_us.jpg" alt="contact us">
+            </div>
         </div>
     </div>
 </section>
 
+<section class="container-fluid contact_cont">
+    <div class="row-fluid">
+        <div class="col-xs-12">
+            <div class="contact_cont_container">
+                <div class="contact_cont_text_top col-xs-2 col-xs-offset-2">
+                    <h1>Contacts</h1>
+                    <p>+46 7221 594949</p>
+                    <p>info@digitalis.se</p>
+                </div>
+                <form class="col-xs-6" action="include_pages/contact_form.php" method="post">
+                    <span title="Your Name"></span>
+                    <input id="name" type="text" name="name" title="name">
+                    <span title="Your Email"></span>
+                    <input id="email" type="text" name="email" title="email">
+                    <span title="Subject"></span>
+                    <input id="subject" type="text" name="subject" title="subject">
+                    <span title="Your Message"></span>
+                    <input id="message" type="text" name="message" title="message">
+                    <input class="submitbtn" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 <?php
-// Work page temporary
-include "work.php";
-
-//loop out works in a slider fation
-/*
-foreach ($work as $work_id){
-    echo include "work.php";
-}*/
-?>
-
-
-<?php
-include "about.php";
-?>
-
-<?php
-// including the separate footer to the page
 include "include_pages/footer.php";
 ?>
 </body>
