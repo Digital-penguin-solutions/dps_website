@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta name="description" content="Digitalis">
     <title>Digitalis Home</title>
@@ -27,12 +26,7 @@
     <script>
         smoothScroll.init();
     </script>
-    <script src="js/jquery.stellar.js"></script>
-    <script>
-        $(document).ready(function(e) {
-            $('#wall_1').stellar();
-        });
-    </script>
+
     <!--Fade in-->
     <script src="js/fade.in.js"></script>
     <!--slide in-->
@@ -45,17 +39,26 @@
 
     <!--icon-->
     <link rel="shortcut icon" href="/img/logo/icontop.png" type="image/x-icon" />
-
 </head>
 <body>
 <?php
 include "include_pages/nav.php";
 ?>
 
-<!--top img-->
-<div id="wall_1" class="contac_paralax" data-stellar-background-ratio="0.5""></div>
+<script type="text/javascript">
+    var ypos,image;
+    function parallex() {
+        ypos = window.pageYOffset;
+        image = document.getElementById('image');
+        image.style.top = ypos * .7 + 'px';
+    }
+    window.addEventListener('scroll',parallex);
+</script>
 
-<!---->
+<!--top img-->
+<div id="image" class="contact_paralex"></div>
+
+<!--contact content-->
 <section class="container-fluid contact_cont">
     <div class="row-fluid contact_cont">
         <div class="col-xs-12 contact_cont">
@@ -90,7 +93,7 @@ include "include_pages/nav.php";
                             <input id="message" type="text" name="message" title="message">
                         </div>
                         <div class="col-xs-12">
-                        <input class="submitbtn" type="submit" value="Send">
+                            <input class="submitbtn" type="submit" value="Send">
                         </div>
                     </form>
                 </div>
