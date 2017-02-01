@@ -14,7 +14,7 @@
                             <h3>What we Hate</h3>
                         </div>
                         <div class="about-left-text-top col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/about/Hate.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/hate.svg" alt="icon">
                         </div>
                         <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container-top">
@@ -86,7 +86,7 @@
                             <p>Uncertainty slows down a project.</p>
                         </div>
                         <div class="about-left-text col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/about/Uncertainty.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/uncertainty.svg" alt="icon">
                         </div>
                         <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
@@ -100,7 +100,7 @@
                             <p>A bad font can ruin a nice designe.</p>
                         </div>
                         <div class="about-left-text col-xs-2 ">
-                            <img class="about-left-text-img" src="img/icon/about/Font.svg" alt="icon">
+                            <img class="about-left-text-img" src="img/icon/about/font.svg" alt="icon">
                         </div>
                         <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
@@ -130,7 +130,7 @@
                             <div class="about-Friends"></div>
                         </div>
                         <div class="about-right-text col-xs-2 ">
-                            <img class="about-right-text-img" src="img/icon/about/Friends.svg" alt="icon">
+                            <img class="about-right-text-img" src="img/icon/about/friends.svg" alt="icon">
                         </div>
                         <div class="about-right-text col-xs-4 nopm">
                             <h3>Family & Friends</h3>
@@ -143,7 +143,7 @@
                             <div class="about-Data"></div>
                         </div>
                         <div class="about-right-text col-xs-2 ">
-                            <img class="about-right-text-img" src="img/icon/about/Data.svg" alt="icon">
+                            <img class="about-right-text-img" src="img/icon/about/data.svg" alt="icon">
                         </div>
                         <div class="about-right-text col-xs-4 nopm">
                             <h3>Data Visulization</h3>

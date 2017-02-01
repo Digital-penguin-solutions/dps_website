@@ -93,9 +93,10 @@ include "include_pages/nav.php";
     </div>
 </section>
 
+<!--what we do page-->
 <section class="what container-fluid" id="what">
-    <div class="row-fluid">
-        <div class="col-xs-12">
+    <div class="row-fluid what">
+        <div class="col-xs-12 what">
             <div class="what_container">
                <div class="what_pentagon">
                 </div>
