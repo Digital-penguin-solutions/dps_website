@@ -22,17 +22,17 @@
 
     <!-- JavaScript -->
     <script src="js/scripts.js"></script>
+    <!-- Smooth scoll-->
+    <script src="js/smooth-scroll.min.js"></script>
     <script>
         smoothScroll.init();
     </script>
     <script src="js/jquery.stellar.js"></script>
     <script>
-        $(document).ready(function () {
-            $(window).stellar();
+        $(document).ready(function(e) {
+            $('#wall_1').stellar();
         });
     </script>
-    <!-- Smooth scoll-->
-    <script src="js/smooth-scroll.min.js"></script>
     <!--Fade in-->
     <script src="js/fade.in.js"></script>
     <!--slide in-->
@@ -52,17 +52,8 @@
 include "include_pages/nav.php";
 ?>
 
-<div id="wall_1" class="image" data-stellar-background-ratio= "0.1"></div>
-<!-- top
-<section class="container-fluid contact_intro">
-    <div class="row-fluid">
-        <div class="col-xs-12 nopm">
-            <div class="contact_intro_container">
-                <img src="img/contact/contact_us.jpg" alt="contact us">
-            </div>
-        </div>
-    </div>
-</section>
+<!--top img-->
+<div id="wall_1" class="image" data-stellar-background-ratio="0.5""></div>
 
 <!---->
 <section class="container-fluid contact_cont">

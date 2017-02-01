@@ -93,6 +93,18 @@ include "include_pages/nav.php";
     </div>
 </section>
 
+<section class="what container-fluid" id="what">
+    <div class="row-fluid">
+        <div class="col-xs-12">
+            <div class="what_container">
+               <div class="what_pentagon">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <?php
 // Work page temporary
 //include "work.php";

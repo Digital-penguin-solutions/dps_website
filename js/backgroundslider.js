@@ -1,4 +1,3 @@
-//Backround slider document
 $(document).ready(function() 
 {
 	"use strict";
@@ -8,12 +7,12 @@ $(document).ready(function()
 	jQuery.fx.interval = 45; /* Ju lägre denna är desto högre kvalitet blir det på animationer men ju lägre den är desto mer tar den på CPU. - JF */
 	
 	/* En array som håller alla sökvägar till bilderna som ska vara med i bildspelet -JF*/
-	var images_array = ["img/slider/1.jpg", "img/slider/2.JPG", "img/slider/3.jpg", "img/slider/4.jpg",  "img/slider/5.jpg", "img/slider/6.jpg", "img/slider/7.jpg", "img/slider/8.jpg"];
+	var images_array = ["img/slider/1.jpg", "img/slider/2.jpg", "img/slider/4.jpg", "img/slider/5.jpg", "img/slider/6.jpg", "img/slider/7.jpg", "img/slider/8.jpg", "img/slider/9.jpg"];
 	var rand = Math.round(Math.random() * images_array.length);
 	var current_image_num = rand - 1; // vilken bild i bildspelet man är på just nu - JF
 	//var current_image_num = 2;
 	
-	var slider_interval = setInterval(fadeOut, interval_time); // skapar ett interval som gör att fadeOut upprepas - JF
+	//var slider_interval = setInterval(fadeOut, interval_time); // skapar ett interval som gör att fadeOut upprepas - JF
 	
 	// Det ska alltid finnas två bilder så två bilder läggs till i början - JF
 	addImage();
