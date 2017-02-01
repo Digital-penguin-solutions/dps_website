@@ -53,7 +53,7 @@ include "include_pages/nav.php";
 ?>
 
 <!--top img-->
-<div id="wall_1" class="image" data-stellar-background-ratio="0.5""></div>
+<div id="wall_1" class="contac_paralax" data-stellar-background-ratio="0.5""></div>
 
 <!---->
 <section class="container-fluid contact_cont">
