@@ -94,11 +94,13 @@ include "include_pages/nav.php";
 </section>
 
 <!--what we do page-->
-<section class="what container-fluid" id="what">
-    <div class="row-fluid what">
-        <div class="col-xs-12 what">
-            <div class="what_container">
-               <div class="what_pentagon">
+<section class="expertise container-fluid" id="expertise">
+    <div class="row-fluid expertise">
+        <div class="col-xs-12 expertise">
+            <div class="expertise_container">
+                <div class="expertise_text">
+                    <h1></h1>
+                    <p></p>
                 </div>
             </div>
         </div>
