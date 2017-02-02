@@ -1,22 +1,16 @@
 @import "main";
 
 .contact_top_img{
+  .nopm;
   height: 55vh;
-  width: 100vw;
-  background: #000;z-index: 4;
-  .contact_top_img_bg{
-    background: #000;
-    width: 100vw;
-    height: 100px !important;
-  }
-}
-
-.contact_paralex{
-  background: url(../img/contact.jpg) no-repeat fixed;
-  height: 55vh;
-  width:100vw;
+  z-index: 3;
+  background: @color1;
   position: relative;
-  z-index:4;
+  .contact_top_paralex{
+    background: url(../img/contact.jpg) no-repeat fixed;
+    height: 100%;
+    width:100%;
+  }
 }
 
 //contact content

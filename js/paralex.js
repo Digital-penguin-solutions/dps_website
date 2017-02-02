@@ -1,4 +1,11 @@
-/**
- * Created by olqeable on 2017-02-01.
- */
-document
+$(document).ready(function(){
+
+    var ypos,image;
+    function parallex() {
+        ypos = window.pageYOffset;
+        image = document.getElementById('image');
+        image.style.top = ypos * .7 + 'px';
+    }
+    window.addEventListener("scroll",parallex);
+
+});

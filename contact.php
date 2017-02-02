@@ -23,11 +23,8 @@
     <script src="js/scripts.js"></script>
     <!-- Smooth scoll-->
     <script src="js/smooth-scroll.min.js"></script>
-    <script>
-        var smoothScroll = require("events");
-        smoothScroll.init();
-    </script>
 
+    <script src="js/paralex.js"></script>
     <!--Fade in-->
     <script src="js/fade.in.js"></script>
     <!--slide in-->
@@ -43,32 +40,27 @@
 </head>
 <body>
 <?php
-//include "include_pages/nav.php";
+include "include_pages/nav.php";
 ?>
 
-<!--
-<script type="text/javascript">
-    var ypos,image;
-    function parallex() {
-        ypos = window.pageYOffset;
-        image = document.getElementById('image');
-        image.style.top = ypos * .7 + 'px';
-    }
-    window.addEventListener("scroll",parallex);
-</script>
--->
 <section class="container-fluid contact_top_img">
     <div class="row-fluid">
         <div class="col-xs-12">
-            <div class="contact_top_img_bg"></div>
+            <div id="image" class="contact_top_paralex">
+                <p>lars</p>
+                <p>lars</p>
+                <p>lars</p>
+                <p>lars</p>
+                <p>lars</p>
+                <p>lars</p>
+                <p>lars</p>
+                <p>lars</p>
+            </div>
         </div>
     </div>
 </section>
 
-<!--top img
-<div id="image" class="contact_paralex"></div>
--->
-<!--contact content
+<!--contact content-->
 <section class="container-fluid contact_cont">
     <div class="row-fluid contact_cont">
         <div class="col-xs-12 contact_cont">
@@ -112,9 +104,9 @@
         </div>
     </div>
 </section>
--->
+
 <?php
-//include "include_pages/footer.php";
+include "include_pages/footer.php";
 ?>
 </body>
 </html>
