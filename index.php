@@ -33,12 +33,6 @@
     <script>
         smoothScroll.init();
     </script>
-    <script src="js/jquery.stellar.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(window).stellar();
-        });
-    </script>
     <!-- Smooth scoll-->
     <script src="js/smooth-scroll.min.js"></script>
     <!--Fade in-->

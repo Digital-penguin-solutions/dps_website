@@ -8,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Digital Internet Solutions">
 
+    <!--css-->
     <link href="css/main.css" rel="stylesheet">
-
+    <!--font-->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i" rel="stylesheet">
 
     <!--======================================= JAVA SCRIPT ===========================-->
@@ -18,12 +19,11 @@
     <!--Velocity -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js" type="text/javascript"></script>
     <script src="js/jquery.color.js"></script>
-
     <!-- JavaScript -->
     <script src="js/scripts.js"></script>
     <!-- Smooth scoll-->
     <script src="js/smooth-scroll.min.js"></script>
-
+    <!--paralex js-->
     <script src="js/paralex.js"></script>
     <!--Fade in-->
     <script src="js/fade.in.js"></script>
@@ -42,23 +42,17 @@
 <?php
 include "include_pages/nav.php";
 ?>
+<script>
+    var ypos,image;
+    function parallex() {
+        ypos = window.pageYOffset;
+        image = document.getElementById('image');
+        image.style.top = ypos * .7 + 'px';
+    }
+    window.addEventListener("scroll",parallex);
+</script>
 
-<section class="container-fluid contact_top_img">
-    <div class="row-fluid">
-        <div class="col-xs-12">
-            <div id="image" class="contact_top_paralex">
-                <p>lars</p>
-                <p>lars</p>
-                <p>lars</p>
-                <p>lars</p>
-                <p>lars</p>
-                <p>lars</p>
-                <p>lars</p>
-                <p>lars</p>
-            </div>
-        </div>
-    </div>
-</section>
+<section id="image" class="container-fluid contact_top_img"></section>
 
 <!--contact content-->
 <section class="container-fluid contact_cont">

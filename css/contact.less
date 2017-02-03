@@ -3,14 +3,11 @@
 .contact_top_img{
   .nopm;
   height: 55vh;
+  width: 100vw;
   z-index: 3;
-  background: @color1;
+  background: url(../img/contact.jpg) no-repeat fixed;
+  background-size: 100vw 55vh;
   position: relative;
-  .contact_top_paralex{
-    background: url(../img/contact.jpg) no-repeat fixed;
-    height: 100%;
-    width:100%;
-  }
 }
 
 //contact content
@@ -42,13 +39,13 @@
         .center_vertically_css;
         p{
           height: 1.5em;
-          font-weight: 200;
+          font-weight: 500;
         }
         input{
           height: 6vh;
           width: 100%;
           margin-bottom: 2.5vh;
-          border: 0 solid;
+          border: 0 solid @color2;
           border-bottom-width: 1px;
         }
         .submitbtn{
