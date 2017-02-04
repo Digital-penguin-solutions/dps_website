@@ -40,6 +40,7 @@
 </head>
 <body>
 <?php
+//include nav
 include "include_pages/nav.php";
 ?>
 <script>
@@ -52,6 +53,7 @@ include "include_pages/nav.php";
     window.addEventListener("scroll",parallex);
 </script>
 
+<!--Top img with paralex scrolling-->
 <section id="image" class="container-fluid contact_top_img"></section>
 
 <!--contact content-->
@@ -59,7 +61,7 @@ include "include_pages/nav.php";
     <div class="row-fluid contact_cont">
         <div class="col-xs-12 contact_cont">
             <div class="contact_cont_container">
-
+                <!--Contact details-->
                 <div class="contact_cont_text_top col-xs-12 col-md-2 col-md-offset-2">
                     <div class="contact_cont_text_container">
                         <h1>Contacts</h1>
@@ -67,25 +69,21 @@ include "include_pages/nav.php";
                         <p>info@digitalis.se</p>
                     </div>
                 </div>
-
+                <!--contact form-->
                 <div class="contact_cont_fom">
                     <form class="col-md-6 col-xs-12" action="include_pages/contact_form.php" method="post">
-
                         <div class="col-xs-12">
                             <p>Your Name</p>
                             <input id="name" type="text" name="name" title="name">
                         </div>
-
                         <div class="col-xs-12">
                             <p>Your E-mail</p>
                             <input id="email" type="text" name="email" title="email">
                         </div>
-
                         <div class="col-xs-12">
                             <p>Subject</p>
                             <input id="subject" type="text" name="subject" title="subject">
                         </div>
-
                         <div class="col-xs-12">
                             <p>Your Message</p>
                             <input id="message" type="text" name="message" title="message">
@@ -95,13 +93,13 @@ include "include_pages/nav.php";
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
 
 <?php
+//include footer
 include "include_pages/footer.php";
 ?>
 </body>
