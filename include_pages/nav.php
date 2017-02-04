@@ -1,4 +1,5 @@
 <!--what is display on the page-->
+<!--
 <nav>
     <ul class="nav_button_container">
         <li>
@@ -10,29 +11,31 @@
         </li>
     </ul>
     <p>MENU</p>
+
+    <!--icons top--
+    <div class="nav_icon_top col-md-4 col-md-offset-8">
+        <a href="#">
+            <img src="../img/icon/nav/social.svg" alt="icon for social media" class="nav_social">
+        </a>
+        <a href="#">
+            <img src="../img/icon/nav/language.svg" alt="icon fro language" class="nav_language">
+            <p>EN</p>
+        </a>
+    </div>
 </nav>
+-->
 
 <!--when nav is open this is displayes-->
 <div class="nav container_fluid">
-    <div class="row_fluid">
-        <div class="col-xs-12">
-            <div class="nav_container">
+    <div class="row_fluid nav">
+        <div class="col-xs-12 nav">
+            <div class="nav_container nav">
 
-                <!--icons top-->
-                <div class="nav_icon_top">
-                    <a href="">
-                        <img src="../img/icon/nav/social.svg" alt="icon for social media" class="nav_social">
-                    </a>
-                    <a href="">
-                        <img src="../img/icon/nav/language.svg" alt="icon fro language" class="nav_language">
-                        <p>EN</p>
-                    </a>
-                </div>
 
                 <!--logo nav-->
                 <div class="nav_logo col-xs-8 col-xs-offset-2">
                     <a href="index#home">
-                        <img src="img/logo/Logo-white.svg" alt="Digitalis logo">
+                        <img src="../img/logo/Logo-white.svg" alt="Digitalis logo">
                     </a>
                 </div>
 
@@ -50,15 +53,3 @@
         </div>
     </div>
 </div>
-
-<!--Nav btn
-<ul class="nav_button_container">
-    <li>
-        <a class="McButton" data="hamburger-menu">
-            <b></b>
-            <b></b>
-            <b></b>
-        </a>
-    </li>
-</ul>
--->
