@@ -34,18 +34,18 @@
 
                 <!--logo nav-->
                 <div class="nav_logo col-xs-8 col-xs-offset-2">
-                    <a href="index#home">
-                        <img src="../img/logo/Logo-white.svg" alt="Digitalis logo">
+                    <a href="index">
+                        <img src="img/logo/Logo-white.svg" alt="Digitalis logo">
                     </a>
                 </div>
 
                 <!--nav lik-->
                 <div class="nav_ul col-xs-8 col-xs-offset-2">
                     <ul>
-                        <li><a href="index#indexp1">Home</a></li>
-                        <li><a href="index#indexp3">lLatest work</a></li>
-                        <li><a href="index#indexp4">About us</a></li>
-                        <li><a href="index#indexp4">Services</a></li>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="index">Latest work</a></li>
+                        <li><a href="index">About us</a></li>
+                        <li><a href="index">Services</a></li>
                         <li><a href="contact">Contact us</a></li>
                     </ul>
                 </div>
