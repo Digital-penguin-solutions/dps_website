@@ -15,10 +15,10 @@
                 <hr class="col-xs-11">
                 <!--social media liks-->
                 <div class="footer-social col-xs-12">
-                    <a href="#" class="col-xs-2"><img src="img/icon/facebook.svg"></a>
-                    <a href="#" class="col-xs-2"><img src="img/icon/twitter.svg"></a>
-                    <a href="#" class="col-xs-2"><img src="img/icon/instagram.svg"></a>
-                    <a href="#" class="col-xs-2"><img src="img/icon/google-plus.svg"></a>
+                    <a href="#" class="col-xs-2"><img src="img/icon/footer/facebook.svg"></a>
+                    <a href="#" class="col-xs-2"><img src="img/icon/footer/twitter.svg"></a>
+                    <a href="#" class="col-xs-2"><img src="img/icon/footer/instagram.svg"></a>
+                    <a href="#" class="col-xs-2"><img src="img/icon/footer/google-plus.svg"></a>
                 </div>
             </div>
             <div class="footer-bot-text col-md-6 col-md-offset-3">
