@@ -1,30 +1,28 @@
 <?php
 $to = 'info@digitalis.com';
-$subject = 'Treeline client';
+$subject = 'Digitalis new client';
 
 $name = $_POST['name'];
 $email = $_POST['email'];
-$phonenr = $_POST['phonenr'];
-$company = $_POST['company'];
+$subject = $_POST['subject'];
 $message = $_POST['message'];
 
 $message = <<<EMAIL
 Name:  \n <b>$name</b> \n
 E_mail:  \n $email \n
-Phone number: \n $phonenr \n
-Company: \n $company \n
+subject: \n $subject \n
 Message: \n $message \n
 EMAIL;
 
 $header = "From: $email";
 
 if($_POST){
-    if($name == '' || $email == '' || $phonenr == '' || $company == '' || $message == ''){
+    if($name == '' || $email == '' || $subject == '' || $message == ''){
         $feedback = 'Please fill out all the fields';
         header("Location: index.php?feedback=$feedback");
     }else{
         mail($to, $subject, $message, $header);
-        $feedback = 'Thanks for making an order to Treeline, we will get back to you as soon as possible';
+        $feedback = 'Thanks for making an order to Digitalis, we will get back to you as soon as possible';
         header("Location: index.php?feedback=$feedback");
     }
 }
