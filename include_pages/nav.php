@@ -1,3 +1,4 @@
+<!--Desktop nav-->
 <nav class="navbar navbar-custom navbar-fixed-top hidden-xs hidden-sm" role="navigation">
     <div class="container-fluid nav-container">
         <div class="navbar-header">
@@ -18,9 +19,7 @@
     </div>
 </nav>
 
-<!--=============================================== NAV END ===================================================-->
-
-<!--=============================================== NAV(tabet) start ==========================================-->
+<!--Tablet nav-->
 <div class = "tablet-nav hidden-lg hidden-md">
     <div class="overlay-navigation">
         <nav role="navigation">
@@ -41,7 +40,7 @@
     </div>
 </section>
 
-<!--Nav btn-->
+<!--Nav btn
 <ul class="nav_button_container">
     <li>
         <a class="McButton" data="hamburger-menu">
@@ -51,3 +50,4 @@
         </a>
     </li>
 </ul>
+-->

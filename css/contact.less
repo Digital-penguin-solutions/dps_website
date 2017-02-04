@@ -20,20 +20,23 @@
     width: 100%;
     background: @color3;
     //left contact info
-    .contact_cont_text_top{
-      height: auto;
-      .center_vertically_css;
-      h1{
-        font-size: 3em;
-      }
-      p{
-        font-size: 1.2em;
+    .contact_cont_text_top {
+      height: 30%;
+      .contact_cont_text_container {
+        height: auto;
+        text-align: center;
+        .center_vertically_css;
+        h1 {
+          font-size: 3em;
+        }
+        p {
+          font-size: 1.2em;
+        }
       }
     }
-
     //form
     .contact_cont_fom{
-      height: 100%;
+      height: 70%;
       form{
         height: auto;
         .center_vertically_css;
@@ -53,6 +56,42 @@
           width:10vw;
           background: @color3;
           border: 1px solid @color2;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  .contact_cont{
+    .contact_cont_container{
+      height: 100%;
+      .contact_cont_text_top {
+        height: 100%;
+        .contact_cont_text_container {
+          text-align: left;
+          height: auto;
+          .center_vertically_css;
+          h1 {
+
+          }
+          p {
+
+          }
+        }
+      }
+      //form
+      .contact_cont_fom{
+        height: 100%;
+        form{
+          p{
+          }
+          input{
+
+          }
+          .submitbtn{
+
+          }
         }
       }
     }

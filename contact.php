@@ -60,14 +60,16 @@ include "include_pages/nav.php";
         <div class="col-xs-12 contact_cont">
             <div class="contact_cont_container">
 
-                <div class="contact_cont_text_top col-xs-2 col-xs-offset-2">
-                    <h1>Contacts</h1>
-                    <p>+46 7221 594949</p>
-                    <p>info@digitalis.se</p>
+                <div class="contact_cont_text_top col-xs-12 col-md-2 col-md-offset-2">
+                    <div class="contact_cont_text_container">
+                        <h1>Contacts</h1>
+                        <p>+46 7221 594949</p>
+                        <p>info@digitalis.se</p>
+                    </div>
                 </div>
 
                 <div class="contact_cont_fom">
-                    <form class="col-xs-6" action="include_pages/contact_form.php" method="post">
+                    <form class="col-md-6 col-xs-12" action="include_pages/contact_form.php" method="post">
 
                         <div class="col-xs-12">
                             <p>Your Name</p>
