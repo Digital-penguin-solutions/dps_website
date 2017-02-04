@@ -1,8 +1,42 @@
+$(document).ready(function() {
+    "use strict";
 
 
+    jQuery.fx.interval = 45;
+    /* Ju lägre denna är desto högre kvalitet blir det på animationer men ju lägre den är desto mer tar den på CPU. - JF */
+
+    init_page();
+
+    var body_width = $("body").width();
+
+    /* Desktop only*/
+    if (body_width > 992) {
+        // jQuery to collapse the navbar on scroll
+        $(window).scroll(function () {
+            if ($(".navbar").offset().top > 50) {
+                if (!$(".navbar-fixed-top").hasClass("top-nav-collapse")) {
+
+                    $(".navbar-fixed-top").addClass("top-nav-collapse");
+                    $(".nav-text").css("color", "black");
+                    /* Byter färg på loggan */
+                    $("#logo-dark").css("visibility", "visible");
+                    $("#logo-white").css("visibility", "hidden");
+                }
+            }
+            else {
+                if ($(".navbar-fixed-top").hasClass("top-nav-collapse")) {
+                    $(".navbar-fixed-top").removeClass("top-nav-collapse");
+                    $(".nav-text").css("color", "white");
+                    /* Byter färg på loggan */
+                    $("#logo-dark").css("visibility", "hidden");
+                    $("#logo-white").css("visibility", "visible");
+                }
+            }
+        });
+    }
+});
 
 $(document).ready(on_ready);
-
 $(window).resize(on_resize);	
 
 function on_resize () {
