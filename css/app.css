@@ -2337,18 +2337,20 @@
   overflow: visible;
   clip: auto;
 }
+nav {
+  z-index: 100002;
+}
 nav .nav_button_container li {
   width: 100% !important;
 }
 nav .nav_button_container {
   min-height: 50px;
   position: fixed;
-  right: 8%;
+  left: 8%;
   top: 0;
   width: 3%;
   height: 8%;
   list-style: none;
-  z-index: 1040;
 }
 nav .McButton {
   color: #000000;
@@ -2367,7 +2369,6 @@ nav b {
   height: 10%;
   background-color: #333333;
   left: 0;
-  z-index: 1040;
 }
 nav b:nth-child(1) {
   top: 0;
@@ -2377,64 +2378,6 @@ nav b:nth-child(2) {
 }
 nav b:nth-child(3) {
   top: 100%;
-}
-nav .nav-manstyle {
-  height: 8%;
-  background: #FFF;
-}
-nav .navbar-logo {
-  height: 100%;
-  width: auto;
-  margin: 0;
-  padding: 0;
-}
-nav .nav_logo {
-  width: 100% !important;
-  height: 100%;
-  margin-left: -5%;
-}
-nav .navbar-header {
-  width: 20%;
-}
-nav .navbar-brand {
-  height: 100% !important;
-  width: 100% !important;
-}
-nav .nav_menu_container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100% !important;
-  height: 100vh;
-  background: rgba(74, 69, 68, 0.8);
-  z-index: 1031;
-}
-nav .nav_menu {
-  width: 50%;
-  height: 50%;
-  list-style: none;
-}
-nav .nav_menu li a:hover {
-  color: #333333;
-}
-nav .nav_menu li a:active,
-nav .nav_menu li a:visited {
-  text-decoration: none;
-}
-nav .nav_menu li a {
-  color: #ffffff;
-  font-size: 3vw;
-  font-weight: 100;
-  display: block;
-  text-align: center;
-}
-nav .nav_menu_cross {
-  position: fixed;
-  right: 5%;
-  width: 5vw;
-  height: 5vw;
-  top: 5%;
 }
 .nav {
   top: 0 !important;
@@ -2460,20 +2403,23 @@ nav .nav_menu_cross {
   display: inline;
 }
 .nav .nav_container .nav_open_icon_top a {
-  display: inline;
+  display: inline-flex;
   color: #333333;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 2vh;
+  font-size: 3vh;
+  margin-left: 1vh;
 }
-.nav .nav_container .nav_open_icon_top a svg {
-  height: 3vh;
-  display: inline;
-  fill: #333333;
+.nav .nav_container .nav_open_icon_top a i {
+  margin-top: 0.5vh;
+  color: #333333;
 }
-.nav .nav_container .nav_open_icon_top a svg :hover {
+.nav .nav_container .nav_open_icon_top a i :hover {
   background: #000000;
-  fill: #fe7e17;
+  color: #ffffff;
+}
+.nav .nav_container .nav_open_icon_top a p {
+  font-weight: 600;
+  margin-left: 1vh;
 }
 .nav .nav_container .nav_ul {
   height: 100%;
@@ -3126,9 +3072,6 @@ footer img {
   font-size: 1.3em;
 }
 /*css created by digitalis*/
-* {
-  font-family: 'Lato', sans-serif !important;
-}
 .wrapper {
   padding: 0 !important;
   margin: 0 !important;
@@ -3163,6 +3106,7 @@ body {
   background: #ffffff;
   z-index: 1;
   position: relative;
+  font-family: 'Lato', sans-serif;
 }
 section {
   padding: 0 !important;

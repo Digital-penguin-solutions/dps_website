@@ -1,35 +1,22 @@
 <!--what is display on the page-->
-<!--
 <nav>
-
-<ul class="nav_button_container">
-<li>
-<a class="McButton" data="hamburger-menu">
-<b></b>
-<b></b>
-<b></b>
-</a>
-</li>
-</ul>
-<p>MENU</p>
-
-<!--icons top-->
-<div class="nav_icon_top col-md-4 col-md-offset-8">
-    <a href="#">
-        <img src="img/icon/nav/social.svg" alt="icon for social media" class="nav_social">
-    </a>
-    <a href="#">
-        <img src="img/icon/nav/language.svg" alt="icon fro language" class="nav_language">
-        <p>EN</p>
-    </a>
-</div>
+    <ul class="nav_button_container">
+        <li>
+            <a class="McButton" data="hamburger-menu">
+                <b></b>
+                <b></b>
+                <b></b>
+            </a>
+        </li>
+    </ul>
+    <p>MENU</p>
 </nav>
 
 <!--when nav is open this is displayes-->
 <div class="nav container_fluid">
     <div class="row_fluid nav">
         <div class="col-xs-12 nav">
-            <div class="nav_container nav">
+            <div class="nav_container">
 
                 <!--logo nav-->
                 <div class="nav_logo col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-2">
@@ -41,10 +28,10 @@
                 <!--social media and language icons-->
                 <div class="nav_open_icon_top col-md-1 col-md-offset-3">
                     <a href="#Footer">
-                        <i class="fa fa-camera-retro fa-2x"></i>
+                        <i class="fa fa-share-alt"></i>
                     </a>
                     <a href="#">
-
+                        <i class="fa fa-globe"></i>
                         <p>EN</p>
                     </a>
                 </div>

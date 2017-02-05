@@ -30,9 +30,6 @@
 
     <!-- JavaScript -->
     <script src="js/scripts.js"></script>
-    <script>
-        smoothScroll.init();
-    </script>
     <!-- Smooth scoll-->
     <script src="js/smooth-scroll.min.js"></script>
     <!--Fade in-->

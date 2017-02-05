@@ -2,9 +2,7 @@
 
 //nav when closed
 nav{
-  p{
-
-  }
+  z-index: 100002;
   .nav_button_container li {
     .fullw;
   }
@@ -12,12 +10,11 @@ nav{
   .nav_button_container{
     min-height:50px;
     position:fixed;
-    right:8%;
+    left:8%;
     top:0;
     width:3%;
     height:8%;
     list-style:none;
-    z-index:1040;
   }
 
   .McButton {
@@ -38,7 +35,6 @@ nav{
     height: 10%;
     background-color: @color2;
     left:0;
-    z-index:1040;
   }
 
   b:nth-child(1) {
@@ -51,82 +47,6 @@ nav{
 
   b:nth-child(3) {
     top: 100%;
-  }
-
-  .nav-manstyle{
-    height: 8%;
-    background: #FFF;
-  }
-
-  .navbar-logo{
-    height: 100%;
-    width: auto;
-    margin: 0;
-    padding: 0;
-  }
-
-  .nav_logo {
-    .fullw;
-    height:100%;
-    margin-left:-5%;
-  }
-
-  .navbar-header {
-    width:20%;
-  }
-
-  .navbar-brand {
-    .full_size;
-  }
-
-  .nav_menu_container {
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    .fullw;
-    height:100vh;
-    background: rgba(74,69,68, 0.8);
-    z-index:1031;
-  }
-
-  .nav_menu {
-    width:50%;
-    height:50%;
-    list-style:none;
-  }
-
-  .nav_menu li a:hover{
-    color: @color2;
-  }
-  .nav_menu li a:active,
-  .nav_menu li a:visited {
-    text-decoration:none;
-  }
-  .nav_menu li a {
-    color:@color3;
-    font-size: 3vw;
-    font-weight: 100;
-    display:block;
-    text-align:center;
-  }
-
-  .nav_menu_cross {
-    position:fixed;
-    right: 5%;
-    width: 5vw;
-    height: 5vw;
-    top: 5%;
-  }
-
-  .nav_icon_top{
-    a{
-      img{
-      }
-      p{
-
-      }
-    }
   }
 }
 
@@ -150,33 +70,37 @@ nav{
       a{
         img{
           margin-top:3vh;
-          //height:12vh;
         }
       }
     }
+
     //social media icons
     .nav_open_icon_top{
       margin-top: 1vh;
       display: inline;
       a{
-        display: inline;
+        display: inline-flex;
         color: @color2;
         text-decoration: none;
-        font-weight: 600;
-        font-size: 2vh;
-        svg {
-          height: 3vh;
-          display: inline;
-          fill: @color2;
+        font-size: 3vh;
+        margin-left:1vh;
+        i {
+          margin-top:0.5vh;
+          color: @color2;
         }
-        svg :hover{
+        i :hover{
           background: @color4;
-          fill: @color1;
+          color: @color3;
           //.transition(@time: 0.5s);
+        }
+        p{
+          font-weight: 600;
+          margin-left:1vh;
         }
       }
     }
-    //Text and liks
+
+    //Text and link
     .nav_ul{
       height: 100%;
       ul{
