@@ -34,7 +34,7 @@
                 <!--logo nav-->
                 <div class="nav_logo col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-2">
                     <a href="index">
-                        <img src="img/logo/Logo-white.svg" alt="Digitalis logo">
+                        <img src="img/logo/Logo-grey.svg" alt="Digitalis logo">
                     </a>
                 </div>
 
