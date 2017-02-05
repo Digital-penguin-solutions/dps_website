@@ -2646,7 +2646,16 @@ footer img {
   z-index: 10001;
   background: #333333;
   float: right;
+  right: 0 !important;
+  top: 0;
   width: 30vh;
+  position: fixed !important;
+  -webkit-box-shadow: 5px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 5px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.language .language_container {
+  position: relative !important;
 }
 .language .language_container .language_text a i {
   float: right;

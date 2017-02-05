@@ -1,4 +1,4 @@
-<!--what is display on the page--
+<!--what is display on the page-->
 <nav>
     <ul class="nav_button_container">
         <li>
@@ -12,20 +12,20 @@
     <p>MENU</p>
 </nav>
 
-<!--when nav is open this is displayes
+<!--when nav is open this is displayes-->
 <div class="nav container_fluid">
     <div class="row_fluid nav">
         <div class="col-xs-12 nav">
             <div class="nav_container">
 
-                <!--logo nav--
+                <!--logo nav-->
                 <div class="nav_logo col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-2">
                     <a href="index">
                         <img src="img/logo/Logo-grey.svg" alt="Digitalis logo">
                     </a>
                 </div>
 
-                <!--social media and language icons--
+                <!--social media and language icons-->
                 <div class="nav_open_icon_top col-md-1 col-md-offset-3">
                     <a href="#Footer">
                         <i class="fa fa-share-alt"></i>
@@ -35,7 +35,7 @@
                     </a>
                 </div>
 
-                <!--nav lik--
+                <!--nav lik-->
                 <div class="nav_ul col-xs-8 col-xs-offset-2">
                     <ul>
                         <li><a href="index">Home</a></li>
