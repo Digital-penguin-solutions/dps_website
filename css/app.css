@@ -2646,17 +2646,48 @@ footer img {
   z-index: 10001;
   background: #333333;
   float: right;
-  width: 25vh;
+  width: 30vh;
+}
+.language .language_container .language_text a i {
+  float: right;
+  font-size: 3vh;
+  margin: 3vh 3vh 0 0;
+}
+.language .language_container .language_text h1 {
+  color: #ffffff;
+  margin-left: 1vw;
+  margin-top: 10vh;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+.language .language_container .language_text hr {
+  width: 85%;
+  height: 1px;
+  opacity: 0.3;
+  margin-bottom: 2vh;
 }
 .language .language_container .language_text a {
   color: #ffffff;
   display: inline;
+  margin-left: 1vw;
+}
+.language .language_container .language_text a:hover {
+  color: #fe7e17;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  text-decoration: none;
 }
 .language .language_container .language_text a p {
-  font-size: 2em;
+  font-size: 2.5vh;
+  display: inline;
 }
 .language .language_container .language_text a img {
+  margin-right: 0.5vh;
   height: 2vh;
+  display: inline;
 }
 .background-slider {
   top: 0 !important;

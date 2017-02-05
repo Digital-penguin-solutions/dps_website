@@ -2,6 +2,9 @@
     <div class="row-fluid">
         <div class="language_container">
             <div class="language_text">
+                <a href="#">
+                    <i class="fa fa-times"></i>
+                </a>
                 <h1>Select your language</h1>
                 <hr>
                 <a href="#">
