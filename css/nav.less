@@ -79,19 +79,26 @@ nav{
       margin-top: 1vh;
       display: inline;
       a{
-        display: inline-flex;
+        display: inline;
         color: @color2;
         text-decoration: none;
         font-size: 3vh;
-        margin-left:1vh;
+        //margin-left:1vh;
+        height: 5vh;
+        width: 5vh;
         i {
-          margin-top:0.5vh;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 5vh;
+          width: inherit;
           color: @color2;
-        }
-        i :hover{
-          background: @color4;
-          color: @color3;
-          //.transition(@time: 0.5s);
+          border-radius: 50%;
+
+          &:hover {
+            background: @color2;
+            color: @color1;
+            .transition(@time: 0.5s);
+          }
         }
         p{
           font-weight: 600;
@@ -111,18 +118,21 @@ nav{
           display: inline;
           text-align: center;
           font-weight: 600;
-          a:link{
+          a {
             color: @color2;
             font-size: 3em;
-            margin-left:2vw;
+            margin-left: 2vw;
+            text-decoration: none;
+
+            &:hover {
+              color: white;
+              .transition(@time: 0.3s);
+            }
           }
-          a:hover{
-            color: @color3;
-            .transition(@time: 2s);
-          }
-          a:visited{
-            color:inherit;
-          }
+        }
+        p{
+          font-weight: 200;
+          font-size: 1.5em;
         }
       }
     }

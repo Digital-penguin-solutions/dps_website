@@ -69,6 +69,7 @@ $work = get_work_by_id($con, $work_id);
 <?php
 // include nav
 include "include_pages/nav.php";
+include "include_pages/language.php"
 ?>
 
 <!-- Page 1 top of page -->
