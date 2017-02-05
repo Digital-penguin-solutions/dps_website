@@ -9,7 +9,7 @@
     <meta name="author" content="Digital Internet Solutions">
 
     <!--css-->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
     <!--font-->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i" rel="stylesheet">
 
