@@ -1,6 +1,7 @@
 <!--what is display on the page-->
 <!--
 <nav>
+
     <ul class="nav_button_container">
         <li>
             <a class="McButton" data="hamburger-menu">
@@ -12,7 +13,7 @@
     </ul>
     <p>MENU</p>
 
-    <!--icons top--
+    <!--icons top-->
     <div class="nav_icon_top col-md-4 col-md-offset-8">
         <a href="#">
             <img src="../img/icon/nav/social.svg" alt="icon for social media" class="nav_social">
@@ -23,7 +24,6 @@
         </a>
     </div>
 </nav>
--->
 
 <!--when nav is open this is displayes-->
 <div class="nav container_fluid">
@@ -31,11 +31,21 @@
         <div class="col-xs-12 nav">
             <div class="nav_container nav">
 
-
                 <!--logo nav-->
-                <div class="nav_logo col-xs-8 col-xs-offset-2">
+                <div class="nav_logo col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-2">
                     <a href="index">
                         <img src="img/logo/Logo-white.svg" alt="Digitalis logo">
+                    </a>
+                </div>
+
+                <!--social media and language icons-->
+                <div class="nav_open_icon_top col-md-1 col-md-offset-3">
+                    <a href="#Footer">
+                        <img src="img/icon/nav/social.svg" alt="icon for social media" class="nav_icon">
+                    </a>
+                    <a href="#">
+                        <img src="img/icon/nav/language.svg" alt="icon fro language" class="nav_icon">
+                        <p>EN</p>
                     </a>
                 </div>
 

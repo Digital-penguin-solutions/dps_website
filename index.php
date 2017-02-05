@@ -46,7 +46,7 @@
             crossorigin="anonymous"></script>
 
     <!--icon-->
-    <link rel="shortcut icon" href="/img/logo/icontop.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/logo/icontop.png" type="image/x-icon" />
 
 </head>
 <?php

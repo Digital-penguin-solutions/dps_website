@@ -1,5 +1,5 @@
 <!--fotter-->
-<footer class="container-fluid item">
+<footer class="container-fluid item" id="Footer">
     <div class="row-fluid">
         <div class="fotter-styiling col-xs-12 ">
             <a href="../Digitalis/index"><img class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1" src="img/logo/Digitalis-dark.svg" alt="Logo"></a>

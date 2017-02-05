@@ -122,7 +122,6 @@ nav{
   .nav_icon_top{
     a{
       img{
-
       }
       p{
 
@@ -131,40 +130,78 @@ nav{
   }
 }
 
-//open nav styling
+//Open nav styling
 .nav{
+  .tole;
+  border: 2vh solid @color4;
+  border-right-width: 1.5vw;
+  border-left-width: 1vw;
   background: @color1;
   z-index: 100001;
   height: 100vh;
   width: 100vw;
-  .tole;
   position: fixed;
   .nav_container{
     height: 100%;
+
+    //Top logo
     .nav_logo{
-      height: auto;
-      .center_horizontally_css;
       a{
         img{
-          height: 20vh;
+          margin-top:3vh;
+          //height:12vh;
         }
       }
     }
+    //social media icons
+    .nav_open_icon_top{
+      margin-top: 1vh;
+      display: inline;
+      a{
+        display: inline;
+        color: @color2;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 2vh;
+        img{
+          height: 3vh;
+          display: inline;
+        }
+        img:hover{
+          background: @color4;
+        }
+      }
+    }
+    //Text and liks
     .nav_ul{
       height: 100%;
       ul{
-        height: auto;
+        height: 40%;
         .center_vertically_css;
+        list-style-type: none;
         li{
-          list-style: none;
-          a{
+          display: inline;
+          a:link{
             color: @color2;
-            font-size: 8em;
+            font-size: 3em;
             font-weight: 600;
             text-align: center;
+            margin-left:2vw;
+            text-decoration: none;
+          }
+          a:hover{
+            color: @color3;
+            .transition(@time: 1s);
+          }
+          a:visited{
+            color:inherit;
           }
         }
       }
     }
   }
+}
+
+@media (min-width: @screen-md-min) {
+
 }
