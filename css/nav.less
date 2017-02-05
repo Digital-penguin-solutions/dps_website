@@ -163,12 +163,15 @@ nav{
         text-decoration: none;
         font-weight: 600;
         font-size: 2vh;
-        img{
+        svg {
           height: 3vh;
           display: inline;
+          fill: @color2;
         }
-        img:hover{
+        svg :hover{
           background: @color4;
+          fill: @color1;
+          //.transition(@time: 0.5s);
         }
       }
     }
@@ -181,17 +184,16 @@ nav{
         list-style-type: none;
         li{
           display: inline;
+          text-align: center;
+          font-weight: 600;
           a:link{
             color: @color2;
             font-size: 3em;
-            font-weight: 600;
-            text-align: center;
             margin-left:2vw;
-            text-decoration: none;
           }
           a:hover{
             color: @color3;
-            .transition(@time: 1s);
+            .transition(@time: 2s);
           }
           a:visited{
             color:inherit;

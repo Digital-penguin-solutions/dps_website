@@ -2,27 +2,27 @@
 <!--
 <nav>
 
-    <ul class="nav_button_container">
-        <li>
-            <a class="McButton" data="hamburger-menu">
-                <b></b>
-                <b></b>
-                <b></b>
-            </a>
-        </li>
-    </ul>
-    <p>MENU</p>
+<ul class="nav_button_container">
+<li>
+<a class="McButton" data="hamburger-menu">
+<b></b>
+<b></b>
+<b></b>
+</a>
+</li>
+</ul>
+<p>MENU</p>
 
-    <!--icons top-->
-    <div class="nav_icon_top col-md-4 col-md-offset-8">
-        <a href="#">
-            <img src="../img/icon/nav/social.svg" alt="icon for social media" class="nav_social">
-        </a>
-        <a href="#">
-            <img src="../img/icon/nav/language.svg" alt="icon fro language" class="nav_language">
-            <p>EN</p>
-        </a>
-    </div>
+<!--icons top-->
+<div class="nav_icon_top col-md-4 col-md-offset-8">
+    <a href="#">
+        <img src="img/icon/nav/social.svg" alt="icon for social media" class="nav_social">
+    </a>
+    <a href="#">
+        <img src="img/icon/nav/language.svg" alt="icon fro language" class="nav_language">
+        <p>EN</p>
+    </a>
+</div>
 </nav>
 
 <!--when nav is open this is displayes-->
@@ -41,10 +41,10 @@
                 <!--social media and language icons-->
                 <div class="nav_open_icon_top col-md-1 col-md-offset-3">
                     <a href="#Footer">
-                        <img src="img/icon/nav/social.svg" alt="icon for social media" class="nav_icon">
+                        <i class="fa fa-camera-retro fa-2x"></i>
                     </a>
                     <a href="#">
-                        <img src="img/icon/nav/language.svg" alt="icon fro language" class="nav_icon">
+
                         <p>EN</p>
                     </a>
                 </div>
