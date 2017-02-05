@@ -1,8 +1,7 @@
 *.css
+!app.css
 .idea/
 *.db
 node_modules
 .DS_Store
-*.xml
-
 *.xml
