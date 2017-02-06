@@ -2774,8 +2774,7 @@ footer img {
 .about .about-container {
   height: 100% !important;
   width: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
+  margin-top: 8vh;
 }
 .about .about-container .about-h1 {
   color: #fe7e17;
@@ -2784,27 +2783,123 @@ footer img {
   font-weight: 600;
   text-transform: uppercase;
 }
-.about .about-container .bout-left-container {
+.about .about-container .about-left-container {
   height: 4vh;
+  padding: 0 !important;
 }
-.about .about-container .bout-left-container .about-left-text {
+.about .about-container .about-left-container .about-left-text-container-top {
+  height: 5vh;
+  margin-bottom: 4vh;
+  padding: 0 !important;
+}
+.about .about-container .about-left-container .about-left-text-container-top .about-left-bar-container-top {
+  border: #333333 2px solid;
+  height: 5vh;
+  margin-top: 2vh;
+  padding: 0 !important;
+}
+.about .about-container .about-left-container .about-left-text-container-top .about-left-lef-top img {
+  height: 4vw;
+  width: 4vw;
+}
+.about .about-container .about-left-container .about-left-text-container-top .about-left-text-top {
+  @color 1;
+  text-align: right !important;
+}
+.about .about-container .about-left-container .about-left-text-container-top .about-left-text-top h3 {
+  font-size: 2vw;
+}
+.about .about-container .about-left-container .about-left-text {
   text-align: right !important;
   color: #333333;
 }
-.about .about-container .bout-left-container .about-left-text h3 {
-  font-size: 2vw;
-  font-weight: 200;
+.about .about-container .about-left-container .about-left-text h3 {
+  font-size: 1.2vw;
+  font-weight: 300;
 }
-.about .about-container .bout-left-container .about-left-text p {
-  font-size: 1vw;
-  font-weight: 200;
+.about .about-container .about-left-container .about-left-text p {
+  color: #000000;
+  font-size: 0.7vw;
+  font-weight: 300;
 }
-.about .about-container .bout-left-container .about-left-img {
+.about .about-container .about-left-container .about-left-img {
   height: 100% !important;
 }
-.about .about-container .bout-left-container .about-left-img img {
-  width: auto;
-  height: 100%;
+.about .about-container .about-left-container .about-left-img img {
+  width: 3.2vw;
+  height: 3.2vw;
+  margin-top: 1.6vh;
+}
+.about .about-container .about-left-container .about-left-bar-container {
+  background: #333333;
+  height: 3.2vw;
+  margin-top: 1vw;
+  padding: 0 !important;
+}
+.about .about-container .about-right-container {
+  height: 4vh;
+  padding: 0 !important;
+}
+.about .about-container .about-right-container .about-right-text-container-top {
+  height: 5vh;
+  margin-bottom: 4vh;
+  padding: 0 !important;
+}
+.about .about-container .about-right-container .about-right-text-container-top .about-right-bar-container-top {
+  border: #fe7e17 2px solid;
+  height: 5vh;
+  margin-top: 2vh;
+  padding: 0 !important;
+}
+.about .about-container .about-right-container .about-right-text-container-top .about-right-img-top img {
+  height: 4vw;
+  width: 4vw;
+}
+.about .about-container .about-right-container .about-right-text-container-top .about-right-text-top {
+  color: #fe7e17;
+  text-align: right !important;
+}
+.about .about-container .about-right-container .about-right-text-container-top .about-right-text-top h3 {
+  font-size: 2vw;
+}
+.about .about-container .about-right-container .about-right-text {
+  text-align: left !important;
+  color: #fe7e17;
+}
+.about .about-container .about-right-container .about-right-text h3 {
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+.about .about-container .about-right-container .about-right-text p {
+  color: #000000;
+  font-size: 0.7vw;
+  font-weight: 300;
+}
+.about .about-container .about-right-container .about-right-img {
+  height: 100% !important;
+}
+.about .about-container .about-right-container .about-right-img img {
+  width: 3.2vw;
+  height: 3.2vw;
+  margin-top: 1.6vh;
+}
+.about .about-container .about-right-container .about-right-bar-container {
+  background: #fe7e17;
+  height: 3.2vw;
+  margin-top: 1vw;
+}
+.about .about-container .about_read_more {
+  position: absolute;
+  top: 85vh;
+  left: 37vw;
+  height: 5vh;
+  width: 10vw;
+  background: #000;
+}
+.about .about-container .about_read_more a {
+  color: #fe7e17;
+  text-align: center;
+  text-decoration: none;
 }
 .work-h2 {
   font-weight: 300;

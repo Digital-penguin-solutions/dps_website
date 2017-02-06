@@ -21,7 +21,8 @@
 
   .about-container{
     .full_size;
-    .nopm;
+    //.nopm;
+    margin-top:8vh;
     .about-h1{
       color: @color1;
       text-align: center;
@@ -30,56 +31,168 @@
       text-transform: uppercase;
     }
     //left container
-    .bout-left-container{
+    .about-left-container{
       height: 4vh;
+      padding: 0 !important;
+      .about-left-text-container-top{
+        height:5vh;
+        margin-bottom:4vh;
+        padding: 0 !important;
+        .about-left-bar-container-top{
+          border: @color2 2px solid;
+          height:5vh;
+          margin-top:2vh;
+          padding: 0 !important;
+        }
+        .about-left-lef-top{
+          img{
+            height: 4vw;
+            width: 4vw;
+          }
+        }
+        .about-left-text-top{
+          @color1;
+          text-align: right !important;
+          h3{
+            font-size: 2vw;
+          }
+        }
+      }
+
       .about-left-text{
         text-align: right !important;
         color: @color2;
         h3{
-          font-size: 2vw;
-          font-weight:200;
+          font-size: 1.2vw;
+          font-weight:300;
         }
         p{
-          font-size:1vw;
-          font-weight:200;
+          color: @color4;
+          font-size:0.7vw;
+          font-weight:300;
         }
       }
       .about-left-img{
         .fullh;
         img{
-          width: auto;
-          height: 100%;
-
+          width: 3.2vw;
+          height: 3.2vw;
+          margin-top:1.6vh;
         }
       }
       .about-left-bar-container{
-        .about-hate{
+        background: @color2;
+        height:3.2vw;
+        margin-top:1vw;
+        padding: 0 !important;
+        .about-speed{
 
         }
-        .about-speed{
+        .about-work{
+
+        }
+        .about-wordpress{
+
+        }
+        .about-rush{
+
+        }
+        .about-uncertainty{
+
+        }
+        .about-font{
 
         }
       }
     }
 
-    //right container
-    .bout-right-container{
-      .about-right-text{
-        h3{
+    //left container
+    .about-right-container{
+      height: 4vh;
+      padding: 0 !important;
+      .about-right-text-container-top{
+        height:5vh;
+        margin-bottom:4vh;
+        padding: 0 !important;
+        .about-right-bar-container-top{
+          border: @color1 2px solid;
+          height:5vh;
+          margin-top:2vh;
+          padding: 0 !important;
+        }
+        .about-right-img-top{
+          img{
+            height: 4vw;
+            width: 4vw;
+          }
+        }
+        .about-right-text-top{
+          color:@color1;
+          text-align: right !important;
+          h3{
+            font-size: 2vw;
+          }
+        }
+      }
 
+      .about-right-text{
+        text-align: left !important;
+        color: @color1;
+        h3{
+          font-size: 1.2vw;
+          font-weight:300;
         }
         p{
-
+          color: @color4;
+          font-size:0.7vw;
+          font-weight:300;
         }
       }
       .about-right-img{
-
+        .fullh;
+        img{
+          width: 3.2vw;
+          height: 3.2vw;
+          margin-top:1.6vh;
+        }
       }
       .about-right-bar-container{
-        .about-hate{
+        background: @color1;
+        height:3.2vw;
+        margin-top:1vw;
+        .about-Friends{
 
         }
-        .about-speed{
+        .about-Data{
+
+        }
+        .about-code{
+
+        }
+        .about-Mathe{
+
+        }
+        .about-Functionality{
+
+        }
+        .about-Graceful{
+
+        }
+      }
+    }
+
+    .about_read_more{
+      position: absolute;
+      top:85vh;
+      left: 37vw;
+      height: 5vh;
+      width: 10vw;
+      background: #000;
+      a{
+        color: @color1;
+        text-align: center;
+        text-decoration: none;
+        &:hover{
 
         }
       }
