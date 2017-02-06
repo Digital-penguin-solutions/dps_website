@@ -113,7 +113,7 @@ foreach ($work as $work_id){
 
 
 <?php
-//include "about_old.php";
+include "about_old.php";
 include "about.php";
 ?>
 
