@@ -4,56 +4,64 @@
   .nopm;
   .tole;
   height: 100vh;
-  background: @color1;
+  background: @color3;
   z-index: 3;
   position: relative;
   .about_container {
-    .full_size;
+    .nopm;
     .about_left {
+      height: 75vh;
       .about_left_container{
         .about_left_text_img_container{
+          display: block;
 
-          .about_right_hate{
+          .about_left_hate{
+            padding: 0 !important;
+            //display: inline-flex;
             display: inline;
             height: 8vh;
-            width: 100%;
-            .about_left_text_container {
+            margin:4vh 0 0 0 !important;
+            .about_left_hate_text_container {
+              color: @color2;
               display: block;
-              .full_size;
               h1 {
-
-              }
-              p {
-
+                font-weight: 300;
+                font-size: 2.5em;
               }
             }
             img{
-              height: 100%;
+              margin-top:1vh;
+              margin-left:0 !important;
               width: auto;
+              height: 100%;
+              display: inline;
             }
             .about_left_bar_1{
-              background: @color2;
-              height: 2vh;
             }
           }
 
           .about_left{
+            display: inline;
+            height: 8vh;
+            margin:0 0 5vh 0 !important;
+            padding: 0 !important;
             .about_left_text_container {
-              color: @color3;
+              color: @color2;
               display: block;
               h1 {
-                font-weight: 500;
-                font-size: 3em;
+                font-weight: 300;
+                font-size: 2.5em;
               }
               p {
-                font-weight: 200;
-                font-size: 1em;
-
+                font-weight: 300;
+                font-size: 1.5em;
+                margin-bottom:1vh;
               }
             }
             img{
-              width: 1vw;
-              height: auto;
+              margin-top:3vh;
+              width: auto;
+              height:100%;
 
             }
             .about_left_bar_1{

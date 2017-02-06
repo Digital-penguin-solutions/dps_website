@@ -32,6 +32,7 @@
     <script src="js/scripts.js"></script>
     <!-- Smooth scoll-->
     <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
     <!--Fade in-->
     <script src="js/fade.in.js"></script>
     <!--slide in-->
