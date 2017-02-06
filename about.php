@@ -1,5 +1,5 @@
 <!-- About -->
-<section class="container-fluid about item" id="indexp4">
+<section class="container-fluid about item" id="about_page">
     <div class="about-devider"></div>
     <div class="row-fluid">
         <div class="col-lg-10 col-lg-offset-1 col-xs-12">
@@ -7,7 +7,6 @@
                 <h1 class="about-h1">About us</h1>
                 <!--Left side-->
                 <div class="col-xs-6 about-left-container nopm">
-
                     <!--what we hate-->
                     <div class="col-xs-12 about-left-text-container-top">
 
@@ -115,11 +114,9 @@
                             <div class="about-Font"></div>
                         </div>
                     </div>
-
                 </div>
                 <!--Right side-->
                 <div class="col-xs-6 about-right-container">
-
                     <!--what we love-->
                     <div class="col-xs-12 about-right-text-container-top">
                         <!--bar container-->
@@ -218,11 +215,10 @@
                             <p>A graceful website can most appreciate</p>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="about_read_more">
-                    <a href="#">Read more about uss</a>
+                    <a href="about_us">Read more about uss</a>
                 </div>
             </div>
         </div>
