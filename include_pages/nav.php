@@ -38,10 +38,10 @@
                 <!--nav lik-->
                 <div class="nav_ul col-xs-8 col-xs-offset-2">
                     <ul>
-                        <li><a href="index">Home</a></li>
-                        <li><a href="index">Latest work</a></li>
-                        <li><a href="index">About us</a></li>
-                        <li><a href="index">Services</a></li>
+                        <li><a href="index#">Home</a></li>
+                        <li><a href="index#">Latest work</a></li>
+                        <li><a href="index#">About us</a></li>
+                        <li><a href="index#">Services</a></li>
                         <li><a href="contact">Contact us</a></li>
                     </ul>
                 </div>

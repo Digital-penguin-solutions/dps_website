@@ -2835,10 +2835,30 @@ footer img {
   height: 3.2vw;
   margin-top: 1vw;
   padding: 0 !important;
+  width: auto;
+}
+.about .about-container .about-left-container .about-left-bar-container .about-speed {
+  width: 5vw;
+}
+.about .about-container .about-left-container .about-left-bar-container .about-work {
+  width: 5vw;
+}
+.about .about-container .about-left-container .about-left-bar-container .about-wordpress {
+  width: 5vw;
+}
+.about .about-container .about-left-container .about-left-bar-container .about-rush {
+  width: 5vw;
+}
+.about .about-container .about-left-container .about-left-bar-container .about-Uncertainty {
+  width: 5vw;
+}
+.about .about-container .about-left-container .about-left-bar-container .about-Font {
+  width: 5vw;
 }
 .about .about-container .about-right-container {
   height: 4vh;
   padding: 0 !important;
+  float: right;
 }
 .about .about-container .about-right-container .about-right-text-container-top {
   height: 5vh;
@@ -2857,7 +2877,7 @@ footer img {
 }
 .about .about-container .about-right-container .about-right-text-container-top .about-right-text-top {
   color: #fe7e17;
-  text-align: right !important;
+  text-align: left !important;
 }
 .about .about-container .about-right-container .about-right-text-container-top .about-right-text-top h3 {
   font-size: 2vw;
@@ -2887,6 +2907,24 @@ footer img {
   background: #fe7e17;
   height: 3.2vw;
   margin-top: 1vw;
+}
+.about .about-container .about-right-container .about-right-bar-container .about-Friends {
+  width: 5vw;
+}
+.about .about-container .about-right-container .about-right-bar-container .about-Data {
+  width: 5vw;
+}
+.about .about-container .about-right-container .about-right-bar-container .about-code {
+  width: 5vw;
+}
+.about .about-container .about-right-container .about-right-bar-container .about-Mathe {
+  width: 5vw;
+}
+.about .about-container .about-right-container .about-right-bar-container .about-Functionality {
+  width: 5vw;
+}
+.about .about-container .about-right-container .about-right-bar-container .about-Graceful {
+  width: 5vw;
 }
 .about .about-container .about_read_more {
   position: absolute;

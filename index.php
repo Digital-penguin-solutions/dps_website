@@ -114,7 +114,7 @@ foreach ($work as $work_id){
 
 
 <?php
-include "about.php";
+include "index_about.php";
 ?>
 
 <?php
