@@ -40,6 +40,33 @@
 </head>
 <body>
 
+<section class="container-fluid" id="#about_1">
+    <div class="row-fluid">
+        <div class="about_us_top">
+            <div class="about_us_container_top">
+                <div class="about_us_text_container_top">
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid" id="#about_2">
+    <div class="row-fluid">
+        <div class="about_us_2">
+            <div class="about_us_container_2">
+                <div class="about_us_text_container_2">
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 
 </body>

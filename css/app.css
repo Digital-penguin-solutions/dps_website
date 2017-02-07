@@ -2831,29 +2831,15 @@ footer img {
   margin-top: 1.6vh;
 }
 .about .about-container .about-left-container .about-left-bar-container {
-  background: #333333;
   height: 3.2vw;
   margin-top: 1vw;
   padding: 0 !important;
   width: auto;
 }
-.about .about-container .about-left-container .about-left-bar-container .about-speed {
-  width: 5vw;
-}
-.about .about-container .about-left-container .about-left-bar-container .about-work {
-  width: 5vw;
-}
-.about .about-container .about-left-container .about-left-bar-container .about-wordpress {
-  width: 5vw;
-}
-.about .about-container .about-left-container .about-left-bar-container .about-rush {
-  width: 5vw;
-}
-.about .about-container .about-left-container .about-left-bar-container .about-Uncertainty {
-  width: 5vw;
-}
-.about .about-container .about-left-container .about-left-bar-container .about-Font {
-  width: 5vw;
+.about .about-container .about-left-container .about-left-bar-container .about-bar-love {
+  background: #333333;
+  height: inherit;
+  width: auto;
 }
 .about .about-container .about-right-container {
   height: 4vh;

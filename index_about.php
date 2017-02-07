@@ -35,7 +35,7 @@
                         </div>
                         <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container">
-                            <div class="about-speed"></div>
+                            <div class="about-bar-love col-xs-12"></div>
 
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                         </div>
                         <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
-                            <div class="about-work"></div>
+                            <div class="about-bar-love col-xs-12"></div>
                         </div>
                     </div>
 
@@ -66,7 +66,7 @@
                         </div>
                         <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
-                            <div class="about-wordpress"></div>
+                            <div class="about-bar-love"></div>
                         </div>
                     </div>
 
@@ -81,7 +81,7 @@
                         </div>
                         <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
-                            <div class="about-rush"></div>
+                            <div class="about-bar-love"></div>
                         </div>
                     </div>
 
@@ -96,7 +96,7 @@
                         </div>
                         <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
-                            <div class="about-Uncertainty"></div>
+                            <div class="about-bar-love"></div>
                         </div>
                     </div>
 
@@ -111,7 +111,7 @@
                         </div>
                         <!--bar container-->
                         <div class="col-xs-6 about-left-bar-container ">
-                            <div class="about-Font"></div>
+                            <div class="about-bar-love col-xs-1"></div>
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                 </div>
 
                 <div class="about_read_more">
-                    <a href="about_us">Read more about uss</a>
+                    <a href="about">Read more about uss</a>
                 </div>
             </div>
         </div>
