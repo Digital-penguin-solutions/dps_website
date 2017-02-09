@@ -2761,13 +2761,12 @@ footer img {
   overflow: hidden;
   background: linear-gradient(#f2f2f2, #d9d9d9);
 }
-.index-about .index-about-devide {
-  height: 70vh;
-  width: 1px;
+.index-about .index-about-devider {
+  height: 65vh;
+  width: 2px;
   position: absolute;
   background: #333333;
-  top: 21vh;
-  left: 50%;
+  top: 18vh;
   z-index: 100;
   opacity: 0.5;
 }
@@ -2941,6 +2940,7 @@ footer img {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-transform: ;
 }
 .index-about form button:hover {
   background-color: transparent;

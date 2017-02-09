@@ -4,7 +4,7 @@
         <div class="col-md-10 col-md-offset-1 col-xs-12 ">
             <div class="index-about-container">
                 <!--Divider-->
-                <div class="index-about-devider"></div>
+                <div class="index-about-devider center_horizontally_css"></div>
                 <!--Heading-->
                 <h1 class="index-about-h1">about us</h1>
                 <!--content-->
