@@ -1,5 +1,6 @@
 *.css
 !app.css
+!font-awesome.css
 .idea/
 *.db
 node_modules
