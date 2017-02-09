@@ -19,8 +19,6 @@
 
     <link href="css/app.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i" rel="stylesheet">
-
     <!--======================================= JAVA SCRIPT ===========================-->
     <!--JQuery-->
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
