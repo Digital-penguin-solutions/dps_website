@@ -2561,11 +2561,12 @@ footer img {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.5);
 }
-.load {
+#load_screen {
   z-index: 10000000000;
   background: linear-gradient(#f2f2f2, #d9d9d9);
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 .loading-h1 {
   position: absolute;
@@ -3572,7 +3573,6 @@ body {
   z-index: 1;
   position: relative;
   font-family: 'Lato', sans-serif;
-  overflow: hidden;
 }
 section {
   padding: 0 !important;

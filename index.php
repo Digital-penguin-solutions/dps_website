@@ -44,6 +44,13 @@
     <!--icon-->
     <link rel="shortcut icon" href="img/logo/icontop.png" type="image/x-icon" />
 
+    <script>
+        window.addEventListener("load", function(){
+            var load_screen = document.getElementById("load_screen");
+            document.body.removeChild(load_screen);
+        });
+    </script>
+
 </head>
 <?php
 /* including the separate function file */
@@ -71,28 +78,27 @@ $work = get_work_by_id($con, $work_id);
 //include "include_pages/language.php"
 ?>
 
-<div class="load">
-<div class="loding">
+<div id="load_screen">
+    <div class="loding">
   <span>
     <span></span>
     <span></span>
     <span></span>
     <span></span>
   </span>
-    <div class="base">
-        <span></span>
-        <div class="face"></div>
+        <div class="base">
+            <span></span>
+            <div class="face"></div>
+        </div>
     </div>
+    <div class="longfazers">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <h1 class="loading-h1">Loading...</h1>
 </div>
-<div class="longfazers">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-<h1 class="loading-h1">Loading...</h1>
-</div>
-
 
 <!-- Page 1 top of page -->
 <section class="intro container-fluid item" id="indexp1">
@@ -121,7 +127,6 @@ $work = get_work_by_id($con, $work_id);
     </div>
 </section>
 
-
 <?php
 // Work page temporary
 //include "work.php";
@@ -132,7 +137,6 @@ foreach ($work as $work_id){
     echo include "work.php";
 }*/
 ?>
-
 
 <?php
 include "index_about.php";
