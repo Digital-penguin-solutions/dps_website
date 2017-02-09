@@ -2561,7 +2561,13 @@ footer img {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.5);
 }
-h1 {
+.load {
+  z-index: 10000000000;
+  background: linear-gradient(#f2f2f2, #d9d9d9);
+  height: 100vh;
+  width: 100vw;
+}
+.loading-h1 {
   position: absolute;
   font-weight: 600;
   font-size: 12px;
@@ -2575,12 +2581,12 @@ h1 {
   top: 50%;
   margin-left: -50px;
   left: 50%;
-  animation: speeder .4s linear infinite;
+  animation: speeder 0.4s linear infinite;
 }
 .loding > span {
   height: 5px;
   width: 35px;
-  background: #000;
+  background: #000000;
   position: absolute;
   top: -19px;
   left: 60px;
@@ -2591,7 +2597,7 @@ h1 {
   width: 0;
   height: 0;
   border-top: 6px solid transparent;
-  border-right: 100px solid #000;
+  border-right: 100px solid #000000;
   border-bottom: 6px solid transparent;
 }
 .base span:after {
@@ -2599,7 +2605,7 @@ h1 {
   height: 22px;
   width: 22px;
   border-radius: 50%;
-  background: #000;
+  background: #000000;
   position: absolute;
   right: -110px;
   top: -16px;
@@ -2610,7 +2616,7 @@ h1 {
   width: 0;
   height: 0;
   border-top: 0 solid transparent;
-  border-right: 55px solid #000;
+  border-right: 55px solid #000000;
   border-bottom: 16px solid transparent;
   top: -16px;
   right: -98px;
@@ -2619,7 +2625,7 @@ h1 {
   position: absolute;
   height: 12px;
   width: 20px;
-  background: #000;
+  background: #000000;
   border-radius: 20px 20px 0 0;
   transform: rotate(-40deg);
   right: -125px;
@@ -2629,7 +2635,7 @@ h1 {
   content: "";
   height: 12px;
   width: 12px;
-  background: #000;
+  background: #000000;
   right: 4px;
   top: 7px;
   position: absolute;
@@ -2643,7 +2649,7 @@ h1 {
 .loding > span > span:nth-child(4) {
   width: 30px;
   height: 1px;
-  background: #000;
+  background: #000000;
   position: absolute;
   animation: fazer1 .2s linear infinite;
 }
@@ -2741,7 +2747,7 @@ h1 {
   position: absolute;
   height: 2px;
   width: 20%;
-  background: #000;
+  background: #000000;
 }
 .longfazers span:nth-child(1) {
   top: 20%;
@@ -3538,7 +3544,7 @@ h1 {
   left: 0 !important;
   height: 100% !important;
   width: 100% !important;
-  background: #ffffff;
+  background: #000000;
   z-index: 1;
   position: relative;
 }
@@ -3550,7 +3556,7 @@ html {
   left: 0 !important;
   height: 100% !important;
   width: 100% !important;
-  background: #ffffff;
+  background: #000000;
   z-index: 1;
   position: relative;
 }
@@ -3562,12 +3568,11 @@ body {
   left: 0 !important;
   height: 100% !important;
   width: 100% !important;
-  background: #ffffff;
+  background: #000000;
   z-index: 1;
   position: relative;
   font-family: 'Lato', sans-serif;
   overflow: hidden;
-  background: #fe7e17;
 }
 section {
   padding: 0 !important;
