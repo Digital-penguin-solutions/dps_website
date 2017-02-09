@@ -37,20 +37,20 @@ footer {
 }
 
 //mid text
-.footer-mid-text {
-  a:link {
+.footer-mid-text{
+  a {
     font-size: 2em;
     text-decoration: none;
-    color: @color4;
+    color: @color2;
     text-align: center;
     margin-left: 5%;
   }
-  a:hover {
+  &:hover{
     color: @color1;
     .transition(all, 0.3s, ease-in);
   }
-  a:visited{
-    a:link;
+  &:visited{
+    color: inherit;
   }
 }
 

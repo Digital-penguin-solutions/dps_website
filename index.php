@@ -25,6 +25,8 @@
     <!--Velocity -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js" type="text/javascript"></script>
     <script src="js/jquery.color.js"></script>
+    <!--treeline bakround slider-->
+    <script src="js/backgroundslider.js"></script>
 
     <!-- JavaScript -->
     <script src="js/scripts.js"></script>
@@ -56,7 +58,7 @@
 /* including the separate function file */
 include "functions/functions.php";
 
-$con = connect();
+//$con = connect();
 
 /*
 if (isset($_GET['work_id'])) {
@@ -78,7 +80,8 @@ $work = get_work_by_id($con, $work_id);
 //include "include_pages/language.php"
 ?>
 
-<div id="load_screen">
+<!--loader-->
+<div id="load_screen" class="load_screen">
     <div class="loding">
   <span>
     <span></span>
@@ -100,15 +103,15 @@ $work = get_work_by_id($con, $work_id);
     <h1 class="loading-h1">Loading...</h1>
 </div>
 
-<!-- Page 1 top of page -->
+<!-- Img slider top -->
 <section class="intro container-fluid item" id="indexp1">
-    <div class="row-fluid">
+    <div class="row-fluid intro">
         <!--background slider -->
         <div class="background-slider col-xs-12 no_padding no_margin"></div>
         <!-- The text on the frontage -->
-        <div class="intro-text white center_css">
-            <h1>Creative design</h1>
-            <h2>The web design you deserve</h2>
+        <div class="intro-text">
+            <h1>Hello</h1>
+            <h2>We are Digitalis we are Creative, functional and alluring. </h2>
         </div>
     </div>
 </section>
