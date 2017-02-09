@@ -70,6 +70,7 @@ $work = get_work_by_id($con, $work_id);
 //include "include_pages/nav.php";
 //include "include_pages/language.php"
 ?>
+
 <div class="load">
 <div class="loding">
   <span>
@@ -89,7 +90,7 @@ $work = get_work_by_id($con, $work_id);
     <span></span>
     <span></span>
 </div>
-<h1 class="loading-h1">Redirecting</h1>
+<h1 class="loading-h1">Loading...</h1>
 </div>
 
 
