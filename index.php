@@ -71,6 +71,28 @@ $work = get_work_by_id($con, $work_id);
 //include "include_pages/language.php"
 ?>
 
+<div class="loding">
+  <span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+    <div class="base">
+        <span></span>
+        <div class="face"></div>
+    </div>
+</div>
+<div class="longfazers">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<h1>Redirecting</h1>
+
+
+
 <!-- Page 1 top of page -->
 <section class="intro container-fluid item" id="indexp1">
     <div class="row-fluid">
