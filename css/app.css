@@ -2751,7 +2751,7 @@ footer img {
   height: 100% !important;
   width: 100% !important;
 }
-.about {
+.index-about {
   padding: 0 !important;
   margin: 0 !important;
   top: 0 !important;
@@ -2761,7 +2761,7 @@ footer img {
   overflow: hidden;
   background: linear-gradient(#f2f2f2, #d9d9d9);
 }
-.about .about-devide {
+.index-about .index-about-devide {
   height: 70vh;
   width: 1px;
   position: absolute;
@@ -2771,148 +2771,148 @@ footer img {
   z-index: 100;
   opacity: 0.5;
 }
-.about .about-container {
+.index-about .index-about-container {
   height: 100% !important;
   width: 100% !important;
   margin-top: 8vh;
 }
-.about .about-container .about-h1 {
+.index-about .index-about-container .index-about-h1 {
   color: #fe7e17;
   text-align: center;
   font-size: 3.5vw;
   font-weight: 600;
   text-transform: uppercase;
 }
-.about .about-container .about-left-container {
+.index-about .index-about-container .index-about-left-container {
   height: 4vh;
   padding: 0 !important;
 }
-.about .about-container .about-left-container .about-left-text-container-top {
+.index-about .index-about-container .index-about-left-container .index-about-left-text-container-top {
   height: 5vh;
   margin-bottom: 4vh;
   padding: 0 !important;
 }
-.about .about-container .about-left-container .about-left-text-container-top .about-left-bar-container-top {
+.index-about .index-about-container .index-about-left-container .index-about-left-text-container-top .index-about-left-bar-container-top {
   border: #333333 2px solid;
   height: 5vh;
   margin-top: 2vh;
   padding: 0 !important;
 }
-.about .about-container .about-left-container .about-left-text-container-top .about-left-lef-top img {
+.index-about .index-about-container .index-about-left-container .index-about-left-text-container-top .index-about-left-lef-top img {
   height: 4vw;
   width: 4vw;
 }
-.about .about-container .about-left-container .about-left-text-container-top .about-left-text-top {
+.index-about .index-about-container .index-about-left-container .index-about-left-text-container-top .index-about-left-text-top {
   @color 1;
   text-align: right !important;
 }
-.about .about-container .about-left-container .about-left-text-container-top .about-left-text-top h3 {
+.index-about .index-about-container .index-about-left-container .index-about-left-text-container-top .index-about-left-text-top h3 {
   font-size: 2vw;
 }
-.about .about-container .about-left-container .about-left-text {
+.index-about .index-about-container .index-about-left-container .index-about-left-text {
   text-align: right !important;
   color: #333333;
 }
-.about .about-container .about-left-container .about-left-text h3 {
+.index-about .index-about-container .index-about-left-container .index-about-left-text h3 {
   font-size: 1.2vw;
   font-weight: 300;
 }
-.about .about-container .about-left-container .about-left-text p {
+.index-about .index-about-container .index-about-left-container .index-about-left-text p {
   color: #000000;
   font-size: 0.7vw;
   font-weight: 300;
 }
-.about .about-container .about-left-container .about-left-img {
+.index-about .index-about-container .index-about-left-container .index-about-left-img {
   height: 100% !important;
 }
-.about .about-container .about-left-container .about-left-img img {
+.index-about .index-about-container .index-about-left-container .index-about-left-img img {
   width: 3.2vw;
   height: 3.2vw;
   margin-top: 1.6vh;
 }
-.about .about-container .about-left-container .about-left-bar-container {
+.index-about .index-about-container .index-about-left-container .index-about-left-bar-container {
   height: 3.2vw;
   margin-top: 1vw;
   padding: 0 !important;
   width: auto;
 }
-.about .about-container .about-left-container .about-left-bar-container .about-bar-love {
+.index-about .index-about-container .index-about-left-container .index-about-left-bar-container .index-about-bar-love {
   background: #333333;
   height: inherit;
   width: auto;
 }
-.about .about-container .about-right-container {
+.index-about .index-about-container .index-about-right-container {
   height: 4vh;
   padding: 0 !important;
   float: right;
 }
-.about .about-container .about-right-container .about-right-text-container-top {
+.index-about .index-about-container .index-about-right-container .index-about-right-text-container-top {
   height: 5vh;
   margin-bottom: 4vh;
   padding: 0 !important;
 }
-.about .about-container .about-right-container .about-right-text-container-top .about-right-bar-container-top {
+.index-about .index-about-container .index-about-right-container .index-about-right-text-container-top .index-about-right-bar-container-top {
   border: #fe7e17 2px solid;
   height: 5vh;
   margin-top: 2vh;
   padding: 0 !important;
 }
-.about .about-container .about-right-container .about-right-text-container-top .about-right-img-top img {
+.index-about .index-about-container .index-about-right-container .index-about-right-text-container-top .index-about-right-img-top img {
   height: 4vw;
   width: 4vw;
 }
-.about .about-container .about-right-container .about-right-text-container-top .about-right-text-top {
+.index-about .index-about-container .index-about-right-container .index-about-right-text-container-top .index-about-right-text-top {
   color: #fe7e17;
   text-align: left !important;
 }
-.about .about-container .about-right-container .about-right-text-container-top .about-right-text-top h3 {
+.index-about .index-about-container .index-about-right-container .index-about-right-text-container-top .index-about-right-text-top h3 {
   font-size: 2vw;
 }
-.about .about-container .about-right-container .about-right-text {
+.index-about .index-about-container .index-about-right-container .index-about-right-text {
   text-align: left !important;
   color: #fe7e17;
 }
-.about .about-container .about-right-container .about-right-text h3 {
+.index-about .index-about-container .index-about-right-container .index-about-right-text h3 {
   font-size: 1.2vw;
   font-weight: 300;
 }
-.about .about-container .about-right-container .about-right-text p {
+.index-about .index-about-container .index-about-right-container .index-about-right-text p {
   color: #000000;
   font-size: 0.7vw;
   font-weight: 300;
 }
-.about .about-container .about-right-container .about-right-img {
+.index-about .index-about-container .index-about-right-container .index-about-right-img {
   height: 100% !important;
 }
-.about .about-container .about-right-container .about-right-img img {
+.index-about .index-about-container .index-about-right-container .index-about-right-img img {
   width: 3.2vw;
   height: 3.2vw;
   margin-top: 1.6vh;
 }
-.about .about-container .about-right-container .about-right-bar-container {
+.index-about .index-about-container .index-about-right-container .index-about-right-bar-container {
   background: #fe7e17;
   height: 3.2vw;
   margin-top: 1vw;
 }
-.about .about-container .about-right-container .about-right-bar-container .about-Friends {
+.index-about .index-about-container .index-about-right-container .index-about-right-bar-container .index-about-Friends {
   width: 5vw;
 }
-.about .about-container .about-right-container .about-right-bar-container .about-Data {
+.index-about .index-about-container .index-about-right-container .index-about-right-bar-container .index-about-Data {
   width: 5vw;
 }
-.about .about-container .about-right-container .about-right-bar-container .about-code {
+.index-about .index-about-container .index-about-right-container .index-about-right-bar-container .index-about-code {
   width: 5vw;
 }
-.about .about-container .about-right-container .about-right-bar-container .about-Mathe {
+.index-about .index-about-container .index-about-right-container .index-about-right-bar-container .index-about-Mathe {
   width: 5vw;
 }
-.about .about-container .about-right-container .about-right-bar-container .about-Functionality {
+.index-about .index-about-container .index-about-right-container .index-about-right-bar-container .index-about-Functionality {
   width: 5vw;
 }
-.about .about-container .about-right-container .about-right-bar-container .about-Graceful {
+.index-about .index-about-container .index-about-right-container .index-about-right-bar-container .index-about-Graceful {
   width: 5vw;
 }
-.about .about-container .about_read_more {
+.index-about .index-about-container .index-about_read_more {
   position: absolute;
   top: 85vh;
   left: 37vw;
@@ -2920,10 +2920,32 @@ footer img {
   width: 10vw;
   background: #000;
 }
-.about .about-container .about_read_more a {
+.index-about .index-about-container .index-about_read_more a {
   color: #fe7e17;
   text-align: center;
   text-decoration: none;
+}
+.index-about form button {
+  position: absolute;
+  top: 65vh;
+  display: inline;
+  font-size: 1.6em;
+  padding: 0.5vw;
+  background-color: #fe7e17;
+  color: #ffffff;
+  font-weight: 300;
+  border: 1px solid transparent;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.index-about form button:hover {
+  background-color: transparent;
+  color: #fe7e17;
+  border-color: #fe7e17;
 }
 .work-h2 {
   font-weight: 300;

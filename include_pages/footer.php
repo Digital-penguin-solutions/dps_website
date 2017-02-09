@@ -13,7 +13,7 @@
             </div>
             <div class="footer-mid-text col-md-6 col-md-offset-3 col-xs-12">
                 <a data-scroll href="../Digitalis/index#indexp3" class="col-xs-5">Latest work</a>
-                <a data-scroll href="#" class="col-xs-5">Contact us</a>
+                <a data-scroll href="contact" class="col-xs-5">Contact us</a>
                 <hr class="col-xs-11">
                 <!--social media liks-->
                 <div class="footer-social col-xs-12">

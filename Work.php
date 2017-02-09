@@ -39,7 +39,7 @@ $work_coffee = get_work_coffee_by_id($con, $work_id);
             <div class="col-xs-9 work-left-container nopm">
                 <div class="col-xs-12 nopm">
                     <a href="#">
-                        <img class="work-left-backround nopm" src="img/workbg/BG.jpg" alt="backround left side">
+                        <img class="work-left-backround nopm" src="img/workbg/bg.jpg" alt="backround left side">
                     </a>
                 </div>
             </div>

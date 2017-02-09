@@ -1,6 +1,6 @@
 @import "everything";
 
-.about{
+.index-about{
   .nopm;
   .tole;
   height: 100vh;
@@ -8,7 +8,7 @@
   overflow: hidden;
   background: linear-gradient(hsl(0, 0, 95%), hsl(0, 0, 85%));
 
-  .about-devide{
+  .index-about-devide{
     height: 70vh;
     width: 1px;
     position: absolute;
@@ -19,11 +19,11 @@
     opacity: 0.5;
   }
 
-  .about-container{
+  .index-about-container{
     .full_size;
     //.nopm;
     margin-top:8vh;
-    .about-h1{
+    .index-about-h1{
       color: @color1;
       text-align: center;
       font-size:3.5vw;
@@ -31,26 +31,26 @@
       text-transform: uppercase;
     }
     //left container
-    .about-left-container{
+    .index-about-left-container{
       height: 4vh;
       padding: 0 !important;
-      .about-left-text-container-top{
+      .index-about-left-text-container-top{
         height:5vh;
         margin-bottom:4vh;
         padding: 0 !important;
-        .about-left-bar-container-top{
+        .index-about-left-bar-container-top{
           border: @color2 2px solid;
           height:5vh;
           margin-top:2vh;
           padding: 0 !important;
         }
-        .about-left-lef-top{
+        .index-about-left-lef-top{
           img{
             height: 4vw;
             width: 4vw;
           }
         }
-        .about-left-text-top{
+        .index-about-left-text-top{
           @color1;
           text-align: right !important;
           h3{
@@ -59,7 +59,7 @@
         }
       }
 
-      .about-left-text{
+      .index-about-left-text{
         text-align: right !important;
         color: @color2;
         h3{
@@ -72,7 +72,7 @@
           font-weight:300;
         }
       }
-      .about-left-img{
+      .index-about-left-img{
         .fullh;
         img{
           width: 3.2vw;
@@ -80,12 +80,12 @@
           margin-top:1.6vh;
         }
       }
-      .about-left-bar-container{
+      .index-about-left-bar-container{
         height:3.2vw;
         margin-top:1vw;
         padding: 0 !important;
         width: auto;
-        .about-bar-love{
+        .index-about-bar-love{
           background: @color2;
           height:inherit;
           width:auto;
@@ -94,27 +94,27 @@
     }
 
     //left container
-    .about-right-container{
+    .index-about-right-container{
       height: 4vh;
       padding: 0 !important;
       float: right;;
-      .about-right-text-container-top{
+      .index-about-right-text-container-top{
         height:5vh;
         margin-bottom:4vh;
         padding: 0 !important;
-        .about-right-bar-container-top{
+        .index-about-right-bar-container-top{
           border: @color1 2px solid;
           height:5vh;
           margin-top:2vh;
           padding: 0 !important;
         }
-        .about-right-img-top{
+        .index-about-right-img-top{
           img{
             height: 4vw;
             width: 4vw;
           }
         }
-        .about-right-text-top{
+        .index-about-right-text-top{
           color:@color1;
           text-align: left !important;
           h3{
@@ -123,7 +123,7 @@
         }
       }
 
-      .about-right-text{
+      .index-about-right-text{
         text-align: left !important;
         color: @color1;
         h3{
@@ -136,7 +136,7 @@
           font-weight:300;
         }
       }
-      .about-right-img{
+      .index-about-right-img{
         .fullh;
         img{
           width: 3.2vw;
@@ -144,34 +144,34 @@
           margin-top:1.6vh;
         }
       }
-      .about-right-bar-container{
+      .index-about-right-bar-container{
         background: @color1;
         height:3.2vw;
         margin-top:1vw;
         //width:auto;
-        .about-Friends{
+        .index-about-Friends{
           width:5vw;
         }
-        .about-Data{
+        .index-about-Data{
           width:5vw;
 
         }
-        .about-code{
+        .index-about-code{
           width:5vw;
         }
-        .about-Mathe{
+        .index-about-Mathe{
           width:5vw;
         }
-        .about-Functionality{
+        .index-about-Functionality{
           width:5vw;
         }
-        .about-Graceful{
+        .index-about-Graceful{
           width:5vw;
         }
       }
     }
 
-    .about_read_more{
+    .index-about_read_more{
       position: absolute;
       top:85vh;
       left: 37vw;
@@ -186,6 +186,26 @@
 
         }
       }
+    }
+  }
+
+  form button {
+    position: absolute;
+    top: 65vh;
+    display: inline;
+    font-size: 1.6em;
+    padding:0.5vw;
+    background-color: @color1;
+    color: @color3;
+    font-weight: 300;
+    border: 1px solid transparent;
+    .border_radius(@size: 3px);
+    .transition(@time: 0.3s, @ease:ease-in-out);
+
+    &:hover {
+      background-color: transparent;
+      color: @color1;
+      border-color: @color1;
     }
   }
 }
