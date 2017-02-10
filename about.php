@@ -13,8 +13,6 @@ include "include_pages/load.php";
 
     <link href="css/app.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i" rel="stylesheet">
-
     <!--======================================= JAVA SCRIPT ===========================-->
     <!--JQuery-->
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -39,14 +37,13 @@ include "include_pages/load.php";
 
     <!--icon-->
     <link rel="shortcut icon" href="img/logo/icontop.png" type="image/x-icon" />
-
 </head>
 <body>
 <?php
 //include "include_pages/nav.php";
 ?>
 
-<!--itro-->
+<!--Intro-->
 <section class="container-fluid about_intro" id="aboute">
     <div class="row-fluid about_intro">
         <div class="col-xs-12 about_intro">
@@ -61,7 +58,7 @@ include "include_pages/load.php";
     </div>
 </section>
 
-<!--our story-->
+<!--Our story-->
 <section class="container-fluid about_text" id="#story">
     <div class="row-fluid about_text">
         <div class="about_text col-xs-12">
@@ -83,6 +80,7 @@ include "include_pages/load.php";
     </div>
 </section>
 
+<!--Slider-->
 <section class="about_slider container-fluid item">
     <div class="row-fluid about_slider">
         <!--background slider -->
@@ -90,7 +88,7 @@ include "include_pages/load.php";
     </div>
 </section>
 
-<!--what we do-->
+<!--Wat we do-->
 <section class="container-fluid about_text" id="#what">
     <div class="row-fluid about_text">
         <div class="about_text col-xs-12">
@@ -112,23 +110,23 @@ include "include_pages/load.php";
     </div>
 </section>
 
-<!--Web design-->
-<section class="about_web_expertise container-fluid">
-    <div class="row-fluid about_web_expertise">
-        <div class="about_web_expertise col-xs-12 nopm">
-            <div class="about_web_expertise_container nopm">
+<!--Front end-->
+<section class="about_expertise container-fluid" id="front-end">
+    <div class="row-fluid about_expertise">
+        <div class="about_expertise col-xs-12 nopm">
+            <div class="about_expertise_container nopm">
 
                 <!--img-->
-                <div class="about_web_expertise_left col-xs-12 col-md-6 nopm">
-                    <div class="about_web_expertise_img_container col-xs-12 nopm">
-                        <img src="img/about/web-design.jpg" alt="web design">
+                <div class="about_expertise_left col-xs-12 col-md-6 nopm">
+                    <div class="about_expertise_img_container col-xs-12 nopm">
+                        <img src="img/about/front-end.jpg" alt="web design">
                     </div>
                 </div>
 
                 <!--text-->
-                <div class="about_web_expertise_right col-xs-12 col-md-6">
-                    <div class="about_web_expertise_text_container col-xs-10 col-xs-offset-1">
-                        <h1>web design</h1>
+                <div class="about_expertise_right col-xs-12 col-md-6">
+                    <div class="about_expertise_text_container col-xs-10 col-xs-offset-1">
+                        <h1>front end</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus nibh, lobortis ac dolor sed,
                             egestas tempor erat. Phasellus ullamcorper, erat eget cursus molestie, quam ligula sollicitudin orci, </p>
                         <form action="index#work" class="col-xs-4 col-xs-offset-5">
@@ -141,6 +139,37 @@ include "include_pages/load.php";
         </div>
     </div>
 </section>
+
+<!--Back end-->
+<section class="about_expertise container-fluid" id="back-end">
+    <div class="row-fluid about_expertise">
+        <div class="about_expertise col-xs-12 nopm">
+            <div class="about_expertise_container nopm">
+
+                                <!--text-->
+                <div class="about_expertise_right col-xs-12 col-md-6">
+                    <div class="about_expertise_text_container col-xs-10 col-xs-offset-1">
+                        <h1>Back end</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus nibh, lobortis ac dolor sed,
+                            egestas tempor erat. Phasellus ullamcorper, erat eget cursus molestie, quam ligula sollicitudin orci, </p>
+                        <form action="index#work" class="col-xs-4 col-xs-offset-5">
+                            <button value="Read more about our prodjekts" type="submit" id="js-trigger-overlay">Read more</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!--img-->
+                <div class="about_expertise_left col-xs-12 col-md-6 nopm">
+                    <div class="about_expertise_img_container col-xs-12 nopm">
+                        <img src="img/about/back-end.jpg" alt="web design">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <?php
 include "include_pages/footer.php";

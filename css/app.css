@@ -2966,7 +2966,7 @@ footer img {
   -o-background-size: cover;
   background-size: cover;
 }
-.about_web_expertise {
+.about_expertise {
   -webkit-box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.2);
@@ -2975,41 +2975,41 @@ footer img {
   background: #ffffff;
   overflow: hidden;
 }
-.about_web_expertise .about_web_expertise_container {
+.about_expertise .about_expertise_container {
   height: 100%;
   padding: 0 !important;
   margin: 0 !important;
 }
-.about_web_expertise .about_web_expertise_container .about_web_expertise_left {
+.about_expertise .about_expertise_container .about_expertise_left {
   height: 100%;
   padding: 0 !important;
   margin: 0 !important;
 }
-.about_web_expertise .about_web_expertise_container .about_web_expertise_left img {
+.about_expertise .about_expertise_container .about_expertise_left img {
   width: 100%;
   height: 100%;
   z-index: 5;
 }
-.about_web_expertise .about_web_expertise_container .about_web_expertise_right {
+.about_expertise .about_expertise_container .about_expertise_right {
   height: auto;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   color: #333333;
 }
-.about_web_expertise .about_web_expertise_container .about_web_expertise_right h1 {
+.about_expertise .about_expertise_container .about_expertise_right h1 {
   font-size: 3vw;
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
 }
-.about_web_expertise .about_web_expertise_container .about_web_expertise_right p {
+.about_expertise .about_expertise_container .about_expertise_right p {
   margin-top: 2vw;
   font-size: 1vw;
   font-weight: 400;
   text-align: center;
 }
-.about_web_expertise .about_web_expertise_container .about_web_expertise_right form button {
+.about_expertise .about_expertise_container .about_expertise_right form button {
   margin-top: 1vw;
   position: absolute;
   top: 0;
@@ -3027,7 +3027,7 @@ footer img {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.about_web_expertise .about_web_expertise_container .about_web_expertise_right form button:hover {
+.about_expertise .about_expertise_container .about_expertise_right form button:hover {
   background-color: transparent;
   color: #fe7e17;
   border-color: #fe7e17;
