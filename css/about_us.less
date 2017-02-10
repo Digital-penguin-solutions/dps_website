@@ -1,28 +1,40 @@
 @import "everything";
 
 .about_intro{
+  .nopm;
   height: 100vh;
   z-index: 3;
-  background: @color1;
+  background: url("../img/about/intro.jpg") no-repeat;
+  .background();
+  overflow: hidden;
   .about_intro_container{
     .full_size;
+    .nopm;
+    //background: @color4;
     .about_intro_text{
+      height: auto;
+      .center_vertically_css;
       color: @color4;
+      text-align: center;
       h1{
+        font-weight: 600;
+        font-size: 8vw;
       }
       p{
+        font-weight: 400;
+        font-size: 1.2vw;
 
       }
     }
   }
 }
 
-.about_story{
+.about_text{
   height: 50vh;
   z-index: 3;
-  .about_story_container{
+  .about_text_container{
     .full_size;
-    .about_story_text_container{
+    .about_text_text_container{
       height: auto;
       .center_vertically_css;
       text-align: center;
