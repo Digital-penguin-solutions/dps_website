@@ -92,20 +92,6 @@ $work = get_work_by_id($con, $work_id);
     </div>
 </section>
 
-<!--what we do page-->
-<section class="expertise container-fluid" id="expertise">
-    <div class="row-fluid expertise">
-        <div class="col-xs-12 expertise">
-            <div class="expertise_container">
-                <div class="expertise_text">
-                    <h1></h1>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <?php
 // Work page temporary
 //include "work.php";

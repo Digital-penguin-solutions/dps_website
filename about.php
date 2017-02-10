@@ -112,6 +112,32 @@ include "include_pages/load.php";
     </div>
 </section>
 
+<section class="about_web_expertise container-fluid">
+    <div class="row-fluid about_web_expertise">
+        <div class="about_web_expertise col-xs-12">
+            <div class="about_web_expertise_container">
+
+                <div class="about_web_expertise_left col-xs-12 col-md-6">
+                    <div class="about_web_expertise_img_container col-xs-12">
+                        <img src="img/about/web-design.jpg" alt="web design">
+                    </div>
+                </div>
+
+                <div class="about_web_expertise_right col-xs-6">
+                    <div class="about_web_expertise_text_container">
+                        <h1>web design</h1>
+                        <p></p>
+                        <form action="index#work" class="col-xs-4 col-xs-offset-5">
+                            <button value="Read more about our prodjekts" type="submit" id="js-trigger-overlay">Read more about our projects</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php
 include "include_pages/footer.php";
 ?>

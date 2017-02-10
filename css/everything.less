@@ -28,6 +28,25 @@
   border-radius:@size;
 }
 
+.formbtn(@bgcolor:@color1,@bgcolorbh:@color1,@txcolor:@color3,@txcolorh:@color1,@fsize:1.6em,@top:0){
+  position: absolute;
+  top: @top;
+  display: inline;
+  font-size: @fsize;
+  padding:0.5vw;
+  background-color: @bgcolor;
+  color: @txcolor;
+  font-weight: 300;
+  border: 1px solid transparent;
+  .border_radius(@size: 3px);
+  .transition(@time:0.3s, @ease:ease-in-out);
+  &:hover{
+    background-color: transparent;
+    color: @txcolorh;
+    border-color: @bgcolorbh;
+  }
+}
+
 //wrapper styling
 .wrapper {
   .nopm;
