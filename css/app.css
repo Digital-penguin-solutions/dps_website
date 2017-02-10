@@ -2903,6 +2903,7 @@ footer img {
   width: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
+  background: rgba(254, 126, 23, 0.6);
 }
 .about_intro .about_intro_container .about_intro_text {
   height: auto;
