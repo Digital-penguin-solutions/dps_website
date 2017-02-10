@@ -2887,6 +2887,9 @@ footer img {
   }
 }
 .about_intro {
+  -webkit-box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.2);
   padding: 0 !important;
   margin: 0 !important;
   height: 100vh;
@@ -2950,6 +2953,9 @@ footer img {
   font-size: 1vw;
 }
 .about_slider {
+  -webkit-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.2);
   display: table;
   width: 100vw;
   height: 100vh;
@@ -2961,9 +2967,12 @@ footer img {
   background-size: cover;
 }
 .about_web_expertise {
+  -webkit-box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.2);
   height: 100vh;
   z-index: 3;
-  background: #000000;
+  background: #ffffff;
   overflow: hidden;
 }
 .about_web_expertise .about_web_expertise_container {
@@ -2986,17 +2995,22 @@ footer img {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  color: #fe7e17;
+  color: #333333;
 }
 .about_web_expertise .about_web_expertise_container .about_web_expertise_right h1 {
   font-size: 3vw;
-  font-weight: 600;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
 }
 .about_web_expertise .about_web_expertise_container .about_web_expertise_right p {
+  margin-top: 2vw;
   font-size: 1vw;
   font-weight: 400;
+  text-align: center;
 }
 .about_web_expertise .about_web_expertise_container .about_web_expertise_right form button {
+  margin-top: 1vw;
   position: absolute;
   top: 0;
   display: inline;

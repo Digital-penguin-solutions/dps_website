@@ -112,23 +112,27 @@ include "include_pages/load.php";
     </div>
 </section>
 
+<!--Web design-->
 <section class="about_web_expertise container-fluid">
     <div class="row-fluid about_web_expertise">
-        <div class="about_web_expertise col-xs-12">
-            <div class="about_web_expertise_container">
+        <div class="about_web_expertise col-xs-12 nopm">
+            <div class="about_web_expertise_container nopm">
 
-                <div class="about_web_expertise_left col-xs-12 col-md-6">
-                    <div class="about_web_expertise_img_container col-xs-12">
+                <!--img-->
+                <div class="about_web_expertise_left col-xs-12 col-md-6 nopm">
+                    <div class="about_web_expertise_img_container col-xs-12 nopm">
                         <img src="img/about/web-design.jpg" alt="web design">
                     </div>
                 </div>
 
-                <div class="about_web_expertise_right col-xs-6">
-                    <div class="about_web_expertise_text_container">
+                <!--text-->
+                <div class="about_web_expertise_right col-xs-12 col-md-6">
+                    <div class="about_web_expertise_text_container col-xs-10 col-xs-offset-1">
                         <h1>web design</h1>
-                        <p></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus nibh, lobortis ac dolor sed,
+                            egestas tempor erat. Phasellus ullamcorper, erat eget cursus molestie, quam ligula sollicitudin orci, </p>
                         <form action="index#work" class="col-xs-4 col-xs-offset-5">
-                            <button value="Read more about our prodjekts" type="submit" id="js-trigger-overlay">Read more about our projects</button>
+                            <button value="Read more about our prodjekts" type="submit" id="js-trigger-overlay">Read more</button>
                         </form>
                     </div>
                 </div>

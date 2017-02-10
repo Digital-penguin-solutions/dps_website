@@ -2,6 +2,7 @@
 
 //intro
 .about_intro{
+  .top_box_shadow();
   .nopm;
   height: 100vh;
   z-index: 3;
@@ -62,6 +63,7 @@
 
 //slider section
 .about_slider {
+  .top_box_shadow(@hori: 1px);
   display: table;
   width: 100vw;
   height: 100vh;
@@ -72,9 +74,10 @@
 
 //
 .about_web_expertise{
+  .top_box_shadow();
   height:100vh;
   z-index: 3;
-  background: @color4;
+  background: @color3;
   overflow: hidden;
   .about_web_expertise_container{
     height:100%;
@@ -91,17 +94,22 @@
     .about_web_expertise_right{
       height:auto;
       .center_vertically_css;
-      color: @color1;
+      color: @color2;
       h1{
         font-size: 3vw;
-        font-weight: 600;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
       }
       p{
+        margin-top:2vw;
         font-size: 1vw;
         font-weight:400;
+        text-align: center;
       }
       form{
         button{
+          margin-top:1vw;
           .formbtn();
         }
       }
