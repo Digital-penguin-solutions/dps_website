@@ -1,3 +1,6 @@
+<?php
+include "include_pages/load.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
