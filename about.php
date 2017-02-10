@@ -83,13 +83,10 @@ include "include_pages/load.php";
     </div>
 </section>
 
-<!--img slider-->
-<section class="container-fluid about_slider">
+<section class="about_slider container-fluid item">
     <div class="row-fluid about_slider">
-        <div class="col-xs-12 about_slider">
-            <div class="background-slider">
-            </div>
-        </div>
+        <!--background slider -->
+        <div class="background-slider"></div>
     </div>
 </section>
 

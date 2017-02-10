@@ -83,7 +83,7 @@ $work = get_work_by_id($con, $work_id);
 <section class="intro container-fluid item" id="indexp1">
     <div class="row-fluid intro">
         <!--background slider -->
-        <div class="background-slider col-xs-12 no_padding no_margin"></div>
+        <div class="background-slider col-xs-12 nopm"></div>
         <!-- The text on the frontage -->
         <div class="intro-text">
             <h1>Hello</h1>

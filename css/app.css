@@ -2922,7 +2922,7 @@ footer img {
   font-size: 1.2vw;
 }
 .about_text {
-  height: 50vh;
+  height: 60vh;
   z-index: 3;
 }
 .about_text .about_text_container {
@@ -2950,14 +2950,15 @@ footer img {
   font-size: 1vw;
 }
 .about_slider {
-  background: #000000;
-  height: 100vh;
+  display: table;
   width: 100vw;
-  overflow: hidden;
-}
-.about_slider .background-slider {
-  height: 100% !important;
-  width: 100% !important;
+  height: 100vh;
+  color: #ffffff;
+  background: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .language {
   height: 100vh;
