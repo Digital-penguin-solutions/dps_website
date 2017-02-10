@@ -39,6 +39,9 @@
 
 </head>
 <body>
+<?php
+//include "include_pages/nav.php";
+?>
 
 <section class="container-fluid about_intro" id="aboute">
     <div class="row-fluid about_intro">
@@ -105,7 +108,9 @@
     </div>
 </section>
 
-
+<?php
+include "include_pages/footer.php";
+?>
 
 </body>
 </html>
