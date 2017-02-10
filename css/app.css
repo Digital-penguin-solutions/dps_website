@@ -2886,6 +2886,56 @@ footer img {
     height: 100%;
   }
 }
+.about_intro {
+  height: 100vh;
+  z-index: 3;
+  background: #fe7e17;
+}
+.about_intro .about_intro_container {
+  height: 100% !important;
+  width: 100% !important;
+}
+.about_intro .about_intro_container .about_intro_text {
+  color: #000000;
+}
+.about_story {
+  height: 50vh;
+  z-index: 3;
+}
+.about_story .about_story_container {
+  height: 100% !important;
+  width: 100% !important;
+}
+.about_story .about_story_container .about_story_text_container {
+  height: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #000000;
+}
+.about_story .about_story_container .about_story_text_container h1 {
+  font-weight: 800;
+  font-size: 3.5vw;
+  letter-spacing: 0.1vw;
+}
+.about_story .about_story_container .about_story_text_container hr {
+  width: 10vw;
+  border-top: 1px solid #000000;
+}
+.about_story .about_story_container .about_story_text_container p {
+  font-size: 1vw;
+}
+.about_slider {
+  background: #000000;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.about_slider .background-slider {
+  height: 100% !important;
+  width: 100% !important;
+}
 .language {
   height: 100vh;
   z-index: 10001;
@@ -2988,6 +3038,7 @@ footer img {
   font-weight: 800;
   font-size: 10vw;
   text-transform: uppercase;
+  color: #fe7e17 !important;
 }
 .intro .intro-text h2 {
   font-weight: 600;
@@ -3551,7 +3602,7 @@ footer img {
   left: 0 !important;
   height: 100% !important;
   width: 100% !important;
-  background: #000000;
+  background: #ffffff;
   z-index: 1;
   position: relative;
 }
@@ -3563,7 +3614,7 @@ html {
   left: 0 !important;
   height: 100% !important;
   width: 100% !important;
-  background: #000000;
+  background: #ffffff;
   z-index: 1;
   position: relative;
 }
@@ -3575,7 +3626,7 @@ body {
   left: 0 !important;
   height: 100% !important;
   width: 100% !important;
-  background: #000000;
+  background: #ffffff;
   z-index: 1;
   position: relative;
   font-family: 'Lato', sans-serif;

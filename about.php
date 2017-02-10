@@ -40,32 +40,70 @@
 </head>
 <body>
 
-<section class="container-fluid" id="#about_1">
-    <div class="row-fluid">
-        <div class="about_us_top">
-            <div class="about_us_container_top">
-                <div class="about_us_text_container_top">
-                    <h1></h1>
-                    <p></p>
+<section class="container-fluid about_intro" id="aboute">
+    <div class="row-fluid about_intro">
+        <div class="col-xs-12 about_intro">
+            <div class="about_intro_container">
+                <div class="about_intro_text">
+                    <h1>ABOUT</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscin elit. In auctor quam metus,ut condimentum enim maximusin. Aenean mi magna, fermentum at bibendum id,
+                        hendrerit quis elit. Vivamus nec urna eget eros dictum dignissim </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="container-fluid" id="#about_2">
-    <div class="row-fluid">
-        <div class="about_us_2">
-            <div class="about_us_container_2">
-                <div class="about_us_text_container_2">
-                    <h1></h1>
-                    <p></p>
+<section class="container-fluid about_story" id="#story">
+    <div class="row-fluid about_story">
+        <div class="about_story col-xs-12">
+            <div class="about_story_container">
+                <div class="about_story_text_container col-xs-6 col-xs-offset-3">
+                    <h1>OUR STORY</h1>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        In auctor quam metus, ut condimentum enim maximus in. Aenean mi magna,
+                        fermentum at bibendum id, hendrerit quis elit. Vivamus nec urna eget
+                        eros dictum dignissim.
+                        Praesent pellentesque consequat risus, quis vehicula nisi dictum id.
+                        Donec et ullamcorper purus. Pellentesque tempor scelerisque rutrum.
+                        Nullam fringilla augue sit amet scelerisque tempus. Praesent tincidunt
+                        suscipit velit. Donec dapibus lorem quis massa iaculis, </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<section class="container-fluid about_slider">
+    <div class="row-fluid about_slider">
+        <div class="col-xs-12 about_slider">
+            <div class="background-slider">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid about_story" id="#what">
+    <div class="row-fluid about_story">
+        <div class="about_story col-xs-12">
+            <div class="about_story_container">
+                <div class="about_story_text_container col-xs-6 col-xs-offset-3">
+                    <h1>WHAT WE DO</h1>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        In auctor quam metus, ut condimentum enim maximus in. Aenean mi magna,
+                        fermentum at bibendum id, hendrerit quis elit. Vivamus nec urna eget
+                        eros dictum dignissim.
+                        Praesent pellentesque consequat risus, quis vehicula nisi dictum id.
+                        Donec et ullamcorper purus. Pellentesque tempor scelerisque rutrum.
+                        Nullam fringilla augue sit amet scelerisque tempus. Praesent tincidunt
+                        suscipit velit. Donec dapibus lorem quis massa iaculis, </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

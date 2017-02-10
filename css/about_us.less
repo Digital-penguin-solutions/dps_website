@@ -1,1 +1,57 @@
 @import "everything";
+
+.about_intro{
+  height: 100vh;
+  z-index: 3;
+  background: @color1;
+  .about_intro_container{
+    .full_size;
+    .about_intro_text{
+      color: @color4;
+      h1{
+      }
+      p{
+
+      }
+    }
+  }
+}
+
+.about_story{
+  height: 50vh;
+  z-index: 3;
+  .about_story_container{
+    .full_size;
+    .about_story_text_container{
+      height: auto;
+      .center_vertically_css;
+      text-align: center;
+      color: @color4;
+      h1{
+        font-weight:800;
+        font-size: 3.5vw;
+        letter-spacing: 0.1vw;
+
+      }
+      hr{
+        width:10vw;
+        border-top: 1px solid @color4;
+
+      }
+      p{
+        font-size:1vw;
+
+      }
+    }
+  }
+}
+
+.about_slider{
+  background: @color4;
+  height:100vh;
+  width:100vw;
+  overflow: hidden;
+  .background-slider{
+    .full_size;
+  }
+}
