@@ -151,7 +151,7 @@ include "include_pages/load.php";
         <div class="about_expertise col-xs-12 nopm">
             <div class="about_expertise_container nopm">
 
-                                <!--text-->
+                <!--text-->
                 <div class="about_expertise_right col-xs-12 col-md-6">
                     <div class="about_expertise_text_container col-xs-10 col-xs-offset-1">
                         <h1>Back end</h1>
@@ -181,11 +181,108 @@ include "include_pages/load.php";
 <section class="container-fluid about_skills" id="skills">
     <div class="row-fluid about_skills">
         <div class="col-xs-12 about_skills">
-            <div class="about_skills_container">
+            <div class="about_skills_container col-xs-10 col-xs-offset-1">
 
-                <div class="about_skills_hex"></div>
-                <div class="about_skills_hex"></div>
-                <div class="about_skills_hex"></div>
+                <div class="about_skills_hex">
+                    <div class="hex-row">
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                    </div>
+                    <div class="hex-row even">
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top">
+                            </div><div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top">
+                            </div><div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top">
+                            </div><div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                    </div>
+                    <div class="hex-row">
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                    </div>
+                    <div class="hex-row even">
+                        <div class="hex">
+                            <div class="top"></div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top">
+                            </div><div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top">
+                            </div><div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <div class="hex">
+                            <div class="top">
+                            </div><div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
