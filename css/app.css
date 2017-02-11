@@ -3800,33 +3800,35 @@ section {
   transform: translateY(-50%);
 }
 .about_skills .about_skills_container .about_skills_hex {
-  float: left;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .about_skills .about_skills_container .about_skills_hex .hex {
   float: left;
-  margin-left: 3px;
-  margin-bottom: -26px;
+  margin-left: 1vw;
+  margin-bottom: -2vw;
 }
 .about_skills .about_skills_container .about_skills_hex .hex .top {
   width: 0;
-  border-bottom: 30px solid #fe7e17;
-  border-left: 52px solid transparent;
-  border-right: 52px solid transparent;
+  border-bottom: 3vw solid #fe7e17;
+  border-left: 5vw solid transparent;
+  border-right: 5vw solid transparent;
 }
 .about_skills .about_skills_container .about_skills_hex .hex .middle {
-  width: 104px;
-  height: 60px;
+  width: 10vw;
+  height: 5vw;
   background: #fe7e17;
 }
 .about_skills .about_skills_container .about_skills_hex .hex .bottom {
   width: 0;
-  border-top: 30px solid #fe7e17;
-  border-left: 52px solid transparent;
-  border-right: 52px solid transparent;
+  border-top: 3vw solid #fe7e17;
+  border-left: 5vw solid transparent;
+  border-right: 5vw solid transparent;
 }
 .about_skills .about_skills_container .about_skills_hex .hex-row {
   clear: left;
 }
 .about_skills .about_skills_container .about_skills_hex .hex-row.even {
-  margin-left: 53px;
+  margin-left: 5.5vw;
 }
