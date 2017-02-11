@@ -103,7 +103,10 @@ include "include_pages/load.php";
                         Praesent pellentesque consequat risus, quis vehicula nisi dictum id.
                         Donec et ullamcorper purus. Pellentesque tempor scelerisque rutrum.
                         Nullam fringilla augue sit amet scelerisque tempus. Praesent tincidunt
-                        suscipit velit. Donec dapibus lorem quis massa iaculis, </p>
+                        suscipit velit. Donec dapibus lorem quis massa iaculis,
+                        <a href="about#front-end">front end</a>
+                        <a href="about#back-end">back end</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -127,10 +130,12 @@ include "include_pages/load.php";
                 <div class="about_expertise_right col-xs-12 col-md-6">
                     <div class="about_expertise_text_container col-xs-10 col-xs-offset-1">
                         <h1>front end</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus nibh, lobortis ac dolor sed,
-                            egestas tempor erat. Phasellus ullamcorper, erat eget cursus molestie, quam ligula sollicitudin orci, </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus nibh, lobortis ac dolor sed,
+                            egestas tempor erat. Phasellus ullamcorper, erat eget cursus molestie, quam ligula sollicitudin orci,
+                        </p>
                         <form action="index#work" class="col-xs-4 col-xs-offset-5">
-                            <button value="Read more about our prodjekts" type="submit" id="js-trigger-overlay">Read more</button>
+                            <button value="Read more about our prodjekts" type="submit" id="js-trigger-overlay">Se what we done</button>
                         </form>
                     </div>
                 </div>
@@ -150,10 +155,13 @@ include "include_pages/load.php";
                 <div class="about_expertise_right col-xs-12 col-md-6">
                     <div class="about_expertise_text_container col-xs-10 col-xs-offset-1">
                         <h1>Back end</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus nibh, lobortis ac dolor sed,
-                            egestas tempor erat. Phasellus ullamcorper, erat eget cursus molestie, quam ligula sollicitudin orci, </p>
+                        <p>
+                            We offer a wide range of services. A website with backend development like a store or a website that you can edit text and images
+                            after the final delivery.
+
+                        </p>
                         <form action="index#work" class="col-xs-4 col-xs-offset-5">
-                            <button value="Read more about our prodjekts" type="submit" id="js-trigger-overlay">Read more</button>
+                            <button value="Read more about our prodjekts" type="submit" id="js-trigger-overlay">Se what we done</button>
                         </form>
                     </div>
                 </div>
@@ -171,9 +179,9 @@ include "include_pages/load.php";
 </section>
 
 
+
 <?php
 include "include_pages/footer.php";
 ?>
-
 </body>
 </html>

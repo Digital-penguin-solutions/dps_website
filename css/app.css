@@ -2566,7 +2566,7 @@ footer img {
   background: linear-gradient(#f2f2f2, #d9d9d9);
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .loading-h1 {
   position: absolute;
@@ -3011,6 +3011,7 @@ footer img {
 }
 .about_expertise .about_expertise_container .about_expertise_right form button {
   margin-top: 1vw;
+  margin-left: -2.5vw;
   position: absolute;
   top: 0;
   display: inline;
@@ -3701,6 +3702,7 @@ footer img {
   background: #ffffff;
   z-index: 1;
   position: relative;
+  overflow-x: hidden;
 }
 /*Styling for the entire html file*/
 html {
@@ -3713,6 +3715,7 @@ html {
   background: #ffffff;
   z-index: 1;
   position: relative;
+  overflow-x: hidden;
 }
 /*Styling for the body*/
 body {
@@ -3725,6 +3728,7 @@ body {
   background: #ffffff;
   z-index: 1;
   position: relative;
+  overflow-x: hidden;
   font-family: 'Lato', sans-serif;
 }
 section {
