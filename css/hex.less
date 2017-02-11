@@ -1,0 +1,38 @@
+@import "everything";
+
+.about_skills {
+  background: #000;
+  height: 100vh;
+  .about_skills_container {
+    height: auto;
+    .center_vertically_css;
+    display: inline-flex;
+
+    .about_skills_hex {
+      position: relative;
+      width: 200px;
+      height: 115.47px;
+      background-color: @color1;
+      margin: 0.5vw;
+
+      &:before, &:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+      }
+
+      &:before {
+        bottom: 100%;
+        border-bottom: 57.74px solid @color1;
+      }
+
+      &:after {
+        top: 100%;
+        width: 0;
+        border-top: 57.74px solid @color1;
+      }
+    }
+  }
+}
