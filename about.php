@@ -178,7 +178,19 @@ include "include_pages/load.php";
     </div>
 </section>
 
+<section class="container-fluid about_skills" id="skills">
+    <div class="row-fluid about_skills">
+        <div class="col-xs-12 about_skills">
+            <div class="about_skills_container">
 
+                <div class="about_skills_hex">
+                    <h1>lars?</h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 include "include_pages/footer.php";

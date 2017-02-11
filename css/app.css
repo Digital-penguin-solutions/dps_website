@@ -3033,6 +3033,15 @@ footer img {
   color: #fe7e17;
   border-color: #fe7e17;
 }
+.about_skills {
+  height: 100vh;
+}
+.about_skills .about_skills_container {
+  height: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .language {
   height: 100vh;
   z-index: 10001;
