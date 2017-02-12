@@ -181,104 +181,61 @@ include "include_pages/load.php";
 <section class="container-fluid about_skills" id="skills">
     <div class="row-fluid about_skills">
         <div class="col-xs-12 about_skills">
-            <div class="about_skills_container col-xs-10 col-xs-offset-1">
+            <div class="about_skills_container">
 
                 <div class="about_skills_hex">
-                    <div class="hex-row">
-                        <div class="hex">
-                            <div class="top"></div>
-                            <div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top"></div>
-                            <div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top"></div>
-                            <div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top"></div>
-                            <div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top"></div>
-                            <div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                    </div>
                     <div class="hex-row even">
                         <div class="hex">
                             <div class="top"></div>
-                            <div class="middle"></div>
+                            <div class="middle">
+                                <p>LARS?</p>
+                            </div>
                             <div class="bottom"></div>
                         </div>
                         <div class="hex">
                             <div class="top">
-                            </div><div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top">
-                            </div><div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top">
-                            </div><div class="middle"></div>
+                            </div><div class="middle">
+                                <p>LARS?</p>
+                            </div>
                             <div class="bottom"></div>
                         </div>
                     </div>
                     <div class="hex-row">
                         <div class="hex">
                             <div class="top"></div>
-                            <div class="middle"></div>
+                            <div class="middle">
+                                <p>PHP</p>
+                            </div>
                             <div class="bottom"></div>
                         </div>
                         <div class="hex">
                             <div class="top"></div>
-                            <div class="middle"></div>
+                            <div class="middle">
+                                <p>HTML</p>
+                            </div>
                             <div class="bottom"></div>
                         </div>
                         <div class="hex">
                             <div class="top"></div>
-                            <div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top"></div>
-                            <div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top"></div>
-                            <div class="middle"></div>
+                            <div class="middle">
+                                <p>CSS</p>
+                            </div>
                             <div class="bottom"></div>
                         </div>
                     </div>
                     <div class="hex-row even">
                         <div class="hex">
                             <div class="top"></div>
-                            <div class="middle"></div>
+                            <div class="middle">
+                                <p>jQuery</p>
+                            </div>
                             <div class="bottom"></div>
                         </div>
                         <div class="hex">
                             <div class="top">
-                            </div><div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top">
-                            </div><div class="middle"></div>
-                            <div class="bottom"></div>
-                        </div>
-                        <div class="hex">
-                            <div class="top">
-                            </div><div class="middle"></div>
+                            </div><div class="middle">
+                                <p>LESS</p>
+                            </div>
                             <div class="bottom"></div>
                         </div>
                     </div>

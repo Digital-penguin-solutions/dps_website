@@ -3036,17 +3036,15 @@ footer img {
 .about_skills {
   height: 100vh;
   width: 100vw;
-}
-.about_skills .about_skills_container {
-  height: 100%;
-  width: 100%;
+  z-index: 3;
+  background: #333333;
+  position: relative;
 }
 .about_skills .about_skills_container .about_skills_hex {
-  height: auto;
-  position: relative;
+  position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  margin-left: 15vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .about_skills .about_skills_container .about_skills_hex .hex {
   float: left;
@@ -3063,6 +3061,13 @@ footer img {
   width: 10vw;
   height: 5vw;
   background: #fe7e17;
+}
+.about_skills .about_skills_container .about_skills_hex .hex .middle p {
+  font-weight: 600;
+  font-size: 2.5vw;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 5vw;
 }
 .about_skills .about_skills_container .about_skills_hex .hex .bottom {
   width: 0;
@@ -3640,10 +3645,10 @@ footer img {
   height: 8vh;
 }
 .work-right-container .work-nav .work-arrow-left img {
-  position: relative;
-  left: 50%;
+  position: absolute;
   top: 50%;
-  transform: translate(-50% -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 5vh;
   width: auto;
 }
@@ -3653,10 +3658,10 @@ footer img {
   height: 8vh;
 }
 .work-right-container .work-nav .work-arrow-right img {
-  position: relative;
-  left: 50%;
+  position: absolute;
   top: 50%;
-  transform: translate(-50% -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 5vh;
   width: auto;
 }
@@ -3795,18 +3800,18 @@ section {
   transform: translateX(-50%);
 }
 .center_css {
-  position: relative;
-  left: 50%;
+  position: absolute;
   top: 50%;
-  transform: translate(-50% -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.center_horizontally_css_a {
+.center_css_a {
   height: auto !important;
   width: auto !important;
-  position: relative;
-  left: 50%;
+  position: absolute;
   top: 50%;
-  transform: translate(-50% -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .nom {
   margin: 0 !important;
@@ -3831,47 +3836,4 @@ section {
 .full_size {
   height: 100% !important;
   width: 100% !important;
-}
-.about_skills {
-  height: 100vh;
-  width: 100vw;
-}
-.about_skills .about_skills_container {
-  height: 100%;
-  width: 100%;
-}
-.about_skills .about_skills_container .about_skills_hex {
-  height: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 15vw;
-}
-.about_skills .about_skills_container .about_skills_hex .hex {
-  float: left;
-  margin-left: 1vw;
-  margin-bottom: -2vw;
-}
-.about_skills .about_skills_container .about_skills_hex .hex .top {
-  width: 0;
-  border-bottom: 3vw solid #fe7e17;
-  border-left: 5vw solid transparent;
-  border-right: 5vw solid transparent;
-}
-.about_skills .about_skills_container .about_skills_hex .hex .middle {
-  width: 10vw;
-  height: 5vw;
-  background: #fe7e17;
-}
-.about_skills .about_skills_container .about_skills_hex .hex .bottom {
-  width: 0;
-  border-top: 3vw solid #fe7e17;
-  border-left: 5vw solid transparent;
-  border-right: 5vw solid transparent;
-}
-.about_skills .about_skills_container .about_skills_hex .hex-row {
-  clear: left;
-}
-.about_skills .about_skills_container .about_skills_hex .hex-row.even {
-  margin-left: 5.5vw;
 }
