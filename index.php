@@ -1,11 +1,5 @@
 <?php
-/**
- * Home page
- *
- * The main home page for our own website
- *
- * author Digitalis
- */
+//loading page
 include "include_pages/load.php";
 ?>
 <!DOCTYPE html>
@@ -46,38 +40,16 @@ include "include_pages/load.php";
 
     <!--icon-->
     <link rel="shortcut icon" href="img/logo/icontop.png" type="image/x-icon" />
-
-
-
 </head>
 <?php
-/* including the separate function file */
 include "functions/functions.php";
-
-//$con = connect();
-
-/*
-if (isset($_GET['work_id'])) {
-    $work_id = $_GET['work_id'];
-}
-else {
-    header("Location: index.php");
-}
-
-$work = get_work_by_id($con, $work_id);
-*/
 ?>
-
 <body class="wrapper col-xs-12">
-
 <?php
-// include nav
+// include nav and language page
 //include "include_pages/nav.php";
 //include "include_pages/language.php"
 ?>
-
-<!--loader-->
-
 
 <!-- Img slider top -->
 <section class="intro container-fluid item" id="indexp1">
@@ -94,20 +66,9 @@ $work = get_work_by_id($con, $work_id);
 
 <?php
 // Work page temporary
-//include "work.php";
-
-//loop out works in a slider fation
-/*
-foreach ($work as $work_id){
-    echo include "work.php";
-}*/
-?>
-
-<?php
+include "work.php";
+//about us page
 include "index_about.php";
-?>
-
-<?php
 // including the separate footer to the page
 include "include_pages/footer.php";
 ?>

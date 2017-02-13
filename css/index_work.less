@@ -30,12 +30,19 @@
 .work-left-container {
   background: @color3;
   height: @100h;
-
-  .work-left-backround {
-    .nopm;
-    height: @100h;
-    width: @100w;
-    .tole;
+  background: url("../img/work/workbg/bg.jpg") no-repeat;
+  .background(@size: cover);
+  a {
+    height: 100%;
+    width:100%;
+    .work-left-product-img {
+      .top_box_shadow(@hori: 1px,@vert: 1px);
+      height: auto;
+      width: 65vw;
+      display:block;
+      margin: 0 auto;
+      transform: translateY(50%);
+    }
   }
 }
 

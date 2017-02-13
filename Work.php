@@ -3,7 +3,7 @@
 //all variables for the wok page
 
 include "functions/functions.php";
-
+/*
 $con = connect();
 
 if (isset($_GET['work_id'])) {
@@ -27,7 +27,7 @@ $work_coffee = $work['coffee'];
 $work_bg = $work['bg'];
 $work_main_img = $work['main_image'];
 
-/*
+
 $work_tag = get_work_tag_by_id($con, $work_id);
 $work_coffee = get_work_coffee_by_id($con, $work_id);
 */
@@ -39,7 +39,7 @@ $work_coffee = get_work_coffee_by_id($con, $work_id);
             <div class="col-xs-9 work-left-container nopm">
                 <div class="col-xs-12 nopm">
                     <a href="#">
-                        <img class="work-left-backround nopm" src="img/workbg/bg.jpg" alt="backround left side">
+                        <img class="work-left-product-img" src="img/work/Klimator.png" alt="">
                     </a>
                 </div>
             </div>
@@ -50,11 +50,11 @@ $work_coffee = get_work_coffee_by_id($con, $work_id);
                 <!--navigation for projects-->
                 <div class="work-nav col-xs-12 ">
                     <div class="work-arrow-left col-xs-2 nopm">
-                        <img src="img/icon/left.svg" alt="left arow">
+                        <img src="img/icon/work/left.svg" alt="left arow">
                     </div>
                     <h1 class="col-xs-8 nopm"> Project name </h1>
                     <div class="work-arrow-right col-xs-2 nopm">
-                        <img src="img/icon/right.svg" alt="right arow">
+                        <img src="img/icon/work/right.svg" alt="right arow">
                     </div>
                 </div>
 
@@ -84,10 +84,10 @@ $work_coffee = get_work_coffee_by_id($con, $work_id);
                     <hr>
                     <?php
                     foreach ($work_coffee as $image){
-                        $image = $image['data'];
-                        ?>
-                        <img src="data:image/jpeg;base64,<?php echo base64_encode( $image); ?>" />
-                        <?php
+                    $image = $image['data'];
+                    ?>
+                    <img src="data:image/jpeg;base64,<?php echo base64_encode( $image); ?>" />
+                    <?php
                     }
                     ?><!--
 
