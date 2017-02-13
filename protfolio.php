@@ -49,29 +49,23 @@ include "functions/functions.php";
 // include nav and language page
 //include "include_pages/nav.php";
 //include "include_pages/language.php"
-
 ?>
 
-<!-- Img slider top -->
-<section class="intro container-fluid item" id="indexp1">
-    <div class="row-fluid intro">
-        <!--background slider -->
-        <div class="background-slider col-xs-12 nopm"></div>
-        <!-- The text on the frontage -->
-        <div class="intro-text">
-            <h1>Hello</h1>
-            <h2>We are Digitalis we are Creative, functional and alluring. </h2>
+<section class="portfolio_intro container-fluid">
+    <div class="row-fluid portfolio_intro">
+        <div class="col-xs-12 portfolio_intro">
+            <div class="portfolio_intro_container">
+                <div class="portfolio_intro_text">
+                    <h1>Klimator</h1>
+                    <p>Klimator was one of ouer first costumers</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 <?php
-// Work page temporary
-include "work.php";
-//about us page
-include "index_about.php";
-// including the separate footer to the page
-include "include_pages/footer.php";
+include "include_pages/footer.php"
 ?>
 </body>
 </html>
