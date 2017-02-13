@@ -3826,7 +3826,6 @@ footer img {
   margin: 0 !important;
   height: 100vh;
   z-index: 3;
-  background: url("../img/work/intro.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3837,7 +3836,6 @@ footer img {
   height: 100%;
   padding: 0 !important;
   margin: 0 !important;
-  background: ;
   background: rgba(255, 126, 23, 0.6);
 }
 .portfolio_intro .portfolio_intro_container .portfolio_intro_text {

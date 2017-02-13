@@ -50,19 +50,22 @@ include "functions/functions.php";
 //include "include_pages/nav.php";
 //include "include_pages/language.php"
 ?>
-<section class="container-fluid portfolio_intro" id="portfolio">
+<section class="container-fluid portfolio_intro" id="portfolio" style="background-image: url('img/work/intro.jpg')">
     <div class="row-fluid portfolio_intro">
         <div class="col-xs-12 portfolio_intro">
             <div class="portfolio_intro_container">
                 <div class="col-xs-4 col-xs-offset-4 portfolio_intro_text">
                     <h1>ABOUT</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscin elit. In auctor quam metus,ut condimentum enim maximusin. Aenean mi magna, fermentum at bibendum id,
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscin elit. In auctor quam metus,
+                        ut condimentum enim maximusin. Aenean mi magna, fermentum at bibendum id,
                         hendrerit quis elit. Vivamus nec urna eget eros dictum dignissim </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+section.container-fluid.>.row-fluid>.
 
 <?php
 include "include_pages/footer.php"
