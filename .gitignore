@@ -5,3 +5,4 @@
 *.db
 node_modules
 .DS_Store
+db_connect.php
