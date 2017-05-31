@@ -32,9 +32,12 @@
     <div class="row-fluid i_portfolio">
         <div class="col-xs-12 i_portfolio_container">
 
+            <?php include "views/index_portfolio.php";?>
+
         </div>
     </div>
 </section>
+
 
 <!-- About -->
 <section class="container-fluid i_about">
