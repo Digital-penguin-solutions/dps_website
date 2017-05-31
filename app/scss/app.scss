@@ -10,7 +10,9 @@
 @import "everything";
 
 //include partials
+@import "partials/bg-slider";
 @import "partials/footer";
+@import "partials/loading";
 @import "partials/nav";
 
 //import views
@@ -18,3 +20,6 @@
 
 //import pages
 @import "pages/index";
+@import "pages/portfolio";
+@import "pages/terms-and-concessions";
+@import "pages/admin";

@@ -54,3 +54,25 @@
   -ms-border-radius: $size;
   border-radius:$size;
 }
+
+@mixin btn($bg-color-befor:$color1,$text-color-befor:$color3,$bg-color-after:$color1,$text-color-after:$color3,$border-color:$color1){
+  margin: 10% auto;
+  font-size: 2vw;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: $bg-color-befor;
+  border: 1px solid transparent;
+  color: $text-color-befor;
+  font-weight: 300;
+  @include border_radius($size: 3px);
+  @include transition($time: 0.3s, $ease: ease-in-out);
+  &:hover{
+    background-color: $bg-color-after;
+    color: $text-color-after;
+    border-color: $border-color;
+  }
+}
+
+@mixin button(){
+
+}
