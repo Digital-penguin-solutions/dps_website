@@ -6,7 +6,7 @@ include "partials/head.php";
 <html lang="en">
 <head>
   <meta name="description" content="Digitalis">
-  <title>Digitalis Home</title>
+  <title>DIGITAL Penguin Solutions</title>
 </head>
 <?php
 //include "classes/functions.php";
