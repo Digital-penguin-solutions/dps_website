@@ -1,0 +1,27 @@
+// Bootstrap css
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i);
+
+// Default
+@import "mixin";
+@import "variabels";
+@import "everything";
+
+// Import views
+@import "views/skroll";
+@import "views/Slider_elements";
+
+// Import Partials
+@import "partials/bg-slider";
+@import "partials/footer";
+@import "partials/nav";
+@import "partials/loading";
+
+@import "pages/portfolio";
+
+// Index import
+@import "pages/index/i_Header";
+@import "pages/index/i_Portfolio";
+@import "pages/index/i_About";

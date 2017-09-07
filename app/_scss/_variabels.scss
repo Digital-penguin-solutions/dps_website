@@ -1,0 +1,51 @@
+// Default colors
+$color1: #fe7e17;
+$color3: #c3c3c3;
+$color4: #2b2b2b;
+$color5: #212121;
+$color6: #1e1e1e;
+
+//white and black
+$white: #ffffff;
+$black: #000000;
+
+// Font size Desktop
+$h1_desktop: 6.5vw;
+$h2_desktop: 5.5vw;
+$h3_desktop: 4.5vw;
+$h4_desktop: 3.5vw;
+$p_desktop: 2vw;
+
+// Font size Mobile
+$h1_mobile: 10.5vw;
+$h2_mobile: 7.5vw;
+$h3_mobile: 6.5vw;
+$h4_mobile: 5.5vw;
+$p_mobile: 4vw;
+
+// 0 variable
+$no: 0 !important;
+
+//size variables
+$iooh: 100vh;
+$ioow: 100vw;
+$full: 100%;
+$hap: 50%;
+
+//computer scree sises and up
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+//slide show variables
+$items: 6;
+$animation-time: 8s;
+$transition-time: 0.8s;
+$scale: 15%;
+$total-time: ($animation-time * $items);
+$scale-base-1: (1 + $scale / 100%);
+
+//nav variables
+$nav-height:  4.5vw;
+$bar-w: 10vh;
+$bar-color: $color4;

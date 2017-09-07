@@ -1,63 +1,32 @@
-<?php include "partials/head.php" ?>
+<?php include "partials/load.php"; ?>
+<?php include "partials/head.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Digitalis Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital penguin solutions Home</title>
 </head>
 
-<body class="wrapper col-xs-12" id="page-top" class="index">
-<?php include "partials/nav.php"?>
+<body class="wrapper" id="page-top" class="index">
 
-<!-- Header slider -->
-<header class="container-fluid i_header">
-    <div class="row-fluid i_header">
-        <div class="col-xs-12 i_header_container">
-            <?php include "views/index_slider.php"?>
-        </div>
-    </div>
-</header>
+<!-- Nav -->
+<?php include "partials/Nav.php"?>
 
-<!-- Skills -->
-<section class="container-fluid i_skills">
-    <div class="row-fluid i_skills">
-        <div class="col-xs-12 i_skills_container">
+<!-- Header -->
+<?php include "views/i_Header.php"?>
 
-        </div>
-    </div>
-</section>
-
-<!-- portfolio -->
-<section class="container-fluid i_portfolio">
-    <div class="row-fluid i_portfolio">
-        <div class="col-xs-12 i_portfolio_container">
-
-            <?php include "views/index_portfolio.php";?>
-
-        </div>
-    </div>
-</section>
-
+<!-- Portfolio -->
+<?php include "views/i_Portfolio.php"?>
 
 <!-- About -->
-<section class="container-fluid i_about">
-    <div class="row-fluid i_about">
-        <div class="col-xs-12 i_about_container">
+<?php include "views/i_About.php"?>
 
-        </div>
-    </div>
-</section>
+<!-- Skills -->
+<?php include "views/i_Skills.php"?>
 
-<!-- Contact -->
-<section class="container-fluid i_contact">
-    <div class="row-fluid i_contact">
-        <div class="col-xs-12 i_contact_container">
-
-        </div>
-    </div>
-</section>
-
-
+<!-- Footer -->
 <?php include "partials/footer.php" ?>
+
 </body>
 </html>

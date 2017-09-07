@@ -1,0 +1,44 @@
+@import "../../everything";
+
+.i_header {
+  @extend .full_page;
+  z-index: 100 !important;
+
+  .i_header_slider_container {
+    @extend .full_page;
+    @extend .nopm;
+
+    //Slider styling
+    .i_header_slider {
+      @extend .full_page;
+      @extend .grid;
+      z-index: 500;
+      position: absolute;
+
+      .i_header_slider_text_container {
+        grid-column: 3 / 11;
+        grid-row: 4 / 8;
+        color: white;
+        text-align: center;
+
+        button {
+          background: transparent;
+          border: solid black 0.1vw;
+          border-radius: 3%;
+          font-size: 2vw;
+          padding: 1vw;
+        }
+      }
+    }
+  }
+}
+
+// Tablet
+@media (min-width: $screen-sm-min) {
+
+}
+
+// Desktop
+@media (min-width: $screen-md-min) {
+
+}

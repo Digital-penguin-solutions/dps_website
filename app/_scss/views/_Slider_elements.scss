@@ -1,0 +1,21 @@
+@import "../everything";
+
+//Slider elements
+.Slider_elements {
+  z-index: 1000;
+  position: absolute;
+  @extend .grid;
+
+  .arrow-l {
+    grid-column: 1;
+    grid-row: 6 / span 2;
+    background-size: 100%;
+    background: url("../../img/Sliders/slider_elements/arrow-l.svg") no-repeat;
+  }
+
+  .arrow-r {
+    @extend .arrow-l;
+    grid-column: 12;
+    background: url("../../img/Sliders/slider_elements/arrow-r.svg") no-repeat;
+  }
+}

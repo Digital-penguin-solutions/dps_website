@@ -1,24 +1,18 @@
-<?php
-include "partials/load.php";
-include "partials/head.php";
-?>
+<?php include "partials/head.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta name="description" content="Digitalis">
   <title>DIGITAL Penguin Solutions</title>
 </head>
-<?php
-//include "classes/functions.php";
-?>
 <body class="wrapper col-xs-12">
-<?php
-include "partials/nav.php";
-//include "partials/language.php"
-?>
 
-<!--intro page with a picture from the website-->
-<section class="portfolio_intro container-fluid" style="background-image: url('img/work/intro.jpg')">
+<?php include "partials/Nav.php"; ?>
+
+
+
+<!--intro page with a picture from the website--
+<section class="portfolio_intro container-fluid" style="background-image: url('img/Work/intro.jpg')">
   <div class="portfolio_intro row-fluid">
     <div class="portfolio_intro col-xs-12">
       <div class="portfolio_intro_container">
@@ -26,7 +20,7 @@ include "partials/nav.php";
           <h1>KLIAMTOR</h1>
           <p>Traffic safety, Climate mapping and forecasting of road conditions</p>
 
-          <!--btn to the website-->
+          <!--btn to the website--
           <div class="portfolio_intro_btn">
             <a target="_blank" href="http://klimator.se/">Launch website</a>
           </div>
@@ -36,7 +30,7 @@ include "partials/nav.php";
   </div>
 </section>
 
-<!--first tex with short info about page and link to teri page same text as index page-->
+<!--first tex with short info about page and link to teri page same text as index page--
 <section class="portfolio_text container-fluid">
   <div class="portfolio_text row-fluid">
     <div class="portfolio_text col-xs-12">
@@ -52,18 +46,18 @@ include "partials/nav.php";
   </div>
 </section>
 
-<!--img of their website -->
+<!--img of their website --
 <section class="portfolio_small_img container-fluid" style="background: #7b1830">
   <div class="portfolio_small_img row-fluid">
     <div class="portfolio_small_img col-xs-12">
       <div class="portfolio_small_img_container">
-        <img src="img/work/small_img.jpg" alt="smal img" class="col-xs-12 col-md-10 col-md-offset-1">
+        <img src="img/Work/small_img.jpg" alt="smal img" class="col-xs-12 col-md-10 col-md-offset-1">
       </div>
     </div>
   </div>
 </section>
 
-<!--mor info about webpage-->
+<!--mor info about webb page--
 <section class="portfolio_text container-fluid">
   <div class="portfolio_text row-fluid">
     <div class="portfolio_text col-xs-12">
@@ -77,22 +71,22 @@ include "partials/nav.php";
   </div>
 </section>
 
-<!--more images of the webpage-->
+<!--more images of the webb page--
 <section class="portfolio_big_img container-fluid" style="background: #7b1830">
   <div class="portfolio_big_img row-fluid">
     <div class="portfolio_big_img col-xs-12">
       <div class="portfolio_big_img_container">
-        <img src="img/work/big1_img.jpg" alt="smal img" class="col-md-6 col-xs-12">
-        <img src="img/work/big2_img.jpg" alt="smal img" class="col-md-6 col-xs-12">
+        <img src="img/Work/big1_img.jpg" alt="smal img" class="col-md-6 col-xs-12">
+        <img src="img/Work/big2_img.jpg" alt="smal img" class="col-md-6 col-xs-12">
       </div>
     </div>
   </div>
 </section>
 
-<!--Nice img that comes frome their webpage-->
-<section class="portfolio_insp_img container-fluid" style=" background-image: url('img/work/2.jpg')"></section>
+<!--Nice img that comes frome their webpage--
+<section class="portfolio_insp_img container-fluid" style=" background-image: url('img/Work/2.jpg')"></section>
 
-<!--mobil text-->
+<!--mobil text--
 <section class="portfolio_text container-fluid">
   <div class="portfolio_text row-fluid">
     <div class="portfolio_text col-xs-12">
@@ -107,18 +101,18 @@ include "partials/nav.php";
   </div>
 </section>
 
-<!--tablet img-->
+<!--tablet img--
 <section class="portfolio_tablet container-fluid" style="background: #7b1830">
   <div class="portfolio_tablet row-fluid">
     <div class="portfolio_tablet col-xs-12">
       <div class="portfolio_tablet_container">
-        <img src="img/work/tablet.jpg" alt="Tablet and mobil image of klimator">
+        <img src="img/Work/tablet.jpg" alt="Tablet and mobil image of klimator">
       </div>
     </div>
   </div>
 </section>
 
-<!--Technical info about project-->
+<!--Technical info about project--
 <section class="portfolio_info container-fluid">
   <div class="portfolio_info row-fluid">
     <div class="portfolio_info col-xs-12">
@@ -153,11 +147,8 @@ include "partials/nav.php";
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
-<?php
-//include footer
-include "partials/footer.php"
-?>
+<?php include "partials/footer.php"; ?>
 </body>
 </html>

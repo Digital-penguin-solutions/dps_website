@@ -1,0 +1,39 @@
+@import "../../everything";
+
+.i_About{
+  height: 100vh;
+  background: $white;
+  @extend .grid;
+
+  .i_About_left{
+    grid-area: 1 / 1 / 13 / 7;
+    @extend .grid;
+
+    .i_About_Love{
+      grid-area: 1 / 2 / 2 / 13;
+      display: inline-flex;
+      background: #000;
+
+      img{
+        width: 6vw;
+        margin-right:1vw;
+      }
+
+      h3{
+        font-size:2vw;
+        text-align: center;
+      }
+
+      .i_About_Love_bar{
+        margin-left:1vw;
+        background: $color1;
+      }
+    }
+
+  }
+
+  .i_About_right{
+    grid-area: 1 / 7 / 13 / 13;
+    background:red;
+  }
+}
