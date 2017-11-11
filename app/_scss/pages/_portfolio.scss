@@ -1,212 +1,240 @@
 @import "../everything";
+@import "index/i_Portfolio";
 
+//Text size
+.p_intro_text_container{
+  text-align: center;
 
+  h1{
+    font-size:8vw;
+    font-weight: 600;
+  }
+  h4{
+    font-size:5vw;
+    font-weight:400;
+  }
+}
 
-//protfolio old code
-/*
-//intro styling
-.portfolio_intro {
+//intro
+.p_intro{
   height: 100vh;
-  z-index: 3;
-  background: no-repeat fixed;
-  background-size: 100vh 100vw;
-  @extend .nopm;
-
-  .portfolio_intro_container {
-    position: absolute;
-    background: rgba(0,0,0,0.3);
-    height: 100vh;
-    width: 100vw;
-    @extend .nopm;
-    @extend .tole;
-
-    .portfolio_intro_container_container {
+  width:100vw;
+  .p_intro_container{
+    grid-column: 1/ span 12;
+    grid-row: 1/ span 12;
+    .p_intro_bg{
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      background-size: 100vw 100vh;
+      background-repeat: no-repeat;
+      z-index: 2 !important;
+    }
+    .p_intro_text_container{
+      position: absolute;
       @include vertical-align();
-      text-align: center;
-      color: $color3;
-      margin-top:3vh;
-
-      h1 {
-        font-size: 10vw;
-        font-weight: 600;
-        text-transform: uppercase;
-      }
-
-      p {
-        font-size: 4vw;
-        font-weight: 400;
-      }
-
-      .portfolio_intro_btn{
-        @include horizontal-align();
-        margin-left:-1vw;
-        top:20vh;
-        text-decoration: none;
-        background: $color1;
-        width: 8vw;
-        height: 4.5vw;
-        border: 1px $color1 solid;
-        border-radius: 5%;
-
-        a{
-          font-size: 1.5vw;
-          color: $color3;
-          text-decoration: none;
-        }
-        &:hover{
-          background: transparent;
-          @include transition($time:0.3s);
-        }
-      }
+      z-index: 5 !important;
+      color: white;
     }
   }
 }
 
-//text pages styling
-.portfolio_text{
-  height: 50vh;
-  background: $color3;
-  .portfolio_text_container{
-    height: auto;
-    @extend .center_vertically_css;
+//info styling
+.p_info{
+  display: block !important;
+  width:100vw;
+  background: white;
+  text-align: center;
+
+  .p_info_container{
+    padding-top:10vh;
+    padding-bottom:10vh;
+    width:100vw;
     text-align: center;
     color: $color4;
 
-    h1{
-      text-transform: uppercase;
-      font-size: 5.5vw;
-      font-weight: 400;
+    h2{
+      font-size:5vw;
+      font-weight:400;
     }
-
     p{
-      font-size: 3.5vw;
-      font-weight: 200;
+      font-size:2.5vw;
+      font-weight:200;
+    }
+  }
+}
 
-      a{
-        text-decoration: none;
-        color: $color1;
-        &:hover{
-          color: $color4;
-        }
-        &:visited{
-          color: inherit;
-        }
+.p_info_img_2{
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  .p_info_img_2_container{
+    background: $color6;
+    width: 100vw;
+    height: 100vh;
+    @extend .grid;
+    img{
+      grid-area: 2 / 2 / 12 / 12;
+      width: 100%;
+      height: 100%;
+
+    }
+  }
+}
+
+//image
+.p_info_img{
+  display: block;
+  height: 150vh;
+  width: 100vw;
+  padding-top:25vh !important;
+  padding-bottom:25vh !important;
+
+  .p_info_img_container{
+    @extend .grid;
+    width: 100vw;
+    height: 100vh;
+
+    img{
+      height: 100%;
+      width: 100%;
+
+      &:first-child{
+        grid-area: 1 / 1 / 13 / 7;
+      }
+      &:last-child{
+        grid-area: 1 / 7 / 13 / 13;
       }
     }
   }
 }
 
-//first image of the page
-.portfolio_small_img{
-  @extend .nopm;
-  height: 100vh;
-
-  .portfolio_small_img_container{
-    @extend .nopm;
-    height: 100vh;
+//tablet and mobil info
+.p_tablet{
+  display: block;
+  background: white;
+  width: 100vw;
+  .p_tablet_container{
     width: 100vw;
+    text-align: center;
+    color: $color4;
+    background: white;
+    padding-bottom:10vh;
 
     img{
-      margin-top:50vw;
-    }
-  }
-}
-
-//image of web page
-.portfolio_big_img{
-  min-height: 100vh;
-  background: $color3;
-
-  .portfolio_big_img_container{
-    height: 100%;
-
-    img{
-      margin-top:12vw;
-      height: 80vh;
-      padding-bottom: 10vh;
-    }
-  }
-}
-
-//image from page
-.portfolio_insp_img{
-  height: 100vh;
-  background:no-repeat fixed;
-  background-size: cover;
-  @extend .nopm;
-}
-
-//how the tablet lock on tablet
-.portfolio_tablet{
-  height: 100vh;
-  @extend .nopm;
-  .portfolio_tablet_container{
-    height: 100%;
-    @extend .nopm;
-    img{
-      @extend .nopm;
       height: 100vh;
       width: 100vw;
     }
+
+    h2{
+      padding-top:10vh;
+      font-size:5vw;
+      font-weight:400;
+    }
+    p{
+      font-size:2.5vw;
+      font-weight:200;
+    }
   }
 }
 
-//short description styling
-.portfolio_info{
-  background: $color4;
-  color: $white;
-  padding-bottom: 5vh;
-  padding-top:2vh;
-  .portfolio_info_container{
+//details
+.p_details {
+  display: block;
+  width:100vw;
+  .p_details_container {
+    @extend .grid;
+    background: $color5;
+    color: $white;
+    min-height: 80vh;
+    width: 100vw;
 
-    h1{
-      margin-top:5vh;
+    h3{
+      grid-column: 5 /span 4;
+      grid-row: 2 / span 2;
       text-align: center;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-size: 8vw;
     }
 
-    .portfolio_info_info{
-      margin-top: 5vh;
+    .i_Portfolio_Date {
+      grid-column: 1 / span 3;
+      grid-row: 5 / span 5;
+      text-align: center;
 
-      h2{
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 5vw;
-        font-weight: 400;
+      h4 {
+        font-size: 2vw;
       }
 
-      hr{
-        width: 80%;
+      hr {
+        width: 70%;
+
       }
 
-      p{
-        text-align: center;
-        font-size: 4vw;
-        font-weight: 600;
+      p {
+        font-size: 1.6vw;
+        font-weight: 300;
       }
+    }
 
-      ul{
+    .i_Portfolio_Lines{
+      grid-column: 4 / span 3;
+      @extend .i_Portfolio_Date;
+    }
+
+    .i_Portfolio_Coffee{
+      grid-column: 7 / span 3;
+      @extend .i_Portfolio_Date;
+
+      img {
+        text-align: left;
+        width: 2vw;
+        display: inline;
+        margin: 1vw;
+      }
+    }
+
+    .i_Portfolio_Tags{
+      grid-column: 10 / span 3;
+      @extend .i_Portfolio_Date;
+      width: 80%;
+
+      ul {
+        text-align: left;
+        color: $white;
         display: block;
         list-style-type: disc;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
+        -webkit-margin-before: 1vw;
+        -webkit-margin-after: 1vw;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
         -webkit-padding-start: 40px;
 
-        li{
+        li {
           list-style: none;
           display: inline-block;
           border: 1px solid $color1;
           padding: 2pt 3pt;
           margin: 0 4pt 3pt 0;
           border-radius: 3pt;
-          background: rgba(254, 126, 23, .298039);
-          font-size: 10pt;
+          background: rgba($color1, .298039);
+          font-size: 1.5vw;
         }
       }
     }
+
+    button{
+      grid-column: 6 / span 2;
+      grid-row: 11 / span 1;
+      background: transparent;
+      border: solid 1px $color1;
+      color: $color1;
+      font-size:1.3vw;
+      border-radius: 2%;
+
+      &:hover{
+        background: rgba($color1, 0.7);
+        color: $white;
+        border: transparent;
+      }
+    }
   }
-}*/
+}

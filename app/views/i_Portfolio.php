@@ -53,6 +53,7 @@
             <li>JS</li>
             <li>PS</li>
             <li>Ai</li>
+            <li>scss</li>
           </ul>
         </div>
 

@@ -105,14 +105,15 @@ g.task('imgmin', function () {
 
 // watch for file changes and performs the different tasks
 g.task('dev-watch', function () {
-  g.watch('app/js/**/*.js',         ['concat-js-app','concat-js-third-party']);
-  g.watch('app/_scss/**/*',         ['prefix']);
+  g.watch('app/js/third_party/**/*.js', ['concat-js-third-party']);
+  g.watch('app/js/app/**/*.js',         ['concat-js-app']);
+  g.watch('app/_scss/**/*',             ['prefix']);
 });
 
 //connect to a php server and live update when changes are made
 g.task('connect-php', function () {
   connect.server({
-    port: 8078,
+    port: 8080,
     base: 'app',
     open: false
   });
@@ -122,7 +123,7 @@ g.task('connect-php', function () {
 
   browserSync({
     notify: false,
-    port  : 8078,
+    port  : 8080,
     server: {
       baseDir   : ['app'],
       middleware: function (req, res, next) {
