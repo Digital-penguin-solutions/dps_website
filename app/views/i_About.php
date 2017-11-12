@@ -6,20 +6,6 @@
     <div class="i_About_left">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            viewBox="0 0 960 872" style="enable-background:new 0 0 960 872;" xml:space="preserve">
-<style type="text/css">
-  .st0{fill:#FE7E17;}
-  .st1{fill:#333333;}
-  .st2{font-weight:600;}
-  .st3{font-size:3vw;}
-  .st4{font-weight:400;}
-  .st5{font-size:2.5vw;}
-  .st6{font-weight:200;}
-  .st7{font-size:1.3vw;}
-  .st8{stroke:#FFFFFF;stroke-miterlimit:10;}
-  .st9{font-weight:200;}
-  .st10{fill:none;stroke:#000000;stroke-width:8;stroke-linecap:square;stroke-miterlimit:10;}
-  .st11{fill:#010101;}
-</style>
         <rect x="480" y="0" class="st0" width="480" height="119"/>
         <path class="st0" d="M431.3,13c-8.5,0-16.1,4.6-20.8,11.9c-4.7-7.2-12.3-11.9-20.8-11.9c-14.7,0-26.5,12.9-26.5,28.9
 	c0,22.7,47.3,64.1,47.3,64.1s47.3-41.3,47.3-64.1C457.8,25.9,446,13,431.3,13z"/>
@@ -188,19 +174,6 @@
     <div class="i_About_right">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            viewBox="0 0 960 872" style="enable-background:new 0 0 960 872;" xml:space="preserve">
-<style type="text/css">
-  .st12{fill:#333333;}
-  .st13{font-weight:600;}
-  .st14{font-size:3vw;}
-  .st15{font-weight:400;}
-  .st16{font-size:2.5vw;}
-  .st17{font-weight:200;}
-  .st18{font-size:1.3vw;}
-  .st19{font-weight:200;}
-  .st20{fill:#000000;}
-  .st21{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-  .st10{stroke-miterlimit:10;}
-</style>
         <rect y="0" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 493.3616 119)" class="st12" width="493.4" height="119"/>
         <text transform="matrix(0.9534 0 0 1 637.2012 67.9204)" class="st13 st14">What we hate</text>
         <rect y="788.3" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 71.9486 1660.3232)" class="st12" width="71.9" height="83.7"/>
