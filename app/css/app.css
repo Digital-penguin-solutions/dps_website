@@ -2199,15 +2199,18 @@ p {
 
 .i_About {
   display: block;
-  background: white; }
+  background: white;
+  height: 110vh;
+  background: #e6e6e6; }
+  .i_About h2 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center; }
   .i_About .i_About_container {
     height: 100vh;
-    width: 100vw;
-    background: #e6e6e6; }
+    width: 100vw; }
     .i_About .i_About_container .i_About_left {
       grid-area: 1 / 1 / 14 / 7; }
-      .i_About .i_About_container .i_About_left svg {
-        font-family: 'Lato', sans-serif; }
     .i_About .i_About_container .i_About_right {
       grid-area: 1 / 7 / 14 / 14; }
 

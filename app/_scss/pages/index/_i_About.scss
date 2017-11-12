@@ -3,24 +3,26 @@
 .i_About {
   display: block;
   background: white;
+  height: 110vh;
+  background: darken($white, 10%);
+  h2{
+    padding-top:5vh;
+    padding-bottom:5vh;
+    text-align: center;
+  }
 
   .i_About_container{
     height: 100vh;
     width: 100vw;
     @extend .grid;
-    background: darken($white, 10%);
+
 
     .i_About_left{
       grid-area: 1 / 1 / 14 / 7;
-      svg{
-        font-family: 'Lato', sans-serif;
-      }
-
     }
 
     .i_About_right{
       grid-area: 1 / 7 / 14 / 14;
     }
-
   }
 }
