@@ -29,12 +29,14 @@
   </div>
 </section>
 
+<!-- image -->
 <section class="p_info_img_2">
   <div class="p_info_img_2_container">
     <img src="img/work/small_img.jpg" alt="image">
   </div>
 </section>
 
+<!-- info -->
 <section class="p_info">
   <div class="p_info_container">
     <h2>Mycket bra skit</h2>
@@ -57,7 +59,6 @@
     <p>Ja detta är extremt bra skit och afknfapnåpadwonföaeknffaewlnk</p>
   </div>
 </section>
-
 
 <!-- Tablet and mobil -->
 <section class="p_tablet">

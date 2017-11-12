@@ -6,6 +6,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Digital penguin solutions Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i" rel="stylesheet">
 </head>
 
 <body class="wrapper" id="page-top" class="index">
@@ -22,8 +23,8 @@
 <!-- About -->
 <?php include "views/i_About.php"?>
 
-<!-- Skills -->
-<?php include "views/i_Skills.php"?>
+<!-- About short -->
+<?php include "views/i_About_short.php"?>
 
 <!-- Footer -->
 <?php include "partials/footer.php" ?>

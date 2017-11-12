@@ -1,0 +1,63 @@
+@import "../../everything";
+
+.i_About_short{
+  display: block;
+  width: 100vw;
+  background: $color4;
+  color: white;
+
+  .i_About_short_container{
+    @extend .grid;
+    height: 40vh;
+    width: 100vw;
+    margin-top:10vh;
+
+    .i_About_short_about{
+      grid-area: 1 / 1 / 13 / 6;
+
+      h3{
+        font-weight: 300;
+        font-size:2vw;
+        margin-left:2vw;
+
+      }
+      hr{
+        width: 15%;
+        border: 2px solid white;
+        margin-left:2vw;
+
+      }
+      p{
+        font-weight: 200;
+        font-size:1.5vw;
+        margin-left:2vw;
+
+      }
+    }
+
+    .i_About_short_contact{
+      @extend .i_About_short_about;
+      grid-area: 1 / 6 / 13 / 10;
+
+    }
+
+    .i_About_short_follow{
+      @extend .i_About_short_about;
+      grid-area: 1 / 10 / 13 / 13;
+
+      ul {
+        li {
+          a{
+            color: white;
+            margin-left: 1.6vw;
+            font-weight: 200;
+            font-size:1.5vw;
+            &:hover{
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

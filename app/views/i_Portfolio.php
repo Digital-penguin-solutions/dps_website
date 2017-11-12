@@ -4,10 +4,10 @@
   <?php include "views/Slider_elements.php";?>
 
   <!-- Portfolio slider -->
-  <div class="all_slider_container i_Portfolio_container">
+  <div class="all_slider_container no_list i_Portfolio_container">
 
     <!-- Slider 1 -->
-    <div class="slider_page i_Portfolio_slider">
+    <div class="slider_page i_Portfolio_slider ">
 
       <a href="portfolio.php" class="i_Portfolio_slider_top">
         <img src="img/Sliders/Index/Portfolio/Slider1.jpg" alt="Klimator slider">
@@ -62,5 +62,4 @@
       </div>
     </div>
   </div>
-
 </section>
