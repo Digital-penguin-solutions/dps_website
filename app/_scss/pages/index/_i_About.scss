@@ -27,6 +27,7 @@
   }
 }
 
+//svg classes
 .st0{fill:#FE7E17;}
 .st1{fill:#333333;}
 .st2{font-weight:600;}
@@ -54,12 +55,6 @@
 
 //computer scree 992px and up
 @media (min-width: $screen-md-min) {
-  .st3{font-size:3vw;}
-  .st5{font-size:2.5vw;}
-  .st7{font-size:1.3vw;}
-  .st14{font-size:3vw;}
-  .st16{font-size:2.5vw;}
-  .st18{font-size:1.3vw;}
 
   .i_About {
     height: 120vh;
@@ -75,4 +70,13 @@
       }
     }
   }
+
+  //svg classes
+  .st3{font-size:3vw;}
+  .st5{font-size:2.5vw;}
+  .st7{font-size:1.3vw;}
+  .st14{font-size:3vw;}
+  .st16{font-size:2.5vw;}
+  .st18{font-size:1.3vw;}
+
 }

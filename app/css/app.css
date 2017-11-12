@@ -2291,6 +2291,14 @@ p {
   stroke-miterlimit: 10; }
 
 @media (min-width: 992px) {
+  .i_About {
+    height: 120vh; }
+    .i_About .i_About_container {
+      height: 100vh; }
+      .i_About .i_About_container .i_About_left {
+        grid-area: 1 / 1 / 14 / 7; }
+      .i_About .i_About_container .i_About_right {
+        grid-area: 1 / 7 / 14 / 14; }
   .st3 {
     font-size: 3vw; }
   .st5 {
@@ -2302,15 +2310,7 @@ p {
   .st16 {
     font-size: 2.5vw; }
   .st18 {
-    font-size: 1.3vw; }
-  .i_About {
-    height: 120vh; }
-    .i_About .i_About_container {
-      height: 100vh; }
-      .i_About .i_About_container .i_About_left {
-        grid-area: 1 / 1 / 14 / 7; }
-      .i_About .i_About_container .i_About_right {
-        grid-area: 1 / 7 / 14 / 14; } }
+    font-size: 1.3vw; } }
 
 .grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
@@ -2443,14 +2443,14 @@ p {
   background: #2b2b2b;
   color: white; }
   .i_About_short .i_About_short_container {
-    height: 40vh;
+    height: 100vh;
     width: 100vw;
-    margin-top: 10vh; }
+    margin-top: 5vh; }
     .i_About_short .i_About_short_container .i_About_short_about, .i_About_short .i_About_short_container .i_About_short_contact, .i_About_short .i_About_short_container .i_About_short_follow {
-      grid-area: 1 / 1 / 13 / 6; }
+      grid-area: 1 / 1 / 5 / 14; }
       .i_About_short .i_About_short_container .i_About_short_about h3, .i_About_short .i_About_short_container .i_About_short_contact h3, .i_About_short .i_About_short_container .i_About_short_follow h3 {
         font-weight: 300;
-        font-size: 2vw;
+        font-size: 10vw;
         margin-left: 2vw; }
       .i_About_short .i_About_short_container .i_About_short_about hr, .i_About_short .i_About_short_container .i_About_short_contact hr, .i_About_short .i_About_short_container .i_About_short_follow hr {
         width: 15%;
@@ -2458,16 +2458,33 @@ p {
         margin-left: 2vw; }
       .i_About_short .i_About_short_container .i_About_short_about p, .i_About_short .i_About_short_container .i_About_short_contact p, .i_About_short .i_About_short_container .i_About_short_follow p {
         font-weight: 200;
-        font-size: 1.5vw;
+        font-size: 5vw;
         margin-left: 2vw; }
+    .i_About_short .i_About_short_container .i_About_short_contact {
+      grid-area: 5 / 1 / 8 / 14; }
+    .i_About_short .i_About_short_container .i_About_short_follow {
+      grid-area: 8 / 1 / 14 / 14; }
+      .i_About_short .i_About_short_container .i_About_short_follow ul li a {
+        color: white;
+        margin-left: 1.6vw;
+        font-weight: 200;
+        font-size: 5vw; }
+        .i_About_short .i_About_short_container .i_About_short_follow ul li a:hover {
+          color: white; }
+
+@media (min-width: 992px) {
+  .i_About_short .i_About_short_container {
+    height: 40vh;
+    margin-top: 10vh; }
+    .i_About_short .i_About_short_container .i_About_short_about, .i_About_short .i_About_short_container .i_About_short_contact, .i_About_short .i_About_short_container .i_About_short_follow {
+      grid-area: 1 / 1 / 13 / 6; }
+      .i_About_short .i_About_short_container .i_About_short_about h3, .i_About_short .i_About_short_container .i_About_short_contact h3, .i_About_short .i_About_short_container .i_About_short_follow h3 {
+        font-size: 2vw; }
+      .i_About_short .i_About_short_container .i_About_short_about p, .i_About_short .i_About_short_container .i_About_short_contact p, .i_About_short .i_About_short_container .i_About_short_follow p {
+        font-size: 1.5vw; }
     .i_About_short .i_About_short_container .i_About_short_contact {
       grid-area: 1 / 6 / 13 / 10; }
     .i_About_short .i_About_short_container .i_About_short_follow {
       grid-area: 1 / 10 / 13 / 13; }
       .i_About_short .i_About_short_container .i_About_short_follow ul li a {
-        color: white;
-        margin-left: 1.6vw;
-        font-weight: 200;
-        font-size: 1.5vw; }
-        .i_About_short .i_About_short_container .i_About_short_follow ul li a:hover {
-          color: white; }
+        font-size: 1.5vw; } }
