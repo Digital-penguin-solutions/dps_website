@@ -16,6 +16,9 @@
 <!-- Header -->
 <?php include "views/i_Header.php"?>
 
+<!-- what we do -->
+<?php include "views/i_What_wed_do.php" ?>
+
 <!-- Portfolio -->
 <?php include "views/i_Portfolio.php"?>
 

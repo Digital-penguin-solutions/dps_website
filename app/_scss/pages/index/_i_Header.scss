@@ -1,15 +1,14 @@
 @import "../../everything";
 
-.i_header{
+header{
   height: 100vh;
   width: 100vh;
-  display: block;
 
-  .Header_container{
+  .header_container{
     height: 100vh;
     width: 100vw;
 
-    .Header_text{
+    .header_text{
       @extend .grid;
       @extend .tole;
       position: absolute;
@@ -44,7 +43,7 @@
       }
     }
 
-    .Header_img_container {
+    .header_img_container {
       width: 100vw;
       height: 100vh;
       z-index: 10;
@@ -52,27 +51,20 @@
   }
 }
 
-// Tablet
-@media (min-width: $screen-sm-min) {
-
-}
-
 // Desktop
 @media (min-width: $screen-md-min) {
 
-  .header{
+  header{
     .header_container{
       .header_text{
         h1{
           grid-area:3 / 2 / 4 / 12;
           font-size:5vw;
-
         }
 
         h4{
           font-size:3vw;
           grid-area: 5 / 2 / 6 / 12;
-
         }
 
         hr{
@@ -88,5 +80,4 @@
       }
     }
   }
-
 }

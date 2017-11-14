@@ -1,4 +1,4 @@
-<header id="header" class="i_header">
+<header id="header">
   <div class="header_container">
     <div class="header_text">
       <h1>DIGITAL PENGUIN SOLUTIONS</h1>
