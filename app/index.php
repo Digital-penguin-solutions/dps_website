@@ -8,28 +8,14 @@
   <title>Digital penguin solutions Home</title>
 </head>
 
-<body class="wrapper" id="page-top" class="index">
+<body class="wrapper" class="index">
 
 <!-- Nav -->
 <?php include "partials/Nav.php"?>
 
-<!-- Header -->
-<?php include "views/i_Header.php"?>
+<header>
 
-<!-- what we do -->
-<?php include "views/i_What_wed_do.php" ?>
-
-<!-- Portfolio -->
-<?php include "views/i_Portfolio.php"?>
-
-<!-- About -->
-<?php include "views/i_About.php"?>
-
-<!-- About short -->
-<?php include "views/i_About_short.php"?>
-
-<!-- Footer -->
-<?php include "partials/footer.php" ?>
+</header>
 
 </body>
 </html>
