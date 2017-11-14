@@ -1,7 +1,7 @@
 <section id="Portfolio" class="i_Portfolio">
 
   <!-- Slider elements -->
-  <?php include "views/Slider_elements.php";?>
+  <?php include "partials/Slider_elements.php";?>
 
   <!-- Portfolio slider -->
   <div class="all_slider_container no_list i_Portfolio_container">
