@@ -1,6 +1,6 @@
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i);
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -33,13 +33,13 @@
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -49,7 +49,7 @@
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -137,7 +137,7 @@ p {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.5); }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -170,13 +170,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -186,7 +186,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -278,7 +278,7 @@ p {
     grid-column: 12;
     background: url("../../img/Sliders/slider_elements/arrow-r.svg") no-repeat; }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -311,13 +311,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -327,7 +327,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -418,57 +418,54 @@ p {
   animation-name: kenburns;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 48s;
+  animation-duration: 40s;
   opacity: 1;
   transform: scale(1.15); }
   .slideshow-image:nth-child(1) {
     animation-name: kenburns-1;
-    z-index: 5; }
+    z-index: 4; }
   .slideshow-image:nth-child(2) {
     animation-name: kenburns-2;
-    z-index: 4; }
+    z-index: 3; }
   .slideshow-image:nth-child(3) {
     animation-name: kenburns-3;
-    z-index: 3; }
+    z-index: 2; }
   .slideshow-image:nth-child(4) {
     animation-name: kenburns-4;
-    z-index: 2; }
+    z-index: 1; }
   .slideshow-image:nth-child(5) {
     animation-name: kenburns-5;
-    z-index: 1; }
-  .slideshow-image:nth-child(6) {
-    animation-name: kenburns-6;
     z-index: 0; }
 
 @keyframes kenburns-1 {
   0% {
     opacity: 1;
     transform: scale(1.15); }
-  0.83333% {
+  1% {
     opacity: 1; }
-  15.83333% {
+  19% {
     opacity: 1; }
-  17.5% {
+  21% {
     opacity: 0;
     transform: scale(1); }
   100% {
     opacity: 0;
     transform: scale(1.15); }
-  99.16667% {
+  99% {
     opacity: 0;
     transform: scale(1.15714); }
   100% {
     opacity: 1; } }
 
 @keyframes kenburns-2 {
-  15.83333% {
+  19% {
     opacity: 1;
     transform: scale(1.15); }
-  17.5% {
+  21% {
     opacity: 1; }
-  32.5% {
+  39% {
     opacity: 1; }
-  34.16667% {
+  41% {
     opacity: 0;
     transform: scale(1); }
   100% {
@@ -476,14 +473,14 @@ p {
     transform: scale(1.15); } }
 
 @keyframes kenburns-3 {
-  32.5% {
+  39% {
     opacity: 1;
     transform: scale(1.15); }
-  34.16667% {
+  41% {
     opacity: 1; }
-  49.16667% {
+  59% {
     opacity: 1; }
-  50.83333% {
+  61% {
     opacity: 0;
     transform: scale(1); }
   100% {
@@ -491,14 +488,14 @@ p {
     transform: scale(1.15); } }
 
 @keyframes kenburns-4 {
-  49.16667% {
+  59% {
     opacity: 1;
     transform: scale(1.15); }
-  50.83333% {
+  61% {
     opacity: 1; }
-  65.83333% {
+  79% {
     opacity: 1; }
-  67.5% {
+  81% {
     opacity: 0;
     transform: scale(1); }
   100% {
@@ -506,33 +503,18 @@ p {
     transform: scale(1.15); } }
 
 @keyframes kenburns-5 {
-  65.83333% {
+  79% {
     opacity: 1;
     transform: scale(1.15); }
-  67.5% {
+  81% {
     opacity: 1; }
-  82.5% {
-    opacity: 1; }
-  84.16667% {
-    opacity: 0;
-    transform: scale(1); }
-  100% {
-    opacity: 0;
-    transform: scale(1.15); } }
-
-@keyframes kenburns-6 {
-  82.5% {
-    opacity: 1;
-    transform: scale(1.15); }
-  84.16667% {
-    opacity: 1; }
-  99.16667% {
+  99% {
     opacity: 1; }
   100% {
     opacity: 0;
     transform: scale(1); } }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -565,13 +547,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -581,7 +563,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -691,7 +673,7 @@ footer {
     -ms-grid-row: 9;
     grid-row: 9; }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -724,13 +706,13 @@ footer {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -740,7 +722,7 @@ footer {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -816,7 +798,7 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -849,13 +831,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -865,7 +847,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -1159,7 +1141,7 @@ p {
     left: -100%;
     opacity: 0; } }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1192,13 +1174,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -1208,7 +1190,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -1284,7 +1266,7 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1317,13 +1299,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -1333,7 +1315,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -1701,7 +1683,7 @@ p {
         color: #ffffff;
         border: transparent; }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1734,13 +1716,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -1750,7 +1732,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -1827,23 +1809,54 @@ p {
     font-weight: 300; } }
 
 .i_header {
-  z-index: 100 !important; }
-  .i_header .i_header_slider_container .i_header_slider {
-    z-index: 500;
-    position: absolute; }
-    .i_header .i_header_slider_container .i_header_slider .i_header_slider_text_container {
-      grid-column: 3 / 11;
-      grid-row: 4 / 8;
+  height: 100vh;
+  width: 100vh;
+  display: block; }
+  .i_header .Header_container {
+    height: 100vh;
+    width: 100vw; }
+    .i_header .Header_container .Header_text {
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      z-index: 100;
+      text-align: center;
       color: white;
-      text-align: center; }
-      .i_header .i_header_slider_container .i_header_slider .i_header_slider_text_container button {
-        background: transparent;
-        border: solid black 0.1vw;
-        border-radius: 3%;
-        font-size: 2vw;
-        padding: 1vw; }
+      background: rgba(43, 43, 43, 0.3); }
+      .i_header .Header_container .Header_text h1 {
+        grid-area: 3 / 2 / 4 / 12;
+        font-size: 8vw; }
+      .i_header .Header_container .Header_text h4 {
+        font-size: 6vw;
+        grid-area: 5 / 2 / 6 / 12; }
+      .i_header .Header_container .Header_text hr {
+        width: 80%;
+        border: 2px solid white;
+        grid-area: 6 / 2 / 7 / 12; }
+      .i_header .Header_container .Header_text h5 {
+        font-size: 4vw;
+        grid-area: 7 / 2 / 8 / 12; }
+    .i_header .Header_container .Header_img_container {
+      width: 100vw;
+      height: 100vh;
+      z-index: 10; }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+@media (min-width: 992px) {
+  .header .header_container .header_text h1 {
+    grid-area: 3 / 2 / 4 / 12;
+    font-size: 5vw; }
+  .header .header_container .header_text h4 {
+    font-size: 3vw;
+    grid-area: 5 / 2 / 6 / 12; }
+  .header .header_container .header_text hr {
+    width: 70%;
+    grid-area: 6 / 2 / 7 / 12;
+    border: 1px solid white; }
+  .header .header_container .header_text h5 {
+    font-size: 1.5vw;
+    grid-area: 7 / 2 / 8 / 12; } }
+
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1876,13 +1889,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -1892,7 +1905,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -2072,7 +2085,7 @@ p {
             color: #ffffff;
             border: transparent; }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2105,13 +2118,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -2121,7 +2134,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 
@@ -2294,11 +2307,13 @@ p {
   .i_About {
     height: 120vh; }
     .i_About .i_About_container {
-      height: 100vh; }
+      height: 100vh;
+      width: 90vw;
+      margin-left: 5vw; }
       .i_About .i_About_container .i_About_left {
         grid-area: 1 / 1 / 14 / 7; }
       .i_About .i_About_container .i_About_right {
-        grid-area: 1 / 7 / 14 / 14; }
+        grid-area: 1 / 7 / 14 / 13; }
   .st3 {
     font-size: 3vw; }
   .st5 {
@@ -2312,7 +2327,7 @@ p {
   .st18 {
     font-size: 1.3vw; } }
 
-.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .i_header_slider_container .i_header_slider, .i_About .i_About_container, .i_About_short .i_About_short_container {
+.grid, section, .Slider_elements, footer, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_bot, .p_info_img_2 .p_info_img_2_container, .p_info_img .p_info_img_container, .p_details .p_details_container, .i_header .Header_container .Header_text, .i_About .i_About_container, .i_About_short .i_About_short_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2345,13 +2360,13 @@ p {
   bottom: 0;
   right: 0; }
 
-.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nom, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   margin: 0 !important; }
 
-.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_header .i_header_slider_container {
+.nop, .nopm, .wrapper, html, body, section, ul, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top {
   padding: 0 !important; }
 
-.tole, .wrapper, html, body, section {
+.tole, .wrapper, html, body, section, .i_header .Header_container .Header_text {
   top: 0 !important;
   left: 0 !important; }
 
@@ -2361,7 +2376,7 @@ p {
 .fullh, .full_size {
   height: 100% !important; }
 
-.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img, .i_header, .i_header .i_header_slider_container, .i_header .i_header_slider_container .i_header_slider {
+.full_page, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top, .i_Portfolio .i_Portfolio_container .i_Portfolio_slider .i_Portfolio_slider_top img {
   height: 100vh;
   width: 100vw; }
 

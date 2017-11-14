@@ -1,34 +1,53 @@
 @import "../../everything";
 
-.i_header {
-  @extend .full_page;
-  z-index: 100 !important;
+.i_header{
+  height: 100vh;
+  width: 100vh;
+  display: block;
 
-  .i_header_slider_container {
-    @extend .full_page;
-    @extend .nopm;
+  .Header_container{
+    height: 100vh;
+    width: 100vw;
 
-    //Slider styling
-    .i_header_slider {
-      @extend .full_page;
+    .Header_text{
       @extend .grid;
-      z-index: 500;
+      @extend .tole;
       position: absolute;
+      height: 100vh;
+      width: 100vw;
+      z-index: 100;
+      text-align: center;
+      color: white;
+      background: rgba($color4, 0.3);
 
-      .i_header_slider_text_container {
-        grid-column: 3 / 11;
-        grid-row: 4 / 8;
-        color: white;
-        text-align: center;
+      h1{
+        grid-area:3 / 2 / 4 / 12;
+        font-size:8vw;
 
-        button {
-          background: transparent;
-          border: solid black 0.1vw;
-          border-radius: 3%;
-          font-size: 2vw;
-          padding: 1vw;
-        }
       }
+
+      h4{
+        font-size:6vw;
+        grid-area: 5 / 2 / 6 / 12;
+
+      }
+
+      hr{
+        width: 80%;
+        border: 2px solid white;
+        grid-area: 6 / 2 / 7 / 12;
+      }
+
+      h5{
+        font-size:4vw;
+        grid-area: 7 / 2 / 8 / 12;
+      }
+    }
+
+    .Header_img_container {
+      width: 100vw;
+      height: 100vh;
+      z-index: 10;
     }
   }
 }
@@ -40,5 +59,34 @@
 
 // Desktop
 @media (min-width: $screen-md-min) {
+
+  .header{
+    .header_container{
+      .header_text{
+        h1{
+          grid-area:3 / 2 / 4 / 12;
+          font-size:5vw;
+
+        }
+
+        h4{
+          font-size:3vw;
+          grid-area: 5 / 2 / 6 / 12;
+
+        }
+
+        hr{
+          width: 70%;
+          grid-area: 6 / 2 / 7 / 12;
+          border: 1px solid white;
+        }
+
+        h5{
+          font-size:1.5vw;
+          grid-area: 7 / 2 / 8 / 12;
+        }
+      }
+    }
+  }
 
 }
