@@ -1,5 +1,103 @@
 @import "../everything";
 
-nav{
-
+.active{
+  a{
+    color: white !important;
+  }
 }
+
+nav{
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background: rgba($color4, 0.8);
+
+  .nav_container{
+    width: 35vw;
+    height:100vh;
+    float: right;
+    background: $color1;
+
+    .nav_text_container{
+      height: 100vh;
+      width: 40vw;
+      @extend .grid;
+
+      ul{
+        grid-area: 4 / 2 / 9 / 12;
+        li{
+          a{
+            font-size:3vw;
+            font-weight:900;
+            color: rgba(white, 0.4);
+            &:hover{
+              color: white;
+            }
+          }
+        }
+      }
+
+      p{
+        grid-area: 12 / 2 / 13 / 12;
+        font-size:0.8vw;
+        color: #000;
+        a{
+          font-size:0.8vw;
+          color: #000;
+
+        }
+      }
+
+    }
+
+  }
+}
+
+.nav_button_container{
+  min-height:50px;
+  position:fixed;
+  right:5%;
+  top:0;
+  width:3%;
+  height:8%;
+  list-style:none;
+  z-index:1040;
+}
+
+.McButton {
+  /*@bar-w: 10vh;*/
+  $bar-color: $color4;
+  color: $bar-color;
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  /*height: 80%;*/
+  top: 30%;
+  cursor: pointer;
+  background: none;
+  padding: 0 !important;
+
+  b {
+    display: block;
+    left: 0;
+    z-index: 1040;
+    width: 100%;
+    height: 3px !important;
+    background-color: $bar-color;
+    position:absolute;
+
+    &:nth-child(1) {
+      top: 0;
+    }
+
+    &:nth-child(2) {
+      top: 50%;
+    }
+
+    &:nth-child(3) {
+      top: 100%;
+    }
+  }
+}
+

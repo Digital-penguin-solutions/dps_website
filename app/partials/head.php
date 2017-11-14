@@ -24,7 +24,6 @@
     <!--js files-->
     <script src="js/app.js"></script>
     <script src="js/third_party.js"></script>
-    <script src="js/admin.js"></script>
 
     <!-- Latest compiled and minified JavaScript for bootstrap-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
