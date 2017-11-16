@@ -3,5 +3,10 @@
 .DS_Store
 *.db
 db_connect.php
-!*.svg
 node_modules/
+app/_scss/pages/Contact/
+app/img/Index/
+app/img/Services/
+app/js/third_party/
+app/views/
+package-lock.json

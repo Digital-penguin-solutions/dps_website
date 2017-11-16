@@ -1,18 +1,15 @@
 {
-  "name": "mall",
+  "name": "DPSofficial",
   "version": "1.0.0",
-  "description": "mall för digitalis hemsidor",
+  "description": "DPS Official website",
   "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "digitalis",
+  "author": "DPS",
   "license": "ISC",
   "devDependencies": {
-    "barba.js": "^1.0.0",
-    "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.8",
-    "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-beer": "^1.0.1",
@@ -32,6 +29,5 @@
     "gulp-uncss-sp": "0.0.1",
     "gulp-watch": "^4.3.11",
     "http-proxy": "^1.16.2",
-    "jquery": "^1.11.3"
   }
 }
