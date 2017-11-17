@@ -1,0 +1,47 @@
+.a_footer{
+  display: block;
+  z-index: 1;
+  height: 35vh;
+  width: 100vw;
+
+  .a_footer_container{
+    overflow: hidden !important;
+    height: 35vh;
+    width: 100vw;
+
+    video {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      z-index: -100;
+      right: 0;
+      bottom: 0;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    .a_footer_overlay{
+      //@extend .grid;
+      position: absolute;
+      z-index:100;
+      width: 100vw;
+      height: 30vh;
+
+      .a_footer_w{
+        z-index: 1000;
+        height: 30vh;
+        position: absolute;
+        top: 0;
+        left: -1%;
+        width: 102%;
+        pointer-events: none;
+        fill: #000;
+      }
+      h4{
+        text-align: center;
+        grid-area: 6 / 6 / 10 / 7;
+      }
+    }
+  }
+}
