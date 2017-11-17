@@ -111,7 +111,7 @@
     .s_webdesign_img{
       grid-area: 2 / 8 / 12 / 12;
 
-      .s_webdesign_frame{
+      .s_frame{
         background: url("../img/Services/ipad.png") no-repeat;
         background-size: 100%;
         width:25vw;
@@ -131,10 +131,67 @@
 }
 
 //E-commerce
+.s_comerce{
+  @extend .s_webdesign;
 
+  .s_comerce_container{
+    @extend .s_webdesign_container;
 
-//SEO
+    .s_comerce_img{
+      @extend .s_webdesign_img;
+      grid-area: 3 / 2 / 10 / 7;
+    }
 
+    .s_comerce_text{
+      @extend .s_webdesign_text;
+      grid-area: 2 / 8 / 12 / 12;
+    }
+
+  }
+}
 
 //Branding
+.s_brand{
+  @extend .s_webdesign;
+
+  .s_brand_container{
+    @extend .s_webdesign_container;
+
+    .s_brand_text{
+      @extend .s_webdesign_text;
+    }
+
+    .s_brand_img{
+      grid-area: 3 / 8 / 9 / 12;
+      img{
+        width:100%;
+        height:100%;
+
+      }
+    }
+
+  }
+}
+
+//SEO
+.s_seo{
+  @extend .s_webdesign;
+
+  .s_seo_container{
+  @extend .s_webdesign_container;
+
+    .s_seo_img {
+      grid-area: 3 / 2 / 10 / 7;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .s_seo_text{
+      @extend .s_webdesign_text;
+      grid-area: 2 / 8 / 12 / 12;
+    }
+  }
+}
 
