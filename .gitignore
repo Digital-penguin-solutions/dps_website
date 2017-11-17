@@ -4,9 +4,4 @@
 *.db
 db_connect.php
 node_modules/
-app/_scss/pages/Contact/
-app/img/Index/
-app/img/Services/
-app/js/third_party/
-app/views/
 package-lock.json
