@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About us</title>
 </head>
@@ -41,9 +42,9 @@
 </section>
 
 <section class="i_About" id="About">
-  <h2>About us</h2>
-
   <div class="i_About_container">
+
+    <h2>About us</h2>
 
     <div class="i_About_left">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -350,17 +351,6 @@
       <source type="video/ogv" src="video/Love-Coding.ogv">
     </video>
     <a class="a_footer_overlay" href="work">
-
-      <svg class="a_footer_w" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920px" height="1080px"
-           preserveAspectRatio="xMidYMid slice">
-        <defs>
-          <mask id="Mask1" x="0" y="0" width="1920" height="1080" >
-            <rect x="0" y="0" width="1920" height="1080">
-              <text x="960" y="660px">W</text>
-          </mask>
-        </defs>
-        <rect x="0" y="0" width="1920" height="1080"  mask="url(#Mask1)">
-      </svg>
 
     </a>
   </div>

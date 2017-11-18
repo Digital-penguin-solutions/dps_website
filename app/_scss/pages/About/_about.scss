@@ -53,24 +53,23 @@
 .i_About {
   z-index:10;
   display: block;
-  height: 145vh;
+  height: 135vh;
   background: darken($white, 10%);
 
-  h2{
-    background: darken($white, 10%);
-    padding-top:5vh;
-    padding-bottom:5vh;
-    text-align: center;
-  }
-
   .i_About_container{
-    height: 120vh;
+    height: 135vh;
     width: 100vw;
     @extend .grid;
 
+    h2{
+      text-align: center;
+      grid-area: 1 / 5 / 2 / 9;
+      margin:5vh 0 5vh 0;
+    }
+
 
     .i_About_left{
-      grid-area: 1 / 1 / 7 / 14;
+      grid-area: 2 / 1 / 8 / 14;
     }
 
     .i_About_right{
@@ -116,11 +115,11 @@
       margin-left:5vw;
 
       .i_About_left{
-        grid-area: 1 / 1 / 14 / 7;
+        grid-area: 2 / 1 / 14 / 7;
       }
 
       .i_About_right{
-        grid-area: 1 / 7 / 14 / 13;
+        grid-area: 2 / 7 / 14 / 13;
       }
     }
   }

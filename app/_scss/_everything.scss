@@ -102,6 +102,9 @@
 // Styling for the entire html file
 html {
   @extend .wrapper;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
 }
 
 // Styling for the body

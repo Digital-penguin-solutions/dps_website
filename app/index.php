@@ -11,13 +11,11 @@
 <body class="wrapper index">
 
 <!-- Nav -->
-<?php //include "partials/Nav.php"?>
+<?php include "partials/Nav.php"?>
 
 <header class="i_header">
   <div class="bg"></div>
   <div class="i_header_container">
-
-    <div class="i_header_bg"></div>
 
     <!-- Logo -->
     <img src="img/Logo/Logo-dark_no_text.svg" alt="DPS logo" class="i_header_logo">
