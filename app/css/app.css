@@ -1,6 +1,6 @@
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i);
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -139,7 +139,7 @@ p {
 ::-webkit-scrollbar-thumb {
   border-radius: 0; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -380,7 +380,7 @@ p {
     opacity: 0;
     transform: scale(1); } }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -544,7 +544,7 @@ footer {
     -ms-grid-row: 9;
     grid-row: 9; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -743,7 +743,7 @@ nav {
     .McButton b:nth-child(3) {
       top: 100%; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1091,7 +1091,7 @@ p {
     left: -100%;
     opacity: 0; } }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1270,7 +1270,7 @@ p {
       font-size: 2.4vw;
       color: white; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1551,7 +1551,7 @@ p {
   .st18 {
     font-size: 1.3vw; } }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1705,30 +1705,243 @@ p {
       height: 30vh;
       position: absolute;
       z-index: 100; }
-      .a_footer .a_footer_container .a_footer .text {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 30vh;
-        z-index: 200; }
-      .a_footer .a_footer_container .a_footer svg {
-        width: 100%;
-        height: inherit; }
-        .a_footer .a_footer_container .a_footer svg text {
-          text-anchor: middle; }
-        .a_footer .a_footer_container .a_footer svg #alpha {
-          fill: #666666; }
-        .a_footer .a_footer_container .a_footer svg #title {
-          letter-spacing: -2px;
-          font-size: 6em;
-          font-weight: 800; }
-        .a_footer .a_footer_container .a_footer svg #base {
-          fill: black;
-          -webkit-mask: url(#mask);
-          mask: url(#mask); }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+  display: -ms-grid;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
+
+.center_vertically_css {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center_horizontally_css {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.center_css, .center_css_a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.center_css_a {
+  height: auto !important;
+  width: auto !important; }
+
+.center_css_new {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.nom, .nopm, .wrapper, html, body, section, ul {
+  margin: 0 !important; }
+
+.nop, .nopm, .wrapper, html, body, section, ul {
+  padding: 0 !important; }
+
+.tole, .wrapper, html, body, section {
+  top: 0 !important;
+  left: 0 !important; }
+
+.fullw, .full_size {
+  width: 100% !important; }
+
+.fullh, .full_size {
+  height: 100% !important; }
+
+.full_page {
+  height: 100vh;
+  width: 100vw; }
+
+.wrapper, html, body {
+  background: #2b2b2b;
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+section {
+  z-index: 2;
+  position: relative; }
+
+ul {
+  list-style: none;
+  font-weight: 300;
+  font-size: 4vw; }
+
+h1 {
+  font-size: 10.5vw;
+  font-weight: 600; }
+
+h2 {
+  font-size: 7.5vw;
+  font-weight: 500; }
+
+h3 {
+  font-size: 6.5vw;
+  font-weight: 400; }
+
+h4 {
+  font-size: 5.5vw;
+  font-weight: 400; }
+
+a {
+  color: #fe7e17;
+  text-decoration: none;
+  font-size: 4vw;
+  font-weight: 300; }
+  a:hover {
+    text-decoration: none; }
+
+p {
+  font-size: 4vw;
+  font-weight: 300; }
+
+@media (min-width: 992px) {
+  ul {
+    list-style: none;
+    font-weight: 300;
+    font-size: 2vw; }
+  h1 {
+    font-size: 6.5vw;
+    font-weight: 600; }
+  h2 {
+    font-size: 5.5vw;
+    font-weight: 500; }
+  h3 {
+    font-size: 4.5vw;
+    font-weight: 400; }
+  h4 {
+    font-size: 3.5vw;
+    font-weight: 400; }
+  a {
+    color: #fe7e17;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 300; }
+  p {
+    font-size: 2vw;
+    font-weight: 300; } }
+
+.c_head {
+  display: block;
+  width: 100vw;
+  height: 80vh;
+  background: url("../img/contact/header_bg.jpg") fixed no-repeat;
+  background-size: 100%; }
+  .c_head .c_head_container {
+    height: 100%;
+    width: 100%;
+    background: rgba(43, 43, 43, 0.6); }
+    .c_head .c_head_container h2 {
+      color: white;
+      grid-area: 5 / 2 / 9 / 7;
+      font-size: 2.3vw; }
+
+.c_form {
+  background: #ffffff;
+  width: 100vw;
+  height: 100vh; }
+  .c_form .c_form_container {
+    grid-area: 2 / 2 / 12 / 12;
+    height: 100%;
+    width: 100%; }
+    .c_form .c_form_container h3 {
+      grid-area: 1 / 6 / 6 / 2;
+      font-size: 2vw;
+      font-weight: 300; }
+    .c_form .c_form_container form {
+      grid-area: 3 / 2 / 12 / 12;
+      width: 100%;
+      height: 100%; }
+      .c_form .c_form_container form .form {
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        width: 100%;
+        height: 100%; }
+        .c_form .c_form_container form .form label {
+          width: 50%;
+          height: 100%;
+          border-bottom: 1px solid rgba(43, 43, 43, 0.3);
+          text-transform: uppercase;
+          font-size: 0.9vw;
+          font-weight: 300;
+          line-height: 50px; }
+        .c_form .c_form_container form .form .form_input {
+          width: 50%;
+          height: 100%; }
+          .c_form .c_form_container form .form .form_input input, .c_form .c_form_container form .form .form_input textarea {
+            height: 100%;
+            width: 100%;
+            border: 0;
+            border-bottom: 1px solid rgba(43, 43, 43, 0.3);
+            overflow: auto;
+            outline: none;
+            font-size: 0.9vw;
+            font-weight: 300;
+            line-height: 50px; }
+            .c_form .c_form_container form .form .form_input input:focus, .c_form .c_form_container form .form .form_input textarea:focus {
+              border-bottom: 1px solid rgba(43, 43, 43, 0.8); }
+          .c_form .c_form_container form .form .form_input textarea {
+            resize: none; }
+        .c_form .c_form_container form .form:nth-child(1) {
+          grid-area: 1 / 1 / 2 / 14; }
+        .c_form .c_form_container form .form:nth-child(2) {
+          grid-area: 2 / 1 / 3 / 14; }
+        .c_form .c_form_container form .form:nth-child(3) {
+          grid-area: 3 / 1 / 4 / 14; }
+        .c_form .c_form_container form .form:nth-child(4) {
+          grid-area: 4 / 1 / 8 / 14; }
+      .c_form .c_form_container form button {
+        grid-area: 9 / 10 / 10 / 14;
+        width: 100%;
+        height: 100%;
+        border: 1px solid rgba(254, 126, 23, 0.6);
+        background: transparent;
+        font-size: 1.5vw;
+        color: #fe7e17;
+        text-transform: uppercase; }
+        .c_form .c_form_container form button:hover {
+          background: #fe7e17;
+          border: none;
+          color: white;
+          transition: all 0.5s linear; }
+
+.c_info {
+  height: auto;
+  width: 100vw;
+  display: block;
+  background: #2b2b2b; }
+  .c_info .c_info_container {
+    width: 100%;
+    height: auto; }
+    .c_info .c_info_container h3 {
+      font-size: 3vw;
+      color: white;
+      text-align: center; }
+    .c_info .c_info_container .c_info_links a {
+      width: 10vw;
+      height: 10vw;
+      border-radius: 100%;
+      border: 1px solid black; }
+      .c_info .c_info_container .c_info_links a img {
+        width: 10vw;
+        height: 10vh; }
+
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
