@@ -1,5 +1,9 @@
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i);
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
+
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
@@ -138,6 +142,10 @@ p {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 0; }
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
 
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
@@ -380,6 +388,10 @@ p {
     opacity: 0;
     transform: scale(1); } }
 
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
+
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
@@ -543,6 +555,10 @@ footer {
     margin-top: 5vh;
     -ms-grid-row: 9;
     grid-row: 9; }
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
 
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
@@ -742,6 +758,10 @@ nav {
       top: 50%; }
     .McButton b:nth-child(3) {
       top: 100%; }
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
 
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
@@ -1091,6 +1111,10 @@ p {
     left: -100%;
     opacity: 0; } }
 
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
+
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
@@ -1269,6 +1293,10 @@ p {
       grid-area: 5 / 3 / 7 / 11;
       font-size: 2.4vw;
       color: white; }
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
 
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
@@ -1551,6 +1579,10 @@ p {
   .st18 {
     font-size: 1.3vw; } }
 
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
+
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
@@ -1705,6 +1737,10 @@ p {
       height: 30vh;
       position: absolute;
       z-index: 100; }
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
 
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
@@ -1954,6 +1990,10 @@ p {
         .c_info .c_info_container .c_info_links a:hover {
           background: white; }
 
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
+
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
   display: grid;
@@ -2191,6 +2231,10 @@ p {
 
 .s_seo .s_seo_container .s_seo_text {
   grid-area: 2 / 8 / 12 / 12; }
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
 
 .grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
   display: -ms-grid;
