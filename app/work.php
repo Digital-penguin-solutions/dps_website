@@ -12,8 +12,25 @@
 
 <?php //include "partials/nav.php"; ?>
 
-<section class="w_header">
-  <div class="w_header_container">
+<section class="work">
+  <div class="work_container">
+
+    <!-- Nav tat show all work -->
+    <div class="work_nav">
+
+    </div>
+
+    <!-- How every work shoud look look -->
+    <div class="w_case">
+      <div class="w_case_container">
+        <a href="work_details">KLIMATOR</a>
+
+        <p>Design & Web development</p>
+      </div>
+    </div>
+
+
+    <!-- PHP of the work -->
 
   </div>
 </section>

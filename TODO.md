@@ -1,13 +1,14 @@
 #TODO 
 
 ##Development
--[ ] Hela work sidan.
--[ ] Work details sidan
--[ ] Fixa terms och condison sidor.
--[ ] Fixa botten och toppen på aboute us.
+-[ ] toppen på aboute us.
+-[ ] work sidan styling.
 -[ ] Work sidan ska laddas in med php för att enkelt lägga in flera projekt.
+-[ ] Work details sidan
+-[ ] Work details sidan ska ha urelen `domain/work/name-of-project`
+-[ ] Fixa terms och condison sidor.
 -[ ] Fixa paralex och animeringar för alla sidor.
--[ ] Fixa naven.
+-[ ] nav ska göras färdig och fungerande (lägga till js och loggan i naven).
 -[ ] 404 page
 -[ ] favicon
 
