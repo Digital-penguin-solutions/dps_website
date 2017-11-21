@@ -1,9 +1,9 @@
+
 var McButton = $("[data=hamburger-menu]");
+
 var McBar1 = McButton.find("b:nth-child(1)");
 var McBar2 = McButton.find("b:nth-child(2)");
 var McBar3 = McButton.find("b:nth-child(3)");
-
-
 
 McButton.click( function() {
   $(this).toggleClass("active");

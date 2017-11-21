@@ -10,6 +10,8 @@
 
 <body class="wrapper services">
 
+<?php include "partials/nav.php"; ?>
+
 <!-- SERVICES header -->
 <section class="s_header">
   <div class="s_header_container">

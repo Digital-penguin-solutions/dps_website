@@ -10,12 +10,16 @@
 
 <body class="wrapper">
 
+<?php //include "partials/nav.php"; ?>
+
+<!-- Head -->
 <section class="c_head">
   <div class="c_head_container">
     <h2><span id="time"></span>, Nice to meat you! Go on an adventure with us. Together we will find a creative solution</h2>
   </div>
 </section>
 
+<!-- Form -->
 <section class="c_form">
   <div class="c_form_container">
 
@@ -63,6 +67,7 @@
   </div>
 </section>
 
+<!--  -->
 <section class="c_info">
   <div class="c_info_container">
     <h3>Hello</h3>

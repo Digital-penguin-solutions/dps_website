@@ -12,7 +12,7 @@
 <body class="wrapper about">
 
 <!-- Nav -->
-<?php //include "partials/Nav.php"?>
+<?php include "partials/nav.php"; ?>
 
 <section class="a_header">
   <div class="a_header_container">
