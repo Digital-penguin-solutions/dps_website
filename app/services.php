@@ -27,17 +27,17 @@
       </a>
 
       <a href="#E-commerce" class="s_header_links">
-        <img src="img/Services/icon/E-commerce.svg" alt="webdesign">
+        <img src="img/Services/icon/E-commerce.svg" alt="ecommerce">
         <p>E-commerce solutions</p>
       </a>
 
       <a href="#Branding" class="s_header_links">
-        <img src="img/Services/icon/Branding.svg" alt="webdesign">
+        <img src="img/Services/icon/Branding.svg" alt="Branding">
         <p>Branding</p>
       </a>
 
       <a href="#SEO" class="s_header_links">
-        <img src="img/Services/icon/seo.svg" alt="webdesign">
+        <img src="img/Services/icon/seo.svg" alt="SEO">
         <p>SEO optimization</p>
       </a>
 
@@ -136,7 +136,7 @@
   <div class="s_seo_container">
 
     <div class="s_seo_img">
-      <img src="img/Services/seo.jpg" alt="branding">
+      <img src="img/Services/seo.jpg" alt="SEO">
     </div>
 
     <div class="s_seo_text">

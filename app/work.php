@@ -10,7 +10,7 @@
 
 <body class="wrapper">
 
-<?php include "partials/nav.php"; ?>
+<?php //include "partials/nav.php"; ?>
 
 <section class="w_header">
   <div class="w_header_container">

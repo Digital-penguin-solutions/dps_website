@@ -81,7 +81,7 @@
       </a>
 
       <a href="https://www.behance.net/digitalpenguins">
-        <img src="img/contact/icons/behance.svg" alt="instagram">
+        <img src="img/contact/icons/behance.svg" alt="behance">
       </a>
     </div>
   </div>
