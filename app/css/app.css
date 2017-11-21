@@ -2199,7 +2199,7 @@ p {
     .s_webdesign .s_webdesign_container .s_webdesign_img, .s_comerce .s_webdesign_container .s_webdesign_img, .s_brand .s_webdesign_container .s_webdesign_img, .s_seo .s_webdesign_container .s_webdesign_img, .s_comerce .s_comerce_container .s_webdesign_img, .s_brand .s_brand_container .s_webdesign_img, .s_seo .s_seo_container .s_webdesign_img, .s_comerce .s_comerce_container .s_comerce_img {
       grid-area: 2 / 8 / 12 / 12; }
       .s_webdesign .s_webdesign_container .s_webdesign_img .s_frame, .s_comerce .s_webdesign_container .s_webdesign_img .s_frame, .s_brand .s_webdesign_container .s_webdesign_img .s_frame, .s_seo .s_webdesign_container .s_webdesign_img .s_frame, .s_comerce .s_comerce_container .s_webdesign_img .s_frame, .s_brand .s_brand_container .s_webdesign_img .s_frame, .s_seo .s_seo_container .s_webdesign_img .s_frame, .s_comerce .s_comerce_container .s_comerce_img .s_frame {
-        background: url("../img/Services/ipad.png") no-repeat;
+        background: url("../img/Services/ipad.jpg") no-repeat;
         background-size: 100%;
         width: 25vw;
         height: 45vw;

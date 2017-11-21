@@ -10,7 +10,7 @@
 
 <body class="wrapper services">
 
-<?php include "partials/nav.php"; ?>
+<?php //include "partials/nav.php"; ?>
 
 <!-- SERVICES header -->
 <section class="s_header">
@@ -76,7 +76,7 @@
 </section>
 
 <!-- E-comerce -->
-<section class="s_comerce">
+<section class="s_comerce" id="E-commerce">
   <div class="s_comerce_container">
 
     <div class="s_comerce_img">
@@ -105,7 +105,7 @@
 </section>
 
 <!-- Branding -->
-<section class="s_brand">
+<section class="s_brand" id="Branding">
   <div class="s_brand_container">
 
     <div class="s_brand_text">
@@ -132,7 +132,7 @@
 </section>
 
 <!-- SEO -->
-<section class="s_seo">
+<section class="s_seo" id="SEO">
   <div class="s_seo_container">
 
     <div class="s_seo_img">
