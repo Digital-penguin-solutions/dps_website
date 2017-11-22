@@ -11,7 +11,10 @@
 <body class="wrapper">
 
 <?php //include "partials/nav.php"; ?>
-
+<?php
+include "functions/functions.php";
+$con             = connect();
+?>
 <!-- Head -->
 <section class="c_head">
   <div class="c_head_container">

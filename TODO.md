@@ -9,9 +9,8 @@
 -[ ] Fixa terms och condison sidor.
 -[ ] Fixa paralex och animeringar för alla sidor.
 -[ ] nav ska göras färdig och fungerande (lägga till js och loggan i naven).
--[ ] 404 page
 -[ ] favicon
-
+-[ ] Contact us email php skit
 
 ##Testing
 -[ ] Mobil anpassa hela sidan.
@@ -34,11 +33,9 @@
 -[ ] Run JSLint/JSHint
 -[ ] Be andra kolla på sidan för att få deras intryck.
 
-
 ## Launche
 -[ ] Köpa server.
 -[ ] köpa domän.
-
 
 ##Saker att kanske fixa i framsiden
 -[ ] Göra så att sidan finns för både svenska och engelska.
