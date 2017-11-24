@@ -14,12 +14,14 @@
 <!-- Nav -->
 <?php //include "partials/nav.php"; ?>
 
+<!-- work details header -->
 <section class="wd_head">
   <div class="wd_head_container">
 
   </div>
 </section>
 
+<!-- work problem and solution -->
 <section class="wd_problem">
   <div class="wd_problem_container">
 
@@ -38,6 +40,32 @@
       Sed velit eros, convallis sed rhoncus ac, eleifend eu tortor. Maecenas ut neque ut tellus aliquet pharetra.
       Sed non lectus at orci placerat i</p>
     </div>
+
+  </div>
+</section>
+
+<!-- Desktop Images -->
+<section class="wd_desktop">
+
+    <img src="img/Work/Desktop/1.jpg" alt="Tastaturen.se index">
+    <img src="img/Work/Desktop/2.jpg" alt="test">
+    <img src="img/Work/Desktop/3.jpg" alt="test">
+    <img src="img/Work/Desktop/4.jpg" alt="test">
+
+</section>
+
+<!-- Mobile Slider -->
+<section class="wd_mobile">
+  <div class="wd_mobile_container">
+    <iframe src="" frameborder="0"></iframe>
+
+  </div>
+</section>
+
+<!-- Tablet -->
+
+<section class="wd_tablet">
+  <div class="wd_tablet_container">
 
   </div>
 </section>
