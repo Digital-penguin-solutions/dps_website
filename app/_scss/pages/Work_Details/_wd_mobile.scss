@@ -1,0 +1,30 @@
+@import "../../everything";
+
+.wd_mobile {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  background: $color4;
+
+  .wd_mobile_container {
+    height: 100vh;
+    width: 100vw;
+
+    .wd_mobile_frame {
+      @extend .center_css;
+      position: absolute;
+      z-index: 80;
+      height: 80vh;
+      width: auto;
+    }
+
+    .wd_mobile_inner {
+      @extend .center_css;
+      position: absolute;
+      z-index: 100;
+      height: 59vh;
+      width: auto;
+      margin-top:1vh;
+    }
+  }
+}

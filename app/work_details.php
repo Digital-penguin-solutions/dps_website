@@ -35,10 +35,10 @@
 
     <div class="wd_problem_right">
       <h3>The solution</h3>
-     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis blandit magna,
-      a egestas elit aliquam vitae. Aenean pharetra dapibus metus, ac sollicitudin nulla commodo ac.
-      Sed velit eros, convallis sed rhoncus ac, eleifend eu tortor. Maecenas ut neque ut tellus aliquet pharetra.
-      Sed non lectus at orci placerat i</p>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis blandit magna,
+        a egestas elit aliquam vitae. Aenean pharetra dapibus metus, ac sollicitudin nulla commodo ac.
+        Sed velit eros, convallis sed rhoncus ac, eleifend eu tortor. Maecenas ut neque ut tellus aliquet pharetra.
+        Sed non lectus at orci placerat i</p>
     </div>
 
   </div>
@@ -47,17 +47,19 @@
 <!-- Desktop Images -->
 <section class="wd_desktop">
 
-    <img src="img/Work/Desktop/1.jpg" alt="Tastaturen.se index">
-    <img src="img/Work/Desktop/2.jpg" alt="test">
-    <img src="img/Work/Desktop/3.jpg" alt="test">
-    <img src="img/Work/Desktop/4.jpg" alt="test">
+  <img src="img/Work/Desktop/1.jpg" alt="Tastaturen.se index">
+  <img src="img/Work/Desktop/2.jpg" alt="test">
+  <img src="img/Work/Desktop/3.jpg" alt="test">
+  <img src="img/Work/Desktop/4.jpg" alt="test">
 
 </section>
 
 <!-- Mobile Slider -->
 <section class="wd_mobile">
   <div class="wd_mobile_container">
-    <iframe src="" frameborder="0"></iframe>
+
+    <img class="wd_mobile_frame" src="img/Work/Mobile/Iphone.png" alt="asd">
+    <img class="wd_mobile_inner" src="img/Work/Mobile/1.jpg" alt="mobile 1">
 
   </div>
 </section>

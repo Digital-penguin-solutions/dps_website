@@ -1,16 +1,33 @@
 #TODO 
 
 ##Development
--[ ] toppen på aboute us.
--[ ] work sidan styling.
--[ ] Work sidan ska laddas in med php för att enkelt lägga in flera projekt.
--[ ] Work details sidan
--[ ] Work details sidan ska ha urelen `domain/work/name-of-project`
 -[ ] Fixa terms och condison sidor.
 -[ ] Fixa paralex och animeringar för alla sidor.
--[ ] nav ska göras färdig och fungerande (lägga till js och loggan i naven).
 -[ ] favicon
 -[ ] Contact us email php skit
+-[ ] En Admin sdida för att lätt lägga upp nya projekt koplad till php databas
+
+### Nav
+-[ ] Loggan ska ligga i naven.
+-[ ] Se till att alla länkar fungerar som de ska
+-[ ] Animera naven.
+-[ ] Göra så att hamburgar menyn fungerar som den ska
+-[ ] Se till att naven fungerar på mobil och tablet
+
+### Index
+-[ ] Byta penna iconen till något frächare
+
+### About
+-[ ] Styla head
+
+### Services
+-[ ] Alla bilder ska fixas ordentligt i iframs
+
+### work
+-[ ] Work details sidan ska ha urelen `domain/work/name-of-project`
+-[ ] Workdetails sidan header
+-[ ] work details mobile ska vara ett bildspel
+-[ ] både work och work details sidan ska vara fullt php där det laddar in alla projekt från en databas
 
 ##Testing
 -[ ] Mobil anpassa hela sidan.
