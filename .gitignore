@@ -1,8 +1,7 @@
-
-*.css.map
+app/functions/db_connect.php
 .idea/
+node_modules/
+*.css.map
 .DS_Store
 *.db
-app/functions/db_connect.php
-node_modules/
 package-lock.json

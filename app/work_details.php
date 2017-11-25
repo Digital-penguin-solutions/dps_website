@@ -100,6 +100,7 @@
       <p>70L of coffee</p>
     </div>
 
+
     <div class="wd_details_Tags">
       <h4>Tags</h4>
       <hr>
