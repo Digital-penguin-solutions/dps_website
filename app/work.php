@@ -15,22 +15,24 @@
 <section class="work">
   <div class="work_container">
 
-    <!-- Nav tat show all work -->
-    <div class="work_nav">
-
-    </div>
-
-    <!-- How every work shoud look look -->
-    <div class="w_case">
-      <div class="w_case_container">
-        <a href="work_details">KLIMATOR</a>
-
-        <p>Design & Web development</p>
+    <!-- Case nav -->
+    <div class="w_case_nav">
+      <div class="w_case_nav_container">
+        <hr>
+        <a href="#Tastaturen">Tastaturen</a>
+        <a href="#"></a>
+        <a href="#"></a>
       </div>
     </div>
 
-
-    <!-- PHP of the work -->
+    <!-- Cases -->
+    <div class="w_case" id="Tastaturen" style="background: url('img/Work/bg.jpg')">
+      <div class="w_case_container">
+        <h2 class="w_case_header">Tastaturen</h2>
+        <p class="w_case_details">UI / UX Design & Web Development</p>
+        <a href="work_details" class="w_case_a">view Case<hr align="right"></a>
+      </div>
+    </div>
 
   </div>
 </section>

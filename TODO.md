@@ -8,6 +8,7 @@
 -[ ] En Admin sdida för att lätt lägga upp nya projekt koplad till php databas
 
 ### Nav
+-[ ] Se till att hmaburgar färgerna fungerar på alla sidor för dekstop / tablet och mobil
 -[ ] Loggan ska ligga i naven.
 -[ ] Se till att alla länkar fungerar som de ska
 -[ ] Animera naven.
@@ -18,16 +19,21 @@
 -[ ] Byta penna iconen till något frächare
 
 ### About
--[ ] Styla head
+-[ ] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\About.png`
 
 ### Services
--[ ] Alla bilder ska fixas ordentligt i iframs
+-[ ] Byta ut ifram mot som det göts i work_details sidan
 
 ### work
+-[ ] både work och work details sidan ska vara fullt php där det laddar in alla projekt från en databas
+-[ ] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\Work.png`
+
+### Work details
+-[ ] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\Work_details.png`
 -[ ] Work details sidan ska ha urelen `domain/work/name-of-project`
 -[ ] Workdetails sidan header
 -[ ] work details mobile ska vara ett bildspel
--[ ] både work och work details sidan ska vara fullt php där det laddar in alla projekt från en databas
+-[ ] Tablet with 2 images
 
 ##Testing
 -[ ] Mobil anpassa hela sidan.

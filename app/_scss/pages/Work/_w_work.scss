@@ -1,5 +1,142 @@
 @import "../../everything";
 
+//work page
 .work{
+  display: block;
+  height: 100vh;
+  width: 100vw;
 
+  .work_container{
+    height: 100vh;
+    width: 100vw;
+
+    //Nav
+    .w_nav{
+      display: none;
+      visibility: hidden;
+      z-index: -1000;
+    }
+
+    //Cases
+    .w_case{
+      height: 100vh;
+      width: 100vw;
+      background-repeat: no-repeat!important;
+      background-size: cover!important;
+      background-position: center;
+
+      .w_case_container{
+        @extend .grid;
+        height: 100vh;
+        width: 100vw;
+        background: rgba($color1, 0.5);
+        color: white;
+
+        .w_case_header{
+          text-align: center;
+          grid-area: 3 / 4 / 4 / 10;
+          font-size:11vw;
+          font-weight:600;
+        }
+        .w_case_details{
+          font-size:6vw;
+          font-weight:400;
+          text-align: center;
+          grid-area: 4 / 3 / 7 / 11;
+        }
+        .w_case_a{
+          text-align: center;
+          grid-area: 7 / 5 / 8 / 9;
+          text-transform: uppercase;
+          color: white;
+          font-size:5vw;
+          padding:1vh;
+          font-weight: 400;
+          border: 3px solid $color1;
+          background: rgba($color4, 0.3);
+
+          hr{
+            display: none;
+            visibility: hidden;
+          }
+
+          &:hover{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+//Desktop
+@media (min-width: $screen-md-min) {
+
+  .work{
+
+    .work_container{
+
+      //Nav
+      .w_nav{
+        display: block;
+        visibility: visible;
+        z-index:100;
+
+        .w_case_nav_container{
+
+          hr{
+
+          }
+
+          a{
+
+            &:hover{
+              color: white;
+            }
+
+          }
+        }
+      }
+
+      //Cases
+      .w_case{
+
+        .w_case_container{
+
+          .w_case_header{
+            grid-area: 4 / 5 / 7 / 9;
+            font-size:6vw;
+            font-weight:600;
+          }
+          .w_case_details{
+            font-size:2vw;
+            grid-area: 10 / 5 / 12 / 9;
+          }
+          .w_case_a{
+            display: inline-flex;
+            color: white;
+            font-size:2vw;
+            font-weight: 400;
+            grid-area:  6 / 11 / 7 / 14;
+            background: none;
+            border: none;
+
+            hr{
+              display: block;
+              visibility: visible;
+              width: 5vw;
+              border-top: solid 1vh white;
+              border-left: none;
+              border-right: none;
+              border-bottom: none;
+            }
+
+            &:hover{
+
+            }
+          }
+        }
+      }
+    }
+  }
 }

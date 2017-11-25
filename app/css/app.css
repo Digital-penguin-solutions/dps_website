@@ -3,7 +3,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -146,7 +146,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -315,7 +315,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -560,7 +560,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -728,7 +728,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -931,7 +931,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1283,7 +1283,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1486,7 +1486,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1677,7 +1677,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1929,7 +1929,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2100,7 +2100,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2352,7 +2352,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2594,7 +2594,219 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+  display: -ms-grid;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
+
+.center_vertically_css {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center_horizontally_css {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.center_css, .center_css_a, .wd_mobile .wd_mobile_container .wd_mobile_frame, .wd_mobile .wd_mobile_container .wd_mobile_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.center_css_a {
+  height: auto !important;
+  width: auto !important; }
+
+.center_css_new {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.nom, .nopm, .wrapper, html, body, section, ul {
+  margin: 0 !important; }
+
+.nop, .nopm, .wrapper, html, body, section, ul {
+  padding: 0 !important; }
+
+.tole, .wrapper, html, body, section {
+  top: 0 !important;
+  left: 0 !important; }
+
+.fullw, .full_size {
+  width: 100% !important; }
+
+.fullh, .full_size {
+  height: 100% !important; }
+
+.full_page {
+  height: 100vh;
+  width: 100vw; }
+
+.wrapper, html, body {
+  background: #2b2b2b;
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+section {
+  z-index: 2;
+  position: relative; }
+
+ul {
+  list-style: none;
+  font-weight: 300;
+  font-size: 4vw; }
+
+h1 {
+  font-size: 10.5vw;
+  font-weight: 600; }
+
+h2 {
+  font-size: 7.5vw;
+  font-weight: 500; }
+
+h3 {
+  font-size: 6.5vw;
+  font-weight: 400; }
+
+h4 {
+  font-size: 5.5vw;
+  font-weight: 400; }
+
+a {
+  color: #fe7e17;
+  text-decoration: none;
+  font-size: 4vw;
+  font-weight: 300; }
+  a:hover {
+    text-decoration: none; }
+
+p {
+  font-size: 4vw;
+  font-weight: 300; }
+
+@media (min-width: 992px) {
+  ul {
+    list-style: none;
+    font-weight: 300;
+    font-size: 2vw; }
+  h1 {
+    font-size: 6.5vw;
+    font-weight: 600; }
+  h2 {
+    font-size: 5.5vw;
+    font-weight: 500; }
+  h3 {
+    font-size: 4.5vw;
+    font-weight: 400; }
+  h4 {
+    font-size: 3.5vw;
+    font-weight: 400; }
+  a {
+    color: #fe7e17;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 300; }
+  p {
+    font-size: 2vw;
+    font-weight: 300; } }
+
+.work {
+  display: block;
+  height: 100vh;
+  width: 100vw; }
+  .work .work_container {
+    height: 100vh;
+    width: 100vw; }
+    .work .work_container .w_nav {
+      display: none;
+      visibility: hidden;
+      z-index: -1000; }
+    .work .work_container .w_case {
+      height: 100vh;
+      width: 100vw;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center; }
+      .work .work_container .w_case .w_case_container {
+        height: 100vh;
+        width: 100vw;
+        background: rgba(254, 126, 23, 0.5);
+        color: white; }
+        .work .work_container .w_case .w_case_container .w_case_header {
+          text-align: center;
+          grid-area: 3 / 4 / 4 / 10;
+          font-size: 11vw;
+          font-weight: 600; }
+        .work .work_container .w_case .w_case_container .w_case_details {
+          font-size: 6vw;
+          font-weight: 400;
+          text-align: center;
+          grid-area: 4 / 3 / 7 / 11; }
+        .work .work_container .w_case .w_case_container .w_case_a {
+          text-align: center;
+          grid-area: 7 / 5 / 8 / 9;
+          text-transform: uppercase;
+          color: white;
+          font-size: 5vw;
+          padding: 1vh;
+          font-weight: 400;
+          border: 3px solid #fe7e17;
+          background: rgba(43, 43, 43, 0.3); }
+          .work .work_container .w_case .w_case_container .w_case_a hr {
+            display: none;
+            visibility: hidden; }
+
+@media (min-width: 992px) {
+  .work .work_container .w_nav {
+    display: block;
+    visibility: visible;
+    z-index: 100; }
+    .work .work_container .w_nav .w_case_nav_container a:hover {
+      color: white; }
+  .work .work_container .w_case .w_case_container .w_case_header {
+    grid-area: 4 / 5 / 7 / 9;
+    font-size: 6vw;
+    font-weight: 600; }
+  .work .work_container .w_case .w_case_container .w_case_details {
+    font-size: 2vw;
+    grid-area: 10 / 5 / 12 / 9; }
+  .work .work_container .w_case .w_case_container .w_case_a {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: white;
+    font-size: 2vw;
+    font-weight: 400;
+    grid-area: 6 / 11 / 7 / 14;
+    background: none;
+    border: none; }
+    .work .work_container .w_case .w_case_container .w_case_a hr {
+      display: block;
+      visibility: visible;
+      width: 5vw;
+      border-top: solid 1vh white;
+      border-left: none;
+      border-right: none;
+      border-bottom: none; } }
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
+
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2728,141 +2940,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
-  display: -ms-grid;
-  display: grid;
-  grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
-
-.center_vertically_css {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%); }
-
-.center_horizontally_css {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%); }
-
-.center_css, .center_css_a, .wd_mobile .wd_mobile_container .wd_mobile_frame, .wd_mobile .wd_mobile_container .wd_mobile_inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.center_css_a {
-  height: auto !important;
-  width: auto !important; }
-
-.center_css_new {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; }
-
-.nom, .nopm, .wrapper, html, body, section, ul {
-  margin: 0 !important; }
-
-.nop, .nopm, .wrapper, html, body, section, ul {
-  padding: 0 !important; }
-
-.tole, .wrapper, html, body, section {
-  top: 0 !important;
-  left: 0 !important; }
-
-.fullw, .full_size {
-  width: 100% !important; }
-
-.fullh, .full_size {
-  height: 100% !important; }
-
-.full_page {
-  height: 100vh;
-  width: 100vw; }
-
-.wrapper, html, body {
-  background: #2b2b2b;
-  z-index: 1;
-  position: relative;
-  overflow-x: hidden; }
-
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizelegibility; }
-
-body {
-  font-family: 'Lato', sans-serif; }
-
-section {
-  z-index: 2;
-  position: relative; }
-
-ul {
-  list-style: none;
-  font-weight: 300;
-  font-size: 4vw; }
-
-h1 {
-  font-size: 10.5vw;
-  font-weight: 600; }
-
-h2 {
-  font-size: 7.5vw;
-  font-weight: 500; }
-
-h3 {
-  font-size: 6.5vw;
-  font-weight: 400; }
-
-h4 {
-  font-size: 5.5vw;
-  font-weight: 400; }
-
-a {
-  color: #fe7e17;
-  text-decoration: none;
-  font-size: 4vw;
-  font-weight: 300; }
-  a:hover {
-    text-decoration: none; }
-
-p {
-  font-size: 4vw;
-  font-weight: 300; }
-
-@media (min-width: 992px) {
-  ul {
-    list-style: none;
-    font-weight: 300;
-    font-size: 2vw; }
-  h1 {
-    font-size: 6.5vw;
-    font-weight: 600; }
-  h2 {
-    font-size: 5.5vw;
-    font-weight: 500; }
-  h3 {
-    font-size: 4.5vw;
-    font-weight: 400; }
-  h4 {
-    font-size: 3.5vw;
-    font-weight: 400; }
-  a {
-    color: #fe7e17;
-    text-decoration: none;
-    font-size: 2vw;
-    font-weight: 300; }
-  p {
-    font-size: 2vw;
-    font-weight: 300; } }
-
-img[alt=""],
-img:not([alt]) {
-  border: 5px dashed red; }
-
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3043,7 +3121,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3191,7 +3269,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3345,7 +3423,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_header .i_header_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_problem .wd_problem_container, .wd_details .wd_details_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
