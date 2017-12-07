@@ -2,11 +2,13 @@
 
 //work page
 .work{
+  background: transparent;
   display: block;
   height: 100vh;
   width: 100vw;
 
   .work_container{
+    background: transparent;
     height: 100vh;
     width: 100vw;
 
@@ -81,10 +83,19 @@
         display: block;
         visibility: visible;
         z-index:100;
+        position: fixed;
+        overflow: hidden;
+        width: 20vw;
+        height: 100vh;
 
-        .w_case_nav_container{
+        .w_nav_container{
+          height: 50vh;
+          width: 100%;
+          background: red;
+          @include vertical-align();
 
-          hr{
+          .w_nav__indicator{
+            display: block;
 
           }
 

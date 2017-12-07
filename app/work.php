@@ -1,5 +1,7 @@
-<?php include "partials/load.php"; ?>
-<?php include "partials/head.php"; ?>
+<?php
+include "partials/load.php";
+include "partials/head.php";
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,12 +18,12 @@
   <div class="work_container">
 
     <!-- Case nav -->
-    <div class="w_case_nav">
-      <div class="w_case_nav_container">
-        <hr>
+    <div class="w_nav">
+      <div class="w_nav_container">
+        <div class="w_nav__indicator"></div>
         <a href="#Tastaturen">Tastaturen</a>
-        <a href="#"></a>
-        <a href="#"></a>
+        <a href="#">Metsense</a>
+        <a href="#">Klimator</a>
       </div>
     </div>
 

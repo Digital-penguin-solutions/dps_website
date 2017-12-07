@@ -7,35 +7,24 @@
 @import "everything";
 
 // Import views
-@import "views/skroll";
+@import "views/*";
 
 // Import Partials
-@import "partials/404";
-@import "partials/bg-slider";
-@import "partials/footer";
-@import "partials/nav";
-@import "partials/loading";
-
+@import "partials/*";
 // Index
-@import "pages/Index/i_Header";
+@import "pages/Index/*";
 
 // About
-@import "pages/About/about";
-@import "pages/About/a_I_About";
-@import "pages/About/a_footer";
+@import "pages/About/*";
 
 // Contact
-@import "pages/Contact/c_head";
+@import "pages/Contact/*";
 
 // Services
-@import "pages/Services/services";
+@import "pages/Services/*";
 
 // Work
-@import "pages/Work/w_work";
+@import "pages/Work/*";
 
 //work details
-@import "pages/Work_Details/wd_head";
-@import "pages/Work_Details/wd_problem";
-@import "pages/Work_Details/wd_desktop";
-@import "pages/Work_Details/wd_mobile";
-@import "pages/Work_Details/wd_details";
+@import "pages/Work_Details/*";

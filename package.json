@@ -25,6 +25,7 @@
     "gulp-remove-html-comments": "^1.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
+    "gulp-sass-bulk-import": "^1.0.1",
     "gulp-uglify": "^2.0.1",
     "gulp-uncss-sp": "0.0.1",
     "gulp-watch": "^4.3.11",

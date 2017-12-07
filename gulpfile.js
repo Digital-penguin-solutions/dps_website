@@ -13,6 +13,7 @@ var removeComm      = require('gulp-remove-html-comments');
 var clean           = require('gulp-clean');
 var httpProxy       = require('http-proxy');
 var browserSync     = require('browser-sync');
+var bulkSass        = require('gulp-sass-bulk-import');
 var connect         = require('gulp-connect-php');
 
 //delete dist folder
@@ -37,6 +38,17 @@ g.task('minify', ['removeComm'] , function(){
     .pipe(g.dest('dist'));
 });
 
+g.task('import-css', function() {
+  return g
+    .src('app/_scss/app.scss')
+    .pipe(bulkSass())
+    .pipe(
+      sass({
+        includePaths: ['app/_scss/**/*']
+      }))
+    .pipe( g.dest('app/css/') );
+});
+
 //convert scss to css and add prefixes
 g.task('compile-sass', function () {
   return g.src('app/_scss/app.scss')
@@ -45,7 +57,7 @@ g.task('compile-sass', function () {
     .pipe(g.dest('app/css'));
 });
 
-g.task('prefix', ['compile-sass'], function () {
+g.task('prefix', ['import-css'], function () {
   return g.src('app/css/app.css')
     .pipe(prefix({
       browsers: ['last 2 versions'],
