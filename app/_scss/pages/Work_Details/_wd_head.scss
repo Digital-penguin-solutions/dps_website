@@ -1,15 +1,39 @@
 @import "../../everything";
 
 //head
-.wd_head{
-  .wd_head_container{
+.wd_head {
+  display: block;
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat !important;
+  background-size: 100vw 100vh !important;
 
+  .wd_head_container {
+    height: 80vh;
+    width: 100vw;
+    background: rgba($color1, 0.5);
+
+    .wd_head_text {
+      @extend .grid;
+      color: white;
+      height: 80vh;
+      width: 100vw;
+
+      h2 {
+        grid-area: 3 / 2 / 6 / 7;
+        font-size: 6vw;
+        font-weight: 600;
+      }
+
+      p {
+        grid-area: 6 / 2 / 10 / 7;
+        font-size: 3vw;
+
+      }
+    }
   }
 }
 
-
-
 @media (min-width: $screen-md-min) {
-
 
 }

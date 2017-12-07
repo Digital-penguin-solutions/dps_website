@@ -3,7 +3,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -146,7 +146,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -315,7 +315,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -560,7 +560,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -728,7 +728,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1080,7 +1080,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1283,7 +1283,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1474,7 +1474,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1645,7 +1645,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1897,7 +1897,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2068,7 +2068,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2320,7 +2320,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2511,7 +2511,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2763,7 +2763,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3015,7 +3015,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3218,7 +3218,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3421,7 +3421,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3663,7 +3663,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3905,7 +3905,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4132,7 +4132,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4280,7 +4280,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4492,7 +4492,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4622,11 +4622,33 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
+.wd_head {
+  display: block;
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat !important;
+  background-size: 100vw 100vh !important; }
+  .wd_head .wd_head_container {
+    height: 80vh;
+    width: 100vw;
+    background: rgba(254, 126, 23, 0.5); }
+    .wd_head .wd_head_container .wd_head_text {
+      color: white;
+      height: 80vh;
+      width: 100vw; }
+      .wd_head .wd_head_container .wd_head_text h2 {
+        grid-area: 3 / 2 / 6 / 7;
+        font-size: 6vw;
+        font-weight: 600; }
+      .wd_head .wd_head_container .wd_head_text p {
+        grid-area: 6 / 2 / 10 / 7;
+        font-size: 3vw; }
+
 img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4780,7 +4802,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4961,7 +4983,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5130,7 +5152,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5278,7 +5300,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5490,7 +5512,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5620,11 +5642,33 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
+.wd_head {
+  display: block;
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat !important;
+  background-size: 100vw 100vh !important; }
+  .wd_head .wd_head_container {
+    height: 80vh;
+    width: 100vw;
+    background: rgba(254, 126, 23, 0.5); }
+    .wd_head .wd_head_container .wd_head_text {
+      color: white;
+      height: 80vh;
+      width: 100vw; }
+      .wd_head .wd_head_container .wd_head_text h2 {
+        grid-area: 3 / 2 / 6 / 7;
+        font-size: 6vw;
+        font-weight: 600; }
+      .wd_head .wd_head_container .wd_head_text p {
+        grid-area: 6 / 2 / 10 / 7;
+        font-size: 3vw; }
+
 img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5778,7 +5822,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5959,7 +6003,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -6128,7 +6172,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
