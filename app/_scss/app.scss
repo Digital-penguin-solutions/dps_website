@@ -6,25 +6,11 @@
 @import "variabels";
 @import "everything";
 
-// Import views
+// Views
 @import "views/*";
 
-// Import Partials
+// Partials
 @import "partials/*";
-// Index
-@import "pages/Index/*";
 
-// About
-@import "pages/About/*";
-
-// Contact
-@import "pages/Contact/*";
-
-// Services
-@import "pages/Services/*";
-
-// Work
-@import "pages/Work/*";
-
-//work details
-@import "pages/Work_Details/*";
+//pages
+@import "pages/**/*";

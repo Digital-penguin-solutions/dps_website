@@ -54,19 +54,28 @@
 
 </section>
 
+<!-- Tablet -->
+<section class="wd_tablet">
+
+    <div class="wd_tablet_container_1">
+      <img src="img/Work/Tablet/ipad_frame.jpg" alt="ipad frame" class="wd_tablet_frame">
+      <img src="img/Work/Tablet/index.JPG" alt="ipad inner frame" class="wd_tablet_inner">
+    </div>
+
+    <!--
+    <div class="wd_tablet_container_2">
+      <img src="img/Work/Tablet/frame.jpg" alt="ipad frame" class="wd_tablet_frame">
+      <img src="img/Work/Tablet/work.jpg" alt="ipad inner frame" class="wd_tablet_inner">
+    </div>-->
+
+</section>
+
 <!-- Mobile Slider -->
 <section class="wd_mobile">
   <div class="wd_mobile_container">
 
     <img class="wd_mobile_frame" src="img/Work/Mobile/Iphone.png" alt="asd">
     <img class="wd_mobile_inner" src="img/Work/Mobile/1.jpg" alt="mobile 1">
-
-  </div>
-</section>
-
-<!-- Tablet -->
-<section class="wd_tablet">
-  <div class="wd_tablet_container">
 
   </div>
 </section>
