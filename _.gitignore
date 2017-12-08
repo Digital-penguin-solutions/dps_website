@@ -1,0 +1,8 @@
+*.css.map
+.idea/
+.DS_Store
+app/img/work/Thumbs.db
+*.db
+db_connect.php
+!*.svg
+node_modules/

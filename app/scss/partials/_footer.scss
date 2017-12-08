@@ -1,0 +1,103 @@
+@import "../everything";
+
+//div styling
+footer {
+  @include top_box_shadow();
+  @extend .nopm;
+  @extend.tole;
+  z-index: 2;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  background: $color3;
+
+  //divider
+  hr {
+    display: block;
+    border: 1px inset;
+    color: $color4;
+    margin-top: 3vh;
+  }
+
+  //logo
+  img {
+    margin-top: 2vh;
+  }
+}
+
+//top text
+.footer-top-text p {
+  color: $color2 * 1.9;
+  font-size: 1.9em;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 2%;
+}
+
+//mid text
+.footer-mid-text {
+  a {
+    font-size: 2em;
+    text-decoration: none;
+    color: $color2;
+    text-align: center;
+    margin-left: 5%;
+    &:hover{
+      color: $color1;
+      @include transition($prop: all, $time: 0.3s, $ease: ease-in);
+    }
+    &:visited{
+      color: inherit;
+    }
+  }
+}
+
+//bot text
+.footer-bot-text {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 4vh;
+  color: $color2;
+}
+
+//social media icons
+.footer-social img {
+  @extend .nopm;
+  height: 5vh;
+  width: auto;
+  position: relative;
+}
+
+//bot links
+.footer-bot-text {
+  a {
+    color: $color4;
+    text-decoration: none;
+    &:hover{
+      color: $color1;
+      @include transition($prop: all, $time: 0.3s, $ease: ease-in);
+    }
+    &:visited{
+      color: inherit;
+    }
+  }
+}
+
+//computer scree 992px and up
+@media (min-width: $screen-md-min) {
+  //Logo
+  footer img {
+    margin-top: 8vh;
+  }
+
+  //top text
+  .footer-top-text p {
+    font-size: 2em;
+  }
+
+  //bot text
+  .footer-bot-text {
+    margin-top: 3vh;
+  }
+}
