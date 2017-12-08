@@ -3,8 +3,6 @@
 .DS_Store
 app/img/work/Thumbs.db
 *.db
-config.ini
+db_connect.php
 !*.svg
 node_modules/
-app/functions/db_connect.php
-dist

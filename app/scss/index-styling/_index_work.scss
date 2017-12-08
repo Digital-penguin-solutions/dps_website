@@ -1,0 +1,193 @@
+@import "../everything";
+
+//all hedline 2 styling on the work page
+.work-h2 {
+  font-weight: 300;
+  font-size: 1.5em;
+  left: 0;
+  margin-left: 0.5vw;
+  color: $color3;
+}
+
+//all paragrahs on the work page styling
+.work-p {
+  font-weight: 300;
+  font-size: 0.9em;
+  left: 0;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  color: $color3;
+}
+
+//style for the work page
+.work {
+  height: 150vh;
+  z-index: 10;
+  @extend .nopm;
+}
+
+//top container
+.work-top-container {
+  background: $color2;
+  height:85vh;
+
+  a {
+    @extend .full_size;
+    .work-top-product-img {
+      @include top_box_shadow($hori: 1px, $vert: 1px);
+      @extend .center_css_new;
+      height: auto;
+      width: 65vw;
+    }
+  }
+}
+
+//bot container teck info
+.work_bot_container{
+  @extend .nopm;
+  height: 65vh;
+  background: $color2;
+  color: $color3;
+  padding-bottom: 5vh;
+  padding-top:2vh;
+  text-align: center;
+
+  .work_bot_container_top {
+    @extend .nopm;
+    height: 10vh;
+    width: 100vw;
+
+    h1 {
+      margin-top:4vh;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 6vw;
+      text-align: center;
+    }
+
+    a{
+      @extend .nopm;
+      img{
+        background: $color1;
+        height:10vh;
+        width:10vh;
+      }
+    }
+
+  }
+
+  .work_bot_container_bot {
+    height: 55vh;
+    margin-top:5vh;
+
+    .work_bot_info {
+      margin-top: 10vh;
+      h2 {
+        font-size: 2vw;
+        font-weight: 600;
+        color: $color3;
+      }
+      hr {
+        width: 70%;
+        height: 1px;
+      }
+      p {
+        font-size: 1.6vw;
+        font-weight: 300;
+        color: $color3;
+      }
+    }
+
+    img {
+      width: 2vw;
+      height: 2vw;
+      margin: 0.1vw;
+    }
+
+    ul {
+      display: block;
+      list-style-type: disc;
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;
+      -webkit-margin-start: 0;
+      -webkit-margin-end: 0;
+      -webkit-padding-start: 40px;
+      li {
+        list-style: none;
+        display: inline-block;
+        border: 1px solid $color1;
+        padding: 2pt 3pt;
+        margin: 0 4pt 3pt 0;
+        border-radius: 3pt;
+        background: rgba(254, 126, 23, .298039);
+        font-size: 10pt;
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  //all hedline 2 styling on the work page
+  .work-h2 {
+    font-size: 1.5em;
+  }
+
+  //all paragrahs on the work page styling
+  .work-p {
+    font-size: 0.9em;
+  }
+
+  //style for the work page
+  .work {
+    height: 140vh;
+  }
+
+  //top container
+  .work-top-container {
+    height: 80vh;
+    background: transparent;
+
+    a {
+      .work-top-product-img {
+        width: 65vw;
+      }
+    }
+  }
+
+  //bot container teck info
+  .work_bot_container{
+    height: 60vh;
+    padding-bottom: 5vh;
+    padding-top:2vh;
+    text-align: center;
+
+    .work_bot_container_top {
+
+      h1 {
+        font-size: 3vw;
+      }
+    }
+
+    .work_bot_container_bot {
+      height: 55vh;
+      margin-top:5vh;
+
+      .work_bot_info {
+        margin-top: 10vh;
+        h2 {
+          font-size: 2vw;
+        }
+        p {
+          font-size: 1.6vw;
+        }
+      }
+
+      ul {
+        li {
+          font-size: 10pt;
+        }
+      }
+    }
+  }
+
+}

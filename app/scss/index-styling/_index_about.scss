@@ -1,0 +1,231 @@
+@import "../everything";
+
+.index-about{
+  @extend .nopm;
+  @extend .tole;
+  height: 100vh;
+  z-index: 3;
+  overflow: hidden;
+  background: linear-gradient(hsl(0, 0, 95%), hsl(0, 0, 85%));
+
+  .index-about-devider{
+    height: 65vh;
+    width: 2px;
+    position: absolute;
+    background: $color2;
+    top: 18vh;
+    z-index: 100;
+    opacity: 0.5;
+  }
+
+  .index-about-container{
+    @extend .full_size;
+    margin-top:8vh;
+    .index-about-h1{
+      color: $color1;
+      text-align: center;
+      font-size:3.5vw;
+      font-weight:600;
+      text-transform: uppercase;
+    }
+    //left container
+    .index-about-left-container{
+      height: 4vh;
+      padding: 0 !important;
+      .index-about-left-text-container-top{
+        height:5vh;
+        margin-bottom:4vh;
+        padding: 0 !important;
+        .index-about-left-bar-container-top{
+          border: $color2 2px solid;
+          height:5vh;
+          margin-top:2vh;
+          padding: 0 !important;
+        }
+
+        .index-about-left-lef-top{
+          img{
+            height: 4vw;
+            width: 4vw;
+          }
+        }
+
+        .index-about-left-text-top{
+          text-align: right !important;
+          h3{
+            font-size: 2vw;
+          }
+        }
+      }
+
+      .index-about-left-text{
+        text-align: right !important;
+        color: $color2;
+        h3{
+          font-size: 1.2vw;
+          font-weight:300;
+        }
+        p{
+          color: $color4;
+          font-size:0.7vw;
+          font-weight:300;
+        }
+      }
+
+      .index-about-left-img{
+        @extend .fullh;
+        img{
+          width: 3.2vw;
+          height: 3.2vw;
+          margin-top:1.6vh;
+        }
+      }
+
+      .index-about-left-bar-container{
+        height:3.2vw;
+        margin-top:1vw;
+        padding: 0 !important;
+        .index-about-bar-love{
+          background: $color2;
+          height:inherit;
+        }
+        .index-about-bar-slow{
+          width: 5vw;
+          height: 3.2vw;
+
+        }
+        .index-about-bar-work{
+
+        }
+        .index-about-bar-wordpress{
+
+        }
+        .index-about-bar-rush{
+
+        }
+        .index-about-bar-ncertainty{
+
+        }
+        .index-about-bar-font{
+
+        }
+      }
+    }
+
+    //left container
+    .index-about-right-container{
+      height: 4vh;
+      padding: 0 !important;
+      float: right;;
+      .index-about-right-text-container-top{
+        height:5vh;
+        margin-bottom:4vh;
+        padding: 0 !important;
+        .index-about-right-bar-container-top{
+          border: $color1 2px solid;
+          height:5vh;
+          margin-top:2vh;
+          padding: 0 !important;
+        }
+        .index-about-right-img-top{
+          img{
+            height: 4vw;
+            width: 4vw;
+          }
+        }
+        .index-about-right-text-top{
+          color: $color1;
+          text-align: left !important;
+          h3{
+            font-size: 2vw;
+          }
+        }
+      }
+
+      .index-about-right-text{
+        text-align: left !important;
+        color: $color1;
+        h3{
+          font-size: 1.2vw;
+          font-weight:300;
+        }
+        p{
+          color: $color4;
+          font-size:0.7vw;
+          font-weight:300;
+        }
+      }
+
+      .index-about-right-img{
+        @extend .fullh;
+        img{
+          width: 3.2vw;
+          height: 3.2vw;
+          margin-top:1.6vh;
+        }
+      }
+
+      .index-about-right-bar-container{
+        background: $color1;
+        height:3.2vw;
+        margin-top:1vw;
+        //width:auto;
+        .index-about-Friends{
+          width:5vw;
+        }
+        .index-about-Data{
+          width:5vw;
+        }
+        .index-about-code{
+          width:5vw;
+        }
+        .index-about-Mathe{
+          width:5vw;
+        }
+        .index-about-Functionality{
+          width:5vw;
+        }
+        .index-about-Graceful{
+          width:5vw;
+        }
+      }
+    }
+
+    .index-about_read_more{
+      position: absolute;
+      top:85vh;
+      left: 37vw;
+      height: 5vh;
+      width: 10vw;
+      background: #000;
+      a{
+        color: $color1;
+        text-align: center;
+        text-decoration: none;
+        &:hover{
+
+        }
+      }
+    }
+  }
+
+  form button {
+    position: absolute;
+    top: 65vh;
+    display: inline;
+    font-size: 1.6em;
+    padding:0.5vw;
+    background-color: $color1;
+    color: $color3;
+    font-weight: 300;
+    border: 1px solid transparent;
+    @include border_radius($size: 3px);
+    @include transition($time: 0.3s, $ease:ease-in-out);
+
+    &:hover {
+      background-color: transparent;
+      color: $color1;
+      border-color: $color1;
+    }
+  }
+}
