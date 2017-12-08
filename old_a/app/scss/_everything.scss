@@ -1,0 +1,112 @@
+@import "variabels";
+@import "mixin";
+
+//wrapper styling
+.wrapper {
+  @extend .nopm;
+  @extend .tole;
+  background: $color3;
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/*Styling for the entire html file*/
+html {
+  @extend .wrapper;
+}
+
+/*Styling for the body*/
+body {
+  @extend .wrapper;
+  font-family: 'Lato', sans-serif;
+}
+
+//section style
+section {
+  @extend .nopm;
+  @extend .tole;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+// Center vertically
+.center_vertically_css {
+  position: relative;
+  top: $hap;
+  transform: translateY(-$hap);
+}
+
+// Center horizonatally
+.center_horizontally_css {
+  position: relative;
+  left: $hap;
+  transform: translateX(-$hap);
+}
+
+// Center css
+.center_css {
+  position: absolute;
+  top: $hap;
+  left: $hap;
+  transform: translate(-$hap, -$hap);
+}
+
+//center css withe height and with auto
+.center_css_a{
+  height: auto !important;
+  width: auto !important;
+  @extend  .center_css;
+}
+
+//a different center css if the others don't work
+.center_css_new{
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+//no margin
+.nom{
+  margin: $no;
+}
+//no padding
+.nop{
+  padding: $no;
+}
+
+//no padding no margin
+.nopm {
+  @extend .nop;
+  @extend .nom;
+}
+
+//top left
+.tole {
+  top: $no;
+  left: $no;
+}
+
+//full with
+.fullw{
+  width: $full !important;
+}
+
+//full height
+.fullh{
+  height: $full !important;
+}
+
+//full height and full with combined
+.full_size{
+  @extend .fullh;
+  @extend .fullw;
+}
