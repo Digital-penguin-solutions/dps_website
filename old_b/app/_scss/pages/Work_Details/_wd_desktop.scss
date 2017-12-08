@@ -1,0 +1,26 @@
+@import "../../everything";
+
+//Desktop images
+.wd_desktop{
+  display: block;
+  width: 100vw;
+  background: $color6;
+
+    img{
+      margin:5vh 5vw 5vh 5vw;
+      width: 90vw;
+      height: auto;
+    }
+
+}
+
+@media (min-width: $screen-md-min) {
+  .wd_desktop{
+
+    img{
+      margin:10vh 10vw 10vh 10vw;
+      width: 80vw;
+    }
+
+  }
+}

@@ -1,0 +1,83 @@
+@import "../../everything";
+
+//Problem
+.wd_problem{
+  display: block;
+  width: 100vw;
+  height: 80vh;
+
+  .wd_problem_container{
+    width: 100vw;
+    height: 80vh;
+    @extend .grid;
+    background: white;
+
+    .wd_problem_left{
+      grid-area: 2 / 2 / 7 / 12;
+      color: $color4;
+
+      h3{
+        margin-left:2vw;
+        margin-right:2vw;
+        font-size:5vw;
+      }
+      p{
+        margin: -1vh 2vw 0 2vw;
+        font-size:3vw;
+      }
+    }
+    .wd_problem_right{
+      @extend .wd_problem_left;
+      grid-area: 7 / 2 / 12 / 12;
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .wd_problem{
+    .wd_problem_container{
+      .wd_problem_left{
+
+        h3{
+          margin-left:2vw;
+          margin-right:2vw;
+          font-size:4vw;
+        }
+
+        p{
+          margin: -1vh 2vw 0 2vw;
+          font-size:2.8vw;
+        }
+      }
+    }
+  }
+}
+
+//Desktop
+@media (min-width: $screen-md-min) {
+  .wd_problem{
+    height: 60vh;
+
+    .wd_problem_container{
+      height: 60vh;
+
+      .wd_problem_left{
+        grid-area: 2 / 2 / 12 / 7;
+
+        h3{
+          margin-left:2vw;
+          margin-right:2vw;
+          font-size:2.5vw;
+        }
+
+        p{
+          margin: -1vh 2vw 0 2vw;
+          font-size:1.4vw;
+        }
+      }
+      .wd_problem_right{
+        grid-area: 2 / 7 / 12 / 12;
+      }
+    }
+  }
+}

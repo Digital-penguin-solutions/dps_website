@@ -1,0 +1,197 @@
+@import "../../everything";
+
+//Header
+.s_header{
+  height: 100vh;
+  width: 100vw;
+  display: block;
+
+  .s_header_container{
+    background: url("../img/Services/header_bg.jpg") fixed no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+
+    .s_text_container {
+      display: grid;
+      grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+      height: 65vh;
+      width: 100vw;
+      color: white;
+      background: rgba($color1, 0.3);
+
+      h2 {
+        grid-area: 5/ 2 / 7 / 7;
+        font-size: 2vw;
+      }
+    }
+
+    .s_header_links_container{
+      display: grid;
+      grid-template:  repeat(12, 1fr) / repeat(12, 1fr);
+      height: 35vh;
+      width: 100vw;
+      background: white;
+
+      .s_header_links{
+        border-right: 1px solid rgba($color4, 0.5);
+        background: white;
+        height: 100%;
+        width: 100%;
+
+        img{
+          margin-top:5vh;
+          @include horizontal-align();
+          width: 15vw;
+          height: 15vh;
+        }
+
+        p{
+          margin-top:2vh;
+          text-align: center;
+          color: $color5;
+          font-weight: 300;
+          font-size:1.5vw;
+        }
+
+        &:nth-child(1){
+          grid-area: 1 / 1 / 14 / 4;
+
+        }
+        &:nth-child(2){
+          grid-area: 1 / 4 / 14 / 7;
+
+        }
+        &:nth-child(3){
+          grid-area: 1 / 7 / 14 / 10;
+
+        }
+        &:nth-child(4){
+          grid-area: 1 / 10 / 14 / 14;
+
+        }
+        &:hover{
+          background: rgba($color1, 0.7);
+        }
+      }
+    }
+  }
+}
+
+//webdesign
+.s_webdesign{
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  background: white;
+
+  .s_webdesign_container{
+    @extend .grid;
+    height: 100vh;
+    width: 100vw;
+
+
+    .s_webdesign_text{
+      grid-area: 3 / 2 / 10 / 7;
+
+      h3{
+        font-size:3vw;
+      }
+
+      hr{
+        width: 10%;
+        border: 5px solid $color1;
+      }
+
+      p{
+        font-size:1.2vw;
+      }
+    }
+
+    .s_webdesign_img{
+      grid-area: 2 / 8 / 12 / 12;
+
+      .s_frame{
+        background: url("../img/Services/ipad.jpg") no-repeat;
+        background-size: 100%;
+        width:25vw;
+        height:45vw;
+        padding:2vw;
+
+        iframe{
+          width:21.8vw;
+          height:28vw;
+          margin-left:-0.4vw;
+          margin-top:2vw;
+        }
+      }
+
+    }
+  }
+}
+
+//E-commerce
+.s_comerce{
+  @extend .s_webdesign;
+
+  .s_comerce_container{
+    @extend .s_webdesign_container;
+
+    .s_comerce_img{
+      @extend .s_webdesign_img;
+      grid-area: 3 / 2 / 10 / 7;
+    }
+
+    .s_comerce_text{
+      @extend .s_webdesign_text;
+      grid-area: 2 / 8 / 12 / 12;
+    }
+
+  }
+}
+
+//Branding
+.s_brand{
+  @extend .s_webdesign;
+
+  .s_brand_container{
+    @extend .s_webdesign_container;
+
+    .s_brand_text{
+      @extend .s_webdesign_text;
+    }
+
+    .s_brand_img{
+      grid-area: 3 / 8 / 9 / 12;
+      img{
+        width:100%;
+        height:100%;
+
+      }
+    }
+
+  }
+}
+
+//SEO
+.s_seo{
+  @extend .s_webdesign;
+
+  .s_seo_container{
+  @extend .s_webdesign_container;
+
+    .s_seo_img {
+      grid-area: 3 / 2 / 10 / 7;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .s_seo_text{
+      @extend .s_webdesign_text;
+      grid-area: 2 / 8 / 12 / 12;
+    }
+  }
+}
+

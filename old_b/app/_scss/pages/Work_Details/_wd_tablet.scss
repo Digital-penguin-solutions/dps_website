@@ -1,0 +1,53 @@
+@import "../../everything";
+
+.wd_tablet {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  background: $color5;
+
+    .wd_tablet_container_1{
+      position: absolute;
+      height: 100vh;
+      width: 70vw;
+      z-index: 50;
+
+    .wd_tablet_frame {
+      position: absolute;
+      margin-top: 7%;
+      margin-left: 5%;
+      width: 55%;
+      height: auto;
+      z-index: 100;
+    }
+    .wd_tablet_inner {
+      position: absolute;
+      margin-top: 9.3%;
+      margin-left: 9.6%;
+      width: 46.2%;
+      height: auto;
+      z-index: 200;
+    }
+
+  }
+
+  .wd_tablet_container_2 {
+    @extend .wd_tablet_container_1;
+    z-index: 250;
+
+    .wd_tablet_frame{
+      z-index: 300;
+      margin-top: 20%;
+      margin-left: 35%;
+
+    }
+
+    .wd_tablet_inner{
+      z-index: 400;
+      margin-top: 22.3%;
+      margin-left: 39.6%;
+    }
+
+  }
+
+}

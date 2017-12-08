@@ -1,0 +1,229 @@
+@import "variabels";
+@import "mixin";
+
+//img testing
+img[alt=""],
+img:not([alt]){
+  border: 5px dashed red;
+}
+
+//grid
+.grid{
+  display: grid;
+  grid-template:  repeat(12, 1fr) / repeat(12, 1fr);
+}
+
+// Center vertically
+.center_vertically_css {
+  position: relative;
+  top: $hap;
+  transform: translateY(-$hap);
+}
+
+// Center horizontally
+.center_horizontally_css {
+  position: relative;
+  left: $hap;
+  transform: translateX(-$hap);
+}
+
+// Center css
+.center_css {
+  position: absolute;
+  top: $hap;
+  left: $hap;
+  transform: translate(-$hap, -$hap);
+}
+
+//center css withe height and with auto
+.center_css_a{
+  height: auto !important;
+  width: auto !important;
+  @extend  .center_css;
+}
+
+//a different center css if the others don't work
+.center_css_new{
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+//no margin
+.nom{
+  margin: $no;
+}
+
+//no padding
+.nop{
+  padding: $no;
+}
+
+//no padding no margin
+.nopm {
+  @extend .nop;
+  @extend .nom;
+}
+
+//top left
+.tole {
+  top: $no;
+  left: $no;
+}
+
+//full with
+.fullw{
+  width: $full !important;
+}
+
+//full height
+.fullh{
+  height: $full !important;
+}
+
+//full height and full with combined
+.full_size{
+  @extend .fullh;
+  @extend .fullw;
+}
+
+.full_page{
+  height: 100vh;
+  width: 100vw;
+}
+
+//wrapper styling
+.wrapper {
+  @extend .nopm;
+  @extend .tole;
+  background: $color4;
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden;
+}
+
+// Styling for the entire html file
+html {
+  @extend .wrapper;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+// Styling for the body
+body {
+  @extend .wrapper;
+  font-family: 'Lato', sans-serif;
+}
+
+//section style
+section {
+  @extend .nopm;
+  @extend .tole;
+  @extend .grid;
+  z-index: 2;
+  position: relative;
+}
+
+ul{
+  list-style: none;
+  @extend .nopm;
+  font-weight: 300;
+  font-size: $p_mobile;
+
+  li{
+
+  }
+
+  ol{
+
+  }
+}
+
+h1{
+  font-size: $h1_mobile;
+  font-weight: 600;
+}
+
+h2{
+  font-size: $h2_mobile;
+  font-weight: 500;
+}
+
+h3{
+  font-size: $h3_mobile;
+  font-weight: 400;
+}
+
+h4{
+  font-size: $h4_mobile;
+  font-weight: 400;
+}
+
+a{
+  color: $color1;
+  text-decoration: none;
+  font-size: $p_mobile;
+  font-weight: 300;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+p{
+  font-size: $p_mobile;
+  font-weight: 300;
+}
+
+//computer scree 992px and up
+@media (min-width: $screen-md-min) {
+  ul{
+    list-style: none;
+    @extend .nopm;
+    font-weight: 300;
+    font-size: $p_desktop;
+
+    li{
+
+    }
+
+    ol{
+
+    }
+  }
+
+  h1{
+    font-size: $h1_desktop;
+    font-weight: 600;
+  }
+
+  h2{
+    font-size: $h2_desktop;
+    font-weight: 500;
+  }
+
+  h3{
+    font-size: $h3_desktop;
+    font-weight: 400;
+  }
+
+  h4{
+    font-size: $h4_desktop;
+    font-weight: 400;
+  }
+
+  a{
+    color: $color1;
+    text-decoration: none;
+    font-size: $p_desktop;
+    font-weight: 300;
+  }
+
+  p{
+    font-size: $p_desktop;
+    font-weight: 300;
+  }
+}
