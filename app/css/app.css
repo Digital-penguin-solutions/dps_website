@@ -3854,28 +3854,32 @@ p {
       .s_webdesign .s_webdesign_container .s_webdesign_text p, .s_comerce .s_webdesign_container .s_webdesign_text p, .s_brand .s_webdesign_container .s_webdesign_text p, .s_seo .s_webdesign_container .s_webdesign_text p, .s_comerce .s_comerce_container .s_webdesign_text p, .s_brand .s_brand_container .s_webdesign_text p, .s_seo .s_seo_container .s_webdesign_text p, .s_comerce .s_comerce_container .s_comerce_text p, .s_brand .s_brand_container .s_brand_text p, .s_seo .s_seo_container .s_seo_text p {
         font-size: 1.2vw; }
     .s_webdesign .s_webdesign_container .s_webdesign_img, .s_comerce .s_webdesign_container .s_webdesign_img, .s_brand .s_webdesign_container .s_webdesign_img, .s_seo .s_webdesign_container .s_webdesign_img, .s_comerce .s_comerce_container .s_webdesign_img, .s_brand .s_brand_container .s_webdesign_img, .s_seo .s_seo_container .s_webdesign_img, .s_comerce .s_comerce_container .s_comerce_img {
-      grid-area: 2 / 8 / 12 / 12; }
-      .s_webdesign .s_webdesign_container .s_webdesign_img .s_frame, .s_comerce .s_webdesign_container .s_webdesign_img .s_frame, .s_brand .s_webdesign_container .s_webdesign_img .s_frame, .s_seo .s_webdesign_container .s_webdesign_img .s_frame, .s_comerce .s_comerce_container .s_webdesign_img .s_frame, .s_brand .s_brand_container .s_webdesign_img .s_frame, .s_seo .s_seo_container .s_webdesign_img .s_frame, .s_comerce .s_comerce_container .s_comerce_img .s_frame {
-        background: url("../img/Services/ipad.jpg") no-repeat;
-        background-size: 100%;
-        width: 25vw;
-        height: 45vw;
-        padding: 2vw; }
-        .s_webdesign .s_webdesign_container .s_webdesign_img .s_frame iframe, .s_comerce .s_webdesign_container .s_webdesign_img .s_frame iframe, .s_brand .s_webdesign_container .s_webdesign_img .s_frame iframe, .s_seo .s_webdesign_container .s_webdesign_img .s_frame iframe, .s_comerce .s_comerce_container .s_webdesign_img .s_frame iframe, .s_brand .s_brand_container .s_webdesign_img .s_frame iframe, .s_seo .s_seo_container .s_webdesign_img .s_frame iframe, .s_comerce .s_comerce_container .s_comerce_img .s_frame iframe {
-          width: 21.8vw;
-          height: 28vw;
-          margin-left: -0.4vw;
-          margin-top: 2vw; }
+      grid-area: 2 / 8 / 12 / 12;
+      display: block;
+      padding-left: 5vw; }
+      .s_webdesign .s_webdesign_container .s_webdesign_img .frame, .s_comerce .s_webdesign_container .s_webdesign_img .frame, .s_brand .s_webdesign_container .s_webdesign_img .frame, .s_seo .s_webdesign_container .s_webdesign_img .frame, .s_comerce .s_comerce_container .s_webdesign_img .frame, .s_brand .s_brand_container .s_webdesign_img .frame, .s_seo .s_seo_container .s_webdesign_img .frame, .s_comerce .s_comerce_container .s_comerce_img .frame {
+        position: absolute;
+        width: 26%;
+        height: auto; }
+      .s_webdesign .s_webdesign_container .s_webdesign_img .inner, .s_comerce .s_webdesign_container .s_webdesign_img .inner, .s_brand .s_webdesign_container .s_webdesign_img .inner, .s_seo .s_webdesign_container .s_webdesign_img .inner, .s_comerce .s_comerce_container .s_webdesign_img .inner, .s_brand .s_brand_container .s_webdesign_img .inner, .s_seo .s_seo_container .s_webdesign_img .inner, .s_comerce .s_comerce_container .s_comerce_img .inner {
+        position: absolute;
+        width: 22.6%;
+        height: auto;
+        margin-top: 4.3%;
+        margin-left: 1.7%; }
 
 .s_comerce .s_comerce_container .s_comerce_img {
-  grid-area: 3 / 2 / 10 / 7; }
+  grid-area: 2 / 2 / 10 / 7; }
 
 .s_comerce .s_comerce_container .s_comerce_text {
   grid-area: 2 / 8 / 12 / 12; }
 
 .s_brand .s_brand_container .s_brand_img {
-  grid-area: 3 / 8 / 9 / 12; }
+  grid-area: 4 / 8 / 10 / 12; }
   .s_brand .s_brand_container .s_brand_img img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     height: 100%; }
 
@@ -4096,28 +4100,32 @@ p {
       .s_webdesign .s_webdesign_container .s_webdesign_text p, .s_comerce .s_webdesign_container .s_webdesign_text p, .s_brand .s_webdesign_container .s_webdesign_text p, .s_seo .s_webdesign_container .s_webdesign_text p, .s_comerce .s_comerce_container .s_webdesign_text p, .s_brand .s_brand_container .s_webdesign_text p, .s_seo .s_seo_container .s_webdesign_text p, .s_comerce .s_comerce_container .s_comerce_text p, .s_brand .s_brand_container .s_brand_text p, .s_seo .s_seo_container .s_seo_text p {
         font-size: 1.2vw; }
     .s_webdesign .s_webdesign_container .s_webdesign_img, .s_comerce .s_webdesign_container .s_webdesign_img, .s_brand .s_webdesign_container .s_webdesign_img, .s_seo .s_webdesign_container .s_webdesign_img, .s_comerce .s_comerce_container .s_webdesign_img, .s_brand .s_brand_container .s_webdesign_img, .s_seo .s_seo_container .s_webdesign_img, .s_comerce .s_comerce_container .s_comerce_img {
-      grid-area: 2 / 8 / 12 / 12; }
-      .s_webdesign .s_webdesign_container .s_webdesign_img .s_frame, .s_comerce .s_webdesign_container .s_webdesign_img .s_frame, .s_brand .s_webdesign_container .s_webdesign_img .s_frame, .s_seo .s_webdesign_container .s_webdesign_img .s_frame, .s_comerce .s_comerce_container .s_webdesign_img .s_frame, .s_brand .s_brand_container .s_webdesign_img .s_frame, .s_seo .s_seo_container .s_webdesign_img .s_frame, .s_comerce .s_comerce_container .s_comerce_img .s_frame {
-        background: url("../img/Services/ipad.jpg") no-repeat;
-        background-size: 100%;
-        width: 25vw;
-        height: 45vw;
-        padding: 2vw; }
-        .s_webdesign .s_webdesign_container .s_webdesign_img .s_frame iframe, .s_comerce .s_webdesign_container .s_webdesign_img .s_frame iframe, .s_brand .s_webdesign_container .s_webdesign_img .s_frame iframe, .s_seo .s_webdesign_container .s_webdesign_img .s_frame iframe, .s_comerce .s_comerce_container .s_webdesign_img .s_frame iframe, .s_brand .s_brand_container .s_webdesign_img .s_frame iframe, .s_seo .s_seo_container .s_webdesign_img .s_frame iframe, .s_comerce .s_comerce_container .s_comerce_img .s_frame iframe {
-          width: 21.8vw;
-          height: 28vw;
-          margin-left: -0.4vw;
-          margin-top: 2vw; }
+      grid-area: 2 / 8 / 12 / 12;
+      display: block;
+      padding-left: 5vw; }
+      .s_webdesign .s_webdesign_container .s_webdesign_img .frame, .s_comerce .s_webdesign_container .s_webdesign_img .frame, .s_brand .s_webdesign_container .s_webdesign_img .frame, .s_seo .s_webdesign_container .s_webdesign_img .frame, .s_comerce .s_comerce_container .s_webdesign_img .frame, .s_brand .s_brand_container .s_webdesign_img .frame, .s_seo .s_seo_container .s_webdesign_img .frame, .s_comerce .s_comerce_container .s_comerce_img .frame {
+        position: absolute;
+        width: 26%;
+        height: auto; }
+      .s_webdesign .s_webdesign_container .s_webdesign_img .inner, .s_comerce .s_webdesign_container .s_webdesign_img .inner, .s_brand .s_webdesign_container .s_webdesign_img .inner, .s_seo .s_webdesign_container .s_webdesign_img .inner, .s_comerce .s_comerce_container .s_webdesign_img .inner, .s_brand .s_brand_container .s_webdesign_img .inner, .s_seo .s_seo_container .s_webdesign_img .inner, .s_comerce .s_comerce_container .s_comerce_img .inner {
+        position: absolute;
+        width: 22.6%;
+        height: auto;
+        margin-top: 4.3%;
+        margin-left: 1.7%; }
 
 .s_comerce .s_comerce_container .s_comerce_img {
-  grid-area: 3 / 2 / 10 / 7; }
+  grid-area: 2 / 2 / 10 / 7; }
 
 .s_comerce .s_comerce_container .s_comerce_text {
   grid-area: 2 / 8 / 12 / 12; }
 
 .s_brand .s_brand_container .s_brand_img {
-  grid-area: 3 / 8 / 9 / 12; }
+  grid-area: 4 / 8 / 10 / 12; }
   .s_brand .s_brand_container .s_brand_img img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     height: 100%; }
 

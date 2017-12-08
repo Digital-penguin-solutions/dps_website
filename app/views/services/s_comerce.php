@@ -3,9 +3,8 @@
   <div class="s_comerce_container">
 
     <div class="s_comerce_img">
-      <div class="s_frame">
-        <iframe src="img/Services/Webdesign.png" frameborder="0"></iframe>
-      </div>
+      <img class="frame" src="img/Services/ipad.jpg" alt="ipad">
+      <img class="inner" src="img/Services/comerce.jpg" alt="e-comerce">
     </div>
 
     <div class="s_comerce_text">
