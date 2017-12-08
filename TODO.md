@@ -1,9 +1,9 @@
+# Notes
 
 
-##TODO 
+## TODO 
 -[ ] Fixa terms och condison sidor.
 -[ ] Fixa paralex och animeringar för alla sidor.
--[ ] favicon
 -[ ] Contact us email php skit
 -[ ] En Admin sdida för att lätt lägga upp nya projekt koplad till php databas
 -[ ] Work details sidan ska ha urelen `domain/work/name-of-project`
@@ -52,11 +52,12 @@
 -[ ] Köpa server.
 -[ ] köpa domän.
 
-### Saker att kanske fixa i framsiden
+## Saker att kanske fixa i framsiden
 -[ ] Göra så att sidan finns för både svenska och engelska.
 -[ ] Prize calculator.
 
 # Done
+-[x] favicon
 -[x] Tablet with 2 images
 -[x] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\Work_details.png`
 -[x] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\About.png`

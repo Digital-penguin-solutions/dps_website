@@ -1,4 +1,4 @@
-$(document).ready(time);
+/*$(document).ready(time);
 
 var today = new Date();
 var curHr = today.getHours();
@@ -17,3 +17,4 @@ function time() {
   var header_tag = document.getElementById("time");
   header_tag.innerHTML = message;
 }
+*/
