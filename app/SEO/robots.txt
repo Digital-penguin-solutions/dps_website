@@ -1,0 +1,3 @@
+Sitemap: https://....../sistemap.xml
+
+User-agent: *

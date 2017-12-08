@@ -1,2 +1,0 @@
-# Digitalis
-Digitalis official website
