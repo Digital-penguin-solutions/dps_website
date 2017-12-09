@@ -3,7 +3,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -149,7 +149,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -330,7 +330,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -587,7 +587,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -767,7 +767,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1131,7 +1131,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1358,7 +1358,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1608,7 +1608,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1750,32 +1750,180 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
-.a_header {
-  height: 100vh;
-  width: 100vw;
-  display: block; }
-  .a_header .a_header_container {
-    background: #000; }
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
 
-.a_story {
-  display: block;
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+  display: -ms-grid;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
+
+.midnightHeader.default {
+  color: #fe7e17;
+  background: #fe7e17; }
+
+.midnightHeader.nav-light {
+  color: white;
   background: white; }
-  .a_story .a_story_container {
-    background: white;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    text-align: center; }
-    .a_story .a_story_container h3 {
-      font-size: 4vw; }
-    .a_story .a_story_container hr {
-      width: 20%;
-      border: 1px solid #2b2b2b;
-      opacity: 0.7; }
-    .a_story .a_story_container p {
-      font-size: 1.5vw;
-      font-weight: 300;
-      margin-left: 20vw;
-      margin-right: 20vw; }
+
+.midnightHeader.nav-dark {
+  color: #212121;
+  background: #212121; }
+
+.center_vertically_css {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center_horizontally_css {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.center_css, .center_css_a, .wd_mobile .wd_mobile_container .wd_mobile_frame, .wd_mobile .wd_mobile_container .wd_mobile_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.center_css_a {
+  height: auto !important;
+  width: auto !important; }
+
+.center_css_new {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.nom, .nopm, .wrapper, html, body, section, ul {
+  margin: 0 !important; }
+
+.nop, .nopm, .wrapper, html, body, section, ul {
+  padding: 0 !important; }
+
+.tole, .wrapper, html, body, section, .nav_out, .background_image_container, .background_image_container img {
+  top: 0 !important;
+  left: 0 !important; }
+
+.fullw, .full_size, .background_image_container, .background_image_container img, .slider_list_container, .slider_dots_container, .image {
+  width: 100% !important; }
+
+.fullh, .full_size, .background_image_container, .background_image_container img {
+  height: 100% !important; }
+
+.full_page {
+  height: 100vh;
+  width: 100vw; }
+
+.wrapper, html, body {
+  background: #2b2b2b;
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+section {
+  z-index: 2;
+  position: relative; }
+
+ul {
+  list-style: none;
+  font-weight: 300;
+  font-size: 4vw; }
+
+h1 {
+  font-size: 10.5vw;
+  font-weight: 600; }
+
+h2 {
+  font-size: 7.5vw;
+  font-weight: 500; }
+
+h3 {
+  font-size: 6.5vw;
+  font-weight: 400; }
+
+h4 {
+  font-size: 5.5vw;
+  font-weight: 400; }
+
+a {
+  color: #fe7e17;
+  text-decoration: none;
+  font-size: 4vw;
+  font-weight: 300; }
+  a:hover {
+    text-decoration: none; }
+
+p {
+  font-size: 4vw;
+  font-weight: 300; }
+
+@media (min-width: 992px) {
+  ul {
+    list-style: none;
+    font-weight: 300;
+    font-size: 2vw; }
+  h1 {
+    font-size: 6.5vw;
+    font-weight: 600; }
+  h2 {
+    font-size: 5.5vw;
+    font-weight: 500; }
+  h3 {
+    font-size: 4.5vw;
+    font-weight: 400; }
+  h4 {
+    font-size: 3.5vw;
+    font-weight: 400; }
+  a {
+    color: #fe7e17;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 300; }
+  p {
+    font-size: 2vw;
+    font-weight: 300; } }
+
+.wd_head, .a_header, .s_header {
+  display: block;
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat !important;
+  background-size: 100vw 100vh !important; }
+  .wd_head .wd_head_container, .a_header .wd_head_container, .s_header .wd_head_container, .a_header .a_header_container, .s_header .s_header_container {
+    height: 80vh;
+    width: 100vw;
+    background: rgba(254, 126, 23, 0.5); }
+    .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container {
+      color: white;
+      height: 80vh;
+      width: 100vw; }
+      .wd_head .wd_head_container .wd_head_text h2, .a_header .wd_head_container .wd_head_text h2, .s_header .wd_head_container .wd_head_text h2, .a_header .a_header_container .wd_head_text h2, .s_header .s_header_container .wd_head_text h2, .a_header .a_header_container .a_head_text h2, .s_header .s_header_container .s_text_container h2 {
+        grid-area: 3 / 2 / 6 / 7;
+        font-size: 6vw;
+        font-weight: 600; }
+      .wd_head .wd_head_container .wd_head_text p, .a_header .wd_head_container .wd_head_text p, .s_header .wd_head_container .wd_head_text p, .a_header .a_header_container .wd_head_text p, .s_header .s_header_container .wd_head_text p, .a_header .a_header_container .a_head_text p, .s_header .s_header_container .s_text_container p {
+        grid-area: 6 / 2 / 10 / 7;
+        font-size: 3vw; }
+
+.a_header {
+  background: url("../img/About/about_bg.jpg"); }
+  .a_header .a_header_container .a_head_text h2 {
+    grid-area: 5 / 2 / 7 / 7 !important;
+    font-size: 2vw !important;
+    font-weight: 400; }
 
 .a_slider {
   height: 100vh;
@@ -1785,33 +1933,11 @@ p {
     height: 100vh;
     width: 100vw; }
 
-@media (min-width: 768px) {
-  .a_story .a_story_container {
-    padding-top: 10vh;
-    padding-bottom: 10vh; }
-    .a_story .a_story_container h3 {
-      font-size: 4vw; }
-    .a_story .a_story_container p {
-      font-size: 1.5vw;
-      margin-left: 20vw;
-      margin-right: 20vw; } }
-
-@media (min-width: 992px) {
-  .a_story .a_story_container {
-    padding-top: 10vh;
-    padding-bottom: 10vh; }
-    .a_story .a_story_container h3 {
-      font-size: 4vw; }
-    .a_story .a_story_container p {
-      font-size: 1.5vw;
-      margin-left: 20vw;
-      margin-right: 20vw; } }
-
 img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -1994,7 +2120,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2140,7 +2266,7 @@ p {
   z-index: 10;
   display: block;
   height: 135vh;
-  background: #e6e6e6; }
+  background: #f2f2f2; }
   .i_About .i_About_container {
     height: 135vh;
     width: 100vw; }
@@ -2254,11 +2380,53 @@ p {
   .st18 {
     font-size: 1.3vw; } }
 
+.a_story {
+  display: block;
+  background: white; }
+  .a_story .a_story_container {
+    background: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center; }
+    .a_story .a_story_container h3 {
+      font-size: 4vw; }
+    .a_story .a_story_container hr {
+      width: 20%;
+      border: 1px solid #2b2b2b;
+      opacity: 0.7; }
+    .a_story .a_story_container p {
+      font-size: 1.5vw;
+      font-weight: 300;
+      margin-left: 20vw;
+      margin-right: 20vw; }
+
+@media (min-width: 768px) {
+  .a_story .a_story_container {
+    padding-top: 10vh;
+    padding-bottom: 10vh; }
+    .a_story .a_story_container h3 {
+      font-size: 4vw; }
+    .a_story .a_story_container p {
+      font-size: 1.5vw;
+      margin-left: 20vw;
+      margin-right: 20vw; } }
+
+@media (min-width: 992px) {
+  .a_story .a_story_container {
+    padding-top: 10vh;
+    padding-bottom: 10vh; }
+    .a_story .a_story_container h3 {
+      font-size: 4vw; }
+    .a_story .a_story_container p {
+      font-size: 1.5vw;
+      margin-left: 20vw;
+      margin-right: 20vw; } }
+
 img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2441,7 +2609,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2587,7 +2755,7 @@ p {
   z-index: 10;
   display: block;
   height: 135vh;
-  background: #e6e6e6; }
+  background: #f2f2f2; }
   .i_About .i_About_container {
     height: 135vh;
     width: 100vw; }
@@ -2701,11 +2869,53 @@ p {
   .st18 {
     font-size: 1.3vw; } }
 
+.a_story {
+  display: block;
+  background: white; }
+  .a_story .a_story_container {
+    background: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center; }
+    .a_story .a_story_container h3 {
+      font-size: 4vw; }
+    .a_story .a_story_container hr {
+      width: 20%;
+      border: 1px solid #2b2b2b;
+      opacity: 0.7; }
+    .a_story .a_story_container p {
+      font-size: 1.5vw;
+      font-weight: 300;
+      margin-left: 20vw;
+      margin-right: 20vw; }
+
+@media (min-width: 768px) {
+  .a_story .a_story_container {
+    padding-top: 10vh;
+    padding-bottom: 10vh; }
+    .a_story .a_story_container h3 {
+      font-size: 4vw; }
+    .a_story .a_story_container p {
+      font-size: 1.5vw;
+      margin-left: 20vw;
+      margin-right: 20vw; } }
+
+@media (min-width: 992px) {
+  .a_story .a_story_container {
+    padding-top: 10vh;
+    padding-bottom: 10vh; }
+    .a_story .a_story_container h3 {
+      font-size: 4vw; }
+    .a_story .a_story_container p {
+      font-size: 1.5vw;
+      margin-left: 20vw;
+      margin-right: 20vw; } }
+
 img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -2847,32 +3057,180 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
-.a_header {
-  height: 100vh;
-  width: 100vw;
-  display: block; }
-  .a_header .a_header_container {
-    background: #000; }
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
 
-.a_story {
-  display: block;
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+  display: -ms-grid;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
+
+.midnightHeader.default {
+  color: #fe7e17;
+  background: #fe7e17; }
+
+.midnightHeader.nav-light {
+  color: white;
   background: white; }
-  .a_story .a_story_container {
-    background: white;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    text-align: center; }
-    .a_story .a_story_container h3 {
-      font-size: 4vw; }
-    .a_story .a_story_container hr {
-      width: 20%;
-      border: 1px solid #2b2b2b;
-      opacity: 0.7; }
-    .a_story .a_story_container p {
-      font-size: 1.5vw;
-      font-weight: 300;
-      margin-left: 20vw;
-      margin-right: 20vw; }
+
+.midnightHeader.nav-dark {
+  color: #212121;
+  background: #212121; }
+
+.center_vertically_css {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center_horizontally_css {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.center_css, .center_css_a, .wd_mobile .wd_mobile_container .wd_mobile_frame, .wd_mobile .wd_mobile_container .wd_mobile_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.center_css_a {
+  height: auto !important;
+  width: auto !important; }
+
+.center_css_new {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.nom, .nopm, .wrapper, html, body, section, ul {
+  margin: 0 !important; }
+
+.nop, .nopm, .wrapper, html, body, section, ul {
+  padding: 0 !important; }
+
+.tole, .wrapper, html, body, section, .nav_out, .background_image_container, .background_image_container img {
+  top: 0 !important;
+  left: 0 !important; }
+
+.fullw, .full_size, .background_image_container, .background_image_container img, .slider_list_container, .slider_dots_container, .image {
+  width: 100% !important; }
+
+.fullh, .full_size, .background_image_container, .background_image_container img {
+  height: 100% !important; }
+
+.full_page {
+  height: 100vh;
+  width: 100vw; }
+
+.wrapper, html, body {
+  background: #2b2b2b;
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+section {
+  z-index: 2;
+  position: relative; }
+
+ul {
+  list-style: none;
+  font-weight: 300;
+  font-size: 4vw; }
+
+h1 {
+  font-size: 10.5vw;
+  font-weight: 600; }
+
+h2 {
+  font-size: 7.5vw;
+  font-weight: 500; }
+
+h3 {
+  font-size: 6.5vw;
+  font-weight: 400; }
+
+h4 {
+  font-size: 5.5vw;
+  font-weight: 400; }
+
+a {
+  color: #fe7e17;
+  text-decoration: none;
+  font-size: 4vw;
+  font-weight: 300; }
+  a:hover {
+    text-decoration: none; }
+
+p {
+  font-size: 4vw;
+  font-weight: 300; }
+
+@media (min-width: 992px) {
+  ul {
+    list-style: none;
+    font-weight: 300;
+    font-size: 2vw; }
+  h1 {
+    font-size: 6.5vw;
+    font-weight: 600; }
+  h2 {
+    font-size: 5.5vw;
+    font-weight: 500; }
+  h3 {
+    font-size: 4.5vw;
+    font-weight: 400; }
+  h4 {
+    font-size: 3.5vw;
+    font-weight: 400; }
+  a {
+    color: #fe7e17;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 300; }
+  p {
+    font-size: 2vw;
+    font-weight: 300; } }
+
+.wd_head, .a_header, .s_header {
+  display: block;
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat !important;
+  background-size: 100vw 100vh !important; }
+  .wd_head .wd_head_container, .a_header .wd_head_container, .s_header .wd_head_container, .a_header .a_header_container, .s_header .s_header_container {
+    height: 80vh;
+    width: 100vw;
+    background: rgba(254, 126, 23, 0.5); }
+    .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container {
+      color: white;
+      height: 80vh;
+      width: 100vw; }
+      .wd_head .wd_head_container .wd_head_text h2, .a_header .wd_head_container .wd_head_text h2, .s_header .wd_head_container .wd_head_text h2, .a_header .a_header_container .wd_head_text h2, .s_header .s_header_container .wd_head_text h2, .a_header .a_header_container .a_head_text h2, .s_header .s_header_container .s_text_container h2 {
+        grid-area: 3 / 2 / 6 / 7;
+        font-size: 6vw;
+        font-weight: 600; }
+      .wd_head .wd_head_container .wd_head_text p, .a_header .wd_head_container .wd_head_text p, .s_header .wd_head_container .wd_head_text p, .a_header .a_header_container .wd_head_text p, .s_header .s_header_container .wd_head_text p, .a_header .a_header_container .a_head_text p, .s_header .s_header_container .s_text_container p {
+        grid-area: 6 / 2 / 10 / 7;
+        font-size: 3vw; }
+
+.a_header {
+  background: url("../img/About/about_bg.jpg"); }
+  .a_header .a_header_container .a_head_text h2 {
+    grid-area: 5 / 2 / 7 / 7 !important;
+    font-size: 2vw !important;
+    font-weight: 400; }
 
 .a_slider {
   height: 100vh;
@@ -2882,33 +3240,11 @@ p {
     height: 100vh;
     width: 100vw; }
 
-@media (min-width: 768px) {
-  .a_story .a_story_container {
-    padding-top: 10vh;
-    padding-bottom: 10vh; }
-    .a_story .a_story_container h3 {
-      font-size: 4vw; }
-    .a_story .a_story_container p {
-      font-size: 1.5vw;
-      margin-left: 20vw;
-      margin-right: 20vw; } }
-
-@media (min-width: 992px) {
-  .a_story .a_story_container {
-    padding-top: 10vh;
-    padding-bottom: 10vh; }
-    .a_story .a_story_container h3 {
-      font-size: 4vw; }
-    .a_story .a_story_container p {
-      font-size: 1.5vw;
-      margin-left: 20vw;
-      margin-right: 20vw; } }
-
 img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3172,7 +3508,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3436,7 +3772,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3600,7 +3936,7 @@ p {
     height: 100vh;
     background: rgba(43, 43, 43, 0.7); }
     .i_header .i_header_container a {
-      grid-area: 10 / 10 / 12 / 12; }
+      grid-area: 10 / 10 / 11 / 11; }
       .i_header .i_header_container a svg {
         position: absolute;
         margin: auto;
@@ -3610,7 +3946,7 @@ p {
         bottom: 0;
         height: 100%;
         width: 100%;
-        fill: white; }
+        fill: #fe7e17; }
     .i_header .i_header_container .i_header_btn {
       grid-area: 8 / 5 / 9 / 9;
       border: 2px solid #fe7e17;
@@ -3619,6 +3955,12 @@ p {
       color: white;
       font-size: 3vw;
       text-transform: uppercase;
+      text-align: center;
+      vertical-align: middle;
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+      padding: 2vh;
       font-weight: 300; }
       .i_header .i_header_container .i_header_btn:hover {
         border: white;
@@ -3655,7 +3997,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -3819,7 +4161,7 @@ p {
     height: 100vh;
     background: rgba(43, 43, 43, 0.7); }
     .i_header .i_header_container a {
-      grid-area: 10 / 10 / 12 / 12; }
+      grid-area: 10 / 10 / 11 / 11; }
       .i_header .i_header_container a svg {
         position: absolute;
         margin: auto;
@@ -3829,7 +4171,7 @@ p {
         bottom: 0;
         height: 100%;
         width: 100%;
-        fill: white; }
+        fill: #fe7e17; }
     .i_header .i_header_container .i_header_btn {
       grid-area: 8 / 5 / 9 / 9;
       border: 2px solid #fe7e17;
@@ -3838,6 +4180,12 @@ p {
       color: white;
       font-size: 3vw;
       text-transform: uppercase;
+      text-align: center;
+      vertical-align: middle;
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+      padding: 2vh;
       font-weight: 300; }
       .i_header .i_header_container .i_header_btn:hover {
         border: white;
@@ -3874,7 +4222,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4016,123 +4364,11 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
-.s_header {
-  height: 100vh;
-  width: 100vw;
-  display: block; }
-  .s_header .s_header_container {
-    background: url("../img/Services/header_bg.jpg") fixed no-repeat;
-    background-size: 100vw 100vh;
-    height: 100vh;
-    width: 100vw; }
-    .s_header .s_header_container .s_text_container {
-      display: -ms-grid;
-      display: grid;
-      grid-template: repeat(12, 1fr)/repeat(12, 1fr);
-      height: 65vh;
-      width: 100vw;
-      color: white;
-      background: rgba(254, 126, 23, 0.3); }
-      .s_header .s_header_container .s_text_container h2 {
-        grid-area: 5/ 2 / 7 / 7;
-        font-size: 2vw; }
-    .s_header .s_header_container .s_header_links_container {
-      display: -ms-grid;
-      display: grid;
-      grid-template: repeat(12, 1fr)/repeat(12, 1fr);
-      height: 35vh;
-      width: 100vw;
-      background: white; }
-      .s_header .s_header_container .s_header_links_container .s_header_links {
-        border-right: 1px solid rgba(43, 43, 43, 0.5);
-        background: white;
-        height: 100%;
-        width: 100%; }
-        .s_header .s_header_container .s_header_links_container .s_header_links img {
-          margin-top: 5vh;
-          position: relative;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 15vw;
-          height: 15vh; }
-        .s_header .s_header_container .s_header_links_container .s_header_links p {
-          margin-top: 2vh;
-          text-align: center;
-          color: #212121;
-          font-weight: 300;
-          font-size: 1.5vw; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(1) {
-          grid-area: 1 / 1 / 14 / 4; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(2) {
-          grid-area: 1 / 4 / 14 / 7; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(3) {
-          grid-area: 1 / 7 / 14 / 10; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(4) {
-          grid-area: 1 / 10 / 14 / 14; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:hover {
-          background: rgba(254, 126, 23, 0.7); }
-
-.s_webdesign, .s_comerce, .s_brand, .s_seo {
-  height: 100vh;
-  width: 100vw;
-  display: block;
-  background: white; }
-  .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
-    height: 100vh;
-    width: 100vw; }
-    .s_webdesign .s_webdesign_container .s_webdesign_text, .s_comerce .s_webdesign_container .s_webdesign_text, .s_brand .s_webdesign_container .s_webdesign_text, .s_seo .s_webdesign_container .s_webdesign_text, .s_comerce .s_comerce_container .s_webdesign_text, .s_brand .s_brand_container .s_webdesign_text, .s_seo .s_seo_container .s_webdesign_text, .s_comerce .s_comerce_container .s_comerce_text, .s_brand .s_brand_container .s_brand_text, .s_seo .s_seo_container .s_seo_text {
-      grid-area: 3 / 2 / 10 / 7; }
-      .s_webdesign .s_webdesign_container .s_webdesign_text h3, .s_comerce .s_webdesign_container .s_webdesign_text h3, .s_brand .s_webdesign_container .s_webdesign_text h3, .s_seo .s_webdesign_container .s_webdesign_text h3, .s_comerce .s_comerce_container .s_webdesign_text h3, .s_brand .s_brand_container .s_webdesign_text h3, .s_seo .s_seo_container .s_webdesign_text h3, .s_comerce .s_comerce_container .s_comerce_text h3, .s_brand .s_brand_container .s_brand_text h3, .s_seo .s_seo_container .s_seo_text h3 {
-        font-size: 3vw; }
-      .s_webdesign .s_webdesign_container .s_webdesign_text hr, .s_comerce .s_webdesign_container .s_webdesign_text hr, .s_brand .s_webdesign_container .s_webdesign_text hr, .s_seo .s_webdesign_container .s_webdesign_text hr, .s_comerce .s_comerce_container .s_webdesign_text hr, .s_brand .s_brand_container .s_webdesign_text hr, .s_seo .s_seo_container .s_webdesign_text hr, .s_comerce .s_comerce_container .s_comerce_text hr, .s_brand .s_brand_container .s_brand_text hr, .s_seo .s_seo_container .s_seo_text hr {
-        width: 10%;
-        border: 5px solid #fe7e17; }
-      .s_webdesign .s_webdesign_container .s_webdesign_text p, .s_comerce .s_webdesign_container .s_webdesign_text p, .s_brand .s_webdesign_container .s_webdesign_text p, .s_seo .s_webdesign_container .s_webdesign_text p, .s_comerce .s_comerce_container .s_webdesign_text p, .s_brand .s_brand_container .s_webdesign_text p, .s_seo .s_seo_container .s_webdesign_text p, .s_comerce .s_comerce_container .s_comerce_text p, .s_brand .s_brand_container .s_brand_text p, .s_seo .s_seo_container .s_seo_text p {
-        font-size: 1.2vw; }
-    .s_webdesign .s_webdesign_container .s_webdesign_img, .s_comerce .s_webdesign_container .s_webdesign_img, .s_brand .s_webdesign_container .s_webdesign_img, .s_seo .s_webdesign_container .s_webdesign_img, .s_comerce .s_comerce_container .s_webdesign_img, .s_brand .s_brand_container .s_webdesign_img, .s_seo .s_seo_container .s_webdesign_img, .s_comerce .s_comerce_container .s_comerce_img {
-      grid-area: 2 / 8 / 12 / 12;
-      display: block;
-      padding-left: 5vw; }
-      .s_webdesign .s_webdesign_container .s_webdesign_img .frame, .s_comerce .s_webdesign_container .s_webdesign_img .frame, .s_brand .s_webdesign_container .s_webdesign_img .frame, .s_seo .s_webdesign_container .s_webdesign_img .frame, .s_comerce .s_comerce_container .s_webdesign_img .frame, .s_brand .s_brand_container .s_webdesign_img .frame, .s_seo .s_seo_container .s_webdesign_img .frame, .s_comerce .s_comerce_container .s_comerce_img .frame {
-        position: absolute;
-        width: 26%;
-        height: auto; }
-      .s_webdesign .s_webdesign_container .s_webdesign_img .inner, .s_comerce .s_webdesign_container .s_webdesign_img .inner, .s_brand .s_webdesign_container .s_webdesign_img .inner, .s_seo .s_webdesign_container .s_webdesign_img .inner, .s_comerce .s_comerce_container .s_webdesign_img .inner, .s_brand .s_brand_container .s_webdesign_img .inner, .s_seo .s_seo_container .s_webdesign_img .inner, .s_comerce .s_comerce_container .s_comerce_img .inner {
-        position: absolute;
-        width: 22.6%;
-        height: auto;
-        margin-top: 4.3%;
-        margin-left: 1.7%; }
-
-.s_comerce .s_comerce_container .s_comerce_img {
-  grid-area: 2 / 2 / 10 / 7; }
-
-.s_comerce .s_comerce_container .s_comerce_text {
-  grid-area: 2 / 8 / 12 / 12; }
-
-.s_brand .s_brand_container .s_brand_img {
-  grid-area: 4 / 8 / 10 / 12; }
-  .s_brand .s_brand_container .s_brand_img img {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    height: 100%; }
-
-.s_seo .s_seo_container .s_seo_img {
-  grid-area: 3 / 2 / 10 / 7; }
-  .s_seo .s_seo_container .s_seo_img img {
-    width: 100%;
-    height: 100%; }
-
-.s_seo .s_seo_container .s_seo_text {
-  grid-area: 2 / 8 / 12 / 12; }
-
 img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4274,61 +4510,69 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
-.s_header {
-  height: 100vh;
+.wd_head, .a_header, .s_header {
+  display: block;
+  height: 80vh;
   width: 100vw;
-  display: block; }
-  .s_header .s_header_container {
-    background: url("../img/Services/header_bg.jpg") fixed no-repeat;
-    background-size: 100vw 100vh;
-    height: 100vh;
-    width: 100vw; }
-    .s_header .s_header_container .s_text_container {
-      display: -ms-grid;
-      display: grid;
-      grid-template: repeat(12, 1fr)/repeat(12, 1fr);
-      height: 65vh;
-      width: 100vw;
+  background-repeat: no-repeat !important;
+  background-size: 100vw 100vh !important; }
+  .wd_head .wd_head_container, .a_header .wd_head_container, .s_header .wd_head_container, .a_header .a_header_container, .s_header .s_header_container {
+    height: 80vh;
+    width: 100vw;
+    background: rgba(254, 126, 23, 0.5); }
+    .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container {
       color: white;
-      background: rgba(254, 126, 23, 0.3); }
-      .s_header .s_header_container .s_text_container h2 {
-        grid-area: 5/ 2 / 7 / 7;
-        font-size: 2vw; }
-    .s_header .s_header_container .s_header_links_container {
-      display: -ms-grid;
-      display: grid;
-      grid-template: repeat(12, 1fr)/repeat(12, 1fr);
-      height: 35vh;
-      width: 100vw;
-      background: white; }
-      .s_header .s_header_container .s_header_links_container .s_header_links {
-        border-right: 1px solid rgba(43, 43, 43, 0.5);
-        background: white;
-        height: 100%;
-        width: 100%; }
-        .s_header .s_header_container .s_header_links_container .s_header_links img {
-          margin-top: 5vh;
-          position: relative;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 15vw;
-          height: 15vh; }
-        .s_header .s_header_container .s_header_links_container .s_header_links p {
-          margin-top: 2vh;
-          text-align: center;
-          color: #212121;
-          font-weight: 300;
-          font-size: 1.5vw; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(1) {
-          grid-area: 1 / 1 / 14 / 4; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(2) {
-          grid-area: 1 / 4 / 14 / 7; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(3) {
-          grid-area: 1 / 7 / 14 / 10; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(4) {
-          grid-area: 1 / 10 / 14 / 14; }
-        .s_header .s_header_container .s_header_links_container .s_header_links:hover {
-          background: rgba(254, 126, 23, 0.7); }
+      height: 80vh;
+      width: 100vw; }
+      .wd_head .wd_head_container .wd_head_text h2, .a_header .wd_head_container .wd_head_text h2, .s_header .wd_head_container .wd_head_text h2, .a_header .a_header_container .wd_head_text h2, .s_header .s_header_container .wd_head_text h2, .a_header .a_header_container .a_head_text h2, .s_header .s_header_container .s_text_container h2 {
+        grid-area: 3 / 2 / 6 / 7;
+        font-size: 6vw;
+        font-weight: 600; }
+      .wd_head .wd_head_container .wd_head_text p, .a_header .wd_head_container .wd_head_text p, .s_header .wd_head_container .wd_head_text p, .a_header .a_header_container .wd_head_text p, .s_header .s_header_container .wd_head_text p, .a_header .a_header_container .a_head_text p, .s_header .s_header_container .s_text_container p {
+        grid-area: 6 / 2 / 10 / 7;
+        font-size: 3vw; }
+
+.s_header {
+  background: url("../img/Services/header_bg.jpg"); }
+  .s_header .s_header_container .s_text_container h2 {
+    grid-area: 5 / 2 / 7 / 7 !important;
+    font-size: 2vw !important;
+    font-weight: 400; }
+  .s_header .s_header_container .s_header_links_container {
+    display: -ms-grid;
+    display: grid;
+    grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+    height: 35vh;
+    width: 100vw;
+    background: white; }
+    .s_header .s_header_container .s_header_links_container .s_header_links {
+      border-right: 1px solid rgba(43, 43, 43, 0.5);
+      background: white;
+      height: 100%;
+      width: 100%; }
+      .s_header .s_header_container .s_header_links_container .s_header_links img {
+        margin-top: 5vh;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 15vw;
+        height: 15vh; }
+      .s_header .s_header_container .s_header_links_container .s_header_links p {
+        margin-top: 2vh;
+        text-align: center;
+        color: #212121;
+        font-weight: 300;
+        font-size: 1.5vw; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(1) {
+        grid-area: 1 / 1 / 14 / 4; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(2) {
+        grid-area: 1 / 4 / 14 / 7; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(3) {
+        grid-area: 1 / 7 / 14 / 10; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(4) {
+        grid-area: 1 / 10 / 14 / 14; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:hover {
+        background: rgba(254, 126, 23, 0.7); }
 
 .s_webdesign, .s_comerce, .s_brand, .s_seo {
   height: 100vh;
@@ -4390,7 +4634,419 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+  display: -ms-grid;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
+
+.midnightHeader.default {
+  color: #fe7e17;
+  background: #fe7e17; }
+
+.midnightHeader.nav-light {
+  color: white;
+  background: white; }
+
+.midnightHeader.nav-dark {
+  color: #212121;
+  background: #212121; }
+
+.center_vertically_css {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center_horizontally_css {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.center_css, .center_css_a, .wd_mobile .wd_mobile_container .wd_mobile_frame, .wd_mobile .wd_mobile_container .wd_mobile_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.center_css_a {
+  height: auto !important;
+  width: auto !important; }
+
+.center_css_new {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.nom, .nopm, .wrapper, html, body, section, ul {
+  margin: 0 !important; }
+
+.nop, .nopm, .wrapper, html, body, section, ul {
+  padding: 0 !important; }
+
+.tole, .wrapper, html, body, section, .nav_out, .background_image_container, .background_image_container img {
+  top: 0 !important;
+  left: 0 !important; }
+
+.fullw, .full_size, .background_image_container, .background_image_container img, .slider_list_container, .slider_dots_container, .image {
+  width: 100% !important; }
+
+.fullh, .full_size, .background_image_container, .background_image_container img {
+  height: 100% !important; }
+
+.full_page {
+  height: 100vh;
+  width: 100vw; }
+
+.wrapper, html, body {
+  background: #2b2b2b;
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+section {
+  z-index: 2;
+  position: relative; }
+
+ul {
+  list-style: none;
+  font-weight: 300;
+  font-size: 4vw; }
+
+h1 {
+  font-size: 10.5vw;
+  font-weight: 600; }
+
+h2 {
+  font-size: 7.5vw;
+  font-weight: 500; }
+
+h3 {
+  font-size: 6.5vw;
+  font-weight: 400; }
+
+h4 {
+  font-size: 5.5vw;
+  font-weight: 400; }
+
+a {
+  color: #fe7e17;
+  text-decoration: none;
+  font-size: 4vw;
+  font-weight: 300; }
+  a:hover {
+    text-decoration: none; }
+
+p {
+  font-size: 4vw;
+  font-weight: 300; }
+
+@media (min-width: 992px) {
+  ul {
+    list-style: none;
+    font-weight: 300;
+    font-size: 2vw; }
+  h1 {
+    font-size: 6.5vw;
+    font-weight: 600; }
+  h2 {
+    font-size: 5.5vw;
+    font-weight: 500; }
+  h3 {
+    font-size: 4.5vw;
+    font-weight: 400; }
+  h4 {
+    font-size: 3.5vw;
+    font-weight: 400; }
+  a {
+    color: #fe7e17;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 300; }
+  p {
+    font-size: 2vw;
+    font-weight: 300; } }
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
+
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
+  display: -ms-grid;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
+
+.midnightHeader.default {
+  color: #fe7e17;
+  background: #fe7e17; }
+
+.midnightHeader.nav-light {
+  color: white;
+  background: white; }
+
+.midnightHeader.nav-dark {
+  color: #212121;
+  background: #212121; }
+
+.center_vertically_css {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center_horizontally_css {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.center_css, .center_css_a, .wd_mobile .wd_mobile_container .wd_mobile_frame, .wd_mobile .wd_mobile_container .wd_mobile_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.center_css_a {
+  height: auto !important;
+  width: auto !important; }
+
+.center_css_new {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.nom, .nopm, .wrapper, html, body, section, ul {
+  margin: 0 !important; }
+
+.nop, .nopm, .wrapper, html, body, section, ul {
+  padding: 0 !important; }
+
+.tole, .wrapper, html, body, section, .nav_out, .background_image_container, .background_image_container img {
+  top: 0 !important;
+  left: 0 !important; }
+
+.fullw, .full_size, .background_image_container, .background_image_container img, .slider_list_container, .slider_dots_container, .image {
+  width: 100% !important; }
+
+.fullh, .full_size, .background_image_container, .background_image_container img {
+  height: 100% !important; }
+
+.full_page {
+  height: 100vh;
+  width: 100vw; }
+
+.wrapper, html, body {
+  background: #2b2b2b;
+  z-index: 1;
+  position: relative;
+  overflow-x: hidden; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+section {
+  z-index: 2;
+  position: relative; }
+
+ul {
+  list-style: none;
+  font-weight: 300;
+  font-size: 4vw; }
+
+h1 {
+  font-size: 10.5vw;
+  font-weight: 600; }
+
+h2 {
+  font-size: 7.5vw;
+  font-weight: 500; }
+
+h3 {
+  font-size: 6.5vw;
+  font-weight: 400; }
+
+h4 {
+  font-size: 5.5vw;
+  font-weight: 400; }
+
+a {
+  color: #fe7e17;
+  text-decoration: none;
+  font-size: 4vw;
+  font-weight: 300; }
+  a:hover {
+    text-decoration: none; }
+
+p {
+  font-size: 4vw;
+  font-weight: 300; }
+
+@media (min-width: 992px) {
+  ul {
+    list-style: none;
+    font-weight: 300;
+    font-size: 2vw; }
+  h1 {
+    font-size: 6.5vw;
+    font-weight: 600; }
+  h2 {
+    font-size: 5.5vw;
+    font-weight: 500; }
+  h3 {
+    font-size: 4.5vw;
+    font-weight: 400; }
+  h4 {
+    font-size: 3.5vw;
+    font-weight: 400; }
+  a {
+    color: #fe7e17;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 300; }
+  p {
+    font-size: 2vw;
+    font-weight: 300; } }
+
+.wd_head, .a_header, .s_header {
+  display: block;
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat !important;
+  background-size: 100vw 100vh !important; }
+  .wd_head .wd_head_container, .a_header .wd_head_container, .s_header .wd_head_container, .a_header .a_header_container, .s_header .s_header_container {
+    height: 80vh;
+    width: 100vw;
+    background: rgba(254, 126, 23, 0.5); }
+    .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container {
+      color: white;
+      height: 80vh;
+      width: 100vw; }
+      .wd_head .wd_head_container .wd_head_text h2, .a_header .wd_head_container .wd_head_text h2, .s_header .wd_head_container .wd_head_text h2, .a_header .a_header_container .wd_head_text h2, .s_header .s_header_container .wd_head_text h2, .a_header .a_header_container .a_head_text h2, .s_header .s_header_container .s_text_container h2 {
+        grid-area: 3 / 2 / 6 / 7;
+        font-size: 6vw;
+        font-weight: 600; }
+      .wd_head .wd_head_container .wd_head_text p, .a_header .wd_head_container .wd_head_text p, .s_header .wd_head_container .wd_head_text p, .a_header .a_header_container .wd_head_text p, .s_header .s_header_container .wd_head_text p, .a_header .a_header_container .a_head_text p, .s_header .s_header_container .s_text_container p {
+        grid-area: 6 / 2 / 10 / 7;
+        font-size: 3vw; }
+
+.s_header {
+  background: url("../img/Services/header_bg.jpg"); }
+  .s_header .s_header_container .s_text_container h2 {
+    grid-area: 5 / 2 / 7 / 7 !important;
+    font-size: 2vw !important;
+    font-weight: 400; }
+  .s_header .s_header_container .s_header_links_container {
+    display: -ms-grid;
+    display: grid;
+    grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+    height: 35vh;
+    width: 100vw;
+    background: white; }
+    .s_header .s_header_container .s_header_links_container .s_header_links {
+      border-right: 1px solid rgba(43, 43, 43, 0.5);
+      background: white;
+      height: 100%;
+      width: 100%; }
+      .s_header .s_header_container .s_header_links_container .s_header_links img {
+        margin-top: 5vh;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 15vw;
+        height: 15vh; }
+      .s_header .s_header_container .s_header_links_container .s_header_links p {
+        margin-top: 2vh;
+        text-align: center;
+        color: #212121;
+        font-weight: 300;
+        font-size: 1.5vw; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(1) {
+        grid-area: 1 / 1 / 14 / 4; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(2) {
+        grid-area: 1 / 4 / 14 / 7; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(3) {
+        grid-area: 1 / 7 / 14 / 10; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:nth-child(4) {
+        grid-area: 1 / 10 / 14 / 14; }
+      .s_header .s_header_container .s_header_links_container .s_header_links:hover {
+        background: rgba(254, 126, 23, 0.7); }
+
+.s_webdesign, .s_comerce, .s_brand, .s_seo {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  background: white; }
+  .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container {
+    height: 100vh;
+    width: 100vw; }
+    .s_webdesign .s_webdesign_container .s_webdesign_text, .s_comerce .s_webdesign_container .s_webdesign_text, .s_brand .s_webdesign_container .s_webdesign_text, .s_seo .s_webdesign_container .s_webdesign_text, .s_comerce .s_comerce_container .s_webdesign_text, .s_brand .s_brand_container .s_webdesign_text, .s_seo .s_seo_container .s_webdesign_text, .s_comerce .s_comerce_container .s_comerce_text, .s_brand .s_brand_container .s_brand_text, .s_seo .s_seo_container .s_seo_text {
+      grid-area: 3 / 2 / 10 / 7; }
+      .s_webdesign .s_webdesign_container .s_webdesign_text h3, .s_comerce .s_webdesign_container .s_webdesign_text h3, .s_brand .s_webdesign_container .s_webdesign_text h3, .s_seo .s_webdesign_container .s_webdesign_text h3, .s_comerce .s_comerce_container .s_webdesign_text h3, .s_brand .s_brand_container .s_webdesign_text h3, .s_seo .s_seo_container .s_webdesign_text h3, .s_comerce .s_comerce_container .s_comerce_text h3, .s_brand .s_brand_container .s_brand_text h3, .s_seo .s_seo_container .s_seo_text h3 {
+        font-size: 3vw; }
+      .s_webdesign .s_webdesign_container .s_webdesign_text hr, .s_comerce .s_webdesign_container .s_webdesign_text hr, .s_brand .s_webdesign_container .s_webdesign_text hr, .s_seo .s_webdesign_container .s_webdesign_text hr, .s_comerce .s_comerce_container .s_webdesign_text hr, .s_brand .s_brand_container .s_webdesign_text hr, .s_seo .s_seo_container .s_webdesign_text hr, .s_comerce .s_comerce_container .s_comerce_text hr, .s_brand .s_brand_container .s_brand_text hr, .s_seo .s_seo_container .s_seo_text hr {
+        width: 10%;
+        border: 5px solid #fe7e17; }
+      .s_webdesign .s_webdesign_container .s_webdesign_text p, .s_comerce .s_webdesign_container .s_webdesign_text p, .s_brand .s_webdesign_container .s_webdesign_text p, .s_seo .s_webdesign_container .s_webdesign_text p, .s_comerce .s_comerce_container .s_webdesign_text p, .s_brand .s_brand_container .s_webdesign_text p, .s_seo .s_seo_container .s_webdesign_text p, .s_comerce .s_comerce_container .s_comerce_text p, .s_brand .s_brand_container .s_brand_text p, .s_seo .s_seo_container .s_seo_text p {
+        font-size: 1.2vw; }
+    .s_webdesign .s_webdesign_container .s_webdesign_img, .s_comerce .s_webdesign_container .s_webdesign_img, .s_brand .s_webdesign_container .s_webdesign_img, .s_seo .s_webdesign_container .s_webdesign_img, .s_comerce .s_comerce_container .s_webdesign_img, .s_brand .s_brand_container .s_webdesign_img, .s_seo .s_seo_container .s_webdesign_img, .s_comerce .s_comerce_container .s_comerce_img {
+      grid-area: 2 / 8 / 12 / 12;
+      display: block;
+      padding-left: 5vw; }
+      .s_webdesign .s_webdesign_container .s_webdesign_img .frame, .s_comerce .s_webdesign_container .s_webdesign_img .frame, .s_brand .s_webdesign_container .s_webdesign_img .frame, .s_seo .s_webdesign_container .s_webdesign_img .frame, .s_comerce .s_comerce_container .s_webdesign_img .frame, .s_brand .s_brand_container .s_webdesign_img .frame, .s_seo .s_seo_container .s_webdesign_img .frame, .s_comerce .s_comerce_container .s_comerce_img .frame {
+        position: absolute;
+        width: 26%;
+        height: auto; }
+      .s_webdesign .s_webdesign_container .s_webdesign_img .inner, .s_comerce .s_webdesign_container .s_webdesign_img .inner, .s_brand .s_webdesign_container .s_webdesign_img .inner, .s_seo .s_webdesign_container .s_webdesign_img .inner, .s_comerce .s_comerce_container .s_webdesign_img .inner, .s_brand .s_brand_container .s_webdesign_img .inner, .s_seo .s_seo_container .s_webdesign_img .inner, .s_comerce .s_comerce_container .s_comerce_img .inner {
+        position: absolute;
+        width: 22.6%;
+        height: auto;
+        margin-top: 4.3%;
+        margin-left: 1.7%; }
+
+.s_comerce .s_comerce_container .s_comerce_img {
+  grid-area: 2 / 2 / 10 / 7; }
+
+.s_comerce .s_comerce_container .s_comerce_text {
+  grid-area: 2 / 8 / 12 / 12; }
+
+.s_brand .s_brand_container .s_brand_img {
+  grid-area: 4 / 8 / 10 / 12; }
+  .s_brand .s_brand_container .s_brand_img img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%; }
+
+.s_seo .s_seo_container .s_seo_img {
+  grid-area: 3 / 2 / 10 / 7; }
+  .s_seo .s_seo_container .s_seo_img img {
+    width: 100%;
+    height: 100%; }
+
+.s_seo .s_seo_container .s_seo_text {
+  grid-area: 2 / 8 / 12 / 12; }
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red; }
+
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4629,7 +5285,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -4789,7 +5445,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5013,7 +5669,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5155,25 +5811,25 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
-.wd_head {
+.wd_head, .a_header, .s_header {
   display: block;
   height: 80vh;
   width: 100vw;
   background-repeat: no-repeat !important;
   background-size: 100vw 100vh !important; }
-  .wd_head .wd_head_container {
+  .wd_head .wd_head_container, .a_header .wd_head_container, .s_header .wd_head_container, .a_header .a_header_container, .s_header .s_header_container {
     height: 80vh;
     width: 100vw;
     background: rgba(254, 126, 23, 0.5); }
-    .wd_head .wd_head_container .wd_head_text {
+    .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container {
       color: white;
       height: 80vh;
       width: 100vw; }
-      .wd_head .wd_head_container .wd_head_text h2 {
+      .wd_head .wd_head_container .wd_head_text h2, .a_header .wd_head_container .wd_head_text h2, .s_header .wd_head_container .wd_head_text h2, .a_header .a_header_container .wd_head_text h2, .s_header .s_header_container .wd_head_text h2, .a_header .a_header_container .a_head_text h2, .s_header .s_header_container .s_text_container h2 {
         grid-area: 3 / 2 / 6 / 7;
         font-size: 6vw;
         font-weight: 600; }
-      .wd_head .wd_head_container .wd_head_text p {
+      .wd_head .wd_head_container .wd_head_text p, .a_header .wd_head_container .wd_head_text p, .s_header .wd_head_container .wd_head_text p, .a_header .a_header_container .wd_head_text p, .s_header .s_header_container .wd_head_text p, .a_header .a_header_container .a_head_text p, .s_header .s_header_container .s_text_container p {
         grid-area: 6 / 2 / 10 / 7;
         font-size: 3vw; }
 
@@ -5181,7 +5837,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5349,7 +6005,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5542,7 +6198,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5723,7 +6379,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -5883,7 +6539,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -6107,7 +6763,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -6249,25 +6905,25 @@ p {
     font-size: 2vw;
     font-weight: 300; } }
 
-.wd_head {
+.wd_head, .a_header, .s_header {
   display: block;
   height: 80vh;
   width: 100vw;
   background-repeat: no-repeat !important;
   background-size: 100vw 100vh !important; }
-  .wd_head .wd_head_container {
+  .wd_head .wd_head_container, .a_header .wd_head_container, .s_header .wd_head_container, .a_header .a_header_container, .s_header .s_header_container {
     height: 80vh;
     width: 100vw;
     background: rgba(254, 126, 23, 0.5); }
-    .wd_head .wd_head_container .wd_head_text {
+    .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container {
       color: white;
       height: 80vh;
       width: 100vw; }
-      .wd_head .wd_head_container .wd_head_text h2 {
+      .wd_head .wd_head_container .wd_head_text h2, .a_header .wd_head_container .wd_head_text h2, .s_header .wd_head_container .wd_head_text h2, .a_header .a_header_container .wd_head_text h2, .s_header .s_header_container .wd_head_text h2, .a_header .a_header_container .a_head_text h2, .s_header .s_header_container .s_text_container h2 {
         grid-area: 3 / 2 / 6 / 7;
         font-size: 6vw;
         font-weight: 600; }
-      .wd_head .wd_head_container .wd_head_text p {
+      .wd_head .wd_head_container .wd_head_text p, .a_header .wd_head_container .wd_head_text p, .s_header .wd_head_container .wd_head_text p, .a_header .a_header_container .wd_head_text p, .s_header .s_header_container .wd_head_text p, .a_header .a_header_container .a_head_text p, .s_header .s_header_container .s_text_container p {
         grid-area: 6 / 2 / 10 / 7;
         font-size: 3vw; }
 
@@ -6275,7 +6931,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -6443,7 +7099,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -6636,7 +7292,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }
@@ -6817,7 +7473,7 @@ img[alt=""],
 img:not([alt]) {
   border: 5px dashed red; }
 
-.grid, section, footer, nav .nav_container .nav_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_head .wd_head_container .wd_head_text, .wd_problem .wd_problem_container {
+.grid, section, footer, nav .nav_container .nav_text_container, .wd_head .wd_head_container .wd_head_text, .a_header .wd_head_container .wd_head_text, .s_header .wd_head_container .wd_head_text, .a_header .a_header_container .wd_head_text, .s_header .s_header_container .wd_head_text, .a_header .a_header_container .a_head_text, .s_header .s_header_container .s_text_container, .i_About .i_About_container, .c_head .c_head_container, .c_form .c_form_container, .c_form .c_form_container form, .i_header .i_header_container, .s_webdesign .s_webdesign_container, .s_comerce .s_webdesign_container, .s_brand .s_webdesign_container, .s_seo .s_webdesign_container, .s_comerce .s_comerce_container, .s_brand .s_brand_container, .s_seo .s_seo_container, .work .work_container .w_case .w_case_container, .wd_details .wd_details_container, .wd_problem .wd_problem_container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(12, 1fr)/repeat(12, 1fr); }

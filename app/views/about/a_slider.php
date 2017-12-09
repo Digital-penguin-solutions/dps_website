@@ -1,5 +1,5 @@
 <!-- Slider stuff -->
-<section class="a_slider">
+<section class="a_slider" data-midnight="nav-dark">
   <div class="slideshow a_slider_container">
     <div class="slideshow-image" style="background-image: url('img/About/Slider/1.jpg')"></div>
     <div class="slideshow-image" style="background-image: url('img/About/Slider/2.jpg')"></div>

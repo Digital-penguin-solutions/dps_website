@@ -1,5 +1,5 @@
 <!-- Short info about DPS -->
-<section class="a_story">
+<section class="a_story" data-midnight="nav-dark">
   <div class="a_story_container">
     <h3>Our story</h3>
     <hr>

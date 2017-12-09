@@ -5,18 +5,14 @@
 -[ ] Fixa paralex och animeringar för alla sidor.
 -[ ] Contact us email php skit
 -[ ] En Admin sdida för att lätt lägga upp nya projekt koplad till php databas
+-[ ] Fixa knappen på index sidan
 
 ### Nav
--[ ] Byta färg aoutomatiskt på hamburgar menyn beroende på bakrunden är mörk eller svart
-  * när bg är ljus = $white
-  * när bg är mörk = $color4
 -[ ] Se till att alla länkar fungerar som de ska
+-[ ] Se till att navens färger fungerar som de ska 
 -[ ] Animera naven.
 -[ ] Göra så att hamburgar menyn fungerar som den ska
 -[ ] Se till att naven fungerar på mobil och tablet
-
-### Index
--[ ] Byta penna iconen till något frächare
 
 ### work
 -[ ] Work details sidan ska ha urelen `domain/work/name-of-project`
@@ -24,6 +20,7 @@
 -[ ] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\Work.png`
 
 ###Testing
+-[ ] alt ttaggar på alla bilder
 -[ ] Mobil anpassa hela sidan.
 -[ ] Speed Optimazasion.
 -[ ] Size optimazation.
@@ -52,7 +49,11 @@
 -[ ] Göra så att sidan finns för både svenska och engelska.
 -[ ] Prize calculator.
 
-# Done
+## Done
+-[x] Byta penna iconen till något frächare
+-[x] Byta färg aoutomatiskt på hamburgar menyn beroende på bakrunden är mörk eller svart
+  * när bg är ljus = $white
+  * när bg är mörk = $color4
 -[x] Loggan ska ligga i naven.
 -[x] Byta ut ifram mot som det göts i work_details sidan
 -[x] favicon

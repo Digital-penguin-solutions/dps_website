@@ -18,7 +18,7 @@
   <div class="i_header_container">
 
     <!-- Contact icon -->
-    <a href="">
+    <a href="contact">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
            x="0px" y="0px"
            viewBox="0 0 157 154.8" style="enable-background:new 0 0 157 154.8;" xml:space="preserve">
@@ -46,7 +46,7 @@
     </a>
 
     <!-- Portfolio btn -->
-    <button class="i_header_btn">Discover our work</button>
+    <a href="work" class="i_header_btn">Discover our work</a>
 
     <h2>We are a digital design and software agency based in Sweden.
       We have a mission in life to create innovative designs and software across digital media.</h2>

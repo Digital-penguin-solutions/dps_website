@@ -1,28 +1,21 @@
 @import "../../everything";
+@import "../Work_Details/wd_head";
 
 //Header
 .s_header {
-  height: 100vh;
-  width: 100vw;
-  display: block;
+  @extend .wd_head;
+  background: url("../img/Services/header_bg.jpg");
 
   .s_header_container {
-    background: url("../img/Services/header_bg.jpg") fixed no-repeat;
-    background-size: 100vw 100vh;
-    height: 100vh;
-    width: 100vw;
+    @extend .wd_head_container;
 
     .s_text_container {
-      display: grid;
-      grid-template: repeat(12, 1fr) / repeat(12, 1fr);
-      height: 65vh;
-      width: 100vw;
-      color: white;
-      background: rgba($color1, 0.3);
+      @extend .wd_head_text;
 
       h2 {
-        grid-area: 5/ 2 / 7 / 7;
-        font-size: 2vw;
+        grid-area: 5 / 2 / 7 / 7 !important;
+        font-size: 2vw !important;
+        font-weight: 400;
       }
     }
 
@@ -136,7 +129,7 @@
   .s_comerce_container {
     @extend .s_webdesign_container;
 
-    .s_comerce_img{
+    .s_comerce_img {
       @extend .s_webdesign_img;
       grid-area: 2 / 2 / 10 / 7;
 
