@@ -15,7 +15,7 @@
 
 
 <!-- NAV -->
-<nav>
+<!--<nav>
   <div class="nav_container">
     <div class="nav_text_container">
       <ul>
@@ -28,15 +28,23 @@
       <p>&copy; 2017 Digital penguin solutions All rights reserved | <a href="#">Terms</a> | <a href="#">Privacy</a></p>
     </div>
   </div>
-</nav>
+</nav>-->
 
 <!--hamburger meneu-->
-<ul class = "nav_button_container">
-  <li>
-    <a class = "McButton" data = "hamburger-menu">
-      <b></b>
-      <b></b>
-      <b></b>
+<div class="nav_out">
+  <div class="nav_out_container">
+    <a class="nav_out_logo" href="">
+      <img class="nav_out_logo_img" src="img/Logo/Logo-dark_no_text.svg" alt="DPS logo">
     </a>
-  </li>
-</ul>
+
+    <ul class="nav_button_container">
+      <li>
+        <a class="McButton" data="hamburger-menu">
+          <b class="McButton_b"></b>
+          <b class="McButton_b"></b>
+          <b class="McButton_b"></b>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

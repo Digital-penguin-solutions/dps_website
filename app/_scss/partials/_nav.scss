@@ -8,7 +8,7 @@
 
 nav{
   position: fixed;
-  z-index: 1000;
+  z-index: 1001;
   width: 100vw;
   height: 100vh;
   background: rgba($color4, 0.8);
@@ -54,50 +54,72 @@ nav{
   }
 }
 
-.nav_button_container{
-  min-height:50px;
-  position:fixed;
-  right:5%;
-  top:0;
-  width:3%;
-  height:8%;
-  list-style:none;
-  z-index:1040;
-}
 
-.McButton {
-  /*@bar-w: 10vh;*/
-  $bar-color: $color4;
-  color: $bar-color;
-  position: absolute;
+.nav_out{
+  position: fixed;
+  @extend .tole;
+  height: 12vh;
   width: 100%;
-  height: 40%;
-  /*height: 80%;*/
-  top: 30%;
-  cursor: pointer;
-  background: none;
-  padding: 0 !important;
+  display: inline-flex;
+  z-index: 1000;
 
-  b {
-    display: block;
-    left: 0;
-    z-index: 1040;
+  .nav_out_container{
+    height: 100%;
     width: 100%;
-    height: 3px !important;
-    background-color: $bar-color;
-    position:absolute;
 
-    &:nth-child(1) {
-      top: 0;
+    .nav_out_logo {
+      height: 100%;
+      margin-left: 3%;
+
+      .nav_out_logo_img {
+        margin-top: 2%;
+        height: 12vh !important;
+      }
     }
 
-    &:nth-child(2) {
-      top: 50%;
+    .nav_button_container{
+      min-height:50px;
+      position:fixed;
+      right:3%;
+      top:5%;
+      width:3%;
+      height:8%;
+      list-style:none;
+      z-index:1040;
     }
 
-    &:nth-child(3) {
-      top: 100%;
+    .McButton {
+      position: fixed;
+      width: 4vw !important;
+      height: 6vh !important;
+      cursor: pointer;
+      background: none;
+      padding: 0 !important;
+
+      .McButton_b {
+        background: red;
+        display: block;
+        top: 3vh !important;
+        left: 93vw!important;
+        z-index: 1040;
+        width: 4vw !important;
+        height: 4px !important;
+        position:fixed;
+
+
+        &:nth-child(1) {
+          margin-top: 1vh;
+        }
+
+        &:nth-child(2) {
+          margin-top: 3vh;
+        }
+
+        &:nth-child(3) {
+          margin-top: 5vh;
+        }
+      }
     }
+
   }
 }
-

@@ -1,5 +1,5 @@
 <!-- work details header -->
-<section class="wd_head" style="background: url('img/Work/bg.jpg')">
+<section class="wd_head" style="background: url('img/Work/bg.jpg')" data-midnight="nav-light">
   <div class="wd_head_container">
 
     <div class="wd_head_text">

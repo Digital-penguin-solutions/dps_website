@@ -12,7 +12,7 @@
 <body class="wrapper about">
 
 <?php
-//include "partials/nav.php";
+include "partials/nav.php";
 
 // Head
 include "views/wd/wd_head.php";

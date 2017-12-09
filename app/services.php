@@ -11,7 +11,7 @@
 <body class="wrapper services">
 
 <?php
-//include "partials/nav.php";
+include "partials/nav.php";
 
 // Head
 include "views/services/s_header.php";

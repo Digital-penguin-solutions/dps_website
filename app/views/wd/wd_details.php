@@ -1,4 +1,4 @@
-<section class="wd_details">
+<section class="wd_details" data-midnight="nav-light">
   <div class="wd_details_container">
 
     <div class="wd_details_Date">

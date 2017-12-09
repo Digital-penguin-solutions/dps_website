@@ -1,5 +1,5 @@
 <!-- SEO -->
-<section class="s_seo" id="SEO">
+<section class="s_seo" id="SEO" data-midnight="nav-dark">
   <div class="s_seo_container">
 
     <div class="s_seo_img">

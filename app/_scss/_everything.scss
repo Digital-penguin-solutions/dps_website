@@ -13,6 +13,20 @@ img:not([alt]){
   grid-template:  repeat(12, 1fr) / repeat(12, 1fr);
 }
 
+.midnightHeader.default {
+  color: $color1;
+  background: $color1;
+}
+.midnightHeader.nav-light {
+  color: white;
+  background: white;
+}
+.midnightHeader.nav-dark {
+  color: $color5;
+  background: $color5;
+}
+
+
 // Center vertically
 .center_vertically_css {
   position: relative;

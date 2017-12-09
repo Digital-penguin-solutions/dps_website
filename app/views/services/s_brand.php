@@ -1,5 +1,5 @@
 <!-- Branding -->
-<section class="s_brand" id="Branding">
+<section class="s_brand" id="Branding" data-midnight="nav-dark">
   <div class="s_brand_container">
 
     <div class="s_brand_text">

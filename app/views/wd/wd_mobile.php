@@ -1,4 +1,4 @@
-<section class="wd_mobile">
+<section class="wd_mobile" data-midnight="nav-light">
   <div class="wd_mobile_container">
 
     <img class="wd_mobile_frame" src="img/Work/Mobile/Iphone.png" alt="asd">

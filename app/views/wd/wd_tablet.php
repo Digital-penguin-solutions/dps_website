@@ -1,4 +1,4 @@
-<section class="wd_tablet">
+<section class="wd_tablet" data-midnight="nav-light">
 
   <div class="wd_tablet_container_1">
     <img src="img/Work/Tablet/ipad_frame.png" alt="ipad frame" class="wd_tablet_frame">

@@ -1,5 +1,5 @@
 <!-- SERVICES header -->
-<section class="s_header">
+<section class="s_header" data-midnight="nav-dark">
   <div class="s_header_container">
     <div class="s_text_container">
       <h2>When the time comes to impress, we distinguish ourselves with the following talents. Curious about what we can offer you?</h2>

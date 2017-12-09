@@ -10,10 +10,11 @@
 
 <body class="wrapper">
 
-<?php //include "partials/nav.php"; ?>
 <?php
 include "functions/functions.php";
 $con             = connect();
+
+include "partials/nav.php";
 ?>
 <!-- Head -->
 <section class="c_head">

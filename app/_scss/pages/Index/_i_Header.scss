@@ -27,16 +27,19 @@
     height: 100vh;
     background: rgba($color4, 0.7);
 
-    svg{
-      grid-area: 10 / 10 / 13 / 12;
-      height: 100%;
-      width:100%;
-    }
-
-    .i_header_logo {
-      grid-area: 1 / 1 / 5 / 4;
-      height: 100%;
-      width: 100%;
+    a {
+      grid-area: 10 / 10 / 12 / 12;
+      svg {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        fill: white;
+      }
     }
 
     .i_header_btn {

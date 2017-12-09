@@ -1,4 +1,4 @@
-<section class="wd_problem">
+<section class="wd_problem" data-midnight="nav-dark">
   <div class="wd_problem_container">
 
     <div class="wd_problem_left">
