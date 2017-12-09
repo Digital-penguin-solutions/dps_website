@@ -17,7 +17,7 @@
       position: absolute;
       z-index: 80;
       height: auto;
-      width: 20vw;
+      width: 50vw;
     }
 
     .wd_mobile_inner {
@@ -25,9 +25,26 @@
       position: absolute;
       z-index: 100;
       height: auto;
-      width: 17.6vw;
+      width: 47.6vw;
       margin-top: 1vh;
 
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .wd_mobile {
+    .wd_mobile_container {
+      .wd_mobile_frame {
+        height: auto;
+        width: 20vw;
+      }
+
+      .wd_mobile_inner {
+        height: auto;
+        width: 17.6vw;
+        margin-top: 1vh;
+      }
     }
   }
 }

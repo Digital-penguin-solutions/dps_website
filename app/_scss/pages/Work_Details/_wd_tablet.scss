@@ -9,22 +9,22 @@
     .wd_tablet_container_1{
       position: absolute;
       height: 100vh;
-      width: 70vw;
+      width: 100vw;
       z-index: 50;
 
     .wd_tablet_frame {
       position: absolute;
       margin-top: 7%;
       margin-left: 5%;
-      width: 55%;
+      width: 90%;
       height: auto;
       z-index: 100;
     }
     .wd_tablet_inner {
       position: absolute;
-      margin-top: 9.3%;
-      margin-left: 9.6%;
-      width: 46.2%;
+      margin-top: 11%;
+      margin-left: 13%;
+      width: 74.2%;
       height: auto;
       z-index: 200;
     }
@@ -37,17 +37,49 @@
 
     .wd_tablet_frame{
       z-index: 300;
-      margin-top: 20%;
-      margin-left: 35%;
-
+      margin-top: 100%;
     }
 
     .wd_tablet_inner{
       z-index: 400;
-      margin-top: 22.3%;
-      margin-left: 39.6%;
+      margin-top: 104.2%;
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+
+  .wd_tablet {
+    .wd_tablet_container_1{
+      width: 70vw;
+
+      .wd_tablet_frame {
+        position: absolute;
+        margin-top: 7%;
+        margin-left: 5%;
+        width: 55%;
+        height: auto;
+      }
+      .wd_tablet_inner {
+        position: absolute;
+        margin-top: 9.3%;
+        margin-left: 9.6%;
+        width: 46.2%;
+        height: auto;
+      }
+
     }
 
-  }
+    .wd_tablet_container_2 {
+      .wd_tablet_frame{
+        margin-top: 20%;
+        margin-left: 35%;
+      }
 
+      .wd_tablet_inner{
+        margin-top: 22.3%;
+        margin-left: 39.6%;
+      }
+    }
+  }
 }

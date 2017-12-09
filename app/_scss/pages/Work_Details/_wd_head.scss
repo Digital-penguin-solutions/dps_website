@@ -20,15 +20,32 @@
       width: 100vw;
 
       h2 {
-        grid-area: 3 / 2 / 6 / 7;
-        font-size: 6vw;
+        grid-area: 3 / 2 / 6 / 12;
+        font-size: 12vw;
         font-weight: 600;
       }
 
       p {
-        grid-area: 6 / 2 / 10 / 7;
-        font-size: 3vw;
+        grid-area: 6 / 2 / 10 / 12;
+        font-size: 6vw;
+      }
+    }
+  }
+}
 
+@media (min-width: $screen-md-min) {
+  .wd_head {
+    .wd_head_container {
+      .wd_head_text {
+        h2 {
+          grid-area: 3 / 2 / 6 / 7;
+          font-size: 6vw;
+        }
+
+        p {
+          grid-area: 6 / 2 / 10 / 7;
+          font-size: 3vw;
+        }
       }
     }
   }
