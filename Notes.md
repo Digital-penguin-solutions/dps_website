@@ -1,7 +1,8 @@
 # Notes
 
 ## TODO 
--[ ] Fixa terms och condison sidor.
+-[ ] Skriva klart all info i terms-conditions
+-[ ] Skriva klart all info i privacy-policy
 -[ ] Fixa paralex och animeringar för alla sidor.
 -[ ] Contact us email php skit
 -[ ] En Admin sdida för att lätt lägga upp nya projekt koplad till php databas
@@ -50,6 +51,7 @@
 -[ ] Prize calculator.
 
 ## Done
+-[x] Styling för tems and condisions och privicy policy
 -[x] Byta penna iconen till något frächare
 -[x] Byta färg aoutomatiskt på hamburgar menyn beroende på bakrunden är mörk eller svart
   * när bg är ljus = $white
