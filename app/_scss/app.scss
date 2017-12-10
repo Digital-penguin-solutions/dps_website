@@ -12,17 +12,17 @@
 //@import "partials/footer";
 @import "partials/loading";
 @import "partials/nav";
-@import "partials/sections_slider";
+//@import "partials/sections_slider";
 
 // Views
 @import "views/skroll";
 
 //pages
 // About
-@import "pages/About/a_footer";
-@import "pages/About/a_I_About";
-@import "pages/About/a_story";
-@import "pages/About/about";
+//@import "pages/About/a_footer";
+//@import "pages/About/a_I_About";
+//@import "pages/About/a_story";
+//@import "pages/About/about";
 
 //Contact
 //@import "pages/Contact/c_head";
@@ -35,10 +35,10 @@
 //@import "pages/Services/s_comerce";
 //@import "pages/Services/s_seo";
 //@import "pages/Services/s_webdesign";
-@import "pages/Services/services";
+//@import "pages/Services/services";
 
 // terms
-//@import "pages/terms-privacy/terms-privacy";
+@import "pages/terms-privacy/terms-privacy";
 
 // Work
 //@import "pages/Work/w_work";

@@ -1,4 +1,21 @@
 @import "../../everything";
+.term_privacy_fz_mobile{
+  h2{
+    font-size: 7vw;
+  }
+
+  h4{
+    font-size: 4.5vw;
+  }
+
+  p{
+    font-size: 3vw;
+  }
+
+  a{
+    font-size: 3vw;
+  }
+}
 
 .term_privacy{
   display: block;
@@ -7,6 +24,7 @@
   background: white;
 
   .term_privacy_container{
+    @extend .term_privacy_fz_mobile;
     padding-left: 15vw !important;
     padding-right: 15vw !important;
     padding-top: 5vh;
@@ -22,21 +40,40 @@
 
     h4{
       margin-top: 3vh;
-      font-size: 2vw;
       font-weight: 600;
       margin-bottom: 0;
     }
 
     p{
       margin-top: 0.5vh;
-      font-size: 1.5vw;
       font-weight: 300;
     }
 
     a{
       margin-top: 0.5vh;
-      font-size: 1.5vw;
       font-weight: 300;
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .term_privacy_fz_desktop{
+    h4{
+      font-size: 2vw;
+    }
+
+    p{
+      font-size: 1.5vw;
+    }
+
+    a{
+      font-size: 1.5vw;
+    }
+  }
+
+  .term_privacy{
+    .term_privacy_container{
+      @extend .term_privacy_fz_desktop;
     }
   }
 }
