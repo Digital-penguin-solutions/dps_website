@@ -1,3 +1,4 @@
+
 # Notes
 
 ## TODO 
@@ -6,10 +7,8 @@
 -[ ] Fixa paralex och animeringar för alla sidor.
 -[ ] Contact us email php skit
 -[ ] En Admin sdida för att lätt lägga upp nya projekt koplad till php databas
--[ ] Fixa knappen på index sidan
 
 ### Nav
--[ ] Se till att alla länkar fungerar som de ska
 -[ ] Se till att navens färger fungerar som de ska 
 -[ ] Animera naven.
 -[ ] Göra så att hamburgar menyn fungerar som den ska
@@ -19,6 +18,23 @@
 -[ ] Work details sidan ska ha urelen `domain/work/name-of-project`
 -[ ] både work och work details sidan ska vara fullt php där det laddar in alla projekt från en databas
 -[ ] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\Work.png`
+
+## Done
+-[x] Se till att alla länkar fungerar som de ska (nav)
+-[x] Fixa knappen på index sidan
+-[x] Styling för tems and condisions och privicy policy
+-[x] Byta penna iconen till något frächare
+-[x] Byta färg aoutomatiskt på hamburgar menyn beroende på bakrunden är mörk eller svart
+  * när bg är ljus = $white
+  * när bg är mörk = $color4
+-[x] Loggan ska ligga i naven.
+-[x] Byta ut ifram mot som det göts i work_details sidan
+-[x] favicon
+-[x] Tablet with 2 images
+-[x] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\Work_details.png`
+-[x] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\About.png`
+-[x] Workdetails sidan header
+-[x] work details mobile ska vara ett bildspel
 
 ###Testing
 -[ ] alt ttaggar på alla bilder
@@ -49,18 +65,3 @@
 ## Saker att kanske fixa i framsiden
 -[ ] Göra så att sidan finns för både svenska och engelska.
 -[ ] Prize calculator.
-
-## Done
--[x] Styling för tems and condisions och privicy policy
--[x] Byta penna iconen till något frächare
--[x] Byta färg aoutomatiskt på hamburgar menyn beroende på bakrunden är mörk eller svart
-  * när bg är ljus = $white
-  * när bg är mörk = $color4
--[x] Loggan ska ligga i naven.
--[x] Byta ut ifram mot som det göts i work_details sidan
--[x] favicon
--[x] Tablet with 2 images
--[x] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\Work_details.png`
--[x] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\About.png`
--[x] Workdetails sidan header
--[x] work details mobile ska vara ett bildspel

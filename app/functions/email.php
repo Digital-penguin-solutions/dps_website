@@ -2,11 +2,12 @@
 //variables for email
 $to         = '';
 //$to         = 'anders.bjork@metsense.com';
-$subject    = 'Tastaturen client';
+$subject    = 'DPS client';
 $email      = $_POST['email'];
 $fname      = $_POST['fname'];
 $number     = $_POST['number'];
 $validation = false;
+
 //validation
 if($_POST){
   if(!$captcha){
@@ -89,6 +90,6 @@ EMAIL;
   mail($to, $subject, $message);
 }
 else {
-  echo "<h1> Something has gone wrong, please try again later or contact ab@tastaturen.se</h1>";
+  echo "<h1> Something has gone wrong, please try again later or contact</h1>";
 }
 ?>
