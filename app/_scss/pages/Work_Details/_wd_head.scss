@@ -33,6 +33,23 @@
   }
 }
 
+@media (min-width: $screen-sm-min) and (orientation: landscape) {
+  .wd_head {
+    .wd_head_container {
+      .wd_head_text {
+        h2 {
+          font-size: 10vw;
+        }
+
+        p {
+          grid-area: 7 / 2 / 11 / 12;
+          font-size: 4vw;
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: $screen-md-min) {
   .wd_head {
     .wd_head_container {

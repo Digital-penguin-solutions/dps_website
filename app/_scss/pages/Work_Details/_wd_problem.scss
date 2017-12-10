@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: $screen-sm-min) {
+@media (min-width: $screen-sm-min) and (orientation: portrait) {
   .wd_problem{
     .wd_problem_container{
       .wd_problem_left{
@@ -47,6 +47,26 @@
         p{
           margin: -1vh 2vw 0 2vw;
           font-size:3vw;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (orientation: landscape) {
+  .wd_problem{
+    .wd_problem_container{
+      .wd_problem_left{
+
+        h3{
+          margin-left:2vw;
+          margin-right:2vw;
+          font-size:3vw;
+        }
+
+        p{
+          margin: -1vh 2vw 0 2vw;
+          font-size:2vw;
         }
       }
     }

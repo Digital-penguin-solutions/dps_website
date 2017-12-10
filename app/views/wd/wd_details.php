@@ -41,7 +41,8 @@
       </ul>
     </div>
 
-    <button>wist website</button>
-
   </div>
+
+  <a class="wd_button" href="http://tastaturen.se/">wist website</a>
+
 </section>

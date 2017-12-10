@@ -32,6 +32,21 @@
   }
 }
 
+@media (min-width: $screen-sm-min) and (orientation: landscape) {
+  .wd_mobile {
+    height: 150vh;
+    .wd_mobile_container {
+      .wd_mobile_frame {
+        width: 40vw;
+      }
+      .wd_mobile_inner {
+        width: 37.6vw;
+      }
+    }
+  }
+}
+
+
 @media (min-width: $screen-md-min) {
   .wd_mobile {
     .wd_mobile_container {

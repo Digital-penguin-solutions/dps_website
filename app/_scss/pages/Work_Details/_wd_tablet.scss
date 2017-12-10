@@ -6,11 +6,11 @@
   display: block;
   background: $color5;
 
-    .wd_tablet_container_1{
-      position: absolute;
-      height: 100vh;
-      width: 100vw;
-      z-index: 50;
+  .wd_tablet_container_1 {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 50;
 
     .wd_tablet_frame {
       position: absolute;
@@ -35,22 +35,35 @@
     @extend .wd_tablet_container_1;
     z-index: 250;
 
-    .wd_tablet_frame{
+    .wd_tablet_frame {
       z-index: 300;
       margin-top: 100%;
     }
 
-    .wd_tablet_inner{
+    .wd_tablet_inner {
       z-index: 400;
       margin-top: 104.2%;
     }
   }
 }
 
+@media (min-width: $screen-sm-min) and (orientation: portrait) {
+  .wd_tablet {
+    height: 150vh;
+  }
+}
+
+@media (min-width: $screen-sm-min) and (orientation: landscape) {
+  .wd_tablet {
+    height: 250vh;
+  }
+}
+
 @media (min-width: $screen-md-min) {
 
   .wd_tablet {
-    .wd_tablet_container_1{
+    height: 100vh;
+    .wd_tablet_container_1 {
       width: 70vw;
 
       .wd_tablet_frame {
@@ -71,12 +84,12 @@
     }
 
     .wd_tablet_container_2 {
-      .wd_tablet_frame{
+      .wd_tablet_frame {
         margin-top: 20%;
         margin-left: 35%;
       }
 
-      .wd_tablet_inner{
+      .wd_tablet_inner {
         margin-top: 22.3%;
         margin-left: 39.6%;
       }
