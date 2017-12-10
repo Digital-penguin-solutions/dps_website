@@ -1,21 +1,5 @@
-<script>
-  //this makes the current link containing li of class "active"
-  $(document).ready(function ($) {
-    var url = window.location.href;
-    var activePage = url;
-    $('.menu-item a').each(function () {
-      var linkPage = this.href;
-
-      if (activePage == linkPage) {
-        $(this).closest("li").addClass("active");
-      }
-    });
-  });
-</script>
-
-
 <!-- NAV -->
-<!--<nav>
+<nav>
   <div class="nav_container">
     <div class="nav_text_container">
       <ul>
@@ -25,10 +9,13 @@
         <li class="menu-item"><a href="services">Services</a></li>
         <li class="menu-item"><a href="contact">Contact</a></li>
       </ul>
-      <p>&copy; 2017 Digital penguin solutions All rights reserved | <a href="#">Terms</a> | <a href="#">Privacy</a></p>
+      <p>&copy; 2017 Digital penguin solutions All rights reserved |
+        <a href="terms-conditions.php">Terms</a> |
+        <a href="privacy-policy.php">Privacy</a>
+      </p>
     </div>
   </div>
-</nav>-->
+</nav>
 
 <!--hamburger meneu-->
 <div class="nav_out">

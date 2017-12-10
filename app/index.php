@@ -1,5 +1,9 @@
-<?php include "partials/load.php"; ?>
-<?php include "partials/head.php"; ?>
+<?php
+include "partials/load.php";
+include "partials/head.php";
+include "functions/functions.php";
+$con = connect();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +16,7 @@
 
 <!-- Nav -->
 <?php include "partials/Nav.php" ?>
+
 
 <header class="i_header">
   <div class="bg"></div>

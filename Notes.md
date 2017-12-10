@@ -1,23 +1,34 @@
 
 # Notes
+Digital Penguin Solutions official website development notes
 
-## TODO 
+## Todo
+
+### Frontend
 -[ ] Skriva klart all info i terms-conditions
 -[ ] Skriva klart all info i privacy-policy
 -[ ] Fixa paralex och animeringar för alla sidor.
--[ ] Contact us email php skit
--[ ] En Admin sdida för att lätt lägga upp nya projekt koplad till php databas
+-[ ] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\Work.png`
 
-### Nav
+#### Nav
 -[ ] Se till att navens färger fungerar som de ska 
 -[ ] Animera naven.
--[ ] Göra så att hamburgar menyn fungerar som den ska
--[ ] Se till att naven fungerar på mobil och tablet
+-[ ] Göra så att hamburgar menyn fungerar
+-[ ] naven fungerar på mobil och tablet
 
-### work
+### Backend
+-[ ] Contact us email php
+
+#### work
 -[ ] Work details sidan ska ha urelen `domain/work/name-of-project`
 -[ ] både work och work details sidan ska vara fullt php där det laddar in alla projekt från en databas
--[ ] Styla hela sidan efter `Dropbox\_Digital peguin solutions\_Kunder\_Current\DPS\website\_exports\Work.png`
+
+#### Admin
+-[ ] Databas för Alla portfolio saker
+-[ ] En Admin sdida för att lätt lägga upp nya projekt koplad till php databas
+-[ ] (Admin) Add / edit / delete sidor
+-[ ] (Admin) Login / logout
+-[ ] (Admin) 
 
 ## Done
 -[x] Se till att alla länkar fungerar som de ska (nav)
@@ -62,6 +73,6 @@
 -[ ] Köpa server.
 -[ ] köpa domän.
 
-## Saker att kanske fixa i framsiden
--[ ] Göra så att sidan finns för både svenska och engelska.
+## planed features
+-[ ] Engelsk och svensk version av sdian
 -[ ] Prize calculator.

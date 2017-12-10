@@ -1132,13 +1132,14 @@ nav {
   width: 100%;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  z-index: 1000; }
+  z-index: 1005; }
   .nav_out .nav_out_container {
     height: 100%;
     width: 100%; }
     .nav_out .nav_out_container .nav_out_logo {
       height: 100%;
-      margin-left: 3%; }
+      margin-left: 3%;
+      z-index: 1000; }
       .nav_out .nav_out_container .nav_out_logo .nav_out_logo_img {
         margin-top: 2%;
         height: 12vh !important; }
@@ -1159,7 +1160,6 @@ nav {
       background: none;
       padding: 0 !important; }
       .nav_out .nav_out_container .McButton .McButton_b {
-        background: red;
         display: block;
         top: 3vh !important;
         left: 93vw !important;

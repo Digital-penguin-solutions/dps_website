@@ -61,7 +61,7 @@ nav{
   height: 12vh;
   width: 100%;
   display: inline-flex;
-  z-index: 1000;
+  z-index: 1005;
 
   .nav_out_container{
     height: 100%;
@@ -70,6 +70,7 @@ nav{
     .nav_out_logo {
       height: 100%;
       margin-left: 3%;
+      z-index: 1000;
 
       .nav_out_logo_img {
         margin-top: 2%;
@@ -97,7 +98,7 @@ nav{
       padding: 0 !important;
 
       .McButton_b {
-        background: red;
+        background: #000!important;
         display: block;
         top: 3vh !important;
         left: 93vw!important;

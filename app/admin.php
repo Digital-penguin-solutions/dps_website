@@ -1,7 +1,6 @@
 <?php
 include "functions/functions.php";
 session_start_custom();
-include "partials/loading.php";
 $no_admin_info = "1";
 ?>
 
@@ -15,7 +14,7 @@ include "partials/head.php";
   <title>Admin</title>
 </head>
 <body class="wrapper">
-<?php include "partials/nav.php" ?>
+<?php //include "partials/nav.php" ?>
 
 <section class="admin_page">
   <div class="admin_page_container">
