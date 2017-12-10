@@ -1,0 +1,43 @@
+@import "../../everything";
+@import "s_webdesign";
+
+//Branding
+.s_brand {
+  @extend .s_webdesign;
+
+  .s_brand_container {
+    @extend .s_webdesign_container;
+
+    .s_brand_text {
+      @extend .s_webdesign_text;
+    }
+
+    .s_brand_img {
+      @extend .s_webdesign_img;
+
+      .brand_img {
+        @include vertical-align();
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (orientation: portrait) {
+
+}
+
+@media (min-width: $screen-sm-min) and (orientation: landscape) {
+
+}
+
+@media (min-width: $screen-md-min) {
+  .s_brand {
+    .s_brand_container {
+      .s_brand_img {
+        grid-area: 4 / 8 / 10 / 12;
+      }
+    }
+  }
+}

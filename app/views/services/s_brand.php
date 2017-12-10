@@ -19,7 +19,7 @@
     </div>
 
     <div class="s_brand_img">
-      <img src="img/Services/branding.png" alt="branding">
+      <img class="brand_img" src="img/Services/branding.png" alt="branding">
     </div>
 
   </div>

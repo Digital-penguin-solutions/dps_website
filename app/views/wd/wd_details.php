@@ -43,6 +43,6 @@
 
   </div>
 
-  <a class="wd_button" href="http://tastaturen.se/">wist website</a>
+  <a class="wd_button" href="http://tastaturen.se/">Wist website</a>
 
 </section>

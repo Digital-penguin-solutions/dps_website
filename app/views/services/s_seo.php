@@ -3,7 +3,7 @@
   <div class="s_seo_container">
 
     <div class="s_seo_img">
-      <img src="img/Services/seo.jpg" alt="SEO">
+      <img class="seo_img" src="img/Services/seo.jpg" alt="SEO">
     </div>
 
     <div class="s_seo_text">

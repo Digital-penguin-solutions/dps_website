@@ -1,0 +1,37 @@
+@import "../../everything";
+@import "s_webdesign";
+
+//E-commerce
+.s_comerce {
+  @extend .s_webdesign;
+
+  .s_comerce_container {
+    @extend .s_webdesign_container;
+
+    .s_comerce_img {
+      @extend .s_webdesign_img;
+      grid-area: 2 / 2 / 10 / 7;
+
+    }
+
+    .s_comerce_text {
+      @extend .s_webdesign_text;
+      grid-area: 2 / 8 / 12 / 12;
+    }
+
+  }
+}
+
+@media (min-width: $screen-md-min) {
+
+  .s_comerce {
+    .s_comerce_container {
+      .s_comerce_img {
+        grid-area: 2 / 1 / 12 / 7 !important;
+      }
+      .s_comerce_text {
+        grid-area: 2 / 7 / 12 / 12 !important;
+      }
+    }
+  }
+}

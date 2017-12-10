@@ -46,11 +46,11 @@
       grid-area: 8 / 5 / 9 / 9;
       border: 2px solid $color1;
       border-radius: 1px;
-      background: transparent;
       color: white;
       font-size: 3vw;
       text-transform: uppercase;
       text-align: center;
+      background: rgba(white, 0.1);
       vertical-align: middle;
       align-self: center;
       padding: 2vh;
@@ -86,6 +86,18 @@
       h2 {
         grid-area: 5 / 3 / 7 / 11;
         font-size: 4vw;
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (orientation: landscape) {
+  .i_header {
+    .i_header_container {
+
+      h2 {
+        grid-area: 5 / 3 / 7 / 11;
+        font-size: 3vw;
       }
     }
   }

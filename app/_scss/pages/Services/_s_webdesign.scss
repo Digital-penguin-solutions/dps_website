@@ -1,0 +1,178 @@
+@import "../../everything";
+@import "../Work_Details/wd_head";
+
+//webdesign
+.s_webdesign {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  background: lighten($color3, 20%);
+
+  .s_webdesign_container {
+    @extend .grid;
+    height: 100vh;
+    width: 100vw;
+
+    .s_webdesign_text {
+      grid-area: 2 / 2 / 6 / 12;
+
+      h3 {
+        font-size: 6vw;
+      }
+
+      hr {
+        width: 15%;
+        border: 0;
+        border-top: 5px solid $color1;
+      }
+
+      p {
+        font-size: 2.5vw;
+      }
+    }
+
+    .s_webdesign_img {
+      grid-area: 6 / 2 / 12 / 12;
+      display: block;
+      padding-left: 5vw;
+
+      .frame {
+        @include horizontal-align($pos:absolute);
+        margin-top: 7%;
+        width: 50%;
+        height: auto;
+        z-index: 100;
+      }
+
+      .inner {
+        @include horizontal-align($pos:absolute);
+        position: absolute;
+        margin-top: 15.3%;
+        width: 43.5%;
+        height: auto;
+        z-index: 200;
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (orientation: portrait) {
+  .s_webdesign {
+    .s_webdesign_container {
+      .s_webdesign_text {
+        grid-area: 2 / 2 / 6 / 12;
+
+        h3 {
+          font-size: 5.5vw;
+        }
+
+        hr {
+          width: 12%;
+          border: 0;
+          border-top: 5px solid $color1;
+        }
+
+        p {
+          font-size: 2vw;
+        }
+      }
+
+      .s_webdesign_img {
+        grid-area: 6 / 2 / 12 / 12;
+
+        .frame {
+          margin-top: 7%;
+          width: 40%;
+        }
+
+        .inner {
+          margin-top: 15.3%;
+          width: 33.5%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (orientation: landscape) {
+  .s_webdesign {
+    height: 200vh;
+    .s_webdesign_container {
+      height: 200vh;
+      .s_webdesign_text {
+        grid-area: 2 / 2 / 6 / 12;
+
+        h3 {
+          font-size: 5.5vw;
+        }
+
+        hr {
+          width: 12%;
+          border: 0;
+          border-top: 5px solid $color1;
+        }
+
+        p {
+          font-size: 2vw;
+        }
+      }
+
+      .s_webdesign_img {
+        grid-area: 6 / 2 / 12 / 12;
+
+        .frame {
+          margin-top: 7%;
+          width: 40%;
+        }
+
+        .inner {
+          margin-top: 15.3%;
+          width: 33.5%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .s_webdesign {
+    height: 100vh;
+
+    .s_webdesign_container {
+      height: 100vh;
+
+      .s_webdesign_text {
+        grid-area: 2 / 2 / 12 / 7;
+
+        h3 {
+          font-size: 3vw;
+        }
+
+        hr {
+          width: 10%;
+          border: 0;
+          border-top: 5px solid $color1;
+        }
+
+        p {
+          font-size: 1.5vw;
+        }
+      }
+
+      .s_webdesign_img {
+        position: relative;
+        grid-area: 2 / 7 / 12 / 13;
+
+        .frame {
+          margin-top: 7%;
+          width: 60%;
+        }
+
+        .inner {
+          margin-top: 17%;
+          width: 52.3%;
+        }
+      }
+    }
+  }
+}

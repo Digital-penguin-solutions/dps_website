@@ -1,0 +1,47 @@
+@import "../../everything";
+@import "s_webdesign";
+
+//SEO
+.s_seo {
+  @extend .s_webdesign;
+
+  .s_seo_container {
+    @extend .s_webdesign_container;
+
+    .s_seo_img {
+      @extend .s_webdesign_img;
+      grid-area: 7 / 2 / 12 / 12 !important;
+      @extend .nopm;
+
+      .seo_img {
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    .s_seo_text {
+      @extend .s_webdesign_text;
+      grid-area: 2 / 8 / 12 / 12;
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .s_seo {
+    .s_seo_container {
+      .s_seo_img {
+        grid-area: 2 / 2 / 12 / 7 !important;
+        .seo_img {
+          @include vertical-align();
+          height: auto;
+          width: 85%;
+        }
+      }
+
+      .s_seo_text {
+        grid-area: 2 / 7 / 12 / 12 !important;
+      }
+    }
+  }
+}
+
