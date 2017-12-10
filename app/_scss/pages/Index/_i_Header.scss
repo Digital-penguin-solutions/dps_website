@@ -20,18 +20,17 @@
   }
 
   .i_header_container {
+    @extend .grid;
     z-index: 10;
     position: absolute;
-    @extend .grid;
     width: 100vw;
     height: 100vh;
     background: rgba($color4, 0.7);
 
     a {
-      grid-area: 10 / 10 / 11 / 11;
+      grid-area: 11 / 11 / 12 / 12;
 
       svg {
-        position: absolute;
         margin: auto;
         top: 0;
         left: 0;
@@ -98,12 +97,9 @@
   .i_header {
     .i_header_container {
 
-      svg {
-        grid-area: 11 / 12 / 12 / 13;
-      }
-
-      .i_header_logo {
-        grid-area: 1 / 1 / 4 / 2;
+      a {
+        grid-area: 12 / 12 / 14 / 14;
+        margin-bottom: 2vh;
       }
 
       .i_header_btn {

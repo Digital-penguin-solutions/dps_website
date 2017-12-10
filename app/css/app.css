@@ -3952,9 +3952,8 @@ p {
     height: 100vh;
     background: rgba(43, 43, 43, 0.7); }
     .i_header .i_header_container a {
-      grid-area: 10 / 10 / 11 / 11; }
+      grid-area: 11 / 11 / 12 / 12; }
       .i_header .i_header_container a svg {
-        position: absolute;
         margin: auto;
         top: 0;
         left: 0;
@@ -3998,10 +3997,9 @@ p {
     font-size: 4vw; } }
 
 @media (min-width: 992px) {
-  .i_header .i_header_container svg {
-    grid-area: 11 / 12 / 12 / 13; }
-  .i_header .i_header_container .i_header_logo {
-    grid-area: 1 / 1 / 4 / 2; }
+  .i_header .i_header_container a {
+    grid-area: 12 / 12 / 14 / 14;
+    margin-bottom: 2vh; }
   .i_header .i_header_container .i_header_btn {
     grid-area: 8 / 6 / 9 / 8;
     font-size: 1.3vw; }
@@ -4177,9 +4175,8 @@ p {
     height: 100vh;
     background: rgba(43, 43, 43, 0.7); }
     .i_header .i_header_container a {
-      grid-area: 10 / 10 / 11 / 11; }
+      grid-area: 11 / 11 / 12 / 12; }
       .i_header .i_header_container a svg {
-        position: absolute;
         margin: auto;
         top: 0;
         left: 0;
@@ -4223,10 +4220,9 @@ p {
     font-size: 4vw; } }
 
 @media (min-width: 992px) {
-  .i_header .i_header_container svg {
-    grid-area: 11 / 12 / 12 / 13; }
-  .i_header .i_header_container .i_header_logo {
-    grid-area: 1 / 1 / 4 / 2; }
+  .i_header .i_header_container a {
+    grid-area: 12 / 12 / 14 / 14;
+    margin-bottom: 2vh; }
   .i_header .i_header_container .i_header_btn {
     grid-area: 8 / 6 / 9 / 8;
     font-size: 1.3vw; }
