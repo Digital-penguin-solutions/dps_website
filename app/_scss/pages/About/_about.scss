@@ -1,16 +1,18 @@
 @import "../../everything";
-@import "../Work_Details/wd_head";
+@import "../Services/services";
 
 //header
 .a_header {
-  @extend .wd_head;
+  @extend .s_header;
+  height: 80vh!important;
   background: url("../img/About/about_bg.jpg");
 
   .a_header_container {
-    @extend .wd_head_container;
+    @extend .s_header_container;
+    height: 80vh!important;
 
     .a_head_text {
-      @extend .wd_head_text;
+      @extend .s_text_container;
 
       h2 {
         grid-area: 5 / 2 / 7 / 7 !important;

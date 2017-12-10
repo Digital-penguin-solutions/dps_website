@@ -1,3 +1,5 @@
+@import "../../everything";
+
 //our story
 .a_story{
   display: block;
@@ -10,7 +12,7 @@
     text-align: center;
 
     h3{
-      font-size:4vw;
+      font-size:8vw;
     }
 
     hr{
@@ -20,7 +22,7 @@
     }
 
     p{
-      font-size:1.5vw;
+      font-size:3.5vw;
       font-weight: 300;
       margin-left:20vw;
       margin-right:20vw;
@@ -29,7 +31,7 @@
 }
 
 //Tablet
-@media (min-width: $screen-sm-min) {
+@media (min-width: $screen-sm-min) and (orientation: portrait){
   .a_story{
     .a_story_container{
       padding-top:10vh;
@@ -41,8 +43,8 @@
 
       p{
         font-size:1.5vw;
-        margin-left:20vw;
-        margin-right:20vw;
+        margin-left:10vw;
+        margin-right:10vw;
       }
     }
   }
