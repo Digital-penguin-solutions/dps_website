@@ -12,14 +12,15 @@
 
 <?php
 include "functions/functions.php";
-$con             = connect();
+$con = connect();
 
 include "partials/nav.php";
 ?>
 <!-- Head -->
 <section class="c_head">
   <div class="c_head_container">
-    <h2><span id="time"></span>, Nice to meat you! Go on an adventure with us. Together we will find a creative solution</h2>
+    <h2><span id="time"></span>, Nice to meat you! Go on an adventure with us. Together we will find a creative solution
+    </h2>
   </div>
 </section>
 

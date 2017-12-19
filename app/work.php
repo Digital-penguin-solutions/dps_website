@@ -32,7 +32,9 @@ include "partials/head.php";
       <div class="w_case_container">
         <h2 class="w_case_header">Tastaturen</h2>
         <p class="w_case_details">UI / UX Design & Web Development</p>
-        <a href="work_details" class="w_case_a">view Case<hr align="right"></a>
+        <a href="work_details" class="w_case_a">view Case
+          <hr align="right">
+        </a>
       </div>
     </div>
 
