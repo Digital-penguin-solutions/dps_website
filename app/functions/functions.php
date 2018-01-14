@@ -21,48 +21,6 @@ if(!isset($functions_included)) {
     $data = strip_tags($data);
     return $data;
   }
-  function get_lang(){
-    if(isset($_SESSION['lang'])){
-      return $_SESSION['lang'];
-    }
-    else {
-      return "sv";
-    }
-  }
-
-  //
-  function translate($obj, $field){
-    $value = "";
-    if(get_lang() == "dk"){
-      $value = $obj[$field . "_dk"];
-    }
-    else {
-      $value = $obj[$field];
-    }
-    if($field == "price" && $value == ""){
-      if(get_lang() == "dk"){
-        $value = "Kontakt os for priser";
-      }
-      else {
-        $value = "Kontakta oss för prisuppgifter";
-      }
-    }
-    else if ($field == "price"){
-      if(get_lang() == "dk"){
-        $value = "Fra " .$value . "Dkr";
-      }
-      else {
-        $value = "Från " .$value . "kr";
-      }
-    }
-    return $value;
-  }
-
-  //logout from admin page
-  function logout(){
-    session_start();
-    session_destroy();
-  }
 
   //compress images
   function compress($source, $destination, $quality) {
@@ -101,8 +59,5 @@ if(!isset($functions_included)) {
       $output = "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
     echo $output;
   }
-
-
 }
-
 ?>

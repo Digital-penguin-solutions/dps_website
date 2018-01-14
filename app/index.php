@@ -15,7 +15,7 @@ $con = connect();
 <body class="wrapper index">
 
 <!-- Nav -->
-<?php include "partials/Nav.php" ?>
+<?php //include "partials/Nav.php" ?>
 
 
 <header class="i_header">

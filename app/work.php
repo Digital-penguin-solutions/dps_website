@@ -12,7 +12,7 @@ include "partials/head.php";
 
 <body class="wrapper">
 
-<?php include "partials/nav.php"; ?>
+<?php //include "partials/nav.php"; ?>
 
 <section class="work">
   <div class="work_container">

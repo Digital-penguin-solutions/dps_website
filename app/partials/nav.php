@@ -1,4 +1,4 @@
-<!-- NAV -->
+<!-- NAV --
 <nav>
   <div class="nav_container">
     <div class="nav_text_container">
@@ -15,7 +15,7 @@
       </p>
     </div>
   </div>
-</nav>
+</nav>-->
 
 <!--hamburger meneu-->
 <div class="nav_out">
@@ -35,3 +35,4 @@
     </ul>
   </div>
 </div>
+

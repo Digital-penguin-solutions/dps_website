@@ -13,7 +13,7 @@
 
 <?php
 // Nav
-include "partials/nav.php";
+//include "partials/nav.php";
 
 //Header
 include "views/about/a_header.php";
