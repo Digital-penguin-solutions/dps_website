@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About us</title>
+  <title>Portfolio details</title>
+  <meta name="description"
+        content="We develop website and programs for many different companys heare you can se som details about them"/>
 </head>
 
 <body class="wrapper about">
@@ -31,8 +31,6 @@ include "views/wd/wd_mobile.php";
 
 // Details
 include "views/wd/wd_details.php";
-
-
 ?>
 
 </body>

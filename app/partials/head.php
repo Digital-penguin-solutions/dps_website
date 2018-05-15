@@ -1,10 +1,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
-  <meta name="description" content="Digitalis"/>
   <meta name="keywords" content="webdesing, creative design"/>
-  <meta name="author" content="Digital Internet Solutions">
+  <meta name="author" content="humans.txt">
 
   <!--css-->
   <link href="css/app.css" rel="stylesheet">

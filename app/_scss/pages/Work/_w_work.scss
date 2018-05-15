@@ -1,68 +1,67 @@
 @import "../../everything";
 
+//Nav
+.w_nav {
+  display: none;
+  visibility: hidden;
+  z-index: -1000;
+}
+
 //work page
-.work{
+.work {
   background: transparent;
   display: block;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 
-  .work_container{
+  .work_container {
     background: transparent;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 
-    //Nav
-    .w_nav{
-      display: none;
-      visibility: hidden;
-      z-index: -1000;
-    }
-
     //Cases
-    .w_case{
+    .w_case {
       height: 100vh;
       width: 100vw;
-      background-repeat: no-repeat!important;
-      background-size: cover!important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
       background-position: center;
 
-      .w_case_container{
+      .w_case_container {
         @extend .grid;
         height: 100vh;
         width: 100vw;
-        background: rgba($color1, 0.5);
         color: white;
 
-        .w_case_header{
+        .w_case_header {
           text-align: center;
           grid-area: 3 / 4 / 4 / 10;
-          font-size:11vw;
-          font-weight:600;
+          font-size: 11vw;
+          font-weight: 600;
         }
-        .w_case_details{
-          font-size:6vw;
-          font-weight:400;
+        .w_case_details {
+          font-size: 6vw;
+          font-weight: 400;
           text-align: center;
           grid-area: 4 / 3 / 7 / 11;
         }
-        .w_case_a{
+        .w_case_a {
           text-align: center;
           grid-area: 7 / 5 / 8 / 9;
           text-transform: uppercase;
           color: white;
-          font-size:5vw;
-          padding:1vh;
+          font-size: 5vw;
+          padding: 1vh;
           font-weight: 400;
           border: 3px solid $color1;
           background: rgba($color4, 0.3);
 
-          hr{
+          hr {
             display: none;
             visibility: hidden;
           }
 
-          &:hover{
+          &:hover {
 
           }
         }
@@ -73,66 +72,58 @@
 
 //Desktop
 @media (min-width: $screen-md-min) {
+  //Nav
+  .w_nav {
+    display: block;
+    visibility: visible;
+    z-index: 100;
+    position: fixed !important;
+    overflow: hidden;
+    width: 20vw;
+    height: 100vh;
 
-  .work{
+    .w_nav_container {
+      height: 50vh;
+      width: 100%;
+      background: red;
+      @include vertical-align();
 
-    .work_container{
-
-      //Nav
-      .w_nav{
+      .w_nav__indicator {
         display: block;
-        visibility: visible;
-        z-index:100;
-        position: fixed;
-        overflow: hidden;
-        width: 20vw;
-        height: 100vh;
-
-        .w_nav_container{
-          height: 50vh;
-          width: 100%;
-          background: red;
-          @include vertical-align();
-
-          .w_nav__indicator{
-            display: block;
-
-          }
-
-          a{
-
-            &:hover{
-              color: white;
-            }
-
-          }
-        }
       }
 
+      a {
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .work {
+    .work_container {
       //Cases
-      .w_case{
-
-        .w_case_container{
-
-          .w_case_header{
+      .w_case {
+        .w_case_container {
+          .w_case_header {
             grid-area: 4 / 5 / 7 / 9;
-            font-size:6vw;
-            font-weight:600;
+            font-size: 6vw;
+            font-weight: 600;
           }
-          .w_case_details{
-            font-size:2vw;
+          .w_case_details {
+            font-size: 2vw;
             grid-area: 10 / 5 / 12 / 9;
           }
-          .w_case_a{
+          .w_case_a {
             display: inline-flex;
             color: white;
-            font-size:2vw;
+            font-size: 2vw;
             font-weight: 400;
-            grid-area:  6 / 11 / 7 / 14;
+            grid-area: 6 / 11 / 7 / 14;
             background: none;
             border: none;
 
-            hr{
+            hr {
               display: block;
               visibility: visible;
               width: 5vw;
@@ -140,10 +131,6 @@
               border-left: none;
               border-right: none;
               border-bottom: none;
-            }
-
-            &:hover{
-
             }
           }
         }

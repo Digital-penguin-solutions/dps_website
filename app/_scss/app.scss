@@ -1,38 +1,49 @@
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900i);
+
 // Default
 @import "mixin";
 @import "variabels";
 @import "everything";
+
 // Partials
 @import "partials/404";
 @import "partials/bg-slider";
-//@import "partials/footer";
 @import "partials/loading";
 @import "partials/nav";
 @import "partials/sections_slider";
+@import "partials/fullpage";
+
 // Views
+
 @import "views/skroll";
 //pages
+
 // About
 @import "pages/About/a_footer";
 @import "pages/About/a_I_About";
 @import "pages/About/a_story";
 @import "pages/About/about";
+
 //Contact
 @import "pages/Contact/c_head";
+
 // Index
 @import "pages/Index/i_Header";
+
 // Services
 @import "pages/Services/s_brand";
 @import "pages/Services/s_comerce";
 @import "pages/Services/s_seo";
 @import "pages/Services/s_webdesign";
 @import "pages/Services/services";
+
 // terms
 @import "pages/terms-privacy/terms-privacy";
+
 // Work
 @import "pages/Work/w_work";
+
 // wd
 @import "pages/Work_Details/wd_desktop";
 @import "pages/Work_Details/wd_details";
