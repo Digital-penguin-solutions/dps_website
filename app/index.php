@@ -22,6 +22,7 @@ $con = connect();
   <div class="bg"></div>
   <div class="i_header_container">
 
+
     <!-- Contact icon -->
     <?php include "views/index/i_contact.php" ?>
 
